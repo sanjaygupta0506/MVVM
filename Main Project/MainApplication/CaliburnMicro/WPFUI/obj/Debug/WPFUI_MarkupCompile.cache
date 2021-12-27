@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-D:\Personal\MVVM\Main Project\MainApplication\CaliburnMicro\WPFUI\obj\Debug\
+D:\Personal\MVVM\MVVM\MVVM\Main Project\MainApplication\CaliburnMicro\WPFUI\obj\Debug\
 WPFUI
 none
 false
 DEBUG;TRACE
-D:\Personal\MVVM\Main Project\MainApplication\CaliburnMicro\WPFUI\App.xaml
+D:\Personal\MVVM\MVVM\MVVM\Main Project\MainApplication\CaliburnMicro\WPFUI\App.xaml
 4-640128635
 
-13-895974652
-201593619015
+14-1738334019
+20-577974102
 MainWindow.xaml;Views\FirstChildView.xaml;Views\SecondChildView.xaml;Views\ShellView.xaml;
 
-False
+True
 
