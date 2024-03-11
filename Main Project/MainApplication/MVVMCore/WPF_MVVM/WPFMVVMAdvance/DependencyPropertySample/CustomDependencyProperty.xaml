@@ -1,0 +1,14 @@
+﻿<ui:WslDialog  xmlns:ui="clr-namespace:Keysight.Ccl.Wsl.UI;assembly=Keysight.Ccl.Wsl" Name="x_CustomDependencyProperty" x:Class="MainApplication.WPF_MVVM.WPFMVVMAdvance.DependencyPropertySample.CustomDependencyProperty"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MainApplication.WPF_MVVM.WPFMVVMAdvance.DependencyPropertySample"
+        mc:Ignorable="d"
+        Title="Dependency Property" Height="450" Width="800" Left="8" Top="62">
+    <Grid>
+        <Viewbox>
+            <TextBlock Text="{Binding ElementName=x_CustomDependencyProperty, Path=Counter}" />
+        </Viewbox>
+    </Grid>
+</ui:WslDialog>

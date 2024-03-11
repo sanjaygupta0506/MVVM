@@ -1,0 +1,15 @@
+C:\Users\Sanjay\Downloads\InterviewAnswers\WpfApplication1\4ComboColorChangeFromRadio\bin\Debug\4ComboColorChangeFromRadio.exe.config
+C:\Users\Sanjay\Downloads\InterviewAnswers\WpfApplication1\4ComboColorChangeFromRadio\bin\Debug\4ComboColorChangeFromRadio.exe
+C:\Users\Sanjay\Downloads\InterviewAnswers\WpfApplication1\4ComboColorChangeFromRadio\bin\Debug\4ComboColorChangeFromRadio.pdb
+C:\Users\Sanjay\Downloads\InterviewAnswers\WpfApplication1\4ComboColorChangeFromRadio\obj\Debug\4ComboColorChangeFromRadio.csproj.AssemblyReference.cache
+C:\Users\Sanjay\Downloads\InterviewAnswers\WpfApplication1\4ComboColorChangeFromRadio\obj\Debug\MainWindow.g.cs
+C:\Users\Sanjay\Downloads\InterviewAnswers\WpfApplication1\4ComboColorChangeFromRadio\obj\Debug\App.g.cs
+C:\Users\Sanjay\Downloads\InterviewAnswers\WpfApplication1\4ComboColorChangeFromRadio\obj\Debug\4ComboColorChangeFromRadio_MarkupCompile.cache
+C:\Users\Sanjay\Downloads\InterviewAnswers\WpfApplication1\4ComboColorChangeFromRadio\obj\Debug\4ComboColorChangeFromRadio_MarkupCompile.lref
+C:\Users\Sanjay\Downloads\InterviewAnswers\WpfApplication1\4ComboColorChangeFromRadio\obj\Debug\MainWindow.baml
+C:\Users\Sanjay\Downloads\InterviewAnswers\WpfApplication1\4ComboColorChangeFromRadio\obj\Debug\4ComboColorChangeFromRadio.g.resources
+C:\Users\Sanjay\Downloads\InterviewAnswers\WpfApplication1\4ComboColorChangeFromRadio\obj\Debug\_4ComboColorChangeFromRadio.Properties.Resources.resources
+C:\Users\Sanjay\Downloads\InterviewAnswers\WpfApplication1\4ComboColorChangeFromRadio\obj\Debug\4ComboColorChangeFromRadio.csproj.GenerateResource.cache
+C:\Users\Sanjay\Downloads\InterviewAnswers\WpfApplication1\4ComboColorChangeFromRadio\obj\Debug\4ComboColorChangeFromRadio.csproj.CoreCompileInputs.cache
+C:\Users\Sanjay\Downloads\InterviewAnswers\WpfApplication1\4ComboColorChangeFromRadio\obj\Debug\4ComboColorChangeFromRadio.exe
+C:\Users\Sanjay\Downloads\InterviewAnswers\WpfApplication1\4ComboColorChangeFromRadio\obj\Debug\4ComboColorChangeFromRadio.pdb

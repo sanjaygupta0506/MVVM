@@ -1,0 +1,61 @@
+﻿<ui:WslDialog  xmlns:ui="clr-namespace:Keysight.Ccl.Wsl.UI;assembly=Keysight.Ccl.Wsl" x:Class="MVVMCore.Challanges.WPFDatagridCombobox"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MVVMCore.Challanges"
+        mc:Ignorable="d"
+        Title="WPFDatagridCombobox" Height="450" Width="800">
+    <Grid>
+        <DataGrid x:Name="X_dgEqualizationPHYControlTXLanes" Grid.Row="1" Width="480" 
+                            Margin="15,0,0,0" RowHeight="30" IsReadOnly="True" SelectedIndex="0"
+                            AutoGenerateColumns="False" 
+                            SelectionChanged="X_dgEqualizationPHYControlTXLanes_SelectionChanged">
+            <DataGrid.Columns>
+                <DataGridTemplateColumn Width="50" Header="Lane">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <TextBlock Grid.Column="0"  VerticalAlignment="Center"  TextWrapping="Wrap" Text="{Binding LaneCount}" />
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+                <DataGridTemplateColumn Width="140" Header="8.0 GT/s" >
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <ComboBox x:Name="X_tXPreset8G" 
+                                                          ItemsSource="{Binding eTXPresetType}" 
+                                                          DisplayMemberPath="Text" SelectedValuePath="Value" 
+                                                          SelectedValue="{Binding TXPresetSelectedIndex}" 
+                                                          IsEnabled="{Binding IsEnableLane}" SelectionChanged="X_tXPreset8G_SelectionChanged"/>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+
+                <DataGridTemplateColumn Width="140" Header="16.0 GT/s" >
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <ComboBox x:Name="X_tXPreset16G" 
+                                                          ItemsSource="{Binding eTXPresetType16G}" 
+                                                          DisplayMemberPath="Text" SelectedValuePath="Value"
+                                                          SelectedValue="{Binding TXPresetSelectedIndex16G}" 
+                                                          IsEnabled="{Binding IsEnableLane}" 
+                                                          SelectionChanged="X_tXPreset16G_SelectionChanged" />
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+                <DataGridTemplateColumn Width="140" Header="32.0 GT/s" >
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <ComboBox x:Name="X_tXPreset32G"
+                                                          ItemsSource="{Binding eTXPresetType32G}" 
+                                                          DisplayMemberPath="Text" SelectedValuePath="Value" 
+                                                          SelectedValue="{Binding TXPresetSelectedIndex32G}" 
+                                                          IsEnabled="{Binding IsEnableLane}" SelectionChanged="X_tXPreset32G_SelectionChanged" />
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+
+            </DataGrid.Columns>
+        </DataGrid>
+    </Grid>
+</ui:WslDialog>

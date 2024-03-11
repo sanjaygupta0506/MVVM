@@ -1,0 +1,81 @@
+﻿<ui:WslDialog  xmlns:ui="clr-namespace:Keysight.Ccl.Wsl.UI;assembly=Keysight.Ccl.Wsl" x:Class="MVVMCore.DataBindings.Binding_Main"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MVVMCore.DataBindings"
+        mc:Ignorable="d"
+        Title="Sample Data Binding" Height="400" Width="700" Left="8" Top="62">
+        <Window.Resources>
+            <local:Employee x:Key="MyEmployee" EmployeeNumber="123" FirstName="Sanjay" LastName="Gupta" Title="Mr." Department="IT"/>
+        </Window.Resources>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+                <Grid DataContext="{StaticResource MyEmployee}" VerticalAlignment="Top" Grid.Row="0" Grid.Column="0">
+                    <Grid.RowDefinitions>
+                    <RowDefinition Height="30"/>
+                    <RowDefinition Height="30"/>
+                    <RowDefinition Height="30"/>
+                    <RowDefinition Height="30"/>
+                    <RowDefinition Height="30"/>
+                </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="300"/>
+                    <ColumnDefinition Width="150"/>
+                
+                </Grid.ColumnDefinitions>
+            
+                    <TextBlock Text="Emp Id" Grid.Row="0" Grid.Column="0" />
+                    <TextBlock Text="Title" Grid.Row="1" Grid.Column="0" />
+                    <TextBlock Text="First Name"  Grid.Row="2" Grid.Column="0"/>
+                    <TextBlock Text="Last Name" Grid.Row="3" Grid.Column="0"/>
+                    <TextBlock Text="Designation" Grid.Row="4" Grid.Column="0"/>
+
+
+                    <TextBox Height="30" Text="{Binding Path=EmployeeNumber}" Grid.Row="0" Grid.Column="1"/>
+                    <TextBox Height="30" Text="{Binding Path=Title}" Grid.Row="1" Grid.Column="1" />
+                    <TextBox Height="30" Text="{Binding Path=FirstName}"  Grid.Row="2" Grid.Column="1"/>
+                    <TextBox Height="30" Text="{Binding Path=LastName}" Grid.Row="3" Grid.Column="1"/>
+                    <TextBox Height="30" Text="{Binding Path=Department}" Grid.Row="4" Grid.Column="1"/>
+                </Grid>
+            <StackPanel Grid.Row="1" Grid.Column="0" Margin="0,0,0,10"  >
+                <Slider x:Name="x_MySlider" IsSnapToTickEnabled="True" Minimum="0" Maximum="100" Margin="0,10,0,0"/>
+            </StackPanel>
+       
+        <Grid Grid.Row="2" Grid.Column="0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="30"/>
+                <RowDefinition Height="30"/>
+                <RowDefinition Height="30"/>
+                <RowDefinition Height="30"/>
+                <RowDefinition Height="30"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="300"/>
+                <ColumnDefinition Width="150"/>
+            </Grid.ColumnDefinitions>
+        
+            <TextBlock Text="One Way" Grid.Row="0" Grid.Column="0" />
+            <TextBlock Text="Two Way" Grid.Row="1" Grid.Column="0" />
+            <TextBlock Text="Two Way with UpdateSourceTrigger"  Grid.Row="2" Grid.Column="0"/>
+            <TextBlock Text="One Way to Source" Grid.Row="3" Grid.Column="0"/>
+            <TextBlock Text="One Time" Grid.Row="4" Grid.Column="0"/>
+
+            <!-- One Way -->
+            <TextBox x:Name="x_MyTxtbox1" Width="50" Height="30" Text="{Binding ElementName=x_MySlider, Path=Value, Mode=OneWay}" Grid.Row="0" Grid.Column="1"/>
+            <!-- Two Way -->
+            <TextBox x:Name="x_MyTxtbox2" Width="50" Height="30" Text="{Binding ElementName=x_MySlider, Path=Value, Mode=TwoWay}" Grid.Row="1" Grid.Column="1"/>
+
+            <!-- Update Source Trigger -->
+            <TextBox x:Name="x_MyTxtbox3" Width="50" Height="30" Text="{Binding ElementName=x_MySlider, Path=Value, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Grid.Row="2" Grid.Column="1"/>
+            <!-- One Way to source -->
+            <TextBox x:Name="x_MyTxtbox4" Width="50" Height="30" Text="{Binding ElementName=x_MySlider, Path=Value, Mode=OneWayToSource, UpdateSourceTrigger=PropertyChanged}" Grid.Row="3" Grid.Column="1"/>
+            <!--One Time-->
+            <TextBox x:Name="x_MyTxtbox5" Width="50" Height="30" Text="{Binding ElementName=x_MySlider, Path=Value, Mode=OneTime}" Grid.Row="4" Grid.Column="1"/>
+        </Grid>
+      </Grid>
+</ui:WslDialog>

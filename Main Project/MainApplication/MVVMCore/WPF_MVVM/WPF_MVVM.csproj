@@ -1,0 +1,796 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{49FC4D22-DC70-449A-97D4-A7BD3A8CD672}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>MainApplication.WPF_MVVM</RootNamespace>
+    <AssemblyName>WPF_MVVM</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ActiproSoftware.Docking.Wpf, Version=13.2.592.0, Culture=neutral, PublicKeyToken=36ff2196ab5654b9, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Component\Actipro\ActiproSoftware.Docking.Wpf.dll</HintPath>
+    </Reference>
+    <Reference Include="ActiproSoftware.Editors.Interop.DataGrid.Wpf, Version=13.2.592.0, Culture=neutral, PublicKeyToken=36ff2196ab5654b9, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Component\Actipro\ActiproSoftware.Editors.Interop.DataGrid.Wpf.dll</HintPath>
+    </Reference>
+    <Reference Include="ActiproSoftware.Editors.Wpf, Version=13.2.592.0, Culture=neutral, PublicKeyToken=36ff2196ab5654b9, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Component\Actipro\ActiproSoftware.Editors.Wpf.dll</HintPath>
+    </Reference>
+    <Reference Include="ActiproSoftware.Navigation.Wpf, Version=13.2.592.0, Culture=neutral, PublicKeyToken=36ff2196ab5654b9, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Component\Actipro\ActiproSoftware.Navigation.Wpf.dll</HintPath>
+    </Reference>
+    <Reference Include="ActiproSoftware.Ribbon.Wpf, Version=13.2.592.0, Culture=neutral, PublicKeyToken=36ff2196ab5654b9, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Component\Actipro\ActiproSoftware.Ribbon.Wpf.dll</HintPath>
+    </Reference>
+    <Reference Include="ActiproSoftware.Shared.Wpf, Version=13.2.592.0, Culture=neutral, PublicKeyToken=36ff2196ab5654b9, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Component\Actipro\ActiproSoftware.Shared.Wpf.dll</HintPath>
+    </Reference>
+    <Reference Include="CommunityToolkit.Mvvm, Version=8.2.0.0, Culture=neutral, PublicKeyToken=4aff67a105548ee2, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\CommunityToolkit.Mvvm.8.2.2\lib\netstandard2.0\CommunityToolkit.Mvvm.dll</HintPath>
+    </Reference>
+    <Reference Include="InfragisticsWPF4.DockManager.v20.2, Version=20.2.20202.16, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Component\Infragistic\InfragisticsWPF4.DockManager.v20.2.dll</HintPath>
+    </Reference>
+    <Reference Include="InfragisticsWPF4.v20.2, Version=20.2.20202.16, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Component\Infragistic\InfragisticsWPF4.v20.2.dll</HintPath>
+    </Reference>
+    <Reference Include="Infralution.Controls">
+      <HintPath>..\..\..\Component\Infralution\Infralution.Controls.dll</HintPath>
+    </Reference>
+    <Reference Include="Keysight.Ccl.Wsl">
+      <HintPath>..\..\..\Component\Keysight\Keysight.Ccl.Wsl.dll</HintPath>
+    </Reference>
+    <Reference Include="MahApps.Metro">
+      <HintPath>..\..\..\Component\Keysight\MahApps.Metro.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Bcl.AsyncInterfaces, Version=7.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Microsoft.Bcl.AsyncInterfaces.7.0.0\lib\net462\Microsoft.Bcl.AsyncInterfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="Microsoft.Xaml.Behaviors, Version=1.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Microsoft.Xaml.Behaviors.Wpf.1.1.31\lib\net45\Microsoft.Xaml.Behaviors.dll</HintPath>
+    </Reference>
+    <Reference Include="Prism, Version=8.1.97.5141, Culture=neutral, PublicKeyToken=40ee6c3a2184dc59, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Prism.Core.8.1.97\lib\net47\Prism.dll</HintPath>
+    </Reference>
+    <Reference Include="Prism.Wpf, Version=8.1.97.5141, Culture=neutral, PublicKeyToken=40ee6c3a2184dc59, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Prism.Wpf.8.1.97\lib\net47\Prism.Wpf.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Buffers, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\System.Buffers.4.5.1\lib\net461\System.Buffers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.Annotations, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\System.ComponentModel.Annotations.5.0.0\lib\net461\System.ComponentModel.Annotations.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Memory, Version=4.0.1.2, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\System.Memory.4.5.5\lib\net461\System.Memory.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Numerics.Vectors, Version=4.1.4.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\System.Numerics.Vectors.4.5.0\lib\net46\System.Numerics.Vectors.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\System.Runtime.CompilerServices.Unsafe.6.0.0\lib\net461\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Formatters.Soap" />
+    <Reference Include="System.Threading.Tasks.Extensions, Version=4.2.0.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\System.Threading.Tasks.Extensions.4.5.4\lib\net461\System.Threading.Tasks.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Windows.Forms.DataVisualization.Design" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="UIAutomationProvider" />
+    <Reference Include="UIAutomationTypes" />
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Compile Include="Design Pattern\Singletons\ApplicationState.cs" />
+    <Compile Include="Design Pattern\Singletons\SingletonDemo.xaml.cs">
+      <DependentUpon>SingletonDemo.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="EnumClass.cs" />
+    <Compile Include="Models\ArithmeticConverter.cs" />
+    <Compile Include="Models\LinkedListExtensions.cs" />
+    <Compile Include="Models\MathExtensions.cs" />
+    <Compile Include="Models\RelativeSource_SelfModel.cs" />
+    <Compile Include="Models\VirtualPanel.cs" />
+    <Compile Include="Models\ZoomableCanvas.cs" />
+    <Compile Include="Design Pattern\Singletons\EnumHelper.cs" />
+    <Compile Include="MultiThreading\BackGroundWorkerExample.xaml.cs">
+      <DependentUpon>BackGroundWorkerExample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MultiThreading\DispatcherExample.xaml.cs">
+      <DependentUpon>DispatcherExample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MultiThreading\SingleThread.xaml.cs">
+      <DependentUpon>SingleThread.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="SOLID Princliple\Models\DIP_Logger.cs" />
+    <Compile Include="SOLID Princliple\Models\LSP_Account.cs" />
+    <Compile Include="SOLID Princliple\Models\ISP_TextDocument.cs" />
+    <Compile Include="SOLID Princliple\Models\SRP_Employee.cs" />
+    <Compile Include="SOLID Princliple\Models\OCP_Shape.cs" />
+    <Compile Include="SOLID Princliple\Views\OCP.xaml.cs">
+      <DependentUpon>OCP.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="SOLID Princliple\Views\SRP.xaml.cs">
+      <DependentUpon>SRP.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="WPF Basics\XamlExample.xaml.cs">
+      <DependentUpon>XamlExample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="WPFMVVMAdvance\AttachedPropertySample\AttachedPropertyExample.xaml.cs">
+      <DependentUpon>AttachedPropertyExample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="WPFMVVMAdvance\DependencyPropertySample\CustomDependencyProperty.xaml.cs">
+      <DependentUpon>CustomDependencyProperty.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="WPFMVVMAdvance\DependencyPropertySample\MyCustomControl.xaml.cs">
+      <DependentUpon>MyCustomControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="WPFMVVMAdvance\Localization\LocalizationSample.xaml.cs">
+      <DependentUpon>LocalizationSample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="WPFMVVMBasic\Commands\Enum\PageId.cs" />
+    <Compile Include="WPFMVVMBasic\Commands\ViewModels\ICommandViewModels.cs" />
+    <Compile Include="WPFMVVMBasic\Commands\Views\CommandsExample.xaml.cs">
+      <DependentUpon>CommandsExample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="WPFMVVMBasic\Commands\Views\ICommandExample.xaml.cs">
+      <DependentUpon>ICommandExample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="WPFMVVMBasic\Commands\Pages\Page1.xaml.cs">
+      <DependentUpon>Page1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="WPFMVVMBasic\Commands\Pages\Page2.xaml.cs">
+      <DependentUpon>Page2.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="WPFMVVMBasic\Commands\Pages\Page3.xaml.cs">
+      <DependentUpon>Page3.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="WPFMVVMBasic\Commands\Pages\Page4.xaml.cs">
+      <DependentUpon>Page4.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="WPFMVVMBasic\DataBindings\Binding_Default.xaml.cs">
+      <DependentUpon>Binding_Default.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="WPFMVVMBasic\DataBindings\Binding_OneTime.xaml.cs">
+      <DependentUpon>Binding_OneTime.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="WPFMVVMBasic\DataBindings\Binding_OneWay.xaml.cs">
+      <DependentUpon>Binding_OneWay.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="WPFMVVMBasic\DataBindings\Binding_OneWayToSource.xaml.cs">
+      <DependentUpon>Binding_OneWayToSource.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="WPFMVVMBasic\DataBindings\Binding_TwoWay.xaml.cs">
+      <DependentUpon>Binding_TwoWay.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="WPFMVVMBasic\DataContext\DataContextExample.xaml.cs">
+      <DependentUpon>DataContextExample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="DataGridSingleClickCheckbox\PersonModel.cs" />
+    <Compile Include="ViewModels\BindableBase.cs" />
+    <Compile Include="ViewModels\MainWindowViewModel.cs" />
+    <Compile Include="DataGridSingleClickCheckbox\Views\MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="WPFMVVMAdvance\DependencyPropertySample\BasicDependencyProperty.xaml.cs">
+      <DependentUpon>BasicDependencyProperty.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="WPFMVVMBasic\INotifyPropertyChangedSample\INotifyPropertyChangedExample.xaml.cs">
+      <DependentUpon>INotifyPropertyChangedExample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Models\CommandsModel.cs" />
+    <Compile Include="Models\INotifyPropertyChangedExampleModel.cs" />
+    <Compile Include="Models\UserInfoModel.cs" />
+    <Compile Include="WPFMVVMAdvance\MVVMCommads\MVVMCommand.cs" />
+    <Compile Include="WPFMVVMBasic\Layouts\Layout_Canvas.xaml.cs">
+      <DependentUpon>Layout_Canvas.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="WPFMVVMBasic\Layouts\Layout_DockPanel.xaml.cs">
+      <DependentUpon>Layout_DockPanel.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="WPFMVVMBasic\Layouts\Layout_Grid.xaml.cs">
+      <DependentUpon>Layout_Grid.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="WPFMVVMBasic\Layouts\Layout_StackPanel.xaml.cs">
+      <DependentUpon>Layout_StackPanel.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="WPFMVVMBasic\Layouts\Layout_WrapPanel.xaml.cs">
+      <DependentUpon>Layout_WrapPanel.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="WPFMVVMBasic\MVVMPattern\UserInfo.xaml.cs">
+      <DependentUpon>UserInfo.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="WPFMVVMBasic\Resources\CustomListBox.cs" />
+    <Compile Include="WPFMVVMBasic\Resources\RelativeSource_FindAncestor.xaml.cs">
+      <DependentUpon>RelativeSource_FindAncestor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="WPFMVVMBasic\Resources\RelativeSource_Self.xaml.cs">
+      <DependentUpon>RelativeSource_Self.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="WPFMVVMBasic\Resources\DynamicResourceExample.xaml.cs">
+      <DependentUpon>DynamicResourceExample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="WPFMVVMBasic\Resources\RelativeSource_TemplatedParent.xaml.cs">
+      <DependentUpon>RelativeSource_TemplatedParent.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="WPFMVVMBasic\Resources\StaticResourceExample.xaml.cs">
+      <DependentUpon>StaticResourceExample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="WPFMVVMBasic\Styles\StyleInheritanceExample.xaml.cs">
+      <DependentUpon>StyleInheritanceExample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="WPFMVVMBasic\Styles\StylesExample.xaml.cs">
+      <DependentUpon>StylesExample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="WPFMVVMBasic\Templates\Template_HierarchialData.xaml.cs">
+      <DependentUpon>Template_HierarchialData.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="WPFMVVMBasic\Templates\Templete_Data.xaml.cs">
+      <DependentUpon>Templete_Data.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="WPFMVVMBasic\Templates\Template_ItemPanel.xaml.cs">
+      <DependentUpon>Template_ItemPanel.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="WPFMVVMBasic\Templates\Template_Control.xaml.cs">
+      <DependentUpon>Template_Control.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="WPFMVVMBasic\Triggers\Trigger_Data.xaml.cs">
+      <DependentUpon>Trigger_Data.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="WPFMVVMBasic\Triggers\Trigger_Event.xaml.cs">
+      <DependentUpon>Trigger_Event.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="WPFMVVMBasic\Triggers\Trigger_MultiDataTrigger.xaml.cs">
+      <DependentUpon>Trigger_MultiDataTrigger.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="WPFMVVMBasic\Triggers\Trigger_MultiTrigger.xaml.cs">
+      <DependentUpon>Trigger_MultiTrigger.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="WPFMVVMBasic\Triggers\Trigger_Property.xaml.cs">
+      <DependentUpon>Trigger_Property.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="WPFMVVMBasic\Triggers\Trigger_Main.xaml.cs">
+      <DependentUpon>Trigger_Main.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserPreferences.cs" />
+    <Compile Include="WPFMVVMBasic\ValueConvertors\AddSuffixToIntValueConverter.cs" />
+    <Compile Include="WPFMVVMBasic\ValueConvertors\BoolAndVisibilityConverter.cs" />
+    <Compile Include="WPFMVVMBasic\ValueConvertors\BoolComplementToVisibilityConverter.cs" />
+    <Compile Include="WPFMVVMBasic\ValueConvertors\BoolToHalfOpacityConverter.cs" />
+    <Compile Include="WPFMVVMBasic\ValueConvertors\BrushToColorConverter.cs" />
+    <Compile Include="WPFMVVMBasic\ValueConvertors\ColorToBrushConverter.cs" />
+    <Compile Include="WPFMVVMBasic\ValueConvertors\ContrastConverter.cs" />
+    <Compile Include="WPFMVVMBasic\ValueConvertors\DateConvertor.cs" />
+    <Compile Include="WPFMVVMBasic\ValueConvertorsExample\ValueConvertorsExample.xaml.cs">
+      <DependentUpon>ValueConvertorsExample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="WPFMVVMBasic\ValueConvertors\DoubleConverter.cs" />
+    <Compile Include="WPFMVVMBasic\ValueConvertors\EnumHelperToListConverter.cs" />
+    <Compile Include="WPFMVVMBasic\ValueConvertors\EnumMatchToBooleanConverter.cs" />
+    <Compile Include="WPFMVVMBasic\ValueConvertors\EnumToDisplayNameConverter.cs" />
+    <Compile Include="WPFMVVMBasic\ValueConvertors\ItemsPanelOrientationConverter.cs" />
+    <Compile Include="WPFMVVMBasic\ValueConvertors\NegateConveter.cs" />
+    <Compile Include="WPFMVVMBasic\ValueConvertors\NullableBooleanConverter.cs" />
+    <Compile Include="WPFMVVMBasic\ValueConvertors\NullableIntToNegativeOneConverter.cs" />
+    <Compile Include="WPFMVVMBasic\ValueConvertors\NullConverter.cs" />
+    <Compile Include="WPFMVVMBasic\ValueConvertors\PNGImageConverter.cs" />
+    <Compile Include="WPFMVVMBasic\ValueConvertors\TreeViewLineConverter.cs" />
+    <Compile Include="WPFMVVMBasic\ValueConvertors\TwoValueEnumToBoolConverter.cs" />
+    <Compile Include="WPFMVVMBasic\ValueConvertors\UIntToDecimalValueConverter.cs" />
+    <Compile Include="ViewModels\UserInfoViewModel.cs" />
+    <Compile Include="WPFMVVMBasic\Window1.xaml.cs">
+      <DependentUpon>Window1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="WPFMVVMBasic\wpf-tutorial.com\WPFDemo.xaml.cs">
+      <DependentUpon>WPFDemo.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="WPFMVVMPattern\SampleMVVMModel.cs" />
+    <Compile Include="WPFMVVMPattern\SampleMVVMViewModel.cs" />
+    <Compile Include="WPFMVVMPattern\SamplesMVVM.xaml.cs">
+      <DependentUpon>SamplesMVVM.xaml</DependentUpon>
+    </Compile>
+    <Page Include="Design Pattern\Singletons\SingletonDemo.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MultiThreading\BackGroundWorkerExample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MultiThreading\DispatcherExample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MultiThreading\SingleThread.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="SOLID Princliple\Views\OCP.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="SOLID Princliple\Views\SRP.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="StyleSheet\Controls.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="WPF Basics\XamlExample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="WPFMVVMAdvance\AttachedPropertySample\AttachedPropertyExample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="WPFMVVMAdvance\DependencyPropertySample\CustomDependencyProperty.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="WPFMVVMAdvance\DependencyPropertySample\MyCustomControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="WPFMVVMAdvance\Localization\LocalizationSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="WPFMVVMBasic\Commands\Views\CommandsExample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="WPFMVVMBasic\Commands\Views\ICommandExample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="WPFMVVMBasic\Commands\Pages\Page1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="WPFMVVMBasic\Commands\Pages\Page2.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="WPFMVVMBasic\Commands\Pages\Page3.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="WPFMVVMBasic\Commands\Pages\Page4.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="WPFMVVMBasic\DataBindings\Binding_Default.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="WPFMVVMBasic\DataBindings\Binding_OneTime.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="WPFMVVMBasic\DataBindings\Binding_OneWay.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="WPFMVVMBasic\DataBindings\Binding_OneWayToSource.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="WPFMVVMBasic\DataBindings\Binding_TwoWay.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="WPFMVVMBasic\DataBindings\Binding_Main.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="WPFMVVMBasic\DataContext\DataContextExample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="DataGridSingleClickCheckbox\Views\MainWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="WPFMVVMAdvance\DependencyPropertySample\BasicDependencyProperty.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="WPFMVVMBasic\INotifyPropertyChangedSample\INotifyPropertyChangedExample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MainApp.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WPFMVVMBasic\DataBindings\Binding_Main.xaml.cs">
+      <DependentUpon>Binding_Main.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MainApp.xaml.cs">
+      <DependentUpon>MainApp.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Page Include="WPFMVVMBasic\Layouts\Layout_Canvas.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="WPFMVVMBasic\Layouts\Layout_DockPanel.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="WPFMVVMBasic\Layouts\Layout_Grid.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="WPFMVVMBasic\Layouts\Layout_StackPanel.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="WPFMVVMBasic\Layouts\Layout_WrapPanel.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="WPFMVVMBasic\MVVMPattern\UserInfo.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="WPFMVVMBasic\Resources\RelativeSource_FindAncestor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="WPFMVVMBasic\Resources\RelativeSource_Self.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="WPFMVVMBasic\Resources\DynamicResourceExample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="WPFMVVMBasic\Resources\RelativeSource_TemplatedParent.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="WPFMVVMBasic\Resources\StaticResourceExample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="WPFMVVMBasic\Styles\StyleInheritanceExample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="WPFMVVMBasic\Styles\StylesExample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="WPFMVVMBasic\Templates\Template_HierarchialData.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="WPFMVVMBasic\Templates\Templete_Data.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="WPFMVVMBasic\Templates\Template_ItemPanel.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="WPFMVVMBasic\Templates\Template_Control.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="WPFMVVMBasic\Triggers\Trigger_Data.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="WPFMVVMBasic\Triggers\Trigger_Event.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="WPFMVVMBasic\Triggers\Trigger_MultiDataTrigger.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="WPFMVVMBasic\Triggers\Trigger_MultiTrigger.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="WPFMVVMBasic\Triggers\Trigger_Property.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="WPFMVVMBasic\Triggers\Trigger_Main.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="WPFMVVMBasic\ValueConvertorsExample\ValueConvertorsExample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="WPFMVVMBasic\Window1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="WPFMVVMBasic\wpf-tutorial.com\WPFDemo.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="WPFMVVMPattern\SamplesMVVM.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="WPFMVVMAdvance\Dispatcher\" />
+    <Folder Include="WPFMVVMBasic\RoutedEvents\" />
+    <Folder Include="WPFMVVMBasic\UserControls\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\CaliburnMicro\WPFUI\WPFUI.csproj">
+      <Project>{A7F86755-0D79-42D8-AC81-6FE0B8C86C86}</Project>
+      <Name>WPFUI</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CommonUtils\CommonUtils\CommonUtils.csproj">
+      <Project>{987479be-363c-4fa5-9282-8f0c35b9128b}</Project>
+      <Name>CommonUtils</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Cancel_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Delete.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Help.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\icon_abort.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\icon_power_dark.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\icon_power_white.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\New.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\NewDocumentHS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\openHS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\power_on.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Save.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\saveHS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\search_dark.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\search_light.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\TreeImages\Analog.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\TreeImages\AnalogLocked.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\TreeImages\Blank.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\TreeImages\ClearSearch.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\TreeImages\DigitalBus.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\TreeImages\DigitalBusLocked.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\TreeImages\DigitalChannel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\TreeImages\DigitalChannelLocked.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\TreeImages\FolderClosed.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\TreeImages\FolderOpened.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\TreeImages\Integral.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\TreeImages\IntegralLocked.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\TreeImages\Lane.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\TreeImages\LaneLocked.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\TreeImages\LockedField.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\TreeImages\Module.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\TreeImages\Packet.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\TreeImages\PacketField.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\TreeImages\PacketLocked.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\TreeImages\Probe.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\TreeImages\Protocol.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\TreeImages\ProtocolLocked.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\TreeImages\SampleNumber.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\TreeImages\SampleNumberLocked.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\TreeImages\Search.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\TreeImages\String.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\TreeImages\StringLocked.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\TreeImages\Time.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\TreeImages\TimeLocked.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\TreeImages\TimingZoom.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\TreeImages\TimingZoomLocked.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\TreeImages\Tool.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\TreeImages\Transaction.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\TreeImages\TransactionLocked.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\TreeImages\TreeExpanderMinus.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\TreeImages\TreeExpanderPlus.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\TreeImages\Viewer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Warning.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="..\..\packages\CommunityToolkit.Mvvm.8.2.2\build\netstandard2.0\CommunityToolkit.Mvvm.targets" Condition="Exists('..\..\packages\CommunityToolkit.Mvvm.8.2.2\build\netstandard2.0\CommunityToolkit.Mvvm.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\..\packages\CommunityToolkit.Mvvm.8.2.2\build\netstandard2.0\CommunityToolkit.Mvvm.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\..\packages\CommunityToolkit.Mvvm.8.2.2\build\netstandard2.0\CommunityToolkit.Mvvm.targets'))" />
+  </Target>
+</Project>

@@ -1,0 +1,168 @@
+﻿<Window
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:igDock="http://infragistics.com/DockManager"
+             xmlns:local="clr-namespace:MVVMCore.Challanges"
+             xmlns:Custom="http://metro.mahapps.com/winfx/xaml/controls" x:Class="MVVMCore.Challanges.InfragisticDockManagerN"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <Window.Resources>
+        <Style x:Key = "TriggerStyle" TargetType="igDock:PaneTabItem">
+            <Style.Triggers>
+                <Trigger Property = "IsSelected" Value = "True">
+                    <Setter Property = "Foreground" Value = "Green" />
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+    </Window.Resources>
+    <Grid>
+        
+        <igDock:XamDockManager x:Name="dockManager" FontSize="14" FontFamily="Roboto" ActivePaneChanged="dockManager_ActivePaneChanged_1"> 
+            <igDock:XamDockManager.Resources>
+                <Style TargetType="igDock:PaneTabItem">
+
+                    <Style.Triggers>
+                        <Trigger Property="IsSelected" Value="True">
+                            <Setter Property="Background" Value="PaleGoldenrod"/>
+                        </Trigger>
+                    </Style.Triggers>
+                    
+                    <Setter Property="Template">
+                        <Setter.Value>
+                            <ControlTemplate TargetType="igDock:PaneTabItem">
+                                <TextBlock Name="Panel1">
+                                    <!--<Border x:Name="x_MyBorder">
+                                      <Border.Style>
+                                        <Style TargetType="{x:Type Border}">
+                                            <Style.Triggers>
+                                            <DataTrigger Binding="{Binding IsChecked,ElementName=x_cbxtheme}" Value="False">
+                                            <Setter Property="Background" Value="#DDE3F0"/>
+                                            </DataTrigger>
+                                            <DataTrigger Binding="{Binding IsChecked,ElementName=x_cbxtheme}" Value="True">
+                                            <Setter Property="Background" Value="#393941"/>
+                                            </DataTrigger>
+                                            </Style.Triggers>
+                                            
+                                            
+                                        </Style>
+                                      </Border.Style> </Border>-->
+                                    <ContentPresenter x:Name="ContentSite"
+                                        VerticalAlignment="Center"
+                                        HorizontalAlignment="Center"
+                                        ContentSource="Header"
+                                        Margin="10,2"/>
+                                    
+                                </TextBlock>
+                            </ControlTemplate>
+
+                           
+                        </Setter.Value>
+                    </Setter>
+
+                    
+                    
+                </Style>
+
+                <!--<Style TargetType="igDock:PaneTabItem">
+                    <Style.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter Property="Background" Value="PeachPuff"/>
+                        </Trigger>
+                    </Style.Triggers>
+                </Style>-->
+
+
+            </igDock:XamDockManager.Resources>
+            
+            
+            <!--<igDock:XamDockManager.Panes>
+                
+                --><!--<igDock:SplitPane igDock:XamDockManager.InitialLocation="DockedRight"
+                          SplitterOrientation="Horizontal">
+                    --><!-- A TabGroupPane can be hosted within a SplitPane --><!--
+                    <igDock:TabGroupPane SelectedIndex="1">
+                        <igDock:ContentPane Header="Solution Explorer">
+                            <TreeView />
+                        </igDock:ContentPane>
+                        <igDock:ContentPane Header="Class View">
+                            <TreeView />
+                        </igDock:ContentPane>
+                    </igDock:TabGroupPane>
+                    <igDock:ContentPane Header="Properties">
+                        <ListView />
+                    </igDock:ContentPane>
+                </igDock:SplitPane>--><!--
+            </igDock:XamDockManager.Panes>-->
+            
+            
+            <igDock:DocumentContentHost x:Name="x_DocumentContentHost">
+                <igDock:SplitPane SplitterOrientation="Vertical">
+                     
+                    <igDock:TabGroupPane x:Name="x_tabGroupHeaderFile1">
+                        <igDock:ContentPane Header="File 1">
+                            <!--<RichTextBox />-->
+                        </igDock:ContentPane>
+                        
+                    </igDock:TabGroupPane>
+
+                    <igDock:TabGroupPane x:Name="x_tabGroupHeaderFile2" >
+                        <igDock:ContentPane  Header="File 2">
+                            <RichTextBox />
+                        </igDock:ContentPane>
+                    </igDock:TabGroupPane>
+
+                    <igDock:TabGroupPane x:Name="x_tabGroupHeaderFile3" >
+                        <igDock:ContentPane Header="File 3">
+                            <RichTextBox />
+                        </igDock:ContentPane>
+                    </igDock:TabGroupPane>
+                    
+                    <igDock:TabGroupPane x:Name="x_tabGroupHeaderFile4">
+                        <igDock:ContentPane Header="File 4">
+                            <RichTextBox />
+                        </igDock:ContentPane>
+
+                    </igDock:TabGroupPane>
+
+                    <igDock:TabGroupPane x:Name="x_tabGroupHeaderFile5">
+                        <igDock:ContentPane   Header="File 5">
+                            <RichTextBox />
+                        </igDock:ContentPane>
+                    </igDock:TabGroupPane>
+
+                    <igDock:TabGroupPane x:Name="x_tabGroupHeaderFile6">
+                        <igDock:ContentPane Header="File 6">
+                            <RichTextBox />
+                        </igDock:ContentPane>
+                    </igDock:TabGroupPane>
+
+                    <igDock:TabGroupPane x:Name="x_tabGroupHeaderFile7">
+                        <igDock:ContentPane Header="File 7">
+                            <RichTextBox />
+                        </igDock:ContentPane>
+
+                    </igDock:TabGroupPane>
+
+                    <igDock:TabGroupPane x:Name="x_tabGroupHeaderFile8">
+                        <igDock:ContentPane   Header="File 8">
+                            <RichTextBox />
+                        </igDock:ContentPane>
+                    </igDock:TabGroupPane>
+
+                    <igDock:TabGroupPane x:Name="x_tabGroupHeaderFile9">
+                        <igDock:ContentPane Header="File 9">
+                            <RichTextBox />
+                        </igDock:ContentPane>
+                    </igDock:TabGroupPane>
+                    
+                </igDock:SplitPane>
+            </igDock:DocumentContentHost>
+        </igDock:XamDockManager>
+        <Grid VerticalAlignment="Center">
+            <CheckBox Name="x_cbxtheme" Visibility="Hidden"></CheckBox>
+        </Grid>
+
+    </Grid>
+</Window>

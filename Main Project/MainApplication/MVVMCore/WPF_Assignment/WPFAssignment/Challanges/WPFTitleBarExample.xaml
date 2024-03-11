@@ -1,0 +1,56 @@
+﻿<ui:WslDialog  xmlns:ui="clr-namespace:Keysight.Ccl.Wsl.UI;assembly=Keysight.Ccl.Wsl" x:Class="MVVMCore.Challanges.WPFTitleBarExample"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MVVMCore.Challanges"
+        mc:Ignorable="d"
+        Title="Window1" Height="450" Width="800" Left="8" Top="62" 
+        MinHeight="30" MinWidth="250" WindowStyle="None" ResizeMode="CanMinimize" WindowState="Normal">
+    <ui:WslDialog.Resources>
+        <Style x:Key="RectBorderStyle" TargetType="Rectangle">
+            <Setter Property="Focusable" Value="False" />
+            <Setter Property="Fill" Value="Transparent" />
+            <Setter Property="Tag" Value="{Binding RelativeSource={RelativeSource AncestorType=Window}}" />
+            <EventSetter Event="MouseLeftButtonDown" Handler="Resize_Init"/>
+            <EventSetter Event="MouseLeftButtonUp" Handler="Resize_End"/>
+            <EventSetter Event="MouseMove" Handler="Resizeing_Form"/>
+        </Style>
+    </ui:WslDialog.Resources>
+    <Grid>
+        <Grid MouseDown="StackPanel_MouseDown"  VerticalAlignment="Top" Margin="0"  Background="{Binding ThemeBackgroundColour}">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="Auto" />
+            </Grid.ColumnDefinitions>
+            <Image x:Name="HeaderIcon" Grid.Column="0" Width="20" Height="20" Margin="5, 4, 5, 4" HorizontalAlignment="Left" />
+            <TextBlock x:Name="HeaderTitle" Grid.Column="1" Margin="5" TextAlignment="Left" Foreground="#FFFFFF" FontSize="13" HorizontalAlignment="Left" />
+            <StackPanel Grid.Column="2" VerticalAlignment="Top"  Orientation="Horizontal" HorizontalAlignment="Right">
+                <Button x:Name="MinimizeButton" Style="{DynamicResource MinimizeButtonStyle}" Click="MinimizeWindow" KeyboardNavigation.IsTabStop="False" />
+                <Button x:Name="MaximizeButton" Style="{DynamicResource MaximizeButtonStyle}" Click="MaximizeClick" KeyboardNavigation.IsTabStop="False" />
+                <Button x:Name="CloseButton"  Style="{DynamicResource CloseButtonStyle}" Click="CloseButton_Click" KeyboardNavigation.IsTabStop="False" />
+            </StackPanel>
+        </Grid>
+        <Grid  Margin="0,30,0,0" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Background="LightBlue">
+            <!--  Here  -->
+        </Grid>
+        <Rectangle x:Name="leftSizeGrip" Width="7" HorizontalAlignment="Left" Cursor="SizeWE" Style="{StaticResource RectBorderStyle}" />
+        <Rectangle x:Name="rightSizeGrip" Width="7" HorizontalAlignment="Right" Cursor="SizeWE" Style="{StaticResource RectBorderStyle}" />
+        <Rectangle x:Name="topSizeGrip" Height="7" VerticalAlignment="Top" Cursor="SizeNS" Style="{StaticResource RectBorderStyle}" />
+        <Rectangle x:Name="bottomSizeGrip" Height="7" VerticalAlignment="Bottom" Cursor="SizeNS" Style="{StaticResource RectBorderStyle}" />
+        <!--  Corners  -->
+        <Rectangle Name="topLeftSizeGrip" Width="7" Height="7" HorizontalAlignment="Left" VerticalAlignment="Top" Cursor="SizeNWSE" Style="{StaticResource RectBorderStyle}" />
+        <Rectangle Name="bottomRightSizeGrip" Width="7" Height="7" HorizontalAlignment="Right" VerticalAlignment="Bottom" Cursor="SizeNWSE" Style="{StaticResource RectBorderStyle}" />
+        <Rectangle Name="topRightSizeGrip" Width="7" Height="7" HorizontalAlignment="Right" VerticalAlignment="Top" Cursor="SizeNESW" Style="{StaticResource RectBorderStyle}" />
+        <Rectangle Name="bottomLeftSizeGrip" Width="7" Height="7" HorizontalAlignment="Left" VerticalAlignment="Bottom" Cursor="SizeNESW" Style="{StaticResource RectBorderStyle}" />
+    </Grid>
+
+
+
+
+    
+    
+    
+
+</ui:WslDialog>

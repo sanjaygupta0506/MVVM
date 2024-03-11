@@ -1,0 +1,202 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{987479BE-363C-4FA5-9282-8F0C35B9128B}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>MainApplication.CommonUtils</RootNamespace>
+    <AssemblyName>CommonUtils</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ActiproSoftware.Docking.Wpf, Version=13.2.592.0, Culture=neutral, PublicKeyToken=36ff2196ab5654b9, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Component\Actipro\ActiproSoftware.Docking.Wpf.dll</HintPath>
+    </Reference>
+    <Reference Include="ActiproSoftware.Editors.Interop.DataGrid.Wpf, Version=13.2.592.0, Culture=neutral, PublicKeyToken=36ff2196ab5654b9, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Component\Actipro\ActiproSoftware.Editors.Interop.DataGrid.Wpf.dll</HintPath>
+    </Reference>
+    <Reference Include="ActiproSoftware.Editors.Wpf, Version=13.2.592.0, Culture=neutral, PublicKeyToken=36ff2196ab5654b9, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Component\Actipro\ActiproSoftware.Editors.Wpf.dll</HintPath>
+    </Reference>
+    <Reference Include="ActiproSoftware.Navigation.Wpf, Version=13.2.592.0, Culture=neutral, PublicKeyToken=36ff2196ab5654b9, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Component\Actipro\ActiproSoftware.Navigation.Wpf.dll</HintPath>
+    </Reference>
+    <Reference Include="ActiproSoftware.Ribbon.Wpf, Version=13.2.592.0, Culture=neutral, PublicKeyToken=36ff2196ab5654b9, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Component\Actipro\ActiproSoftware.Ribbon.Wpf.dll</HintPath>
+    </Reference>
+    <Reference Include="ActiproSoftware.Shared.Wpf, Version=13.2.592.0, Culture=neutral, PublicKeyToken=36ff2196ab5654b9, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Component\Actipro\ActiproSoftware.Shared.Wpf.dll</HintPath>
+    </Reference>
+    <Reference Include="Infralution.Controls">
+      <HintPath>..\..\..\..\Component\Infralution\Infralution.Controls.dll</HintPath>
+    </Reference>
+    <Reference Include="Infralution.Controls.VirtualTree">
+      <HintPath>..\..\..\..\Component\Infralution\Infralution.Controls.VirtualTree.dll</HintPath>
+    </Reference>
+    <Reference Include="Keysight.Ccl.Wsl">
+      <HintPath>..\..\..\..\Component\Keysight\Keysight.Ccl.Wsl.dll</HintPath>
+    </Reference>
+    <Reference Include="MahApps.Metro">
+      <HintPath>..\..\..\..\Component\Keysight\MahApps.Metro.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationFramework.Classic" />
+    <Reference Include="PresentationFramework.Luna" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ApplicationContext.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="SearchTextBox.cs" />
+    <Compile Include="SettingsWindow.xaml.cs">
+      <DependentUpon>SettingsWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ThemeManager.cs" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="ResourceDictionaries\CommonComponentStyle.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="ResourceDictionaries\Generic.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="ResourceDictionaries\SolidColorBrushDark.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="ResourceDictionaries\SolidColorBrushLight.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="SettingsWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Resource Include="Images\Cancel_16x16.png" />
+    <Resource Include="Images\Delete.png" />
+    <Resource Include="Images\Help.png" />
+    <Resource Include="Images\icon_abort.png" />
+    <Resource Include="Images\icon_power_dark.png" />
+    <Resource Include="Images\icon_power_white.png" />
+    <Resource Include="Images\New.png" />
+    <Resource Include="Images\NewDocumentHS.png" />
+    <Resource Include="Images\openHS.png" />
+    <Resource Include="Images\power_on.png" />
+    <Resource Include="Images\Save.png" />
+    <Resource Include="Images\saveHS.png" />
+    <Resource Include="Images\search_dark.png" />
+    <Resource Include="Images\search_light.png" />
+    <Resource Include="Images\TreeImages\Analog.png" />
+    <Resource Include="Images\TreeImages\AnalogLocked.png" />
+    <Resource Include="Images\TreeImages\Blank.png" />
+    <Resource Include="Images\TreeImages\ClearSearch.png" />
+    <Resource Include="Images\TreeImages\DigitalBus.png" />
+    <Resource Include="Images\TreeImages\DigitalBusLocked.png" />
+    <Resource Include="Images\TreeImages\DigitalChannel.png" />
+    <Resource Include="Images\TreeImages\DigitalChannelLocked.png" />
+    <Resource Include="Images\TreeImages\FolderClosed.png" />
+    <Resource Include="Images\TreeImages\FolderOpened.png" />
+    <Resource Include="Images\TreeImages\Integral.png" />
+    <Resource Include="Images\TreeImages\IntegralLocked.png" />
+    <Resource Include="Images\TreeImages\Lane.png" />
+    <Resource Include="Images\TreeImages\LaneLocked.png" />
+    <Resource Include="Images\TreeImages\LockedField.png" />
+    <Resource Include="Images\TreeImages\Module.png" />
+    <Resource Include="Images\TreeImages\Packet.png" />
+    <Resource Include="Images\TreeImages\PacketField.png" />
+    <Resource Include="Images\TreeImages\PacketLocked.png" />
+    <Resource Include="Images\TreeImages\Probe.png" />
+    <Resource Include="Images\TreeImages\Protocol.png" />
+    <Resource Include="Images\TreeImages\ProtocolLocked.png" />
+    <Resource Include="Images\TreeImages\SampleNumber.png" />
+    <Resource Include="Images\TreeImages\SampleNumberLocked.png" />
+    <Resource Include="Images\TreeImages\Search.png" />
+    <Resource Include="Images\TreeImages\String.png" />
+    <Resource Include="Images\TreeImages\StringLocked.png" />
+    <Resource Include="Images\TreeImages\Time.png" />
+    <Resource Include="Images\TreeImages\TimeLocked.png" />
+    <Resource Include="Images\TreeImages\TimingZoom.png" />
+    <Resource Include="Images\TreeImages\TimingZoomLocked.png" />
+    <Resource Include="Images\TreeImages\Tool.png" />
+    <Resource Include="Images\TreeImages\Transaction.png" />
+    <Resource Include="Images\TreeImages\TransactionLocked.png" />
+    <Resource Include="Images\TreeImages\TreeExpanderMinus.png" />
+    <Resource Include="Images\TreeImages\TreeExpanderPlus.png" />
+    <Resource Include="Images\TreeImages\Viewer.png" />
+    <Resource Include="Images\Warning.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

@@ -1,0 +1,28 @@
+﻿<ui:WslDialog  xmlns:ui="clr-namespace:Keysight.Ccl.Wsl.UI;assembly=Keysight.Ccl.Wsl" x:Class="MainApplication.WPF_MVVM.WPFMVVMBasic.Layouts.Layout_StackPanel"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MainApplication.WPF_MVVM.WPFMVVMBasic.Layouts"
+        mc:Ignorable="d"
+        Title="Layout StackPanel" Height="220" Width="800" Left="8" Top="62">
+    <StackPanel Orientation="Vertical">
+        <Label>This is the lable</Label>
+        <TextBox></TextBox>
+        <CheckBox>CheckBox1</CheckBox>
+        <CheckBox>CheckBox2</CheckBox>
+        <ListBox>
+            <ListBoxItem>
+                Item 1
+            </ListBoxItem>
+        </ListBox>
+        <ListBox>
+            <ListBoxItem>
+                Item 2
+            </ListBoxItem>
+        </ListBox>
+        <Button Name="x_Submit" Content="Add">
+            
+        </Button>
+    </StackPanel>
+</ui:WslDialog>

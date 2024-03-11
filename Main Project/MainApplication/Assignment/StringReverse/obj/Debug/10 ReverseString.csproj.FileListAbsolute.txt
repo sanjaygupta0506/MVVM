@@ -1,0 +1,7 @@
+C:\Users\Sanjay\Downloads\InterviewAnswers\WpfApplication1\10ReverseString\bin\Debug\10ReverseString.exe.config
+C:\Users\Sanjay\Downloads\InterviewAnswers\WpfApplication1\10ReverseString\bin\Debug\10ReverseString.exe
+C:\Users\Sanjay\Downloads\InterviewAnswers\WpfApplication1\10ReverseString\bin\Debug\10ReverseString.pdb
+C:\Users\Sanjay\Downloads\InterviewAnswers\WpfApplication1\10ReverseString\obj\Debug\10 ReverseString.csproj.AssemblyReference.cache
+C:\Users\Sanjay\Downloads\InterviewAnswers\WpfApplication1\10ReverseString\obj\Debug\10 ReverseString.csproj.CoreCompileInputs.cache
+C:\Users\Sanjay\Downloads\InterviewAnswers\WpfApplication1\10ReverseString\obj\Debug\10ReverseString.exe
+C:\Users\Sanjay\Downloads\InterviewAnswers\WpfApplication1\10ReverseString\obj\Debug\10ReverseString.pdb

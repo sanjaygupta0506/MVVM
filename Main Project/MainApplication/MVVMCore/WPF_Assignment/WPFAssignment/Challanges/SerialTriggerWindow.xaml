@@ -1,0 +1,125 @@
+﻿<Window x:Class="MVVMCore.Challanges.SerialTriggerWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MVVMCore.Challanges"
+        mc:Ignorable="d"
+        Title="SerialTriggerWindow" Height="450" Width="800" WindowState="Normal" ResizeMode="CanResize" WindowStyle="None">
+    <Grid>
+        <DockPanel VerticalAlignment="Stretch"  LastChildFill="True" Background="Transparent">
+            <DockPanel.Resources>
+                <Style TargetType="{x:Type GroupBox}">
+                    <Style.Triggers>
+                        <DataTrigger Binding="{Binding ElementName=x_UnassignedLinksListBox,Path=HasItems }"
+                       Value="False">
+                            <Setter Property="Visibility"
+                    Value="Collapsed" />
+                        </DataTrigger>
+
+                    </Style.Triggers>
+                </Style>
+            </DockPanel.Resources>
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" DockPanel.Dock="Bottom" Background="Transparent">
+            <Button MinWidth="80" Height="34" Margin="10" Padding="0" Click="OnApply">Apply</Button>
+            <Button MinWidth="80" Height="34" Margin="10" Padding="0" IsDefault="True" Click="OnOK">OK</Button>
+            <Button MinWidth="80" Height="34" Margin="10" Padding="0" Click="OnCancel">Cancel</Button>
+            </StackPanel>
+            
+            <GroupBox x:Name="UnassignedGroupBox" VerticalAlignment="Bottom"
+              Header="Unassigned Directions: Drag items to desired tab"
+              DockPanel.Dock="Top" Background="Transparent" Margin="0,30,-0.4,0">
+
+                
+            </GroupBox>
+            <DockPanel x:Name="TrigDockPanel"
+               AllowDrop="True"
+               DockPanel.Dock="Top"
+               VerticalAlignment="Stretch" Background="Transparent">
+
+                <ScrollViewer DockPanel.Dock="Top"
+                    VerticalScrollBarVisibility="Disabled"
+                    HorizontalScrollBarVisibility="Auto"
+                    AllowDrop="True"
+                    VerticalAlignment="Stretch">
+                    <ScrollViewer.Resources>
+                        <DataTemplate x:Key="HeaderTemplate">
+                            <Label Content="{Binding Path=AssignedString}"  Foreground="{Binding Path=Foreground, RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type Window}}}" Padding="0,-2,0,0" />
+                        </DataTemplate>
+                        <DataTemplate x:Key="ContentTemplate">
+                            <Label Content="{Binding Path=AssignedString}" Padding="0,-2,0,0"/>
+                        </DataTemplate>
+
+                    </ScrollViewer.Resources>
+                    <!--<local:CloseableTabControl x:Name="x_TriggerTabControl"
+                                           MaxHeight="22"
+                                           Padding="20"
+                                           AllowDrop="True"
+                                           ItemsSource="{Binding Path=ChildrenModels}"
+                                           ItemTemplate="{StaticResource HeaderTemplate}"
+                                           ContentTemplate="{StaticResource ContentTemplate}" VerticalContentAlignment="Center">
+
+                    </local:CloseableTabControl>-->
+
+                </ScrollViewer>
+                <Border AllowDrop="True"
+              DockPanel.Dock="Top"
+              VerticalAlignment="Stretch" Background="Transparent">
+                    <Border.Resources>
+                        <!--<local:TabItemDataToUIConverter x:Key="converter" />-->
+
+                        <Style TargetType="{x:Type TabItem}">
+                            <Setter Property="Height"
+                    Value="0" />
+                            <Setter Property="Background" Value="Transparent"/>
+                        </Style>
+
+                        <DataTemplate x:Key="HeaderlessTemplate" >
+                            <Label Height="0" Background="Transparent"/>
+                        </DataTemplate>
+
+                        <DataTemplate x:Key="triggerContentTemplate" >
+
+                            <Label  Content="{Binding  Converter ={StaticResource converter}}"
+                    Padding="0"
+                    HorizontalContentAlignment="Stretch"
+                    HorizontalAlignment="Stretch"
+                    VerticalAlignment="Stretch"
+                    VerticalContentAlignment="Stretch" Background="Transparent"/>
+
+                        </DataTemplate>
+
+                    </Border.Resources>
+
+                    <!--<Label Content="{Binding ElementName=x_TriggerTabControl, Path=SelectedIndex}"
+                       AllowDrop="True"></Label>-->
+                    <!--<ItemsControl x:Name="IC"
+                              ItemsSource="{Binding Path=ChildrenModels}"
+                              ItemTemplate="{StaticResource triggerContentTemplate}"
+                              VerticalAlignment="Stretch"
+                              VerticalContentAlignment="Stretch" />-->
+                    <TabControl x:Name="x_HeaderlessTabControl"
+                    ItemsSource="{Binding Path=ChildrenModels}"
+                    ContentTemplate="{StaticResource triggerContentTemplate}"
+                    ItemTemplate="{StaticResource HeaderlessTemplate}"
+                    SelectedIndex="{Binding SelectedIndex, ElementName=x_TriggerTabControl}" />
+                </Border>
+
+            </DockPanel>
+            <Grid VerticalAlignment="Top" Margin="0,-60.6,0,0"  Background="{Binding ThemeBackgroundColour}">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="Auto" />
+                </Grid.ColumnDefinitions>
+                <Image x:Name="HeaderIcon" Grid.Column="0" Width="20" Height="20" Margin="5, 4, 5, 4" HorizontalAlignment="Left" />
+                <TextBlock x:Name="HeaderTitle" Grid.Column="1" Margin="5" TextAlignment="Left" Foreground="#FFFFFF" FontSize="13" HorizontalAlignment="Left" />
+                <StackPanel Grid.Column="2" VerticalAlignment="Top"  Orientation="Horizontal" HorizontalAlignment="Right">
+                <Button x:Name="MinimizeButton" Style="{DynamicResource MinimizeButtonStyle}" Click="MinimizeWindow" KeyboardNavigation.IsTabStop="False" />
+                <Button x:Name="MaximizeButton" Style="{DynamicResource MaximizeButtonStyle}" Click="MaximizeClick" KeyboardNavigation.IsTabStop="False" />
+                <Button x:Name="CloseButton"  Style="{DynamicResource CloseButtonStyle}" Click="CloseButton_Click" KeyboardNavigation.IsTabStop="False" />
+                </StackPanel>
+            </Grid>
+        </DockPanel>
+    </Grid>
+</Window>

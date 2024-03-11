@@ -1,0 +1,63 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "WPFSecuritySample/1.0.0": {
+        "dependencies": {
+          "CommonUtils": "1.0.0",
+          "Keysight.Ccl.Wsl": "4.0.1.9"
+        },
+        "runtime": {
+          "WPFSecuritySample.dll": {}
+        }
+      },
+      "CommonUtils/1.0.0": {
+        "runtime": {
+          "CommonUtils.dll": {}
+        }
+      },
+      "Keysight.Ccl.Wsl/4.0.1.9": {
+        "runtime": {
+          "Keysight.Ccl.Wsl.dll": {
+            "assemblyVersion": "4.0.1.9",
+            "fileVersion": "4.0.1.9"
+          }
+        }
+      },
+      "ActiproSoftware.Shared.Wpf/13.2.592.0": {
+        "runtime": {
+          "ActiproSoftware.Shared.Wpf.dll": {
+            "assemblyVersion": "13.2.592.0",
+            "fileVersion": "13.2.592.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "WPFSecuritySample/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CommonUtils/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Keysight.Ccl.Wsl/4.0.1.9": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ActiproSoftware.Shared.Wpf/13.2.592.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

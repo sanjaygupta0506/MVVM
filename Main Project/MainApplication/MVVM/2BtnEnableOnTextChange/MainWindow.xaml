@@ -1,0 +1,42 @@
+﻿<Window x:Class="MainApplication.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MainApplication"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Window.Resources>
+        <!--<Style x:Key="DeleteButton">
+
+            <Setter Property="IsEnabled" Value="True" />
+            <Style.Triggers>
+                <DataTrigger Binding="{Binding Path=SelectedPath}" Value="{x:Null}">
+                    <Setter Property="IsEnabled" Value="False" />
+                </DataTrigger>
+                <DataTrigger Binding="{Binding Path=SelectedPath.Length}" Value="0">
+                    <Setter Property="IsEnabled" Value="False" />
+                </DataTrigger>
+            </Style.Triggers>
+
+        </Style>-->
+    </Window.Resources>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="30"></RowDefinition>
+            <RowDefinition Height="30"></RowDefinition>
+            <RowDefinition Height="30"></RowDefinition>
+            <RowDefinition Height="30"></RowDefinition>
+        </Grid.RowDefinitions>
+        <StackPanel Orientation="Horizontal" Grid.Row="1">
+            <TextBlock Text="Text" Margin="0,0,10,0"></TextBlock>
+            <TextBox  Width="100" Text="{Binding TextData,Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}"></TextBox>
+        </StackPanel>
+        <Button x:Name="EnableButton" Grid.Row="3" IsEnabled="{Binding IsSubmitButtonEnabled}" Content="Submit">
+            <!--Style="{StaticResource DeleteButton}"-->
+
+        </Button>
+    </Grid>
+
+
+</Window>

@@ -1,0 +1,45 @@
+﻿<Window x:Class="MainApplication.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_5TreeViewColorChangeOnRadio"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="30"></RowDefinition>
+            <RowDefinition Height="30"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <StackPanel Grid.Row="0">
+            <RadioButton GroupName="grp1" Content="Dark" x:Name="DarkRadio" IsChecked="True"></RadioButton>
+            <RadioButton GroupName="grp1" Content="Light" x:Name="LightRadio" ></RadioButton>
+        </StackPanel>
+        <TreeView Height="Auto" Grid.Row="2">
+            <TreeViewItem Header="Root">
+                <TreeViewItem Header="Node1"></TreeViewItem>
+                <TreeViewItem Header="Node2"></TreeViewItem>
+                <TreeViewItem Header="Node3"></TreeViewItem>
+                <TreeViewItem Header="Node4"></TreeViewItem>
+                <TreeViewItem Header="Node5"></TreeViewItem>
+                <TreeViewItem.Style>
+                    <Style TargetType="{x:Type TreeViewItem}">
+
+                        <Style.Triggers>
+                            <DataTrigger Binding="{Binding IsChecked,ElementName=LightRadio}" Value="True">
+                                <Setter Property="Foreground" Value="Black" />
+                                <Setter Property="Background" Value="White"/>
+                            </DataTrigger>
+                            <DataTrigger Binding="{Binding IsChecked,ElementName=DarkRadio}" Value="True">
+                                <Setter Property="Foreground" Value="White" />
+                                <Setter Property="Background" Value="Black"/>
+                            </DataTrigger>
+                        </Style.Triggers>
+                    </Style>
+                </TreeViewItem.Style>
+            </TreeViewItem>
+           
+        </TreeView>
+    </Grid>
+</Window>

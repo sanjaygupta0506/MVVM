@@ -1,0 +1,47 @@
+﻿<ui:WslDialog  xmlns:ui="clr-namespace:Keysight.Ccl.Wsl.UI;assembly=Keysight.Ccl.Wsl" 
+        x:Class="MVVMCore.Resources.StaticResourceExample"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MVVMCore.Resources"
+        mc:Ignorable="d"
+        Title="Static Resources" Height="450" Width="800" Left="8" Top="62">
+    <Window.Resources>
+        <SolidColorBrush Color="Red" x:Key="x_RedBrush"/>
+        <SolidColorBrush Color="Blue" x:Key="x_BlueBrush"/>
+    </Window.Resources>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="50"/>
+        </Grid.RowDefinitions>
+        <Grid.Resources>
+            <SolidColorBrush Color="Orange" x:Key="x_OrangeBrush"/>
+        </Grid.Resources>
+        <!-- Normal -->
+        <Button x:Name="btnResources" Grid.Column="0" Grid.Row="0" Content="Normal Without Resources" Width="300" Height="40" Background="Yellow" FontWeight="Bold" FontSize="16" Foreground="Black"></Button>
+        
+        <!-- Static Resouces -->
+        <Button x:Name="btnResources1" Grid.Column="0" Grid.Row="1" Content="Static Resources - Window" Width="300" Height="40" Background="{StaticResource  x_RedBrush}"  FontWeight="Bold" FontSize="16"></Button>
+        
+        <!-- Static Resouces for other Property -->
+        <Button x:Name="btnResources2" Grid.Column="0" Grid.Row="2" Content="Static Resouces for other Property" Width="300" Height="40" Foreground="{StaticResource x_BlueBrush}"  FontWeight="Bold" FontSize="16"></Button>
+        
+        <!-- Multi Static Resouces -->
+        <Button x:Name="btnResources3" Grid.Column="0" Grid.Row="3" Content="Multi Static Resouces" Width="300" Height="40" Background="{StaticResource x_BlueBrush}" Foreground="{StaticResource x_OrangeBrush}" FontWeight="Bold" FontSize="16"></Button>
+        
+        <!-- Application Static Resouces -->
+        <Button x:Name="btnResources4" Grid.Column="0" Grid.Row="4" Content="Application Static Resouces" Width="300" Height="40"  FontWeight="Bold" FontSize="16" Background ="{StaticResource x_GreenBrush}"></Button>
+        
+        <!-- Control Static Resouces -->
+        <Button x:Name="btnResources5" Grid.Column="0" Grid.Row="5" Content="Control/Grid Static Resouces" Width="300" Height="40" Background="{StaticResource  x_OrangeBrush}"  FontWeight="Bold" FontSize="16"></Button>
+        
+        <TextBlock x:Name="txta" Width="400" Height="30" Grid.Column="0" Grid.Row="6" ></TextBlock>
+    </Grid>
+</ui:WslDialog>

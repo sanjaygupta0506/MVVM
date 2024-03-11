@@ -1,0 +1,44 @@
+D:\Personal\WPF + MVVM\Main Project\MainApplication\4ComboColorChangeFromRadio\bin\Debug\4ComboColorChangeFromRadio.exe.config
+D:\Personal\WPF + MVVM\Main Project\MainApplication\4ComboColorChangeFromRadio\bin\Debug\4ComboColorChangeFromRadio.exe
+D:\Personal\WPF + MVVM\Main Project\MainApplication\4ComboColorChangeFromRadio\bin\Debug\4ComboColorChangeFromRadio.pdb
+D:\Personal\WPF + MVVM\Main Project\MainApplication\4ComboColorChangeFromRadio\obj\Debug\ComboColorChangeFromRadio.csproj.AssemblyReference.cache
+D:\Personal\WPF + MVVM\Main Project\MainApplication\4ComboColorChangeFromRadio\obj\Debug\MainWindow.g.cs
+D:\Personal\WPF + MVVM\Main Project\MainApplication\4ComboColorChangeFromRadio\obj\Debug\App.g.cs
+D:\Personal\WPF + MVVM\Main Project\MainApplication\4ComboColorChangeFromRadio\obj\Debug\4ComboColorChangeFromRadio_MarkupCompile.cache
+D:\Personal\WPF + MVVM\Main Project\MainApplication\4ComboColorChangeFromRadio\obj\Debug\4ComboColorChangeFromRadio_MarkupCompile.lref
+D:\Personal\WPF + MVVM\Main Project\MainApplication\4ComboColorChangeFromRadio\obj\Debug\MainWindow.baml
+D:\Personal\WPF + MVVM\Main Project\MainApplication\4ComboColorChangeFromRadio\obj\Debug\4ComboColorChangeFromRadio.g.resources
+D:\Personal\WPF + MVVM\Main Project\MainApplication\4ComboColorChangeFromRadio\obj\Debug\_4ComboColorChangeFromRadio.Properties.Resources.resources
+D:\Personal\WPF + MVVM\Main Project\MainApplication\4ComboColorChangeFromRadio\obj\Debug\ComboColorChangeFromRadio.csproj.GenerateResource.cache
+D:\Personal\WPF + MVVM\Main Project\MainApplication\4ComboColorChangeFromRadio\obj\Debug\ComboColorChangeFromRadio.csproj.CoreCompileInputs.cache
+D:\Personal\WPF + MVVM\Main Project\MainApplication\4ComboColorChangeFromRadio\obj\Debug\4ComboColorChangeFromRadio.exe
+D:\Personal\WPF + MVVM\Main Project\MainApplication\4ComboColorChangeFromRadio\obj\Debug\4ComboColorChangeFromRadio.pdb
+D:\Personal\MVVM\Main Project\MainApplication\4ComboColorChangeFromRadio\bin\Debug\4ComboColorChangeFromRadio.exe.config
+D:\Personal\MVVM\Main Project\MainApplication\4ComboColorChangeFromRadio\bin\Debug\4ComboColorChangeFromRadio.exe
+D:\Personal\MVVM\Main Project\MainApplication\4ComboColorChangeFromRadio\bin\Debug\4ComboColorChangeFromRadio.pdb
+D:\Personal\MVVM\Main Project\MainApplication\4ComboColorChangeFromRadio\obj\Debug\MainWindow.g.cs
+D:\Personal\MVVM\Main Project\MainApplication\4ComboColorChangeFromRadio\obj\Debug\App.g.cs
+D:\Personal\MVVM\Main Project\MainApplication\4ComboColorChangeFromRadio\obj\Debug\4ComboColorChangeFromRadio_MarkupCompile.cache
+D:\Personal\MVVM\Main Project\MainApplication\4ComboColorChangeFromRadio\obj\Debug\4ComboColorChangeFromRadio_MarkupCompile.lref
+D:\Personal\MVVM\Main Project\MainApplication\4ComboColorChangeFromRadio\obj\Debug\MainWindow.baml
+D:\Personal\MVVM\Main Project\MainApplication\4ComboColorChangeFromRadio\obj\Debug\4ComboColorChangeFromRadio.g.resources
+D:\Personal\MVVM\Main Project\MainApplication\4ComboColorChangeFromRadio\obj\Debug\_4ComboColorChangeFromRadio.Properties.Resources.resources
+D:\Personal\MVVM\Main Project\MainApplication\4ComboColorChangeFromRadio\obj\Debug\ComboColorChangeFromRadio.csproj.GenerateResource.cache
+D:\Personal\MVVM\Main Project\MainApplication\4ComboColorChangeFromRadio\obj\Debug\ComboColorChangeFromRadio.csproj.CoreCompileInputs.cache
+D:\Personal\MVVM\Main Project\MainApplication\4ComboColorChangeFromRadio\obj\Debug\4ComboColorChangeFromRadio.exe
+D:\Personal\MVVM\Main Project\MainApplication\4ComboColorChangeFromRadio\obj\Debug\4ComboColorChangeFromRadio.pdb
+D:\Personal\MVVM\Main Project\MainApplication\MVVM\4ComboColorChangeFromRadio\bin\Debug\4ComboColorChangeFromRadio.exe.config
+D:\Personal\MVVM\Main Project\MainApplication\MVVM\4ComboColorChangeFromRadio\bin\Debug\4ComboColorChangeFromRadio.exe
+D:\Personal\MVVM\Main Project\MainApplication\MVVM\4ComboColorChangeFromRadio\bin\Debug\4ComboColorChangeFromRadio.pdb
+D:\Personal\MVVM\Main Project\MainApplication\MVVM\4ComboColorChangeFromRadio\obj\Debug\ComboColorChangeFromRadio.csproj.AssemblyReference.cache
+D:\Personal\MVVM\Main Project\MainApplication\MVVM\4ComboColorChangeFromRadio\obj\Debug\MainWindow.g.cs
+D:\Personal\MVVM\Main Project\MainApplication\MVVM\4ComboColorChangeFromRadio\obj\Debug\App.g.cs
+D:\Personal\MVVM\Main Project\MainApplication\MVVM\4ComboColorChangeFromRadio\obj\Debug\4ComboColorChangeFromRadio_MarkupCompile.cache
+D:\Personal\MVVM\Main Project\MainApplication\MVVM\4ComboColorChangeFromRadio\obj\Debug\4ComboColorChangeFromRadio_MarkupCompile.lref
+D:\Personal\MVVM\Main Project\MainApplication\MVVM\4ComboColorChangeFromRadio\obj\Debug\MainWindow.baml
+D:\Personal\MVVM\Main Project\MainApplication\MVVM\4ComboColorChangeFromRadio\obj\Debug\4ComboColorChangeFromRadio.g.resources
+D:\Personal\MVVM\Main Project\MainApplication\MVVM\4ComboColorChangeFromRadio\obj\Debug\_4ComboColorChangeFromRadio.Properties.Resources.resources
+D:\Personal\MVVM\Main Project\MainApplication\MVVM\4ComboColorChangeFromRadio\obj\Debug\ComboColorChangeFromRadio.csproj.GenerateResource.cache
+D:\Personal\MVVM\Main Project\MainApplication\MVVM\4ComboColorChangeFromRadio\obj\Debug\ComboColorChangeFromRadio.csproj.CoreCompileInputs.cache
+D:\Personal\MVVM\Main Project\MainApplication\MVVM\4ComboColorChangeFromRadio\obj\Debug\4ComboColorChangeFromRadio.exe
+D:\Personal\MVVM\Main Project\MainApplication\MVVM\4ComboColorChangeFromRadio\obj\Debug\4ComboColorChangeFromRadio.pdb
