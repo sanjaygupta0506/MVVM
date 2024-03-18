@@ -7,19 +7,15 @@
         xmlns:local="clr-namespace:MVVMCore.DependencyPropertySample"
                xmlns:view="clr-namespace:MainApplication.WPF_MVVM.WPFMVVMAdvance.DependencyPropertySample"
         mc:Ignorable="d"
-        Title="DependencyPropertyExample" Height="300" Width="400" Left="8" Top="62">
+        Title="Basic Dependency Property" Height="300" Width="400" Left="8" Top="62">
     <Grid>
-        <view:MyCustomControl MyValue="Sanjay Gupta"></view:MyCustomControl>
-        
         <Button Height="40" Content="Click Me" Width="100" Background="Teal">
             <Button.Style>
                 <Style TargetType="Button">
                     <Style.Triggers>
                         <Trigger Property="IsMouseOver" Value="True">
                             <Setter Property="Foreground" Value="Red"/>
-
                             <Setter Property="FontWeight" Value="ExtraBold"/>
-
                         </Trigger>
                     </Style.Triggers>
                 </Style>

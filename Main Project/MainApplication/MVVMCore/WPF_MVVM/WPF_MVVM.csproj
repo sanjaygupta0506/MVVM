@@ -184,9 +184,6 @@
     <Compile Include="WPFMVVMAdvance\DependencyPropertySample\CustomDependencyProperty.xaml.cs">
       <DependentUpon>CustomDependencyProperty.xaml</DependentUpon>
     </Compile>
-    <Compile Include="WPFMVVMAdvance\DependencyPropertySample\MyCustomControl.xaml.cs">
-      <DependentUpon>MyCustomControl.xaml</DependentUpon>
-    </Compile>
     <Compile Include="WPFMVVMAdvance\Localization\LocalizationSample.xaml.cs">
       <DependentUpon>LocalizationSample.xaml</DependentUpon>
     </Compile>
@@ -278,6 +275,9 @@
     <Compile Include="WPFMVVMBasic\Resources\StaticResourceExample.xaml.cs">
       <DependentUpon>StaticResourceExample.xaml</DependentUpon>
     </Compile>
+    <Compile Include="WPFMVVMBasic\RoutedEvents\RoutedEventsExample.xaml.cs">
+      <DependentUpon>RoutedEventsExample.xaml</DependentUpon>
+    </Compile>
     <Compile Include="WPFMVVMBasic\Styles\StyleInheritanceExample.xaml.cs">
       <DependentUpon>StyleInheritanceExample.xaml</DependentUpon>
     </Compile>
@@ -315,6 +315,12 @@
       <DependentUpon>Trigger_Main.xaml</DependentUpon>
     </Compile>
     <Compile Include="UserPreferences.cs" />
+    <Compile Include="WPFMVVMBasic\UserControlsExample\MyUserControl.xaml.cs">
+      <DependentUpon>MyUserControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="WPFMVVMBasic\UserControlsExample\UserControlsExample.xaml.cs">
+      <DependentUpon>UserControlsExample.xaml</DependentUpon>
+    </Compile>
     <Compile Include="WPFMVVMBasic\ValueConvertors\AddSuffixToIntValueConverter.cs" />
     <Compile Include="WPFMVVMBasic\ValueConvertors\BoolAndVisibilityConverter.cs" />
     <Compile Include="WPFMVVMBasic\ValueConvertors\BoolComplementToVisibilityConverter.cs" />
@@ -388,10 +394,6 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="WPFMVVMAdvance\DependencyPropertySample\CustomDependencyProperty.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="WPFMVVMAdvance\DependencyPropertySample\MyCustomControl.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -522,6 +524,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="WPFMVVMBasic\RoutedEvents\RoutedEventsExample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="WPFMVVMBasic\Styles\StyleInheritanceExample.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -567,6 +573,14 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="WPFMVVMBasic\Triggers\Trigger_Main.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="WPFMVVMBasic\UserControlsExample\MyUserControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="WPFMVVMBasic\UserControlsExample\UserControlsExample.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -616,8 +630,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="WPFMVVMAdvance\Dispatcher\" />
-    <Folder Include="WPFMVVMBasic\RoutedEvents\" />
-    <Folder Include="WPFMVVMBasic\UserControls\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\CaliburnMicro\WPFUI\WPFUI.csproj">

@@ -48,6 +48,7 @@ using MainApplication.WPF_MVVM.WPFMVVMBasic.DataBindings;
 using MainApplication.WPF_MVVM.WPFMVVMBasic.Templates;
 using MainApplication.WPF_MVVM.WPFMVVMAdvance.Localization;
 using MainApplication.WPF_MVVM.WPFMVVMAdvance.DependencyPropertySample;
+using MainApplication.WPF_MVVM.WPFMVVMBasic.RoutedEvents;
 
 namespace MVVMCore
 {
@@ -286,7 +287,10 @@ namespace MVVMCore
         }
         private void RoutedEvents_Click(object sender, RoutedEventArgs e)
         {
-
+            RoutedEventsExample routedEventsExample = new RoutedEventsExample();
+            routedEventsExample.ShowInTaskbar = false;
+            routedEventsExample.Owner = Application.Current.MainWindow;
+            routedEventsExample.Show();
         }
 
         private void SampleWPF_Click(object sender, RoutedEventArgs e)

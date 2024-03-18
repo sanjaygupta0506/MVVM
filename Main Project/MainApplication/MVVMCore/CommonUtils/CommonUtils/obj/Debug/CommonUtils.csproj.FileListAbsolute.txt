@@ -73,4 +73,3 @@ D:\Personal\MVVM\Main Project\MainApplication\MVVMCore\CommonUtils\CommonUtils\o
 D:\Personal\MVVM\Main Project\MainApplication\MVVMCore\CommonUtils\CommonUtils\obj\Debug\CommonUtils.csproj.CopyComplete
 D:\Personal\MVVM\Main Project\MainApplication\MVVMCore\CommonUtils\CommonUtils\obj\Debug\CommonUtils.dll
 D:\Personal\MVVM\Main Project\MainApplication\MVVMCore\CommonUtils\CommonUtils\obj\Debug\CommonUtils.pdb
-D:\Personal\MVVM\Main Project\MainApplication\MVVMCore\CommonUtils\CommonUtils\obj\Debug\CommonUtils.csproj.AssemblyReference.cache

@@ -29,7 +29,7 @@ namespace MVVMCore.DataContext
             {
                 FirstName = "Sanjay",
                 LastName = "Gupta",
-                Age = 30
+                Age = 40
             };
             this.DataContext = person;
 

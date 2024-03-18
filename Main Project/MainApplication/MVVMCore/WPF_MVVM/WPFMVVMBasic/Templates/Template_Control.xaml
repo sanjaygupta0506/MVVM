@@ -14,10 +14,9 @@
                 <Setter.Value>
                     <ControlTemplate TargetType="Button">
                         <Grid>
-                            <Ellipse Width="300" Height="110" Fill="Black"/>
-                            <Ellipse x:Name="Custom" Width="290" Height="100" Fill="Brown"/>
+                            <Rectangle Width="300" Height="110" Fill="Black"/>
+                            <Rectangle x:Name="Custom" Width="290" Height="100" Fill="Brown"/>
                             <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
-                        
                         </Grid>
                         </ControlTemplate>
                 </Setter.Value>
@@ -26,17 +25,17 @@
     </Window.Resources>
     <Grid>
         <Grid.RowDefinitions>
-            <RowDefinition Height="50"/>
+            <RowDefinition Height="100"/>
             <RowDefinition Height="auto"/>
             <RowDefinition Height="auto"/>
         </Grid.RowDefinitions>
-        <Button Content="Custom"  Grid.Row="0" Grid.Column="0" Style="{StaticResource ButtonStyleDefault}"></Button>
+        <Button Content="Control Template"  Grid.Row="0" Grid.Column="0" Style="{StaticResource ButtonStyleDefault}"></Button>
         <!--Add Button.Template tag and create ControlTemplate within it, as shown below.-->
-        <Button Content="Custom" Grid.Row="1" Grid.Column="0" FontSize="20" FontWeight="Bold" Foreground="Black">
+        <Button Content="Control Template" Grid.Row="1" Grid.Column="0" FontSize="20" FontWeight="Bold" Foreground="Black">
             <Button.Template>
                 <ControlTemplate TargetType="Button">
                     <Grid>
-                        <Ellipse Width="300" Height="110" Fill="Black"/>
+                        <Ellipse Width="300" Height="110" Fill="Brown"/>
                         <Ellipse x:Name="Custom" Width="290" Height="100" Fill="Brown"/>
                         <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
                     </Grid>
@@ -44,7 +43,7 @@
             </Button.Template>
         </Button>
 
-        <Button Content="Custom"  Grid.Row="2" Grid.Column="0" FontSize="20" FontWeight="Bold" Style="{StaticResource x_Style}">
+        <Button Content="Control Template"  Grid.Row="2" Grid.Column="0" FontSize="20" FontWeight="Bold" Style="{StaticResource x_Style}">
             
         </Button>
 

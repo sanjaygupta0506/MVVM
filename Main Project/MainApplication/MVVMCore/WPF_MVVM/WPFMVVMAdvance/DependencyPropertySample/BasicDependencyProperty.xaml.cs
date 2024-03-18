@@ -59,7 +59,7 @@ namespace MVVMCore.DependencyPropertySample
         #endregion
 
         #region Syntax of Custom Dependency Property
-        public int MyCustomProperty   // CLR Property
+        public int MyCustomProperty   // CLR Property - Wrapper
         {
             get { return (int)GetValue(CustomDependencyProperty); }
             set { SetValue(CustomDependencyProperty, value); }

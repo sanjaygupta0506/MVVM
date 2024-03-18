@@ -315,8 +315,12 @@ D:\Personal\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\WPFMVV
 D:\Personal\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\WPFMVVMBasic\Layouts\Layout_WrapPanel.baml
 D:\Personal\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\WPFMVVMAdvance\DependencyPropertySample\CustomDependencyProperty.g.cs
 D:\Personal\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\WPFMVVMAdvance\DependencyPropertySample\CustomDependencyProperty.baml
-D:\Personal\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\WPFMVVMAdvance\DependencyPropertySample\MyCustomControl.g.cs
-D:\Personal\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\WPFMVVMAdvance\DependencyPropertySample\MyCustomControl.baml
 D:\Personal\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\App.baml
 D:\Personal\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\WPFMVVMAdvance\DependencyPropertySample\BasicDependencyProperty.g.cs
 D:\Personal\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\WPFMVVMAdvance\DependencyPropertySample\BasicDependencyProperty.baml
+D:\Personal\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\WPFMVVMBasic\UserControlsExample\UserControlsExample.g.cs
+D:\Personal\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\WPFMVVMBasic\UserControlsExample\MyUserControl.g.cs
+D:\Personal\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\WPFMVVMBasic\UserControlsExample\UserControlsExample.baml
+D:\Personal\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\WPFMVVMBasic\UserControlsExample\MyUserControl.baml
+D:\Personal\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\WPFMVVMBasic\RoutedEvents\RoutedEventsExample.g.cs
+D:\Personal\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\WPFMVVMBasic\RoutedEvents\RoutedEventsExample.baml

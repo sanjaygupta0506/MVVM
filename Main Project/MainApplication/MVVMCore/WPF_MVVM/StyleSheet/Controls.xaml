@@ -93,14 +93,7 @@
         <Setter Property="Background" Value="Green"/>
     </Style>
 
-    <Style x:Key="ButtonStyleDefault" TargetType="Button">
-        <Setter Property="Background" Value="Teal"/>
-        <Setter Property="Foreground" Value="White"/>
-        <Setter Property="FontSize" Value="20"/>
-        <Setter Property="Height" Value="40"/>
-        <Setter Property="Width" Value="200"/>
-    </Style>
-
+   
     
 
 

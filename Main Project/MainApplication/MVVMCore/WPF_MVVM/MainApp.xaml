@@ -65,9 +65,7 @@
                         <Separator />
                     </MenuItem>
 
-                    <!--Data Context-->
-                    <MenuItem Name="DataContext" Header="Data Context" Click="DataContext_Click" />
-                    <Separator />
+                    
 
                     <!--Triggers-->
                     <MenuItem Name="Triggers" Header="Triggers">
@@ -103,26 +101,6 @@
                     </MenuItem>
                     <Separator />
 
-                    <!--Value Convertors-->
-                    <MenuItem Name="ValueConvertors" Header="Value Convertors" Click="ValueConvertors_Click"/>
-                    <Separator />
-
-                    <!--INotifyPropertyChanged-->
-                    <MenuItem Name="INotifyPropertyChanged" Header="INotifyPropertyChanged" Click="INotifyPropertyChanged_Click"/>
-                    <Separator />
-
-                    <!--Commands-->
-                    <MenuItem Name="Commands" Header="Command">
-                        <MenuItem Header="Command Only" Name="Command" Click="Command_Click"/>
-                        <Separator />
-                        <MenuItem Header="ICommand" Name="ICommand" Click="ICommand_Click"/>
-                    </MenuItem>
-                    <Separator />
-
-                    <!--Routed Events-->
-                    <MenuItem Name="RoutedEvents" Header="Routed Events" Click="RoutedEvents_Click"/>
-                    <Separator />
-
                     <!--Layout-->
                     <MenuItem Name="Layout" Header="Layout">
                         <MenuItem Name="LayoutGrid" Header="Layout Grid" Click="LayoutGrid_Click" />
@@ -135,6 +113,34 @@
                         <Separator />
                         <MenuItem Name="LayoutWrapPanel" Header="Layout WrapPanel" Click="LayoutWrapPanel_Click" />
                     </MenuItem>
+
+                    <!--Commands-->
+                    <MenuItem Name="Commands" Header="Command">
+                        <MenuItem Header="Command Only" Name="Command" Click="Command_Click"/>
+                        <Separator />
+                        <MenuItem Header="ICommand" Name="ICommand" Click="ICommand_Click"/>
+                    </MenuItem>
+                    <Separator />
+
+                    
+                    <!--Value Convertors-->
+                    <MenuItem Name="ValueConvertors" Header="Value Convertors" Click="ValueConvertors_Click"/>
+                    <Separator />
+
+                    <!--INotifyPropertyChanged-->
+                    <MenuItem Name="INotifyPropertyChanged" Header="INotifyPropertyChanged" Click="INotifyPropertyChanged_Click"/>
+                    <Separator />
+
+                   
+
+                    <!--Routed Events-->
+                    <MenuItem Name="RoutedEvents" Header="Routed Events" Click="RoutedEvents_Click"/>
+                    <Separator />
+
+                    <!--Data Context-->
+                    <MenuItem Name="DataContext" Header="Data Context" Click="DataContext_Click" />
+                    <Separator />
+
 
                     <MenuItem Name="SampleMVVM" Header="MVVM Sample" Click="SampleMVVM_Click"/>
                     <Separator />

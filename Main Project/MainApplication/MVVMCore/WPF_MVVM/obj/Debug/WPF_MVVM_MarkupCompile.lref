@@ -9,7 +9,6 @@ FD:\Personal\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\SOLID Princlipl
 FD:\Personal\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\WPF Basics\XamlExample.xaml;;
 FD:\Personal\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\WPFMVVMAdvance\AttachedPropertySample\AttachedPropertyExample.xaml;;
 FD:\Personal\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\WPFMVVMAdvance\DependencyPropertySample\CustomDependencyProperty.xaml;;
-FD:\Personal\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\WPFMVVMAdvance\DependencyPropertySample\MyCustomControl.xaml;;
 FD:\Personal\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\WPFMVVMAdvance\Localization\LocalizationSample.xaml;;
 FD:\Personal\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\WPFMVVMBasic\Commands\Views\CommandsExample.xaml;;
 FD:\Personal\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\WPFMVVMBasic\Commands\Views\ICommandExample.xaml;;
@@ -39,6 +38,7 @@ FD:\Personal\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\WPFMVVMBasic\Re
 FD:\Personal\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\WPFMVVMBasic\Resources\DynamicResourceExample.xaml;;
 FD:\Personal\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\WPFMVVMBasic\Resources\RelativeSource_TemplatedParent.xaml;;
 FD:\Personal\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\WPFMVVMBasic\Resources\StaticResourceExample.xaml;;
+FD:\Personal\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\WPFMVVMBasic\RoutedEvents\RoutedEventsExample.xaml;;
 FD:\Personal\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\WPFMVVMBasic\Styles\StyleInheritanceExample.xaml;;
 FD:\Personal\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\WPFMVVMBasic\Styles\StylesExample.xaml;;
 FD:\Personal\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\WPFMVVMBasic\Templates\Template_HierarchialData.xaml;;
@@ -51,6 +51,8 @@ FD:\Personal\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\WPFMVVMBasic\Tr
 FD:\Personal\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\WPFMVVMBasic\Triggers\Trigger_MultiTrigger.xaml;;
 FD:\Personal\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\WPFMVVMBasic\Triggers\Trigger_Property.xaml;;
 FD:\Personal\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\WPFMVVMBasic\Triggers\Trigger_Main.xaml;;
+FD:\Personal\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\WPFMVVMBasic\UserControlsExample\MyUserControl.xaml;;
+FD:\Personal\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\WPFMVVMBasic\UserControlsExample\UserControlsExample.xaml;;
 FD:\Personal\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\WPFMVVMBasic\ValueConvertorsExample\ValueConvertorsExample.xaml;;
 FD:\Personal\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\WPFMVVMBasic\Window1.xaml;;
 FD:\Personal\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\WPFMVVMBasic\wpf-tutorial.com\WPFDemo.xaml;;

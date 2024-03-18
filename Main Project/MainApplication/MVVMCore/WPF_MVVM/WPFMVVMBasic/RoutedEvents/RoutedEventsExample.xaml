@@ -1,0 +1,43 @@
+﻿<Window  xmlns:ui="clr-namespace:Keysight.Ccl.Wsl.UI;assembly=Keysight.Ccl.Wsl" x:Class="MainApplication.WPF_MVVM.WPFMVVMBasic.RoutedEvents.RoutedEventsExample"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MainApplication.WPF_MVVM.WPFMVVMBasic.RoutedEvents"
+        mc:Ignorable="d"
+        Title="RoutedEventsExample" Height="500" Width="800" MinWidth="700"   Left="8" Top="62">
+    <Grid>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="200" />
+            <RowDefinition Height="200"/>
+
+        </Grid.RowDefinitions>
+        
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition />
+            <ColumnDefinition Width="0"/>
+            
+        </Grid.ColumnDefinitions>
+
+        <Button Grid.Column="0" Grid.Row="0" Height="75" Name="btnClick" Click="btnClick_Click">
+           
+
+                <Grid Height="100" Width="300">
+                    <Button Content="Inner Button N" Name="InnerButtonN" Height="100" Width="300" Click="InnerButtonN_Click" ></Button>
+                </Grid>
+           
+        </Button>
+        
+        <!--<Button Grid.Column="0" Grid.Row="1" Height="75" Name="btnClickMe" Click="btnClickMe_Click" PreviewMouseDown="btnClickMe_PreviewMouseDown">
+            <StackPanel Orientation="Horizontal">
+                <Label Height="50" FontSize="20" Margin="0,0,50,0">label Display</Label>
+                <Canvas Height="50" Width="200" PreviewMouseMove="Canvas_PreviewMouseMove">
+                    <Ellipse x:Name="overEllipse" Fill="Green" Height="50" Width="90" Cursor="Hand" Canvas.Right="120" MouseMove="overEllipse_MouseMove" ></Ellipse>
+                    <Button Content="Inner Button" Name="InnerButton" Height="30" Width="100" Cursor="Hand" Canvas.Right="400" Click="InnerButton_Click" PreviewMouseDown="InnerButton_PreviewMouseDown"></Button>
+                    <Ellipse x:Name="innerEllipse" Fill="Yellow" Height="51" Width="82" Canvas.Right="20"></Ellipse>
+                </Canvas>
+            </StackPanel>
+        </Button>-->
+    </Grid>
+</Window>

@@ -63,6 +63,12 @@ namespace MVVMCore.Templates.DataTemplates
     public class Person
     {
         public string Name { get; set; }
+
+        //public override string ToString()  - Option 1
+        //{
+        //    return "" +  Name;
+        //}
+
     }
 
     public class Book
