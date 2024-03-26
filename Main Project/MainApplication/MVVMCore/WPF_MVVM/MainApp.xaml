@@ -166,6 +166,11 @@
                     <MenuItem Name="x_Localization" Header="Localization - Langauge Change" Click="x_Localization_Click">
                         
                     </MenuItem>
+
+                    <MenuItem Name="x_Virtualization" Header="Virtualization" Click="x_Virtualization_Click">
+
+                    </MenuItem>
+
                     <Separator />
                 </MenuItem>
 

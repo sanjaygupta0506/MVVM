@@ -1,0 +1,59 @@
+D:\Personal\WPF + MVVM\Main Project\MainApplication\1FirstNameLastNameinCombo\bin\Debug\ObservableCollectionExample.exe.config
+D:\Personal\WPF + MVVM\Main Project\MainApplication\1FirstNameLastNameinCombo\bin\Debug\ObservableCollectionExample.exe
+D:\Personal\WPF + MVVM\Main Project\MainApplication\1FirstNameLastNameinCombo\bin\Debug\ObservableCollectionExample.pdb
+D:\Personal\WPF + MVVM\Main Project\MainApplication\1FirstNameLastNameinCombo\obj\Debug\FirstNameLastNameinCombo.csproj.AssemblyReference.cache
+D:\Personal\WPF + MVVM\Main Project\MainApplication\1FirstNameLastNameinCombo\obj\Debug\MainWindow.g.cs
+D:\Personal\WPF + MVVM\Main Project\MainApplication\1FirstNameLastNameinCombo\obj\Debug\App.g.cs
+D:\Personal\WPF + MVVM\Main Project\MainApplication\1FirstNameLastNameinCombo\obj\Debug\ObservableCollectionExample_MarkupCompile.cache
+D:\Personal\WPF + MVVM\Main Project\MainApplication\1FirstNameLastNameinCombo\obj\Debug\ObservableCollectionExample_MarkupCompile.lref
+D:\Personal\WPF + MVVM\Main Project\MainApplication\1FirstNameLastNameinCombo\obj\Debug\MainWindow.baml
+D:\Personal\WPF + MVVM\Main Project\MainApplication\1FirstNameLastNameinCombo\obj\Debug\ObservableCollectionExample.g.resources
+D:\Personal\WPF + MVVM\Main Project\MainApplication\1FirstNameLastNameinCombo\obj\Debug\ObservableCollectionExample.Properties.Resources.resources
+D:\Personal\WPF + MVVM\Main Project\MainApplication\1FirstNameLastNameinCombo\obj\Debug\FirstNameLastNameinCombo.csproj.GenerateResource.cache
+D:\Personal\WPF + MVVM\Main Project\MainApplication\1FirstNameLastNameinCombo\obj\Debug\FirstNameLastNameinCombo.csproj.CoreCompileInputs.cache
+D:\Personal\WPF + MVVM\Main Project\MainApplication\1FirstNameLastNameinCombo\obj\Debug\ObservableCollectionExample.exe
+D:\Personal\WPF + MVVM\Main Project\MainApplication\1FirstNameLastNameinCombo\obj\Debug\ObservableCollectionExample.pdb
+D:\Personal\MVVM\Main Project\MainApplication\1FirstNameLastNameinCombo\bin\Debug\ObservableCollectionExample.exe.config
+D:\Personal\MVVM\Main Project\MainApplication\1FirstNameLastNameinCombo\bin\Debug\ObservableCollectionExample.exe
+D:\Personal\MVVM\Main Project\MainApplication\1FirstNameLastNameinCombo\bin\Debug\ObservableCollectionExample.pdb
+D:\Personal\MVVM\Main Project\MainApplication\1FirstNameLastNameinCombo\obj\Debug\MainWindow.g.cs
+D:\Personal\MVVM\Main Project\MainApplication\1FirstNameLastNameinCombo\obj\Debug\App.g.cs
+D:\Personal\MVVM\Main Project\MainApplication\1FirstNameLastNameinCombo\obj\Debug\ObservableCollectionExample_MarkupCompile.cache
+D:\Personal\MVVM\Main Project\MainApplication\1FirstNameLastNameinCombo\obj\Debug\ObservableCollectionExample_MarkupCompile.lref
+D:\Personal\MVVM\Main Project\MainApplication\1FirstNameLastNameinCombo\obj\Debug\MainWindow.baml
+D:\Personal\MVVM\Main Project\MainApplication\1FirstNameLastNameinCombo\obj\Debug\ObservableCollectionExample.g.resources
+D:\Personal\MVVM\Main Project\MainApplication\1FirstNameLastNameinCombo\obj\Debug\ObservableCollectionExample.Properties.Resources.resources
+D:\Personal\MVVM\Main Project\MainApplication\1FirstNameLastNameinCombo\obj\Debug\FirstNameLastNameinCombo.csproj.GenerateResource.cache
+D:\Personal\MVVM\Main Project\MainApplication\1FirstNameLastNameinCombo\obj\Debug\FirstNameLastNameinCombo.csproj.CoreCompileInputs.cache
+D:\Personal\MVVM\Main Project\MainApplication\1FirstNameLastNameinCombo\obj\Debug\ObservableCollectionExample.exe
+D:\Personal\MVVM\Main Project\MainApplication\1FirstNameLastNameinCombo\obj\Debug\ObservableCollectionExample.pdb
+D:\Personal\MVVM\Main Project\MainApplication\MVVM\1FirstNameLastNameinCombo\bin\Debug\ObservableCollectionExample.exe.config
+D:\Personal\MVVM\Main Project\MainApplication\MVVM\1FirstNameLastNameinCombo\bin\Debug\ObservableCollectionExample.exe
+D:\Personal\MVVM\Main Project\MainApplication\MVVM\1FirstNameLastNameinCombo\bin\Debug\ObservableCollectionExample.pdb
+D:\Personal\MVVM\Main Project\MainApplication\MVVM\1FirstNameLastNameinCombo\obj\Debug\FirstNameLastNameinCombo.csproj.AssemblyReference.cache
+D:\Personal\MVVM\Main Project\MainApplication\MVVM\1FirstNameLastNameinCombo\obj\Debug\MainWindow.g.cs
+D:\Personal\MVVM\Main Project\MainApplication\MVVM\1FirstNameLastNameinCombo\obj\Debug\App.g.cs
+D:\Personal\MVVM\Main Project\MainApplication\MVVM\1FirstNameLastNameinCombo\obj\Debug\ObservableCollectionExample_MarkupCompile.cache
+D:\Personal\MVVM\Main Project\MainApplication\MVVM\1FirstNameLastNameinCombo\obj\Debug\ObservableCollectionExample_MarkupCompile.lref
+D:\Personal\MVVM\Main Project\MainApplication\MVVM\1FirstNameLastNameinCombo\obj\Debug\MainWindow.baml
+D:\Personal\MVVM\Main Project\MainApplication\MVVM\1FirstNameLastNameinCombo\obj\Debug\ObservableCollectionExample.g.resources
+D:\Personal\MVVM\Main Project\MainApplication\MVVM\1FirstNameLastNameinCombo\obj\Debug\ObservableCollectionExample.Properties.Resources.resources
+D:\Personal\MVVM\Main Project\MainApplication\MVVM\1FirstNameLastNameinCombo\obj\Debug\FirstNameLastNameinCombo.csproj.GenerateResource.cache
+D:\Personal\MVVM\Main Project\MainApplication\MVVM\1FirstNameLastNameinCombo\obj\Debug\FirstNameLastNameinCombo.csproj.CoreCompileInputs.cache
+D:\Personal\MVVM\Main Project\MainApplication\MVVM\1FirstNameLastNameinCombo\obj\Debug\ObservableCollectionExample.exe
+D:\Personal\MVVM\Main Project\MainApplication\MVVM\1FirstNameLastNameinCombo\obj\Debug\ObservableCollectionExample.pdb
+D:\Personal\MVVM\Main Project\MainApplication\Assignment\MVVM\1FirstNameLastNameinCombo\bin\Debug\ObservableCollectionExample.exe.config
+D:\Personal\MVVM\Main Project\MainApplication\Assignment\MVVM\1FirstNameLastNameinCombo\bin\Debug\ObservableCollectionExample.exe
+D:\Personal\MVVM\Main Project\MainApplication\Assignment\MVVM\1FirstNameLastNameinCombo\bin\Debug\ObservableCollectionExample.pdb
+D:\Personal\MVVM\Main Project\MainApplication\Assignment\MVVM\1FirstNameLastNameinCombo\obj\Debug\FirstNameLastNameinCombo.csproj.AssemblyReference.cache
+D:\Personal\MVVM\Main Project\MainApplication\Assignment\MVVM\1FirstNameLastNameinCombo\obj\Debug\MainWindow.g.cs
+D:\Personal\MVVM\Main Project\MainApplication\Assignment\MVVM\1FirstNameLastNameinCombo\obj\Debug\App.g.cs
+D:\Personal\MVVM\Main Project\MainApplication\Assignment\MVVM\1FirstNameLastNameinCombo\obj\Debug\ObservableCollectionExample_MarkupCompile.cache
+D:\Personal\MVVM\Main Project\MainApplication\Assignment\MVVM\1FirstNameLastNameinCombo\obj\Debug\ObservableCollectionExample_MarkupCompile.lref
+D:\Personal\MVVM\Main Project\MainApplication\Assignment\MVVM\1FirstNameLastNameinCombo\obj\Debug\MainWindow.baml
+D:\Personal\MVVM\Main Project\MainApplication\Assignment\MVVM\1FirstNameLastNameinCombo\obj\Debug\ObservableCollectionExample.g.resources
+D:\Personal\MVVM\Main Project\MainApplication\Assignment\MVVM\1FirstNameLastNameinCombo\obj\Debug\ObservableCollectionExample.Properties.Resources.resources
+D:\Personal\MVVM\Main Project\MainApplication\Assignment\MVVM\1FirstNameLastNameinCombo\obj\Debug\FirstNameLastNameinCombo.csproj.GenerateResource.cache
+D:\Personal\MVVM\Main Project\MainApplication\Assignment\MVVM\1FirstNameLastNameinCombo\obj\Debug\FirstNameLastNameinCombo.csproj.CoreCompileInputs.cache
+D:\Personal\MVVM\Main Project\MainApplication\Assignment\MVVM\1FirstNameLastNameinCombo\obj\Debug\ObservableCollectionExample.exe
+D:\Personal\MVVM\Main Project\MainApplication\Assignment\MVVM\1FirstNameLastNameinCombo\obj\Debug\ObservableCollectionExample.pdb

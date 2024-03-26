@@ -49,6 +49,8 @@ using MainApplication.WPF_MVVM.WPFMVVMBasic.Templates;
 using MainApplication.WPF_MVVM.WPFMVVMAdvance.Localization;
 using MainApplication.WPF_MVVM.WPFMVVMAdvance.DependencyPropertySample;
 using MainApplication.WPF_MVVM.WPFMVVMBasic.RoutedEvents;
+using MainApplication.WPF_MVVM.WPFMVVMAdvance.Virtualization;
+using MainApplication.WPF_MVVM.WPFMVVMAdvance;
 
 namespace MVVMCore
 {
@@ -380,8 +382,13 @@ namespace MVVMCore
         }
         private void x_LogicalvsVisualTree_Click(object sender, RoutedEventArgs e)
         {
-
+            LogicalVsVisualTree logicalVsVisualTree = new LogicalVsVisualTree();
+            logicalVsVisualTree.ShowInTaskbar = false;
+            logicalVsVisualTree.Owner = Application.Current.MainWindow;
+            logicalVsVisualTree.Show();
         }
+
+
         #endregion
 
         #region Multi-Threading
@@ -504,6 +511,14 @@ namespace MVVMCore
             layout_WrapPanel.ShowInTaskbar = false;
             layout_WrapPanel.Owner = Application.Current.MainWindow;
             layout_WrapPanel.Show();
+        }
+
+        private void x_Virtualization_Click(object sender, RoutedEventArgs e)
+        {
+            VirtualizationExample virtualizationExample = new VirtualizationExample();
+            virtualizationExample.ShowInTaskbar = false;
+            virtualizationExample.Owner = Application.Current.MainWindow;
+            virtualizationExample.Show();
         }
     }
 }

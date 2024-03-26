@@ -20,7 +20,7 @@ namespace MVVMCore.Commands
     /// <summary>
     /// Interaction logic for CommandsExample.xaml
     /// </summary>
-    public partial class CommandsExample : Window
+    public partial class CommandsExample : WslDialog
     {
         public CommandsExample()
         {
@@ -38,6 +38,11 @@ namespace MVVMCore.Commands
         private void pnlMainGrid_MouseUp(object sender, MouseButtonEventArgs e)
         {
             MessageBox.Show("You clicked me at " + e.GetPosition(this).ToString());
+        }
+
+        private void x_commandButton1_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("This is Normal Code behind button");
         }
     }
 }

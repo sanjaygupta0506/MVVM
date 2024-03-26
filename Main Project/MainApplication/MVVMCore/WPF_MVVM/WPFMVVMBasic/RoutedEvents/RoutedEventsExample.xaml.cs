@@ -18,56 +18,53 @@ namespace MainApplication.WPF_MVVM.WPFMVVMBasic.RoutedEvents
     /// <summary>
     /// Interaction logic for RoutedEventsExample.xaml
     /// </summary>
-    public partial class RoutedEventsExample : Window
+    public partial class RoutedEventsExample : WslDialog
     {
         public RoutedEventsExample()
         {
             InitializeComponent();
         }
 
-        private void btnClickMe_Click(object sender, RoutedEventArgs e)
-        {
-           // MessageBox.Show("I am outer button");
-        }
+      
 
-        private void overEllipse_MouseMove(object sender, MouseEventArgs e)
+        private void StackPanel_Click(object sender, MouseButtonEventArgs e)
         {
-            MessageBox.Show("I am green ellipse");
-        }
-
-        private void InnerButton_Click(object sender, RoutedEventArgs e)
-        {
+            txt2.Text = "Only the Click event is bubbled to Stack Panel";
             e.Handled = true;
-            MessageBox.Show("I am inner button");
-            e.Handled = true;
-        }
-
-        private void btnClickMe_PreviewMouseDown(object sender, MouseButtonEventArgs e)
-        {
-            //MessageBox.Show("I am outer button for tunneling event");
         }
 
        
 
-        private void Canvas_PreviewMouseMove(object sender, MouseEventArgs e)
+        private void Window_Click(object sender, MouseButtonEventArgs e)
         {
-
+            txt3.Text = "Only the Click event is bubbled to Window";
         }
 
-        private void InnerButton_PreviewMouseDown(object sender, MouseButtonEventArgs e)
+        private void MyCustomControl_MouseWheel(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("I am inner button for tunneling event");
+            txt1.Text = "Wheel rotated! It is the custom routed event of your custom control";
         }
 
-        private void InnerButtonN_Click(object sender, RoutedEventArgs e)
+        private void MyCustomControl_MouseClick(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("I am inner button");
+            txt1.Text = "Clicked! It is the custom routed event of your custom control";
+        }
+
+        private void btnClickMe_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("I am the outer button");
+        }
+
+        private void outerEllipse_MouseDown(object sender, MouseButtonEventArgs e)
+        {
+            MessageBox.Show("I am the green ellipse");
             e.Handled = true;
         }
 
-        private void btnClick_Click(object sender, RoutedEventArgs e)
+        private void InnerButton_Click(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("I am Outer N button");
+            MessageBox.Show("I am the inner button");
+            e.Handled = true;
         }
     }
 }

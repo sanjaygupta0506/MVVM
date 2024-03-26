@@ -149,6 +149,8 @@
     </Compile>
     <Compile Include="EnumClass.cs" />
     <Compile Include="Models\ArithmeticConverter.cs" />
+    <Compile Include="Models\CommandModel.cs" />
+    <Compile Include="Models\CommandViewModel.cs" />
     <Compile Include="Models\LinkedListExtensions.cs" />
     <Compile Include="Models\MathExtensions.cs" />
     <Compile Include="Models\RelativeSource_SelfModel.cs" />
@@ -186,6 +188,12 @@
     </Compile>
     <Compile Include="WPFMVVMAdvance\Localization\LocalizationSample.xaml.cs">
       <DependentUpon>LocalizationSample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="WPFMVVMAdvance\LogicalVsVisualTree\LogicalVsVisualTree.xaml.cs">
+      <DependentUpon>LogicalVsVisualTree.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="WPFMVVMAdvance\Virtualization\VirtualizationExample.xaml.cs">
+      <DependentUpon>VirtualizationExample.xaml</DependentUpon>
     </Compile>
     <Compile Include="WPFMVVMBasic\Commands\Enum\PageId.cs" />
     <Compile Include="WPFMVVMBasic\Commands\ViewModels\ICommandViewModels.cs" />
@@ -275,6 +283,7 @@
     <Compile Include="WPFMVVMBasic\Resources\StaticResourceExample.xaml.cs">
       <DependentUpon>StaticResourceExample.xaml</DependentUpon>
     </Compile>
+    <Compile Include="WPFMVVMBasic\RoutedEvents\MyCustomControl.cs" />
     <Compile Include="WPFMVVMBasic\RoutedEvents\RoutedEventsExample.xaml.cs">
       <DependentUpon>RoutedEventsExample.xaml</DependentUpon>
     </Compile>
@@ -398,6 +407,14 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="WPFMVVMAdvance\Localization\LocalizationSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="WPFMVVMAdvance\LogicalVsVisualTree\LogicalVsVisualTree.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="WPFMVVMAdvance\Virtualization\VirtualizationExample.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

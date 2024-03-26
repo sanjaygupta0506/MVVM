@@ -12,7 +12,7 @@
             <RowDefinition Height="30"/>
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
-        <TextBox Grid.Row="0" Grid.Column="0" x:Name="txtName" Foreground="Black"></TextBox>
-        <TextBox Grid.Row="1" Grid.Column="0" x:Name="txtName1" Foreground="Black"></TextBox>
+        <TextBox Grid.Row="0" Grid.Column="0" x:Name="txtName"></TextBox>
+        <TextBox Grid.Row="1" Grid.Column="0" x:Name="txtName1"></TextBox>
     </Grid>
 </ui:WslDialog>

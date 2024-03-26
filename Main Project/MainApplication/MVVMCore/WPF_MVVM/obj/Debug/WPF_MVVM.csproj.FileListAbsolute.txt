@@ -324,3 +324,7 @@ D:\Personal\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\WPFMVV
 D:\Personal\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\WPFMVVMBasic\UserControlsExample\MyUserControl.baml
 D:\Personal\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\WPFMVVMBasic\RoutedEvents\RoutedEventsExample.g.cs
 D:\Personal\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\WPFMVVMBasic\RoutedEvents\RoutedEventsExample.baml
+D:\Personal\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\WPFMVVMAdvance\Virtualization\VirtualizationExample.g.cs
+D:\Personal\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\WPFMVVMAdvance\Virtualization\VirtualizationExample.baml
+D:\Personal\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\WPFMVVMAdvance\LogicalVsVisualTree\LogicalVsVisualTree.g.cs
+D:\Personal\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\WPFMVVMAdvance\LogicalVsVisualTree\LogicalVsVisualTree.baml
