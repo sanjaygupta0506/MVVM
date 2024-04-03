@@ -70,4 +70,3 @@ F:\Final LFT Data\MVVM\Main Project\MainApplication\Assignment\MVVM\5TreeViewCol
 F:\Final LFT Data\MVVM\Main Project\MainApplication\Assignment\MVVM\5TreeViewColorChangeOnRadio\obj\Debug\TreeViewColorChangeOnRadio.csproj.CoreCompileInputs.cache
 F:\Final LFT Data\MVVM\Main Project\MainApplication\Assignment\MVVM\5TreeViewColorChangeOnRadio\obj\Debug\5TreeViewColorChangeOnRadio.exe
 F:\Final LFT Data\MVVM\Main Project\MainApplication\Assignment\MVVM\5TreeViewColorChangeOnRadio\obj\Debug\5TreeViewColorChangeOnRadio.pdb
-F:\Final LFT Data\MVVM\Main Project\MainApplication\Assignment\MVVM\5TreeViewColorChangeOnRadio\obj\Debug\TreeViewColorChangeOnRadio.csproj.AssemblyReference.cache

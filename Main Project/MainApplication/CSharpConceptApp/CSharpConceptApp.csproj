@@ -49,6 +49,7 @@
     <Compile Include="6. JaggedDemo.cs" />
     <Compile Include="7. JaggedArraywithData.cs" />
     <Compile Include="8. ArrayListDemo.cs" />
+    <Compile Include="Delegates\SingleCastDDelegates.cs" />
     <Compile Include="Dictionary\DictonaryDemo1.cs" />
     <Compile Include="Dictionary\DictonaryDemo2.cs" />
     <Compile Include="Dictionary\DictonaryDemo3.cs" />
