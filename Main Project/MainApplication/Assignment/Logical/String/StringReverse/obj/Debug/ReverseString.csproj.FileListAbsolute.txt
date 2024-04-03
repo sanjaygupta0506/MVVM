@@ -25,3 +25,9 @@ D:\Personal\MVVM\Main Project\MainApplication\Assignment\Logical\String\StringRe
 D:\Personal\MVVM\Main Project\MainApplication\Assignment\Logical\String\StringReverse\obj\Debug\ReverseString.csproj.CoreCompileInputs.cache
 D:\Personal\MVVM\Main Project\MainApplication\Assignment\Logical\String\StringReverse\obj\Debug\10ReverseString.exe
 D:\Personal\MVVM\Main Project\MainApplication\Assignment\Logical\String\StringReverse\obj\Debug\10ReverseString.pdb
+F:\Final LFT Data\MVVM\Main Project\MainApplication\Assignment\Logical\String\StringReverse\bin\Debug\10ReverseString.exe.config
+F:\Final LFT Data\MVVM\Main Project\MainApplication\Assignment\Logical\String\StringReverse\bin\Debug\10ReverseString.exe
+F:\Final LFT Data\MVVM\Main Project\MainApplication\Assignment\Logical\String\StringReverse\bin\Debug\10ReverseString.pdb
+F:\Final LFT Data\MVVM\Main Project\MainApplication\Assignment\Logical\String\StringReverse\obj\Debug\ReverseString.csproj.CoreCompileInputs.cache
+F:\Final LFT Data\MVVM\Main Project\MainApplication\Assignment\Logical\String\StringReverse\obj\Debug\10ReverseString.exe
+F:\Final LFT Data\MVVM\Main Project\MainApplication\Assignment\Logical\String\StringReverse\obj\Debug\10ReverseString.pdb

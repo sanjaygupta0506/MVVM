@@ -25,3 +25,10 @@ D:\Personal\MVVM\Main Project\MainApplication\Assignment\Logical\String\StringPa
 D:\Personal\MVVM\Main Project\MainApplication\Assignment\Logical\String\StringPalindrome\obj\Debug\Palindrome.csproj.CoreCompileInputs.cache
 D:\Personal\MVVM\Main Project\MainApplication\Assignment\Logical\String\StringPalindrome\obj\Debug\ConsoleApplication9.exe
 D:\Personal\MVVM\Main Project\MainApplication\Assignment\Logical\String\StringPalindrome\obj\Debug\ConsoleApplication9.pdb
+F:\Final LFT Data\MVVM\Main Project\MainApplication\Assignment\Logical\String\StringPalindrome\bin\Debug\ConsoleApplication9.exe.config
+F:\Final LFT Data\MVVM\Main Project\MainApplication\Assignment\Logical\String\StringPalindrome\bin\Debug\ConsoleApplication9.exe
+F:\Final LFT Data\MVVM\Main Project\MainApplication\Assignment\Logical\String\StringPalindrome\bin\Debug\ConsoleApplication9.pdb
+F:\Final LFT Data\MVVM\Main Project\MainApplication\Assignment\Logical\String\StringPalindrome\obj\Debug\Palindrome.csproj.AssemblyReference.cache
+F:\Final LFT Data\MVVM\Main Project\MainApplication\Assignment\Logical\String\StringPalindrome\obj\Debug\Palindrome.csproj.CoreCompileInputs.cache
+F:\Final LFT Data\MVVM\Main Project\MainApplication\Assignment\Logical\String\StringPalindrome\obj\Debug\ConsoleApplication9.exe
+F:\Final LFT Data\MVVM\Main Project\MainApplication\Assignment\Logical\String\StringPalindrome\obj\Debug\ConsoleApplication9.pdb

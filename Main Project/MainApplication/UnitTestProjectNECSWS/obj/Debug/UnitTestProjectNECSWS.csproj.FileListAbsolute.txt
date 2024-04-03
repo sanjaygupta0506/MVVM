@@ -364,3 +364,5 @@ D:\Personal\MVVM\Main Project\MainApplication\UnitTestProjectNECSWS\obj\Debug\Un
 D:\Personal\MVVM\Main Project\MainApplication\UnitTestProjectNECSWS\obj\Debug\UnitTestProjectNECSWS.csproj.CopyComplete
 D:\Personal\MVVM\Main Project\MainApplication\UnitTestProjectNECSWS\obj\Debug\UnitTestProjectNECSWS.dll
 D:\Personal\MVVM\Main Project\MainApplication\UnitTestProjectNECSWS\obj\Debug\UnitTestProjectNECSWS.pdb
+F:\Final LFT Data\MVVM\Main Project\MainApplication\UnitTestProjectNECSWS\obj\Debug\UnitTestProjectNECSWS.dll
+F:\Final LFT Data\MVVM\Main Project\MainApplication\UnitTestProjectNECSWS\obj\Debug\UnitTestProjectNECSWS.pdb

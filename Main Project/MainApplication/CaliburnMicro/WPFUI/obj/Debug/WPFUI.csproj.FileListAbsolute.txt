@@ -34,3 +34,39 @@ D:\Personal\MVVM\Main Project\MainApplication\CaliburnMicro\WPFUI\obj\Debug\WPFU
 D:\Personal\MVVM\Main Project\MainApplication\CaliburnMicro\WPFUI\obj\Debug\WPFUI.exe
 D:\Personal\MVVM\Main Project\MainApplication\CaliburnMicro\WPFUI\obj\Debug\WPFUI.pdb
 D:\Personal\MVVM\Main Project\MainApplication\CaliburnMicro\WPFUI\obj\Debug\WPFUI.csproj.AssemblyReference.cache
+F:\Final LFT Data\MVVM\Main Project\MainApplication\CaliburnMicro\WPFUI\bin\Debug\WPFUI.exe.config
+F:\Final LFT Data\MVVM\Main Project\MainApplication\CaliburnMicro\WPFUI\bin\Debug\WPFUI.exe
+F:\Final LFT Data\MVVM\Main Project\MainApplication\CaliburnMicro\WPFUI\bin\Debug\WPFUI.pdb
+F:\Final LFT Data\MVVM\Main Project\MainApplication\CaliburnMicro\WPFUI\bin\Debug\Caliburn.Micro.Core.dll
+F:\Final LFT Data\MVVM\Main Project\MainApplication\CaliburnMicro\WPFUI\bin\Debug\Caliburn.Micro.Platform.Core.dll
+F:\Final LFT Data\MVVM\Main Project\MainApplication\CaliburnMicro\WPFUI\bin\Debug\Caliburn.Micro.Platform.dll
+F:\Final LFT Data\MVVM\Main Project\MainApplication\CaliburnMicro\WPFUI\bin\Debug\Microsoft.Xaml.Behaviors.dll
+F:\Final LFT Data\MVVM\Main Project\MainApplication\CaliburnMicro\WPFUI\bin\Debug\Caliburn.Micro.Core.pdb
+F:\Final LFT Data\MVVM\Main Project\MainApplication\CaliburnMicro\WPFUI\bin\Debug\Caliburn.Micro.Core.xml
+F:\Final LFT Data\MVVM\Main Project\MainApplication\CaliburnMicro\WPFUI\bin\Debug\Caliburn.Micro.Platform.pdb
+F:\Final LFT Data\MVVM\Main Project\MainApplication\CaliburnMicro\WPFUI\bin\Debug\Caliburn.Micro.Platform.xml
+F:\Final LFT Data\MVVM\Main Project\MainApplication\CaliburnMicro\WPFUI\bin\Debug\Caliburn.Micro.Platform.Core.pdb
+F:\Final LFT Data\MVVM\Main Project\MainApplication\CaliburnMicro\WPFUI\bin\Debug\Caliburn.Micro.Platform.Core.xml
+F:\Final LFT Data\MVVM\Main Project\MainApplication\CaliburnMicro\WPFUI\bin\Debug\Microsoft.Xaml.Behaviors.pdb
+F:\Final LFT Data\MVVM\Main Project\MainApplication\CaliburnMicro\WPFUI\bin\Debug\Microsoft.Xaml.Behaviors.xml
+F:\Final LFT Data\MVVM\Main Project\MainApplication\CaliburnMicro\WPFUI\obj\Debug\WPFUI.csproj.AssemblyReference.cache
+F:\Final LFT Data\MVVM\Main Project\MainApplication\CaliburnMicro\WPFUI\obj\Debug\MainWindow.g.cs
+F:\Final LFT Data\MVVM\Main Project\MainApplication\CaliburnMicro\WPFUI\obj\Debug\Views\FirstChildView.g.cs
+F:\Final LFT Data\MVVM\Main Project\MainApplication\CaliburnMicro\WPFUI\obj\Debug\Views\SecondChildView.g.cs
+F:\Final LFT Data\MVVM\Main Project\MainApplication\CaliburnMicro\WPFUI\obj\Debug\Views\ShellView.g.cs
+F:\Final LFT Data\MVVM\Main Project\MainApplication\CaliburnMicro\WPFUI\obj\Debug\App.g.cs
+F:\Final LFT Data\MVVM\Main Project\MainApplication\CaliburnMicro\WPFUI\obj\Debug\GeneratedInternalTypeHelper.g.cs
+F:\Final LFT Data\MVVM\Main Project\MainApplication\CaliburnMicro\WPFUI\obj\Debug\WPFUI_MarkupCompile.cache
+F:\Final LFT Data\MVVM\Main Project\MainApplication\CaliburnMicro\WPFUI\obj\Debug\WPFUI_MarkupCompile.lref
+F:\Final LFT Data\MVVM\Main Project\MainApplication\CaliburnMicro\WPFUI\obj\Debug\App.baml
+F:\Final LFT Data\MVVM\Main Project\MainApplication\CaliburnMicro\WPFUI\obj\Debug\MainWindow.baml
+F:\Final LFT Data\MVVM\Main Project\MainApplication\CaliburnMicro\WPFUI\obj\Debug\Views\FirstChildView.baml
+F:\Final LFT Data\MVVM\Main Project\MainApplication\CaliburnMicro\WPFUI\obj\Debug\Views\SecondChildView.baml
+F:\Final LFT Data\MVVM\Main Project\MainApplication\CaliburnMicro\WPFUI\obj\Debug\Views\ShellView.baml
+F:\Final LFT Data\MVVM\Main Project\MainApplication\CaliburnMicro\WPFUI\obj\Debug\WPFUI.g.resources
+F:\Final LFT Data\MVVM\Main Project\MainApplication\CaliburnMicro\WPFUI\obj\Debug\WPFUI.Properties.Resources.resources
+F:\Final LFT Data\MVVM\Main Project\MainApplication\CaliburnMicro\WPFUI\obj\Debug\WPFUI.csproj.GenerateResource.cache
+F:\Final LFT Data\MVVM\Main Project\MainApplication\CaliburnMicro\WPFUI\obj\Debug\WPFUI.csproj.CoreCompileInputs.cache
+F:\Final LFT Data\MVVM\Main Project\MainApplication\CaliburnMicro\WPFUI\obj\Debug\WPFUI.exe
+F:\Final LFT Data\MVVM\Main Project\MainApplication\CaliburnMicro\WPFUI\obj\Debug\WPFUI.pdb
+F:\Final LFT Data\MVVM\Main Project\MainApplication\CaliburnMicro\WPFUI\obj\Debug\WPFUI.csproj.CopyComplete

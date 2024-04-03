@@ -71,3 +71,18 @@ D:\Personal\MVVM\Main Project\MainApplication\Assignment\MVVM\2BtnEnableOnTextCh
 D:\Personal\MVVM\Main Project\MainApplication\Assignment\MVVM\2BtnEnableOnTextChange\obj\Debug\BtnEnableOnTextChange.csproj.CoreCompileInputs.cache
 D:\Personal\MVVM\Main Project\MainApplication\Assignment\MVVM\2BtnEnableOnTextChange\obj\Debug\BtnEnableOnTextChange.exe
 D:\Personal\MVVM\Main Project\MainApplication\Assignment\MVVM\2BtnEnableOnTextChange\obj\Debug\BtnEnableOnTextChange.pdb
+F:\Final LFT Data\MVVM\Main Project\MainApplication\Assignment\MVVM\2BtnEnableOnTextChange\bin\Debug\BtnEnableOnTextChange.exe.config
+F:\Final LFT Data\MVVM\Main Project\MainApplication\Assignment\MVVM\2BtnEnableOnTextChange\bin\Debug\BtnEnableOnTextChange.exe
+F:\Final LFT Data\MVVM\Main Project\MainApplication\Assignment\MVVM\2BtnEnableOnTextChange\bin\Debug\BtnEnableOnTextChange.pdb
+F:\Final LFT Data\MVVM\Main Project\MainApplication\Assignment\MVVM\2BtnEnableOnTextChange\obj\Debug\BtnEnableOnTextChange.csproj.AssemblyReference.cache
+F:\Final LFT Data\MVVM\Main Project\MainApplication\Assignment\MVVM\2BtnEnableOnTextChange\obj\Debug\MainWindow.g.cs
+F:\Final LFT Data\MVVM\Main Project\MainApplication\Assignment\MVVM\2BtnEnableOnTextChange\obj\Debug\App.g.cs
+F:\Final LFT Data\MVVM\Main Project\MainApplication\Assignment\MVVM\2BtnEnableOnTextChange\obj\Debug\BtnEnableOnTextChange_MarkupCompile.cache
+F:\Final LFT Data\MVVM\Main Project\MainApplication\Assignment\MVVM\2BtnEnableOnTextChange\obj\Debug\BtnEnableOnTextChange_MarkupCompile.lref
+F:\Final LFT Data\MVVM\Main Project\MainApplication\Assignment\MVVM\2BtnEnableOnTextChange\obj\Debug\MainWindow.baml
+F:\Final LFT Data\MVVM\Main Project\MainApplication\Assignment\MVVM\2BtnEnableOnTextChange\obj\Debug\BtnEnableOnTextChange.g.resources
+F:\Final LFT Data\MVVM\Main Project\MainApplication\Assignment\MVVM\2BtnEnableOnTextChange\obj\Debug\BtnEnableOnTextChange.Properties.Resources.resources
+F:\Final LFT Data\MVVM\Main Project\MainApplication\Assignment\MVVM\2BtnEnableOnTextChange\obj\Debug\BtnEnableOnTextChange.csproj.GenerateResource.cache
+F:\Final LFT Data\MVVM\Main Project\MainApplication\Assignment\MVVM\2BtnEnableOnTextChange\obj\Debug\BtnEnableOnTextChange.csproj.CoreCompileInputs.cache
+F:\Final LFT Data\MVVM\Main Project\MainApplication\Assignment\MVVM\2BtnEnableOnTextChange\obj\Debug\BtnEnableOnTextChange.exe
+F:\Final LFT Data\MVVM\Main Project\MainApplication\Assignment\MVVM\2BtnEnableOnTextChange\obj\Debug\BtnEnableOnTextChange.pdb
