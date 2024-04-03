@@ -34,7 +34,6 @@ namespace CSharpConceptApp.Delegates
             dlgt = m.Subtract;
             dlgt(100, 90);
             Console.ReadLine();
-        }
 
     }
 }
