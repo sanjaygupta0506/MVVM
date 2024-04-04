@@ -8,20 +8,20 @@ namespace OOPSConceptApplication.Accessibility_modifiers
 {
     class Private_Protected_Modifiers : Private_Protected_User
     {
-        static void Main(string[] args)
-        {
-            Private_Protected_User u = new Private_Protected_User();
-            Private_Protected_Modifiers p = new Private_Protected_Modifiers();
-            // Complier Error
-            // protected members can only accessible with derived classes
-            //u.Name = "Suresh Dasari";
-            p.Name = "Suresh Dasari";
-            p.Location = "Hyderabad";
-            p.Age = 32;
-            p.GetUserDetails();
-            Console.WriteLine("\nPress Enter Key to Exit..");
-            Console.ReadLine();
-        }
+        //static void Main(string[] args)
+        //{
+        //    Private_Protected_User u = new Private_Protected_User();
+        //    Private_Protected_Modifiers p = new Private_Protected_Modifiers();
+        //    // Complier Error
+        //    // protected members can only accessible with derived classes
+        //    //u.Name = "Suresh Dasari";
+        //    p.Name = "Suresh Dasari";
+        //    p.Location = "Hyderabad";
+        //    p.Age = 32;
+        //    p.GetUserDetails();
+        //    Console.WriteLine("\nPress Enter Key to Exit..");
+        //    Console.ReadLine();
+        //}
     }
 
     class Private_Protected_User

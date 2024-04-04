@@ -63,6 +63,7 @@
     <Compile Include=".2. Encapsulation.cs" />
     <Compile Include=".5. Inheritance.cs" />
     <Compile Include=".8. Interface.cs" />
+    <Compile Include="Differences\MethodOverloadingVsMethodOverriding\MethodOverloadingVsMethodOverriding.cs" />
     <Compile Include="Polymorphism\3. Method Overloading.cs" />
     <Compile Include="Polymorphism\4. Method Overriding.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -73,5 +74,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

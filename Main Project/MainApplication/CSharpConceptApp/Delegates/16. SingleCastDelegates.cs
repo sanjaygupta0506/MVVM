@@ -21,19 +21,19 @@ namespace CSharpConceptApp.Delegates
         }
     }
 
-    class SingleCastDDelegates
+    class SingleCastDelegates
     {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("****Delegate Example****");
-            MathOperations m = new MathOperations();
-            // Instantiate delegate with add method
-            SampleDelegate dlgt = m.Add;
-            dlgt(100, 90);
-            // Instantiate delegate with subtract method
-            dlgt = m.Subtract;
-            dlgt(100, 90);
-            Console.ReadLine();
-
+        //static void Main(string[] args)
+        //{
+        //    Console.WriteLine("****Delegate Example****");
+        //    MathOperations m = new MathOperations();
+        //    // Instantiate delegate with add method
+        //    SampleDelegate dlgt = m.Add;
+        //    dlgt(100, 90);
+        //    // Instantiate delegate with subtract method
+        //    dlgt = m.Subtract;
+        //    dlgt(100, 90);
+        //    Console.ReadLine();
+        //}
     }
 }
