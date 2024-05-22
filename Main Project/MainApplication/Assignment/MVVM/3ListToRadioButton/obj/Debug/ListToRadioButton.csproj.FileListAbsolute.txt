@@ -73,3 +73,18 @@ F:\Final LFT Data\MVVM\Main Project\MainApplication\Assignment\MVVM\3ListToRadio
 F:\Final LFT Data\MVVM\Main Project\MainApplication\Assignment\MVVM\3ListToRadioButton\obj\Debug\ListToRadioButton.csproj.CoreCompileInputs.cache
 F:\Final LFT Data\MVVM\Main Project\MainApplication\Assignment\MVVM\3ListToRadioButton\obj\Debug\3ListToRadioButton.exe
 F:\Final LFT Data\MVVM\Main Project\MainApplication\Assignment\MVVM\3ListToRadioButton\obj\Debug\3ListToRadioButton.pdb
+F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\Assignment\MVVM\3ListToRadioButton\bin\Debug\3ListToRadioButton.exe.config
+F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\Assignment\MVVM\3ListToRadioButton\bin\Debug\3ListToRadioButton.exe
+F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\Assignment\MVVM\3ListToRadioButton\bin\Debug\3ListToRadioButton.pdb
+F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\Assignment\MVVM\3ListToRadioButton\obj\Debug\MainWindow.g.cs
+F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\Assignment\MVVM\3ListToRadioButton\obj\Debug\App.g.cs
+F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\Assignment\MVVM\3ListToRadioButton\obj\Debug\3ListToRadioButton_MarkupCompile.cache
+F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\Assignment\MVVM\3ListToRadioButton\obj\Debug\3ListToRadioButton_MarkupCompile.lref
+F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\Assignment\MVVM\3ListToRadioButton\obj\Debug\MainWindow.baml
+F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\Assignment\MVVM\3ListToRadioButton\obj\Debug\3ListToRadioButton.g.resources
+F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\Assignment\MVVM\3ListToRadioButton\obj\Debug\_3ListToRadioButton.Properties.Resources.resources
+F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\Assignment\MVVM\3ListToRadioButton\obj\Debug\ListToRadioButton.csproj.GenerateResource.cache
+F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\Assignment\MVVM\3ListToRadioButton\obj\Debug\ListToRadioButton.csproj.CoreCompileInputs.cache
+F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\Assignment\MVVM\3ListToRadioButton\obj\Debug\3ListToRadioButton.exe
+F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\Assignment\MVVM\3ListToRadioButton\obj\Debug\3ListToRadioButton.pdb
+F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\Assignment\MVVM\3ListToRadioButton\obj\Debug\ListToRadioButton.csproj.AssemblyReference.cache

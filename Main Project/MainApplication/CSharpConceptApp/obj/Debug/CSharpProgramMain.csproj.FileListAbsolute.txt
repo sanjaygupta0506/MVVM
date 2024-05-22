@@ -1,0 +1,11 @@
+F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\CSharpConceptApp\bin\Debug\CSharpConceptApp.exe.config
+F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\CSharpConceptApp\bin\Debug\CSharpConceptApp.exe
+F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\CSharpConceptApp\bin\Debug\CSharpConceptApp.pdb
+F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\CSharpConceptApp\obj\Debug\CSharpProgramMain.csproj.AssemblyReference.cache
+F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\CSharpConceptApp\obj\Debug\CSharpProgramMain.csproj.CoreCompileInputs.cache
+F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\CSharpConceptApp\obj\Debug\CSharpConceptApp.exe
+F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\CSharpConceptApp\obj\Debug\CSharpConceptApp.pdb
+F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\CSharpConceptApp\bin\Debug\Microsoft.VisualStudio.Threading.dll
+F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\CSharpConceptApp\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\CSharpConceptApp\bin\Debug\Microsoft.VisualStudio.Threading.xml
+F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\CSharpConceptApp\obj\Debug\CSharpProgramMain.csproj.CopyComplete

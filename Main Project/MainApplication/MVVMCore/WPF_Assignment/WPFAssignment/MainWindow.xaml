@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WPFAssignment"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="450" Width="800" WindowState="Maximized">
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="30"/>
@@ -55,14 +55,19 @@
                 <Separator />
                 <MenuItem Name="x_form" Header="Form Security" Click="x_form_Click"></MenuItem>
             </MenuItem>
-            <MenuItem Name="x_View" Header="View">
-                <MenuItem Name="x_Themes" Header="Themes">
+
+            <MenuItem Name="x_Company" Header="Company Wise">
+                <MenuItem Name="x_Stryker" Header="Stryker" Click="x_Stryker_Click"></MenuItem>
+                <Separator />
+                
+            </MenuItem>
+            
+            <MenuItem Name="x_View" Header="Themes">
+                
                     <MenuItem Name="x_caranuDark" Header="Caranu Dark" Click="x_caranuDark_Click"/>
                     <Separator />
                     <MenuItem Name="x_caranuLight" Header="Caranu Light" Click="x_caranuLight_Click"/>
-                </MenuItem>
-
-                <Separator />
+                    <Separator />
 
             </MenuItem>
         </Menu>

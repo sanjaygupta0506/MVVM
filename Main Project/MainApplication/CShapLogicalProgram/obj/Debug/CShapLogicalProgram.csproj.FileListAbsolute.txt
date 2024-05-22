@@ -1,0 +1,7 @@
+F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\CShapLogicalProgram\bin\Debug\CShapLogicalProgram.exe.config
+F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\CShapLogicalProgram\bin\Debug\CShapLogicalProgram.exe
+F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\CShapLogicalProgram\bin\Debug\CShapLogicalProgram.pdb
+F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\CShapLogicalProgram\obj\Debug\CShapLogicalProgram.csproj.CoreCompileInputs.cache
+F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\CShapLogicalProgram\obj\Debug\CShapLogicalProgram.exe
+F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\CShapLogicalProgram\obj\Debug\CShapLogicalProgram.pdb
+F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\CShapLogicalProgram\obj\Debug\CShapLogicalProgram.csproj.AssemblyReference.cache

@@ -86,3 +86,18 @@ F:\Final LFT Data\MVVM\Main Project\MainApplication\Assignment\MVVM\2BtnEnableOn
 F:\Final LFT Data\MVVM\Main Project\MainApplication\Assignment\MVVM\2BtnEnableOnTextChange\obj\Debug\BtnEnableOnTextChange.csproj.CoreCompileInputs.cache
 F:\Final LFT Data\MVVM\Main Project\MainApplication\Assignment\MVVM\2BtnEnableOnTextChange\obj\Debug\BtnEnableOnTextChange.exe
 F:\Final LFT Data\MVVM\Main Project\MainApplication\Assignment\MVVM\2BtnEnableOnTextChange\obj\Debug\BtnEnableOnTextChange.pdb
+F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\Assignment\MVVM\2BtnEnableOnTextChange\bin\Debug\BtnEnableOnTextChange.exe.config
+F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\Assignment\MVVM\2BtnEnableOnTextChange\bin\Debug\BtnEnableOnTextChange.exe
+F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\Assignment\MVVM\2BtnEnableOnTextChange\bin\Debug\BtnEnableOnTextChange.pdb
+F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\Assignment\MVVM\2BtnEnableOnTextChange\obj\Debug\MainWindow.g.cs
+F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\Assignment\MVVM\2BtnEnableOnTextChange\obj\Debug\App.g.cs
+F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\Assignment\MVVM\2BtnEnableOnTextChange\obj\Debug\BtnEnableOnTextChange_MarkupCompile.cache
+F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\Assignment\MVVM\2BtnEnableOnTextChange\obj\Debug\BtnEnableOnTextChange_MarkupCompile.lref
+F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\Assignment\MVVM\2BtnEnableOnTextChange\obj\Debug\MainWindow.baml
+F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\Assignment\MVVM\2BtnEnableOnTextChange\obj\Debug\BtnEnableOnTextChange.g.resources
+F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\Assignment\MVVM\2BtnEnableOnTextChange\obj\Debug\BtnEnableOnTextChange.Properties.Resources.resources
+F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\Assignment\MVVM\2BtnEnableOnTextChange\obj\Debug\BtnEnableOnTextChange.csproj.GenerateResource.cache
+F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\Assignment\MVVM\2BtnEnableOnTextChange\obj\Debug\BtnEnableOnTextChange.csproj.CoreCompileInputs.cache
+F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\Assignment\MVVM\2BtnEnableOnTextChange\obj\Debug\BtnEnableOnTextChange.exe
+F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\Assignment\MVVM\2BtnEnableOnTextChange\obj\Debug\BtnEnableOnTextChange.pdb
+F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\Assignment\MVVM\2BtnEnableOnTextChange\obj\Debug\BtnEnableOnTextChange.csproj.AssemblyReference.cache

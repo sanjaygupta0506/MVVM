@@ -75,7 +75,8 @@
     <Reference Include="Infralution.Controls">
       <HintPath>..\..\..\Component\Infralution\Infralution.Controls.dll</HintPath>
     </Reference>
-    <Reference Include="Keysight.Ccl.Wsl">
+    <Reference Include="Keysight.Ccl.Wsl, Version=4.0.1.9, Culture=neutral, PublicKeyToken=55333af07c70062e, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\..\Component\Keysight\Keysight.Ccl.Wsl.dll</HintPath>
     </Reference>
     <Reference Include="MahApps.Metro">
@@ -143,9 +144,42 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Compile Include="Design Pattern\Singletons\ApplicationState.cs" />
-    <Compile Include="Design Pattern\Singletons\SingletonDemo.xaml.cs">
+    <Compile Include="1. WPFMVVMBasic\1. MVVM Main\Pattern3\DatetimeToDateConverter.cs" />
+    <Compile Include="1. WPFMVVMBasic\1. MVVM Main\Pattern3\RelayCommand.cs" />
+    <Compile Include="1. WPFMVVMBasic\1. MVVM Main\Pattern3\Student.cs" />
+    <Compile Include="1. WPFMVVMBasic\1. MVVM Main\Pattern3\StudentInfo.xaml.cs">
+      <DependentUpon>StudentInfo.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="1. WPFMVVMBasic\1. MVVM Main\Pattern3\ViewModel.cs" />
+    <Compile Include="1. WPFMVVMBasic\1. MVVM Main\Pattern3\ViewModelBase.cs" />
+    <Compile Include="2. WPFMVVMAdvance\1. DependencyPropertySample\BasicDependencyPropertyViewModel.cs" />
+    <Compile Include="2. WPFMVVMAdvance\2. AttachedPropertySample\Pattern1\API.xaml.cs">
+      <DependentUpon>API.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="2. WPFMVVMAdvance\2. AttachedPropertySample\Pattern1\APIDemo.xaml.cs">
+      <DependentUpon>APIDemo.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="4. Design Pattern\Deppendency_Injection\Constructor\DIContructor.xaml.cs">
+      <DependentUpon>DIContructor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="4. Design Pattern\Deppendency_Injection\Constructor\EmployeeBAL.cs" />
+    <Compile Include="4. Design Pattern\Deppendency_Injection\Constructor\EmployeeDAL.cs" />
+    <Compile Include="4. Design Pattern\Deppendency_Injection\Method\DIMethod.xaml.cs">
+      <DependentUpon>DIMethod.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="4. Design Pattern\Deppendency_Injection\Method\EmployeeBAL.cs" />
+    <Compile Include="4. Design Pattern\Deppendency_Injection\Method\EmployeeDAL.cs" />
+    <Compile Include="4. Design Pattern\Deppendency_Injection\Property\DIProperty.xaml.cs">
+      <DependentUpon>DIProperty.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="4. Design Pattern\Deppendency_Injection\Property\EmployeeBAL.cs" />
+    <Compile Include="4. Design Pattern\Deppendency_Injection\Property\EmployeeDAL.cs" />
+    <Compile Include="4. Design Pattern\Singletons\Patten1\ApplicationState.cs" />
+    <Compile Include="4. Design Pattern\Singletons\Patten1\SingletonDemo.xaml.cs">
       <DependentUpon>SingletonDemo.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="4. Design Pattern\Singletons\Pattern2\Singleton_Types.xaml.cs">
+      <DependentUpon>Singleton_Types.xaml</DependentUpon>
     </Compile>
     <Compile Include="EnumClass.cs" />
     <Compile Include="Models\ArithmeticConverter.cs" />
@@ -156,81 +190,66 @@
     <Compile Include="Models\RelativeSource_SelfModel.cs" />
     <Compile Include="Models\VirtualPanel.cs" />
     <Compile Include="Models\ZoomableCanvas.cs" />
-    <Compile Include="Design Pattern\Singletons\EnumHelper.cs" />
-    <Compile Include="MultiThreading\BackGroundWorkerExample.xaml.cs">
+    <Compile Include="4. Design Pattern\Singletons\EnumHelper.cs" />
+    <Compile Include="3. MultiThreading\BackGroundWorkerExample.xaml.cs">
       <DependentUpon>BackGroundWorkerExample.xaml</DependentUpon>
     </Compile>
-    <Compile Include="MultiThreading\DispatcherExample.xaml.cs">
+    <Compile Include="3. MultiThreading\DispatcherExample.xaml.cs">
       <DependentUpon>DispatcherExample.xaml</DependentUpon>
     </Compile>
-    <Compile Include="MultiThreading\SingleThread.xaml.cs">
+    <Compile Include="3. MultiThreading\SingleThread.xaml.cs">
       <DependentUpon>SingleThread.xaml</DependentUpon>
     </Compile>
-    <Compile Include="SOLID Princliple\Models\DIP_Logger.cs" />
-    <Compile Include="SOLID Princliple\Models\LSP_Account.cs" />
-    <Compile Include="SOLID Princliple\Models\ISP_TextDocument.cs" />
-    <Compile Include="SOLID Princliple\Models\SRP_Employee.cs" />
-    <Compile Include="SOLID Princliple\Models\OCP_Shape.cs" />
-    <Compile Include="SOLID Princliple\Views\OCP.xaml.cs">
+    <Compile Include="5. SOLID Princliple\Models\DIP_Logger.cs" />
+    <Compile Include="5. SOLID Princliple\Models\LSP_Account.cs" />
+    <Compile Include="5. SOLID Princliple\Models\ISP_TextDocument.cs" />
+    <Compile Include="5. SOLID Princliple\Models\SRP_Employee.cs" />
+    <Compile Include="5. SOLID Princliple\Models\OCP_Shape.cs" />
+    <Compile Include="5. SOLID Princliple\Views\OCP.xaml.cs">
       <DependentUpon>OCP.xaml</DependentUpon>
     </Compile>
-    <Compile Include="SOLID Princliple\Views\SRP.xaml.cs">
+    <Compile Include="5. SOLID Princliple\Views\SRP.xaml.cs">
       <DependentUpon>SRP.xaml</DependentUpon>
     </Compile>
-    <Compile Include="WPF Basics\XamlExample.xaml.cs">
-      <DependentUpon>XamlExample.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="WPFMVVMAdvance\AttachedPropertySample\AttachedPropertyExample.xaml.cs">
+    <Compile Include="2. WPFMVVMAdvance\2. AttachedPropertySample\AttachedPropertyExample.xaml.cs">
       <DependentUpon>AttachedPropertyExample.xaml</DependentUpon>
     </Compile>
-    <Compile Include="WPFMVVMAdvance\DependencyPropertySample\CustomDependencyProperty.xaml.cs">
+    <Compile Include="2. WPFMVVMAdvance\1. DependencyPropertySample\CustomDependencyProperty.xaml.cs">
       <DependentUpon>CustomDependencyProperty.xaml</DependentUpon>
     </Compile>
-    <Compile Include="WPFMVVMAdvance\Localization\LocalizationSample.xaml.cs">
+    <Compile Include="2. WPFMVVMAdvance\Localization\LocalizationSample.xaml.cs">
       <DependentUpon>LocalizationSample.xaml</DependentUpon>
     </Compile>
-    <Compile Include="WPFMVVMAdvance\LogicalVsVisualTree\LogicalVsVisualTree.xaml.cs">
+    <Compile Include="2. WPFMVVMAdvance\LogicalVsVisualTree\LogicalVsVisualTree.xaml.cs">
       <DependentUpon>LogicalVsVisualTree.xaml</DependentUpon>
     </Compile>
-    <Compile Include="WPFMVVMAdvance\Virtualization\VirtualizationExample.xaml.cs">
+    <Compile Include="2. WPFMVVMAdvance\Virtualization\VirtualizationExample.xaml.cs">
       <DependentUpon>VirtualizationExample.xaml</DependentUpon>
     </Compile>
-    <Compile Include="WPFMVVMBasic\Commands\Enum\PageId.cs" />
-    <Compile Include="WPFMVVMBasic\Commands\ViewModels\ICommandViewModels.cs" />
-    <Compile Include="WPFMVVMBasic\Commands\Views\CommandsExample.xaml.cs">
+    <Compile Include="1. WPFMVVMBasic\8. Commands\Model\PersonModel.cs" />
+    <Compile Include="1. WPFMVVMBasic\8. Commands\ViewModel\PersonViewModel.cs" />
+    <Compile Include="1. WPFMVVMBasic\8. Commands\Views\CommandsExample.xaml.cs">
       <DependentUpon>CommandsExample.xaml</DependentUpon>
     </Compile>
-    <Compile Include="WPFMVVMBasic\Commands\Views\ICommandExample.xaml.cs">
-      <DependentUpon>ICommandExample.xaml</DependentUpon>
+    <Compile Include="1. WPFMVVMBasic\8. Commands\Views\PersonView.xaml.cs">
+      <DependentUpon>PersonView.xaml</DependentUpon>
     </Compile>
-    <Compile Include="WPFMVVMBasic\Commands\Pages\Page1.xaml.cs">
-      <DependentUpon>Page1.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="WPFMVVMBasic\Commands\Pages\Page2.xaml.cs">
-      <DependentUpon>Page2.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="WPFMVVMBasic\Commands\Pages\Page3.xaml.cs">
-      <DependentUpon>Page3.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="WPFMVVMBasic\Commands\Pages\Page4.xaml.cs">
-      <DependentUpon>Page4.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="WPFMVVMBasic\DataBindings\Binding_Default.xaml.cs">
+    <Compile Include="1. WPFMVVMBasic\3. DataBindings\Binding_Default.xaml.cs">
       <DependentUpon>Binding_Default.xaml</DependentUpon>
     </Compile>
-    <Compile Include="WPFMVVMBasic\DataBindings\Binding_OneTime.xaml.cs">
+    <Compile Include="1. WPFMVVMBasic\3. DataBindings\Binding_OneTime.xaml.cs">
       <DependentUpon>Binding_OneTime.xaml</DependentUpon>
     </Compile>
-    <Compile Include="WPFMVVMBasic\DataBindings\Binding_OneWay.xaml.cs">
+    <Compile Include="1. WPFMVVMBasic\3. DataBindings\Binding_OneWay.xaml.cs">
       <DependentUpon>Binding_OneWay.xaml</DependentUpon>
     </Compile>
-    <Compile Include="WPFMVVMBasic\DataBindings\Binding_OneWayToSource.xaml.cs">
+    <Compile Include="1. WPFMVVMBasic\3. DataBindings\Binding_OneWayToSource.xaml.cs">
       <DependentUpon>Binding_OneWayToSource.xaml</DependentUpon>
     </Compile>
-    <Compile Include="WPFMVVMBasic\DataBindings\Binding_TwoWay.xaml.cs">
+    <Compile Include="1. WPFMVVMBasic\3. DataBindings\Binding_TwoWay.xaml.cs">
       <DependentUpon>Binding_TwoWay.xaml</DependentUpon>
     </Compile>
-    <Compile Include="WPFMVVMBasic\DataContext\DataContextExample.xaml.cs">
+    <Compile Include="1. WPFMVVMBasic\DataContext\DataContextExample.xaml.cs">
       <DependentUpon>DataContextExample.xaml</DependentUpon>
     </Compile>
     <Compile Include="DataGridSingleClickCheckbox\PersonModel.cs" />
@@ -239,154 +258,176 @@
     <Compile Include="DataGridSingleClickCheckbox\Views\MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
     </Compile>
-    <Compile Include="WPFMVVMAdvance\DependencyPropertySample\BasicDependencyProperty.xaml.cs">
+    <Compile Include="2. WPFMVVMAdvance\1. DependencyPropertySample\BasicDependencyProperty.xaml.cs">
       <DependentUpon>BasicDependencyProperty.xaml</DependentUpon>
     </Compile>
-    <Compile Include="WPFMVVMBasic\INotifyPropertyChangedSample\INotifyPropertyChangedExample.xaml.cs">
+    <Compile Include="1. WPFMVVMBasic\7. INotifyPropertyChangedSample\INotifyPropertyChangedExample.xaml.cs">
       <DependentUpon>INotifyPropertyChangedExample.xaml</DependentUpon>
     </Compile>
     <Compile Include="Models\CommandsModel.cs" />
     <Compile Include="Models\INotifyPropertyChangedExampleModel.cs" />
-    <Compile Include="Models\UserInfoModel.cs" />
-    <Compile Include="WPFMVVMAdvance\MVVMCommads\MVVMCommand.cs" />
-    <Compile Include="WPFMVVMBasic\Layouts\Layout_Canvas.xaml.cs">
+    <Compile Include="1. WPFMVVMBasic\1. MVVM Main\Pattern2\UserInfoModel.cs" />
+    <Compile Include="2. WPFMVVMAdvance\MVVMCommads\MVVMCommand.cs" />
+    <Compile Include="1. WPFMVVMBasic\Layouts\Layout_Canvas.xaml.cs">
       <DependentUpon>Layout_Canvas.xaml</DependentUpon>
     </Compile>
-    <Compile Include="WPFMVVMBasic\Layouts\Layout_DockPanel.xaml.cs">
+    <Compile Include="1. WPFMVVMBasic\Layouts\Layout_DockPanel.xaml.cs">
       <DependentUpon>Layout_DockPanel.xaml</DependentUpon>
     </Compile>
-    <Compile Include="WPFMVVMBasic\Layouts\Layout_Grid.xaml.cs">
+    <Compile Include="1. WPFMVVMBasic\Layouts\Layout_Grid.xaml.cs">
       <DependentUpon>Layout_Grid.xaml</DependentUpon>
     </Compile>
-    <Compile Include="WPFMVVMBasic\Layouts\Layout_StackPanel.xaml.cs">
+    <Compile Include="1. WPFMVVMBasic\Layouts\Layout_StackPanel.xaml.cs">
       <DependentUpon>Layout_StackPanel.xaml</DependentUpon>
     </Compile>
-    <Compile Include="WPFMVVMBasic\Layouts\Layout_WrapPanel.xaml.cs">
+    <Compile Include="1. WPFMVVMBasic\Layouts\Layout_WrapPanel.xaml.cs">
       <DependentUpon>Layout_WrapPanel.xaml</DependentUpon>
     </Compile>
-    <Compile Include="WPFMVVMBasic\MVVMPattern\UserInfo.xaml.cs">
+    <Compile Include="1. WPFMVVMBasic\1. MVVM Main\Pattern2\UserInfo.xaml.cs">
       <DependentUpon>UserInfo.xaml</DependentUpon>
     </Compile>
-    <Compile Include="WPFMVVMBasic\Resources\CustomListBox.cs" />
-    <Compile Include="WPFMVVMBasic\Resources\RelativeSource_FindAncestor.xaml.cs">
+    <Compile Include="1. WPFMVVMBasic\2. Resources\CustomListBox.cs" />
+    <Compile Include="1. WPFMVVMBasic\2. Resources\RelativeSource_FindAncestor.xaml.cs">
       <DependentUpon>RelativeSource_FindAncestor.xaml</DependentUpon>
     </Compile>
-    <Compile Include="WPFMVVMBasic\Resources\RelativeSource_Self.xaml.cs">
+    <Compile Include="1. WPFMVVMBasic\2. Resources\RelativeSource_Self.xaml.cs">
       <DependentUpon>RelativeSource_Self.xaml</DependentUpon>
     </Compile>
-    <Compile Include="WPFMVVMBasic\Resources\DynamicResourceExample.xaml.cs">
+    <Compile Include="1. WPFMVVMBasic\2. Resources\DynamicResourceExample.xaml.cs">
       <DependentUpon>DynamicResourceExample.xaml</DependentUpon>
     </Compile>
-    <Compile Include="WPFMVVMBasic\Resources\RelativeSource_TemplatedParent.xaml.cs">
+    <Compile Include="1. WPFMVVMBasic\2. Resources\RelativeSource_TemplatedParent.xaml.cs">
       <DependentUpon>RelativeSource_TemplatedParent.xaml</DependentUpon>
     </Compile>
-    <Compile Include="WPFMVVMBasic\Resources\StaticResourceExample.xaml.cs">
+    <Compile Include="1. WPFMVVMBasic\2. Resources\StaticResourceExample.xaml.cs">
       <DependentUpon>StaticResourceExample.xaml</DependentUpon>
     </Compile>
-    <Compile Include="WPFMVVMBasic\RoutedEvents\MyCustomControl.cs" />
-    <Compile Include="WPFMVVMBasic\RoutedEvents\RoutedEventsExample.xaml.cs">
+    <Compile Include="1. WPFMVVMBasic\RoutedEvents\MyCustomControl.cs" />
+    <Compile Include="1. WPFMVVMBasic\RoutedEvents\RoutedEventsExample.xaml.cs">
       <DependentUpon>RoutedEventsExample.xaml</DependentUpon>
     </Compile>
-    <Compile Include="WPFMVVMBasic\Styles\StyleInheritanceExample.xaml.cs">
+    <Compile Include="1. WPFMVVMBasic\Styles\StyleInheritanceExample.xaml.cs">
       <DependentUpon>StyleInheritanceExample.xaml</DependentUpon>
     </Compile>
-    <Compile Include="WPFMVVMBasic\Styles\StylesExample.xaml.cs">
+    <Compile Include="1. WPFMVVMBasic\Styles\StylesExample.xaml.cs">
       <DependentUpon>StylesExample.xaml</DependentUpon>
     </Compile>
-    <Compile Include="WPFMVVMBasic\Templates\Template_HierarchialData.xaml.cs">
+    <Compile Include="1. WPFMVVMBasic\5.Templates\Template_HierarchialData.xaml.cs">
       <DependentUpon>Template_HierarchialData.xaml</DependentUpon>
     </Compile>
-    <Compile Include="WPFMVVMBasic\Templates\Templete_Data.xaml.cs">
+    <Compile Include="1. WPFMVVMBasic\5.Templates\Templete_Data.xaml.cs">
       <DependentUpon>Templete_Data.xaml</DependentUpon>
     </Compile>
-    <Compile Include="WPFMVVMBasic\Templates\Template_ItemPanel.xaml.cs">
+    <Compile Include="1. WPFMVVMBasic\5.Templates\Template_ItemPanel.xaml.cs">
       <DependentUpon>Template_ItemPanel.xaml</DependentUpon>
     </Compile>
-    <Compile Include="WPFMVVMBasic\Templates\Template_Control.xaml.cs">
+    <Compile Include="1. WPFMVVMBasic\5.Templates\Template_Control.xaml.cs">
       <DependentUpon>Template_Control.xaml</DependentUpon>
     </Compile>
-    <Compile Include="WPFMVVMBasic\Triggers\Trigger_Data.xaml.cs">
+    <Compile Include="1. WPFMVVMBasic\4. Triggers\Trigger_Data.xaml.cs">
       <DependentUpon>Trigger_Data.xaml</DependentUpon>
     </Compile>
-    <Compile Include="WPFMVVMBasic\Triggers\Trigger_Event.xaml.cs">
+    <Compile Include="1. WPFMVVMBasic\4. Triggers\Trigger_Event.xaml.cs">
       <DependentUpon>Trigger_Event.xaml</DependentUpon>
     </Compile>
-    <Compile Include="WPFMVVMBasic\Triggers\Trigger_MultiDataTrigger.xaml.cs">
+    <Compile Include="1. WPFMVVMBasic\4. Triggers\Trigger_MultiDataTrigger.xaml.cs">
       <DependentUpon>Trigger_MultiDataTrigger.xaml</DependentUpon>
     </Compile>
-    <Compile Include="WPFMVVMBasic\Triggers\Trigger_MultiTrigger.xaml.cs">
+    <Compile Include="1. WPFMVVMBasic\4. Triggers\Trigger_MultiTrigger.xaml.cs">
       <DependentUpon>Trigger_MultiTrigger.xaml</DependentUpon>
     </Compile>
-    <Compile Include="WPFMVVMBasic\Triggers\Trigger_Property.xaml.cs">
+    <Compile Include="1. WPFMVVMBasic\4. Triggers\Trigger_Property.xaml.cs">
       <DependentUpon>Trigger_Property.xaml</DependentUpon>
     </Compile>
-    <Compile Include="WPFMVVMBasic\Triggers\Trigger_Main.xaml.cs">
+    <Compile Include="1. WPFMVVMBasic\4. Triggers\Trigger_Main.xaml.cs">
       <DependentUpon>Trigger_Main.xaml</DependentUpon>
     </Compile>
     <Compile Include="UserPreferences.cs" />
-    <Compile Include="WPFMVVMBasic\UserControlsExample\MyUserControl.xaml.cs">
+    <Compile Include="1. WPFMVVMBasic\UserControlsExample\MyUserControl.xaml.cs">
       <DependentUpon>MyUserControl.xaml</DependentUpon>
     </Compile>
-    <Compile Include="WPFMVVMBasic\UserControlsExample\UserControlsExample.xaml.cs">
+    <Compile Include="1. WPFMVVMBasic\UserControlsExample\UserControlsExample.xaml.cs">
       <DependentUpon>UserControlsExample.xaml</DependentUpon>
     </Compile>
-    <Compile Include="WPFMVVMBasic\ValueConvertors\AddSuffixToIntValueConverter.cs" />
-    <Compile Include="WPFMVVMBasic\ValueConvertors\BoolAndVisibilityConverter.cs" />
-    <Compile Include="WPFMVVMBasic\ValueConvertors\BoolComplementToVisibilityConverter.cs" />
-    <Compile Include="WPFMVVMBasic\ValueConvertors\BoolToHalfOpacityConverter.cs" />
-    <Compile Include="WPFMVVMBasic\ValueConvertors\BrushToColorConverter.cs" />
-    <Compile Include="WPFMVVMBasic\ValueConvertors\ColorToBrushConverter.cs" />
-    <Compile Include="WPFMVVMBasic\ValueConvertors\ContrastConverter.cs" />
-    <Compile Include="WPFMVVMBasic\ValueConvertors\DateConvertor.cs" />
-    <Compile Include="WPFMVVMBasic\ValueConvertorsExample\ValueConvertorsExample.xaml.cs">
+    <Compile Include="1. WPFMVVMBasic\6. ValueConvertors\Comman\AddSuffixToIntValueConverter.cs" />
+    <Compile Include="1. WPFMVVMBasic\6. ValueConvertors\Comman\BoolAndVisibilityConverter.cs" />
+    <Compile Include="1. WPFMVVMBasic\6. ValueConvertors\Comman\BoolComplementToVisibilityConverter.cs" />
+    <Compile Include="1. WPFMVVMBasic\6. ValueConvertors\Comman\BoolToHalfOpacityConverter.cs" />
+    <Compile Include="1. WPFMVVMBasic\6. ValueConvertors\Comman\BrushToColorConverter.cs" />
+    <Compile Include="1. WPFMVVMBasic\6. ValueConvertors\Comman\ColorToBrushConverter.cs" />
+    <Compile Include="1. WPFMVVMBasic\6. ValueConvertors\Comman\ContrastConverter.cs" />
+    <Compile Include="1. WPFMVVMBasic\6. ValueConvertors\Comman\DateConvertor.cs" />
+    <Compile Include="1. WPFMVVMBasic\6. ValueConvertors\ValueConvertorsExample.xaml.cs">
       <DependentUpon>ValueConvertorsExample.xaml</DependentUpon>
     </Compile>
-    <Compile Include="WPFMVVMBasic\ValueConvertors\DoubleConverter.cs" />
-    <Compile Include="WPFMVVMBasic\ValueConvertors\EnumHelperToListConverter.cs" />
-    <Compile Include="WPFMVVMBasic\ValueConvertors\EnumMatchToBooleanConverter.cs" />
-    <Compile Include="WPFMVVMBasic\ValueConvertors\EnumToDisplayNameConverter.cs" />
-    <Compile Include="WPFMVVMBasic\ValueConvertors\ItemsPanelOrientationConverter.cs" />
-    <Compile Include="WPFMVVMBasic\ValueConvertors\NegateConveter.cs" />
-    <Compile Include="WPFMVVMBasic\ValueConvertors\NullableBooleanConverter.cs" />
-    <Compile Include="WPFMVVMBasic\ValueConvertors\NullableIntToNegativeOneConverter.cs" />
-    <Compile Include="WPFMVVMBasic\ValueConvertors\NullConverter.cs" />
-    <Compile Include="WPFMVVMBasic\ValueConvertors\PNGImageConverter.cs" />
-    <Compile Include="WPFMVVMBasic\ValueConvertors\TreeViewLineConverter.cs" />
-    <Compile Include="WPFMVVMBasic\ValueConvertors\TwoValueEnumToBoolConverter.cs" />
-    <Compile Include="WPFMVVMBasic\ValueConvertors\UIntToDecimalValueConverter.cs" />
-    <Compile Include="ViewModels\UserInfoViewModel.cs" />
-    <Compile Include="WPFMVVMBasic\Window1.xaml.cs">
-      <DependentUpon>Window1.xaml</DependentUpon>
+    <Compile Include="1. WPFMVVMBasic\6. ValueConvertors\Comman\DoubleConverter.cs" />
+    <Compile Include="1. WPFMVVMBasic\6. ValueConvertors\Comman\EnumHelperToListConverter.cs" />
+    <Compile Include="1. WPFMVVMBasic\6. ValueConvertors\Comman\EnumMatchToBooleanConverter.cs" />
+    <Compile Include="1. WPFMVVMBasic\6. ValueConvertors\Comman\EnumToDisplayNameConverter.cs" />
+    <Compile Include="1. WPFMVVMBasic\6. ValueConvertors\Comman\ItemsPanelOrientationConverter.cs" />
+    <Compile Include="1. WPFMVVMBasic\6. ValueConvertors\Comman\NegateConveter.cs" />
+    <Compile Include="1. WPFMVVMBasic\6. ValueConvertors\Comman\NullableBooleanConverter.cs" />
+    <Compile Include="1. WPFMVVMBasic\6. ValueConvertors\Comman\NullableIntToNegativeOneConverter.cs" />
+    <Compile Include="1. WPFMVVMBasic\6. ValueConvertors\Comman\NullConverter.cs" />
+    <Compile Include="1. WPFMVVMBasic\6. ValueConvertors\Comman\PNGImageConverter.cs" />
+    <Compile Include="1. WPFMVVMBasic\6. ValueConvertors\Comman\TreeViewLineConverter.cs" />
+    <Compile Include="1. WPFMVVMBasic\6. ValueConvertors\Comman\TwoValueEnumToBoolConverter.cs" />
+    <Compile Include="1. WPFMVVMBasic\6. ValueConvertors\Comman\UIntToDecimalValueConverter.cs" />
+    <Compile Include="1. WPFMVVMBasic\1. MVVM Main\Pattern2\UserInfoViewModel.cs" />
+    <Compile Include="1. WPFMVVMBasic\1. MVVM Main\Pattem1\SampleModel.cs" />
+    <Compile Include="1. WPFMVVMBasic\1. MVVM Main\Pattem1\SampleViewModel.cs" />
+    <Compile Include="1. WPFMVVMBasic\1. MVVM Main\Pattem1\Samples.xaml.cs">
+      <DependentUpon>Samples.xaml</DependentUpon>
     </Compile>
-    <Compile Include="WPFMVVMBasic\wpf-tutorial.com\WPFDemo.xaml.cs">
-      <DependentUpon>WPFDemo.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="WPFMVVMPattern\SampleMVVMModel.cs" />
-    <Compile Include="WPFMVVMPattern\SampleMVVMViewModel.cs" />
-    <Compile Include="WPFMVVMPattern\SamplesMVVM.xaml.cs">
-      <DependentUpon>SamplesMVVM.xaml</DependentUpon>
-    </Compile>
-    <Page Include="Design Pattern\Singletons\SingletonDemo.xaml">
+    <Page Include="1. WPFMVVMBasic\1. MVVM Main\Pattern3\StudentInfo.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="MultiThreading\BackGroundWorkerExample.xaml">
+    <Page Include="2. WPFMVVMAdvance\2. AttachedPropertySample\Pattern1\API.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="MultiThreading\DispatcherExample.xaml">
+    <Page Include="2. WPFMVVMAdvance\2. AttachedPropertySample\Pattern1\APIDemo.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="MultiThreading\SingleThread.xaml">
+    <Page Include="4. Design Pattern\Deppendency_Injection\Constructor\DIContructor.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="SOLID Princliple\Views\OCP.xaml">
+    <Page Include="4. Design Pattern\Deppendency_Injection\Method\DIMethod.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="SOLID Princliple\Views\SRP.xaml">
+    <Page Include="4. Design Pattern\Deppendency_Injection\Property\DIProperty.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="4. Design Pattern\Singletons\Patten1\SingletonDemo.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="4. Design Pattern\Singletons\Pattern2\Singleton_Types.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="3. MultiThreading\BackGroundWorkerExample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="3. MultiThreading\DispatcherExample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="3. MultiThreading\SingleThread.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="5. SOLID Princliple\Views\OCP.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="5. SOLID Princliple\Views\SRP.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -394,79 +435,59 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="WPF Basics\XamlExample.xaml">
+    <Page Include="2. WPFMVVMAdvance\2. AttachedPropertySample\AttachedPropertyExample.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="WPFMVVMAdvance\AttachedPropertySample\AttachedPropertyExample.xaml">
+    <Page Include="2. WPFMVVMAdvance\1. DependencyPropertySample\CustomDependencyProperty.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="WPFMVVMAdvance\DependencyPropertySample\CustomDependencyProperty.xaml">
+    <Page Include="2. WPFMVVMAdvance\Localization\LocalizationSample.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="WPFMVVMAdvance\Localization\LocalizationSample.xaml">
+    <Page Include="2. WPFMVVMAdvance\LogicalVsVisualTree\LogicalVsVisualTree.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="WPFMVVMAdvance\LogicalVsVisualTree\LogicalVsVisualTree.xaml">
+    <Page Include="2. WPFMVVMAdvance\Virtualization\VirtualizationExample.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="WPFMVVMAdvance\Virtualization\VirtualizationExample.xaml">
+    <Page Include="1. WPFMVVMBasic\8. Commands\Views\CommandsExample.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="WPFMVVMBasic\Commands\Views\CommandsExample.xaml">
+    <Page Include="1. WPFMVVMBasic\8. Commands\Views\PersonView.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="WPFMVVMBasic\Commands\Views\ICommandExample.xaml">
+    <Page Include="1. WPFMVVMBasic\3. DataBindings\Binding_Default.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="WPFMVVMBasic\Commands\Pages\Page1.xaml">
+    <Page Include="1. WPFMVVMBasic\3. DataBindings\Binding_OneTime.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="WPFMVVMBasic\Commands\Pages\Page2.xaml">
+    <Page Include="1. WPFMVVMBasic\3. DataBindings\Binding_OneWay.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="WPFMVVMBasic\Commands\Pages\Page3.xaml">
+    <Page Include="1. WPFMVVMBasic\3. DataBindings\Binding_OneWayToSource.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="WPFMVVMBasic\Commands\Pages\Page4.xaml">
+    <Page Include="1. WPFMVVMBasic\3. DataBindings\Binding_TwoWay.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="WPFMVVMBasic\DataBindings\Binding_Default.xaml">
+    <Page Include="1. WPFMVVMBasic\3. DataBindings\Binding_Main.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="WPFMVVMBasic\DataBindings\Binding_OneTime.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="WPFMVVMBasic\DataBindings\Binding_OneWay.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="WPFMVVMBasic\DataBindings\Binding_OneWayToSource.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="WPFMVVMBasic\DataBindings\Binding_TwoWay.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="WPFMVVMBasic\DataBindings\Binding_Main.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="WPFMVVMBasic\DataContext\DataContextExample.xaml">
+    <Page Include="1. WPFMVVMBasic\DataContext\DataContextExample.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -474,11 +495,11 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="WPFMVVMAdvance\DependencyPropertySample\BasicDependencyProperty.xaml">
+    <Page Include="2. WPFMVVMAdvance\1. DependencyPropertySample\BasicDependencyProperty.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="WPFMVVMBasic\INotifyPropertyChangedSample\INotifyPropertyChangedExample.xaml">
+    <Page Include="1. WPFMVVMBasic\7. INotifyPropertyChangedSample\INotifyPropertyChangedExample.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -490,130 +511,122 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="WPFMVVMBasic\DataBindings\Binding_Main.xaml.cs">
+    <Compile Include="1. WPFMVVMBasic\3. DataBindings\Binding_Main.xaml.cs">
       <DependentUpon>Binding_Main.xaml</DependentUpon>
     </Compile>
     <Compile Include="MainApp.xaml.cs">
       <DependentUpon>MainApp.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Page Include="WPFMVVMBasic\Layouts\Layout_Canvas.xaml">
+    <Page Include="1. WPFMVVMBasic\Layouts\Layout_Canvas.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="WPFMVVMBasic\Layouts\Layout_DockPanel.xaml">
+    <Page Include="1. WPFMVVMBasic\Layouts\Layout_DockPanel.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="WPFMVVMBasic\Layouts\Layout_Grid.xaml">
+    <Page Include="1. WPFMVVMBasic\Layouts\Layout_Grid.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="WPFMVVMBasic\Layouts\Layout_StackPanel.xaml">
+    <Page Include="1. WPFMVVMBasic\Layouts\Layout_StackPanel.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="WPFMVVMBasic\Layouts\Layout_WrapPanel.xaml">
+    <Page Include="1. WPFMVVMBasic\Layouts\Layout_WrapPanel.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="WPFMVVMBasic\MVVMPattern\UserInfo.xaml">
+    <Page Include="1. WPFMVVMBasic\1. MVVM Main\Pattern2\UserInfo.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="WPFMVVMBasic\Resources\RelativeSource_FindAncestor.xaml">
+    <Page Include="1. WPFMVVMBasic\2. Resources\RelativeSource_FindAncestor.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="WPFMVVMBasic\Resources\RelativeSource_Self.xaml">
+    <Page Include="1. WPFMVVMBasic\2. Resources\RelativeSource_Self.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="WPFMVVMBasic\Resources\DynamicResourceExample.xaml">
+    <Page Include="1. WPFMVVMBasic\2. Resources\DynamicResourceExample.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="WPFMVVMBasic\Resources\RelativeSource_TemplatedParent.xaml">
+    <Page Include="1. WPFMVVMBasic\2. Resources\RelativeSource_TemplatedParent.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="WPFMVVMBasic\Resources\StaticResourceExample.xaml">
+    <Page Include="1. WPFMVVMBasic\2. Resources\StaticResourceExample.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="WPFMVVMBasic\RoutedEvents\RoutedEventsExample.xaml">
+    <Page Include="1. WPFMVVMBasic\RoutedEvents\RoutedEventsExample.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="WPFMVVMBasic\Styles\StyleInheritanceExample.xaml">
+    <Page Include="1. WPFMVVMBasic\Styles\StyleInheritanceExample.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="WPFMVVMBasic\Styles\StylesExample.xaml">
+    <Page Include="1. WPFMVVMBasic\Styles\StylesExample.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="WPFMVVMBasic\Templates\Template_HierarchialData.xaml">
+    <Page Include="1. WPFMVVMBasic\5.Templates\Template_HierarchialData.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="WPFMVVMBasic\Templates\Templete_Data.xaml">
+    <Page Include="1. WPFMVVMBasic\5.Templates\Templete_Data.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="WPFMVVMBasic\Templates\Template_ItemPanel.xaml">
+    <Page Include="1. WPFMVVMBasic\5.Templates\Template_ItemPanel.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="WPFMVVMBasic\Templates\Template_Control.xaml">
+    <Page Include="1. WPFMVVMBasic\5.Templates\Template_Control.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="WPFMVVMBasic\Triggers\Trigger_Data.xaml">
+    <Page Include="1. WPFMVVMBasic\4. Triggers\Trigger_Data.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="WPFMVVMBasic\Triggers\Trigger_Event.xaml">
+    <Page Include="1. WPFMVVMBasic\4. Triggers\Trigger_Event.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="WPFMVVMBasic\Triggers\Trigger_MultiDataTrigger.xaml">
+    <Page Include="1. WPFMVVMBasic\4. Triggers\Trigger_MultiDataTrigger.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="WPFMVVMBasic\Triggers\Trigger_MultiTrigger.xaml">
+    <Page Include="1. WPFMVVMBasic\4. Triggers\Trigger_MultiTrigger.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="WPFMVVMBasic\Triggers\Trigger_Property.xaml">
+    <Page Include="1. WPFMVVMBasic\4. Triggers\Trigger_Property.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="WPFMVVMBasic\Triggers\Trigger_Main.xaml">
+    <Page Include="1. WPFMVVMBasic\4. Triggers\Trigger_Main.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="WPFMVVMBasic\UserControlsExample\MyUserControl.xaml">
+    <Page Include="1. WPFMVVMBasic\UserControlsExample\MyUserControl.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="WPFMVVMBasic\UserControlsExample\UserControlsExample.xaml">
+    <Page Include="1. WPFMVVMBasic\UserControlsExample\UserControlsExample.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="WPFMVVMBasic\ValueConvertorsExample\ValueConvertorsExample.xaml">
+    <Page Include="1. WPFMVVMBasic\6. ValueConvertors\ValueConvertorsExample.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="WPFMVVMBasic\Window1.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="WPFMVVMBasic\wpf-tutorial.com\WPFDemo.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="WPFMVVMPattern\SamplesMVVM.xaml">
+    <Page Include="1. WPFMVVMBasic\1. MVVM Main\Pattem1\Samples.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -645,9 +658,7 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="WPFMVVMAdvance\Dispatcher\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <ProjectReference Include="..\..\CaliburnMicro\WPFUI\WPFUI.csproj">
       <Project>{A7F86755-0D79-42D8-AC81-6FE0B8C86C86}</Project>

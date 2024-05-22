@@ -1,0 +1,16 @@
+﻿<ui:WslDialog  xmlns:ui="clr-namespace:Keysight.Ccl.Wsl.UI;assembly=Keysight.Ccl.Wsl" x:Class="MainApplication.WPF_MVVM.WPFMVVMBasic.DataBindings.Binding_OneWayToSource"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MainApplication.WPF_MVVM.WPFMVVMBasic.DataBindings"
+        mc:Ignorable="d"
+        Title="Binding_OneWayToSource" Height="450" Width="800" Left="8" Top="62">
+    <Grid>
+        <Label Name="lblName" Height="28" Content="Name" Margin="10,4,227,237" />
+        <TextBox Name="txtName" Width="150" Height="28" Margin="86,6,56,235" Text="{Binding Name, Mode=OneWayToSource}"></TextBox>
+        <Label Name="lblAge" Height="28" Content="Age" Margin="10,37,227,204" />
+        <TextBox Name="txtAge" Width="150" Height="28" Margin="87,39,55,202" Text="{Binding Age, Mode=OneWayToSource}"></TextBox>
+        <Button Name="btnOk" Content="OK" Style="{StaticResource ButtonStyleDefault}" Click="btnOk_Click"></Button>
+    </Grid>
+</ui:WslDialog>

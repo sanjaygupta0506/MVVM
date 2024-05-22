@@ -39,10 +39,7 @@ using MainApplication.WPF_MVVM.Design_Pattern.Singletons;
 using MainApplication.WPF_MVVM.WPFMVVMBasic.Triggers;
 using System.Data.Common;
 using MainApplication.WPF_MVVM.WPFMVVMAdvance.AttachedPropertySample;
-using MainApplication.WPF_MVVM.WPFMVVMBasic.wpf_tutorial.com;
 using MainApplication.WPF_MVVM.WPFMVVMBasic.Layouts;
-using MainApplication.WPF_MVVM.WPFMVVMBasic.Commands.Pages;
-using MainApplication.WPF_MVVM.WPF_Basics;
 using MainApplication.WPF_MVVM.WPFMVVMBasic.Styles;
 using MainApplication.WPF_MVVM.WPFMVVMBasic.DataBindings;
 using MainApplication.WPF_MVVM.WPFMVVMBasic.Templates;
@@ -51,6 +48,13 @@ using MainApplication.WPF_MVVM.WPFMVVMAdvance.DependencyPropertySample;
 using MainApplication.WPF_MVVM.WPFMVVMBasic.RoutedEvents;
 using MainApplication.WPF_MVVM.WPFMVVMAdvance.Virtualization;
 using MainApplication.WPF_MVVM.WPFMVVMAdvance;
+using MainApplication.WPF_MVVM.WPFMVVMBasic.Commands.Views;
+using MainApplication.WPF_MVVM.WPFMVVMBasic.Commands.ViewModel;
+using MainApplication.WPF_MVVM._1._WPFMVVMBasic._1._MVVM_Main.Pattern3;
+using MainApplication.WPF_MVVM._4._Design_Pattern.Deppendency_Injection.Method;
+using MainApplication.WPF_MVVM._4._Design_Pattern.Deppendency_Injection.Property;
+using MainApplication.WPF_MVVM._4._Design_Pattern.Deppendency_Injection.Constructor;
+using MainApplication.WPF_MVVM._2._WPFMVVMAdvance._2._AttachedPropertySample.Pattern1;
 
 namespace MVVMCore
 {
@@ -183,6 +187,8 @@ namespace MVVMCore
             template_HierarchialData.Show();
         }
 
+     
+
         private void SampleMVVM_Click(object sender, RoutedEventArgs e)
         {
             SamplesMVVM sampleMVVM = new SamplesMVVM();
@@ -190,15 +196,24 @@ namespace MVVMCore
             sampleMVVM.Owner = Application.Current.MainWindow;
             sampleMVVM.Show();
         }
-        private void MVVMPattern_Click(object sender, RoutedEventArgs e)
+
+        private void UserInfoMVVM_Click(object sender, RoutedEventArgs e)
         {
             UserInfo userInfo = new UserInfo();
             userInfo.ShowInTaskbar = false;
             userInfo.Owner = Application.Current.MainWindow;
             userInfo.Show();
         }
-       
-       
+
+        private void StudentInfoMVVM_Click(object sender, RoutedEventArgs e)
+        {
+            StudentInfo studentInfo = new StudentInfo();
+            studentInfo.ShowInTaskbar = false;
+            studentInfo.Owner = Application.Current.MainWindow;
+            studentInfo.Show();
+        }
+
+
         private void INotifyPropertyChanged_Click(object sender, RoutedEventArgs e)
         {
             INotifyPropertyChangedExample iNotifyPropertyChangedExample = new INotifyPropertyChangedExample();
@@ -282,6 +297,7 @@ namespace MVVMCore
             template_Control.ShowInTaskbar = false;
             template_Control.Owner = Application.Current.MainWindow;
             template_Control.Show();
+            template_Control.Show();
         }
         private void Layouts_Click(object sender, RoutedEventArgs e)
         {
@@ -295,15 +311,7 @@ namespace MVVMCore
             routedEventsExample.Show();
         }
 
-        private void SampleWPF_Click(object sender, RoutedEventArgs e)
-        {
-            WPFDemo wPFDemo = new WPFDemo();
-            wPFDemo.ShowInTaskbar = false;
-            wPFDemo.Owner = Application.Current.MainWindow;
-            wPFDemo.Show();
-        }
-
-      
+         
 
         
 
@@ -326,19 +334,14 @@ namespace MVVMCore
 
         private void ICommand_Click(object sender, RoutedEventArgs e)
         {
-            ICommandExample IcommandExample = new ICommandExample();
-            IcommandExample.ShowInTaskbar = false;
-            IcommandExample.Owner = Application.Current.MainWindow;
-            IcommandExample.Show();
+            PersonView personView = new PersonView();
+            PersonViewModel personViewModel = new PersonViewModel();
+            personView.DataContext = personViewModel;
+            personView.ShowInTaskbar = false;
+            personView.Owner = Application.Current.MainWindow;
+            personView.Show();
         }
 
-        private void x_Xaml_Click(object sender, RoutedEventArgs e)
-        {
-            XamlExample xamlExample = new XamlExample();
-            xamlExample.ShowInTaskbar = false;
-            xamlExample.Owner = Application.Current.MainWindow;
-            xamlExample.Show();
-        }
 
         private void MultiTrigger_Click(object sender, RoutedEventArgs e)
         {
@@ -379,6 +382,11 @@ namespace MVVMCore
             attachedPropertyExample.ShowInTaskbar = false;
             attachedPropertyExample.Owner = Application.Current.MainWindow;
             attachedPropertyExample.Show();
+
+            //APIDemo aPIDemo = new APIDemo();
+            //aPIDemo.ShowInTaskbar = false;
+            //aPIDemo.Owner = Application.Current.MainWindow;
+            //aPIDemo.Show();
         }
         private void x_LogicalvsVisualTree_Click(object sender, RoutedEventArgs e)
         {
@@ -519,6 +527,58 @@ namespace MVVMCore
             virtualizationExample.ShowInTaskbar = false;
             virtualizationExample.Owner = Application.Current.MainWindow;
             virtualizationExample.Show();
+        }
+
+        private void DIConstructor_Click(object sender, RoutedEventArgs e)
+        {
+            DIContructor dIContructor = new DIContructor();
+            dIContructor.ShowInTaskbar = false;
+            dIContructor.Owner = Application.Current.MainWindow;
+            dIContructor.Show();
+        }
+
+        private void DIProperty_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void DIMethod_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void x_SingleTonDType_Click(object sender, RoutedEventArgs e)
+        {
+            Singleton_Types singleton_Types = new Singleton_Types();
+            singleton_Types.ShowInTaskbar = false;
+            singleton_Types.Owner = Application.Current.MainWindow;
+            singleton_Types.Show();
+        }
+
+        
+
+        private void x_DIConstructor_Click(object sender, RoutedEventArgs e)
+        {
+            DIContructor dIContructor = new DIContructor();
+            dIContructor.ShowInTaskbar = false;
+            dIContructor.Owner = Application.Current.MainWindow;
+            dIContructor.Show();
+        }
+
+        private void x_DIMethod_Click(object sender, RoutedEventArgs e)
+        {
+            DIMethod dIMethod = new DIMethod();
+            dIMethod.ShowInTaskbar = false;
+            dIMethod.Owner = Application.Current.MainWindow;
+            dIMethod.Show();
+        }
+
+        private void x_DIPropety_Click(object sender, RoutedEventArgs e)
+        {
+            DIProperty dIProperty = new DIProperty();
+            dIProperty.ShowInTaskbar = false;
+            dIProperty.Owner = Application.Current.MainWindow;
+            dIProperty.Show();
         }
     }
 }

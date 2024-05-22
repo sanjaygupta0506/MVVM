@@ -32,3 +32,10 @@ F:\Final LFT Data\MVVM\Main Project\MainApplication\Assignment\Logical\String\St
 F:\Final LFT Data\MVVM\Main Project\MainApplication\Assignment\Logical\String\StringPalindrome\obj\Debug\Palindrome.csproj.CoreCompileInputs.cache
 F:\Final LFT Data\MVVM\Main Project\MainApplication\Assignment\Logical\String\StringPalindrome\obj\Debug\ConsoleApplication9.exe
 F:\Final LFT Data\MVVM\Main Project\MainApplication\Assignment\Logical\String\StringPalindrome\obj\Debug\ConsoleApplication9.pdb
+F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\Assignment\Logical\String\StringPalindrome\bin\Debug\ConsoleApplication9.exe.config
+F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\Assignment\Logical\String\StringPalindrome\bin\Debug\ConsoleApplication9.exe
+F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\Assignment\Logical\String\StringPalindrome\bin\Debug\ConsoleApplication9.pdb
+F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\Assignment\Logical\String\StringPalindrome\obj\Debug\Palindrome.csproj.CoreCompileInputs.cache
+F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\Assignment\Logical\String\StringPalindrome\obj\Debug\ConsoleApplication9.exe
+F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\Assignment\Logical\String\StringPalindrome\obj\Debug\ConsoleApplication9.pdb
+F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\Assignment\Logical\String\StringPalindrome\obj\Debug\Palindrome.csproj.AssemblyReference.cache

@@ -12,3 +12,7 @@ F:\Final LFT Data\MVVM\Main Project\MainApplication\CSharpConceptApp\obj\Debug\C
 F:\Final LFT Data\MVVM\Main Project\MainApplication\CSharpConceptApp\obj\Debug\CSharpConceptApp.exe
 F:\Final LFT Data\MVVM\Main Project\MainApplication\CSharpConceptApp\obj\Debug\CSharpConceptApp.pdb
 F:\Final LFT Data\MVVM\Main Project\MainApplication\CSharpConceptApp\obj\Debug\CSharpConceptApp.csproj.AssemblyReference.cache
+F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\CSharpConceptApp\obj\Debug\CSharpConceptApp.csproj.AssemblyReference.cache
+F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\CSharpConceptApp\obj\Debug\CSharpConceptApp.csproj.CoreCompileInputs.cache
+F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\CSharpConceptApp\obj\Debug\CSharpConceptApp.exe
+F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\CSharpConceptApp\obj\Debug\CSharpConceptApp.pdb

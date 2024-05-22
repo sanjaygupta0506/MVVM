@@ -1,0 +1,37 @@
+﻿<ui:WslDialog  xmlns:ui="clr-namespace:Keysight.Ccl.Wsl.UI;assembly=Keysight.Ccl.Wsl" x:Class="MainApplication.WPF_MVVM.WPFMVVMBasic.Styles.StyleInheritanceExample"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MainApplication.WPF_MVVM.WPFMVVMBasic.Styles"
+        mc:Ignorable="d"
+        Title="Style Inheritance" Height="450" Width="800">
+    <Window.Resources>
+        <!--Parent Style-->
+        <Style x:Key="x_Style" TargetType="Button">
+            <Setter Property="Background" Value="Teal"/>
+            <Setter Property="Foreground" Value="Wheat"/>
+        </Style>
+        
+        <!--Child Style-->
+        <Style x:Key="x_IStyle" BasedOn="{StaticResource x_Style}" TargetType="Button">
+            <Setter Property="FontWeight" Value="ExtraBold"/>
+            <Setter Property="Foreground" Value="White"/>
+           
+            
+        </Style>
+        
+        <!--Grand Child Style-->
+        <Style x:Key="x_IStyle1" BasedOn="{StaticResource x_IStyle}" TargetType="Button">
+            <Setter Property="FontSize" Value="25"/>
+            <Setter Property="Foreground" Value="Yellow"/>
+            <Setter Property="Height" Value="50"/>
+        </Style>
+        
+    </Window.Resources>
+    <Grid>
+        <Button x:Name="btn1" Content="Style Inheritance 1" Width="250" Height="40" VerticalAlignment="Top" HorizontalAlignment="Left"  FontSize="20" Margin="70,10" Style="{StaticResource x_Style}"></Button>
+        <Button x:Name="btn2" Content="Style Inheritance 2" Width="250" Height="40" VerticalAlignment="Top" HorizontalAlignment="Right" Margin="100,10" FontWeight="Bold" FontSize="20" Style="{StaticResource x_IStyle}"></Button>
+        <Button x:Name="btn3" Content="Style Inheritance 3" Width="250" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="240,130" FontWeight="Bold" Style="{StaticResource x_IStyle1}"></Button>
+    </Grid>
+</ui:WslDialog>

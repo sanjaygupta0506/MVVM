@@ -4,7 +4,7 @@
 library
 C#
 .cs
-D:\Personal\MVVM\Main Project\MainApplication\MVVMCore\CommonUtils\CommonUtils\obj\Debug\
+F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\CommonUtils\CommonUtils\obj\Debug\
 MainApplication.CommonUtils
 none
 false
@@ -13,8 +13,8 @@ DEBUG;TRACE
 5-2122810500
 
 8-796230177
-26-1279799795
+261897212274
 ResourceDictionaries\CommonComponentStyle.xaml;ResourceDictionaries\Generic.xaml;ResourceDictionaries\SolidColorBrushDark.xaml;ResourceDictionaries\SolidColorBrushLight.xaml;SettingsWindow.xaml;
 
-False
+True
 

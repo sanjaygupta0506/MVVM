@@ -1,0 +1,27 @@
+﻿<ui:WslDialog  xmlns:ui="clr-namespace:Keysight.Ccl.Wsl.UI;assembly=Keysight.Ccl.Wsl" x:Class="MVVMCore.Commands.CommandsExample"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MVVMCore.Model"
+        xmlns:CommandsModel="clr-namespace"
+        mc:Ignorable="d"
+        Title="Commands Example" Height="450" Width="800" Left="8" Top="62">
+    <Window.Resources>
+        <local:CommandsModel x:Key="vm"/>
+    </Window.Resources>
+    
+    <Grid Name="pnlMainGrid">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50"></RowDefinition>
+            <RowDefinition Height="70"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Button Content="Normal Button" Grid.Row="0" x:Name="x_commandButton1" Height="30" Width="150" Click="x_commandButton1_Click"></Button>
+
+        <Button Grid.Row="1" x:Name="x_commandButton" Content="Command Button" Command="{Binding myCommand, Source={StaticResource vm}}" Height="40" Width="150" HorizontalAlignment="Center" VerticalAlignment="Center" >
+            <Button.FontWeight>Bold</Button.FontWeight>
+        </Button>
+      
+    </Grid>
+</ui:WslDialog>

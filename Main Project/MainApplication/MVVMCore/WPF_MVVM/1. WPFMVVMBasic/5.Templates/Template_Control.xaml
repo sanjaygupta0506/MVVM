@@ -1,0 +1,53 @@
+﻿<ui:WslDialog  xmlns:ui="clr-namespace:Keysight.Ccl.Wsl.UI;assembly=Keysight.Ccl.Wsl" x:Class="MainApplication.WPF_MVVM.WPFMVVMBasic.Templates.Template_Control"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MainApplication.WPF_MVVM.WPFMVVMBasic.Templates"
+        mc:Ignorable="d"
+        Title="Template_Control" Height="450" Width="800" Left="8" Top="62">
+    <Window.Resources>
+        <Style TargetType="Button" x:Key="x_Style">
+            <!--Set to true to not get any properties from the themes-->
+            <Setter Property="OverridesDefaultStyle" Value="True"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Grid>
+                            <Rectangle Width="300" Height="110" Fill="Black"/>
+                            <Rectangle x:Name="Custom" Width="290" Height="100" Fill="Brown"/>
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Grid>
+                        </ControlTemplate>
+                </Setter.Value>
+                </Setter>
+                </Style>
+    </Window.Resources>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="100"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+        </Grid.RowDefinitions>
+        <Button Content="Control Template"  Grid.Row="0" Grid.Column="0" Style="{StaticResource ButtonStyleDefault}"></Button>
+        <!--Add Button.Template tag and create ControlTemplate within it, as shown below.-->
+        <Button Content="Control Template" Grid.Row="1" Grid.Column="0" FontSize="20" FontWeight="Bold" Foreground="Black">
+            <Button.Template>
+                <ControlTemplate TargetType="Button">
+                    <Grid>
+                        <Ellipse Width="300" Height="110" Fill="Brown"/>
+                        <Ellipse x:Name="Custom" Width="290" Height="100" Fill="Brown"/>
+                        <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                    </Grid>
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
+
+        <Button Content="Control Template"  Grid.Row="2" Grid.Column="0" FontSize="20" FontWeight="Bold" Style="{StaticResource x_Style}">
+            
+        </Button>
+
+    </Grid>
+
+    
+</ui:WslDialog>

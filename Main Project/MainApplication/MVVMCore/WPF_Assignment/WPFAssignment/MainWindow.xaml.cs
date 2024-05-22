@@ -1,4 +1,5 @@
-﻿using MVVMCore;
+﻿using Keysight.Ccl.Wsl.UI;
+using MVVMCore;
 using MVVMCore.Challanges;
 using System;
 using System.Collections.Generic;
@@ -16,7 +17,9 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using WPFAssignment.Security;
-
+using Keysight.Ccl.Wsl.UI.Managers;
+using MainApplication.CommonUtils;
+using MainApplication.WPF_Assignment.CompanyWise;
 
 namespace WPFAssignment
 {
@@ -28,7 +31,10 @@ namespace WPFAssignment
     public MainWindow()
     {
       InitializeComponent();
-    }
+      UXManager.Initialize();
+      MainApplication.CommonUtils.ApplicationContext.ThemeType = "Caranu Light";
+      ApplyTheme();
+      }
 
     private void x_GridHeader_Click(object sender, RoutedEventArgs e)
     {
@@ -117,20 +123,28 @@ namespace WPFAssignment
     private void x_caranuDark_Click(object sender, RoutedEventArgs e)
     {
 
-      //ApplicationContext.ThemeType = "Caranu Dark";
+      MainApplication.CommonUtils.ApplicationContext.ThemeType = "Caranu Dark";
       ApplyTheme();
     }
 
     private void ApplyTheme()
-    {
-#pragma warning disable CS0436 // Type conflicts with imported type
-      //ThemeMgr.SetCaranuColorTheme(ApplicationContext.ThemeType);
-#pragma warning restore CS0436 // Type conflicts with imported type
-    }
+        {
+            //if (SkinManager.Instance.ColorSkinFragment == "Caranu Dark")
+            //{
+            //    this.Background = ThemeMgr.ThemeBackgroundColour;
+            //    this.Foreground = ThemeMgr.ThemeForgroundColour;
+            //}
+            //else
+            //{
+            //    this.Background = ThemeMgr.ThemeBackgroundColour;
+            //    this.Foreground = ThemeMgr.ThemeForgroundColour;
+            //}
+        }
 
     private void x_caranuLight_Click(object sender, RoutedEventArgs e)
     {
-      ApplyTheme();
+       MainApplication.CommonUtils.ApplicationContext.ThemeType = "Caranu Light";
+       ApplyTheme();
     }
 
     private void x_file_Click(object sender, RoutedEventArgs e)
@@ -142,5 +156,11 @@ namespace WPFAssignment
     {
 
     }
-  }
+
+    private void x_Stryker_Click(object sender, RoutedEventArgs e)
+        {
+            Stryker stryker = new Stryker();
+            stryker.Show();
+        }
+    }
 }

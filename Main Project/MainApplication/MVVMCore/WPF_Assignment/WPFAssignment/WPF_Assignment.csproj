@@ -59,18 +59,6 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\Component\Actipro\ActiproSoftware.Shared.Wpf.dll</HintPath>
     </Reference>
-    <Reference Include="Infragistics4.Win.UltraWinGrid.v15.1, Version=15.1.20151.2230, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\Component\Infragistic\Infragistics4.Win.UltraWinGrid.v15.1.dll</HintPath>
-    </Reference>
-    <Reference Include="Infragistics4.Win.v15.1, Version=15.1.20151.2230, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\Component\Infragistic\Infragistics4.Win.v15.1.dll</HintPath>
-    </Reference>
-    <Reference Include="InfragisticsWPF4.Controls.Grids.XamGrid.v20.2, Version=20.2.20202.16, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\Corvette\WS\Latest Code\Other Demo Project\Proto1_N\CCL_WSL\Bin\Release\InfragisticsWPF4.Controls.Grids.XamGrid.v20.2.dll</HintPath>
-    </Reference>
     <Reference Include="InfragisticsWPF4.DockManager.v20.2, Version=20.2.20202.16, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\Component\Infragistic\InfragisticsWPF4.DockManager.v20.2.dll</HintPath>
@@ -105,15 +93,15 @@
     <Reference Include="WindowsBase" />
     <Reference Include="PresentationCore" />
     <Reference Include="PresentationFramework" />
-    <Reference Include="WpfAnimatedGif">
-      <HintPath>..\..\Component\Keysight\WpfAnimatedGif.dll</HintPath>
-    </Reference>
   </ItemGroup>
   <ItemGroup>
     <ApplicationDefinition Include="App.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="CompanyWise\Stryker.xaml.cs">
+      <DependentUpon>Stryker.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Security\Encryption_Descryption.xaml.cs">
       <DependentUpon>Encryption_Descryption.xaml</DependentUpon>
     </Compile>
@@ -169,6 +157,10 @@
     <Page Include="Challanges\WPFTitleBarExample.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
+    </Page>
+    <Page Include="CompanyWise\Stryker.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
