@@ -16,5 +16,5 @@ DEBUG;TRACE
 261897212274
 ResourceDictionaries\CommonComponentStyle.xaml;ResourceDictionaries\Generic.xaml;ResourceDictionaries\SolidColorBrushDark.xaml;ResourceDictionaries\SolidColorBrushLight.xaml;SettingsWindow.xaml;
 
-True
+False
 

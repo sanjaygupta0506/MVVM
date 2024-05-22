@@ -87,4 +87,3 @@ F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\Assignment\MVV
 F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\Assignment\MVVM\3ListToRadioButton\obj\Debug\ListToRadioButton.csproj.CoreCompileInputs.cache
 F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\Assignment\MVVM\3ListToRadioButton\obj\Debug\3ListToRadioButton.exe
 F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\Assignment\MVVM\3ListToRadioButton\obj\Debug\3ListToRadioButton.pdb
-F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\Assignment\MVVM\3ListToRadioButton\obj\Debug\ListToRadioButton.csproj.AssemblyReference.cache

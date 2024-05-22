@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Keysight.Ccl.Wsl.UI;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -17,14 +18,14 @@ namespace MainApplication.WPF_Assignment.CompanyWise
     /// <summary>
     /// Interaction logic for Stryker.xaml
     /// </summary>
-    public partial class Stryker : Window
+    public partial class Stryker : WslDialog
     {
         public Stryker()
         {
             InitializeComponent();
             List<Employee> employees = new List<Employee>()
             {
-                new Employee{FName="Sanjay",LName="Gupta",Age=40, Gender="M"},
+                new Employee{FName="Sanjay", LName="Gupta",Age=40, Gender="M"},
                 new Employee{FName="Sanjay1",LName="Gupta1",Age=41, Gender="M"},
                 new Employee{FName="Sanjay2",LName="Gupta2",Age=43, Gender="M"},
                 new Employee{FName="Sanjay3",LName="Gupta3",Age=44, Gender="M"},
@@ -43,5 +44,18 @@ namespace MainApplication.WPF_Assignment.CompanyWise
         public int Age { get; set; }
 
         public string Gender { get; set; }
+
+        private string fullname;
+        public string FullName
+        {
+            get { return fullname = FName + " | " + LName + " | " + Age + " | " + Gender; }
+            set
+            {
+                if (fullname != value)
+                {
+                    fullname = value;
+                }
+            }
+        }
     }
 }

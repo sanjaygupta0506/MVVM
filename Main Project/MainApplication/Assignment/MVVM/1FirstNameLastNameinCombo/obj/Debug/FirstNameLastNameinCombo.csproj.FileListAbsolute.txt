@@ -86,4 +86,3 @@ F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\Assignment\MVV
 F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\Assignment\MVVM\1FirstNameLastNameinCombo\obj\Debug\FirstNameLastNameinCombo.csproj.CoreCompileInputs.cache
 F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\Assignment\MVVM\1FirstNameLastNameinCombo\obj\Debug\ObservableCollectionExample.exe
 F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\Assignment\MVVM\1FirstNameLastNameinCombo\obj\Debug\ObservableCollectionExample.pdb
-F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\Assignment\MVVM\1FirstNameLastNameinCombo\obj\Debug\FirstNameLastNameinCombo.csproj.AssemblyReference.cache

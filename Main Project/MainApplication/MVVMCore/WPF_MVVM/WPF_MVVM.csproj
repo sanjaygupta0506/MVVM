@@ -182,14 +182,6 @@
       <DependentUpon>Singleton_Types.xaml</DependentUpon>
     </Compile>
     <Compile Include="EnumClass.cs" />
-    <Compile Include="Models\ArithmeticConverter.cs" />
-    <Compile Include="Models\CommandModel.cs" />
-    <Compile Include="Models\CommandViewModel.cs" />
-    <Compile Include="Models\LinkedListExtensions.cs" />
-    <Compile Include="Models\MathExtensions.cs" />
-    <Compile Include="Models\RelativeSource_SelfModel.cs" />
-    <Compile Include="Models\VirtualPanel.cs" />
-    <Compile Include="Models\ZoomableCanvas.cs" />
     <Compile Include="4. Design Pattern\Singletons\EnumHelper.cs" />
     <Compile Include="3. MultiThreading\BackGroundWorkerExample.xaml.cs">
       <DependentUpon>BackGroundWorkerExample.xaml</DependentUpon>
@@ -253,6 +245,16 @@
       <DependentUpon>DataContextExample.xaml</DependentUpon>
     </Compile>
     <Compile Include="DataGridSingleClickCheckbox\PersonModel.cs" />
+    <Compile Include="Models\ArithmeticConverter.cs" />
+    <Compile Include="Models\CommandModel.cs" />
+    <Compile Include="Models\CommandsModel.cs" />
+    <Compile Include="Models\CommandViewModel.cs" />
+    <Compile Include="Models\INotifyPropertyChangedExampleModel.cs" />
+    <Compile Include="Models\LinkedListExtensions.cs" />
+    <Compile Include="Models\MathExtensions.cs" />
+    <Compile Include="Models\RelativeSource_SelfModel.cs" />
+    <Compile Include="Models\VirtualPanel.cs" />
+    <Compile Include="Models\ZoomableCanvas.cs" />
     <Compile Include="ViewModels\BindableBase.cs" />
     <Compile Include="ViewModels\MainWindowViewModel.cs" />
     <Compile Include="DataGridSingleClickCheckbox\Views\MainWindow.xaml.cs">
@@ -264,8 +266,6 @@
     <Compile Include="1. WPFMVVMBasic\7. INotifyPropertyChangedSample\INotifyPropertyChangedExample.xaml.cs">
       <DependentUpon>INotifyPropertyChangedExample.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Models\CommandsModel.cs" />
-    <Compile Include="Models\INotifyPropertyChangedExampleModel.cs" />
     <Compile Include="1. WPFMVVMBasic\1. MVVM Main\Pattern2\UserInfoModel.cs" />
     <Compile Include="2. WPFMVVMAdvance\MVVMCommads\MVVMCommand.cs" />
     <Compile Include="1. WPFMVVMBasic\Layouts\Layout_Canvas.xaml.cs">

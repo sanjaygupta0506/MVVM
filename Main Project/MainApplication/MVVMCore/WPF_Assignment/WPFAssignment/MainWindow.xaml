@@ -1,4 +1,5 @@
-﻿<Window x:Class="WPFAssignment.MainWindow"
+﻿<ui:WslMainWindow  xmlns:ui="clr-namespace:Keysight.Ccl.Wsl.UI;assembly=Keysight.Ccl.Wsl"
+                   x:Class="WPFAssignment.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
@@ -23,43 +24,29 @@
             <Separator />
             <MenuItem Name="x_WPFScrollBar" Header="WPF Scroll Bar" Click="x_WPFScrollBar_Click" />
             <Separator />
-            <MenuItem Name="x_WPFDatagridComboBox" Header="WPF Datagrid ComboBox" Click="x_WPFDatagridComboBox_Click"/>
-            <Separator />
-            <MenuItem Name="x_InfragisticUltragrid" Header="Infragistic Ultragrid" Click="x_InfragisticUltragrid_Click"/>
-            <Separator />
-
-            <MenuItem Name="x_InfragisticDockManager" Header="Infragistic Dock Manager" Click="x_InfragisticDockManager_Click"/>
-            <Separator />
-            <MenuItem Name="x_InfragisticDockManagerN" Header="Infragistics Dock Manager Demo" Click="x_InfragisticDockManagerN_Click"/>
-            <Separator />
-            <MenuItem Name="x_combowithEnum" Header="Combo With Enum" Click="x_combowithEnum_Click"/>
-            <Separator />
-            <MenuItem Name="x_DynamicResource" Header="Dynamic Resource" Click="x_DynamicResource_Click"/>
-            <Separator />
-            <MenuItem Name="x_CommonControl" Header="Common Control" Click="x_CommonControl_Click"/>
-            <Separator />
-            <MenuItem Name="x_SearchTextBox" Header="Search TextBox" Click="x_SearchTextBox_Click"/>
-            <Separator />
-            <MenuItem Name="x_DataGridSingleClickCheckbox" Header="DataGrid Single Click Check box" Click="x_DataGridSingleClickCheckbox_Click"/>
-            <Separator />
-            <MenuItem Name="x_Winforms" Header="Win forms">
-                <MenuItem Name="x_GridHeader" Header="Grid Header" Click="x_GridHeader_Click"></MenuItem>
-            </MenuItem>
-            <Separator />
-
-            <MenuItem Name="x_Trigger" Header="Trigger" Click="x_Trigger_Click" />
-            <Separator />
         </MenuItem>
-            <MenuItem Name="x_security" Header="Security">
-                <MenuItem Name="x_file" Header="File Security" Click="x_file_Click"></MenuItem>
-                <Separator />
-                <MenuItem Name="x_form" Header="Form Security" Click="x_form_Click"></MenuItem>
-            </MenuItem>
 
+            <MenuItem Name="x_Comman" Header="Comman Task">
+                <MenuItem Name="x_BtnEnableOnTextChange" Header="BtnEnableOnTextChange" Click="x_BtnEnableOnTextChange_Click"></MenuItem>
+                <Separator />
+                <MenuItem Name="x_ComboColorChangeFromRadio" Header="ComboColorChangeFromRadio" Click="x_ComboColorChangeFromRadio_Click"></MenuItem>
+                <Separator />
+                <MenuItem Name="x_FirstNameLastNameinCombo" Header="FirstNameLastNameinCombo" Click="x_FirstNameLastNameinCombo_Click"></MenuItem>
+                <Separator />
+                <MenuItem Name="x_ListToRadioButton" Header="ListToRadioButton" Click="x_ListToRadioButton_Click"></MenuItem>
+                <Separator />
+                <MenuItem Name="x_TreeViewColorChangeOnRadio" Header="TreeViewColorChangeOnRadio" Click="x_TreeViewColorChangeOnRadio_Click"></MenuItem>
+                <Separator />
+            </MenuItem>
             <MenuItem Name="x_Company" Header="Company Wise">
                 <MenuItem Name="x_Stryker" Header="Stryker" Click="x_Stryker_Click"></MenuItem>
                 <Separator />
                 
+            </MenuItem>
+            <MenuItem Name="x_security" Header="Security">
+                <MenuItem Name="x_file" Header="File Security" Click="x_file_Click"></MenuItem>
+                <Separator />
+                <MenuItem Name="x_form" Header="Form Security" Click="x_form_Click"></MenuItem>
             </MenuItem>
             
             <MenuItem Name="x_View" Header="Themes">
@@ -72,4 +59,4 @@
             </MenuItem>
         </Menu>
     </Grid>
-</Window>
+</ui:WslMainWindow>

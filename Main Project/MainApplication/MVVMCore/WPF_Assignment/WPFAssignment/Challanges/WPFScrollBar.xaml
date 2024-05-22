@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:MVVMCore.Challanges"
         mc:Ignorable="d"
-        Title="WPFScrollBar" Height="400" Width="600">
+        Title="WPFScrollBar" Height="400" Width="600" Left="8" Top="62" >
 
     <ui:WslDialog.Resources>
 

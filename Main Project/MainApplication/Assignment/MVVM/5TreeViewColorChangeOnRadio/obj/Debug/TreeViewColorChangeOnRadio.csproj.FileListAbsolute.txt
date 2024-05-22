@@ -84,4 +84,3 @@ F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\Assignment\MVV
 F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\Assignment\MVVM\5TreeViewColorChangeOnRadio\obj\Debug\TreeViewColorChangeOnRadio.csproj.CoreCompileInputs.cache
 F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\Assignment\MVVM\5TreeViewColorChangeOnRadio\obj\Debug\5TreeViewColorChangeOnRadio.exe
 F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\Assignment\MVVM\5TreeViewColorChangeOnRadio\obj\Debug\5TreeViewColorChangeOnRadio.pdb
-F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\Assignment\MVVM\5TreeViewColorChangeOnRadio\obj\Debug\TreeViewColorChangeOnRadio.csproj.AssemblyReference.cache

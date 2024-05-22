@@ -99,6 +99,21 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Common\BtnEnableOnTextChange.xaml.cs">
+      <DependentUpon>BtnEnableOnTextChange.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Common\ComboColorChangeFromRadio.xaml.cs">
+      <DependentUpon>ComboColorChangeFromRadio.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Common\FirstNameLastNameinCombo.xaml.cs">
+      <DependentUpon>FirstNameLastNameinCombo.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Common\ListToRadioButton.xaml.cs">
+      <DependentUpon>ListToRadioButton.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Common\TreeViewColorChangeOnRadio.xaml.cs">
+      <DependentUpon>TreeViewColorChangeOnRadio.xaml</DependentUpon>
+    </Compile>
     <Compile Include="CompanyWise\Stryker.xaml.cs">
       <DependentUpon>Stryker.xaml</DependentUpon>
     </Compile>
@@ -114,39 +129,7 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="Challanges\CombowithEnumDemo.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="Challanges\CommonControls.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="Challanges\CustomStyleOnControls.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
     <Page Include="Challanges\Enabled_Disabled_Button_WRT_Property.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="Challanges\InfragisticDockManager.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="Challanges\InfragisticDockManagerN.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="Challanges\SearchTextBoxUI.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="Challanges\SerialTriggerWindow.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="Challanges\WPFDatagridCombobox.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
@@ -157,6 +140,26 @@
     <Page Include="Challanges\WPFTitleBarExample.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Common\BtnEnableOnTextChange.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Common\ComboColorChangeFromRadio.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Common\FirstNameLastNameinCombo.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Common\ListToRadioButton.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Common\TreeViewColorChangeOnRadio.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="CompanyWise\Stryker.xaml">
       <SubType>Designer</SubType>
@@ -176,46 +179,10 @@
     <Compile Include="Challanges\CombowithEnum.xaml.cs">
       <DependentUpon>CombowithEnum.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Challanges\CombowithEnumDemo.xaml.cs">
-      <DependentUpon>CombowithEnumDemo.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Challanges\CommonControls.xaml.cs">
-      <DependentUpon>CommonControls.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Challanges\CustomStyleOnControls.xaml.cs">
-      <DependentUpon>CustomStyleOnControls.xaml</DependentUpon>
-    </Compile>
     <Compile Include="Challanges\Enabled_Disabled_Button_WRT_Property.xaml.cs">
       <DependentUpon>Enabled_Disabled_Button_WRT_Property.xaml</DependentUpon>
     </Compile>
     <Compile Include="Challanges\EnumClass.cs" />
-    <Compile Include="Challanges\InfragisticDockManager.xaml.cs">
-      <DependentUpon>InfragisticDockManager.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Challanges\InfragisticDockManagerN.xaml.cs">
-      <DependentUpon>InfragisticDockManagerN.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Challanges\SearchTextBoxUI.xaml.cs">
-      <DependentUpon>SearchTextBoxUI.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Challanges\SerialTriggerWindow.xaml.cs">
-      <DependentUpon>SerialTriggerWindow.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Challanges\UltraGridDemo.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Challanges\UltraGridDemo.Designer.cs">
-      <DependentUpon>UltraGridDemo.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Challanges\Winforms\CustomDataGrid.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Challanges\Winforms\CustomDataGrid.Designer.cs">
-      <DependentUpon>CustomDataGrid.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Challanges\WPFDatagridCombobox.xaml.cs">
-      <DependentUpon>WPFDatagridCombobox.xaml</DependentUpon>
-    </Compile>
     <Compile Include="Challanges\WPFScrollBar.xaml.cs">
       <DependentUpon>WPFScrollBar.xaml</DependentUpon>
     </Compile>
@@ -245,12 +212,6 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-    <EmbeddedResource Include="Challanges\UltraGridDemo.resx">
-      <DependentUpon>UltraGridDemo.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Challanges\Winforms\CustomDataGrid.resx">
-      <DependentUpon>CustomDataGrid.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -315,13 +276,13 @@
     <Resource Include="Challanges\search_dark.png" />
   </ItemGroup>
   <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <ItemGroup>
     <ProjectReference Include="..\..\CommonUtils\CommonUtils\CommonUtils.csproj">
       <Project>{987479be-363c-4fa5-9282-8f0c35b9128b}</Project>
       <Name>CommonUtils</Name>
     </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
-    <WCFMetadata Include="Connected Services\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
