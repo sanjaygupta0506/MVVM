@@ -38,7 +38,6 @@ namespace MVVMCore.DataContext
             this.Background = ThemeMgr.ThemeBackgroundColour;
 
             #endregion
-
         }
     }
     public class Person

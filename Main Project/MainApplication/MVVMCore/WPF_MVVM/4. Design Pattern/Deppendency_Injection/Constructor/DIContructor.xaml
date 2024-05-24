@@ -8,7 +8,7 @@
         mc:Ignorable="d"
         Title="DIContructor" Height="450" Width="800" Left="8" Top="62">
     <Grid>
-        <DataGrid Height="350" Width="700" HorizontalAlignment="Left" Margin="40,30,10,10" 
+        <DataGrid Height="350" Width="700" HorizontalAlignment="Left" 
                   Name="x_dataGrid" VerticalAlignment="Top" Loaded="x_dataGrid_Loaded"/>
     </Grid>
 </ui:WslDialog>

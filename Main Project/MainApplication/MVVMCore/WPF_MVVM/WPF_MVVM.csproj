@@ -152,6 +152,21 @@
     </Compile>
     <Compile Include="1. WPFMVVMBasic\1. MVVM Main\Pattern3\ViewModel.cs" />
     <Compile Include="1. WPFMVVMBasic\1. MVVM Main\Pattern3\ViewModelBase.cs" />
+    <Compile Include="1. WPFMVVMBasic\RelativeSource\RelativeSource_PreviousData.xaml.cs">
+      <DependentUpon>RelativeSource_PreviousData.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="1. WPFMVVMBasic\UpdateSourceTrigger\UpdateSourceTrigger_Default.xaml.cs">
+      <DependentUpon>UpdateSourceTrigger_Default.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="1. WPFMVVMBasic\UpdateSourceTrigger\UpdateSourceTrigger_Explicit.xaml.cs">
+      <DependentUpon>UpdateSourceTrigger_Explicit.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="1. WPFMVVMBasic\UpdateSourceTrigger\UpdateSourceTrigger_LostFocus.xaml.cs">
+      <DependentUpon>UpdateSourceTrigger_LostFocus.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="1. WPFMVVMBasic\UpdateSourceTrigger\UpdateSourceTrigger_PropetyChanged.xaml.cs">
+      <DependentUpon>UpdateSourceTrigger_PropetyChanged.xaml</DependentUpon>
+    </Compile>
     <Compile Include="2. WPFMVVMAdvance\1. DependencyPropertySample\BasicDependencyPropertyViewModel.cs" />
     <Compile Include="2. WPFMVVMAdvance\2. AttachedPropertySample\Pattern1\API.xaml.cs">
       <DependentUpon>API.xaml</DependentUpon>
@@ -287,16 +302,16 @@
       <DependentUpon>UserInfo.xaml</DependentUpon>
     </Compile>
     <Compile Include="1. WPFMVVMBasic\2. Resources\CustomListBox.cs" />
-    <Compile Include="1. WPFMVVMBasic\2. Resources\RelativeSource_FindAncestor.xaml.cs">
+    <Compile Include="1. WPFMVVMBasic\RelativeSource\RelativeSource_FindAncestor.xaml.cs">
       <DependentUpon>RelativeSource_FindAncestor.xaml</DependentUpon>
     </Compile>
-    <Compile Include="1. WPFMVVMBasic\2. Resources\RelativeSource_Self.xaml.cs">
+    <Compile Include="1. WPFMVVMBasic\RelativeSource\RelativeSource_Self.xaml.cs">
       <DependentUpon>RelativeSource_Self.xaml</DependentUpon>
     </Compile>
     <Compile Include="1. WPFMVVMBasic\2. Resources\DynamicResourceExample.xaml.cs">
       <DependentUpon>DynamicResourceExample.xaml</DependentUpon>
     </Compile>
-    <Compile Include="1. WPFMVVMBasic\2. Resources\RelativeSource_TemplatedParent.xaml.cs">
+    <Compile Include="1. WPFMVVMBasic\RelativeSource\RelativeSource_TemplatedParent.xaml.cs">
       <DependentUpon>RelativeSource_TemplatedParent.xaml</DependentUpon>
     </Compile>
     <Compile Include="1. WPFMVVMBasic\2. Resources\StaticResourceExample.xaml.cs">
@@ -380,6 +395,26 @@
       <DependentUpon>Samples.xaml</DependentUpon>
     </Compile>
     <Page Include="1. WPFMVVMBasic\1. MVVM Main\Pattern3\StudentInfo.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="1. WPFMVVMBasic\RelativeSource\RelativeSource_PreviousData.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="1. WPFMVVMBasic\UpdateSourceTrigger\UpdateSourceTrigger_Default.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="1. WPFMVVMBasic\UpdateSourceTrigger\UpdateSourceTrigger_Explicit.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="1. WPFMVVMBasic\UpdateSourceTrigger\UpdateSourceTrigger_LostFocus.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="1. WPFMVVMBasic\UpdateSourceTrigger\UpdateSourceTrigger_PropetyChanged.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -542,11 +577,11 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="1. WPFMVVMBasic\2. Resources\RelativeSource_FindAncestor.xaml">
+    <Page Include="1. WPFMVVMBasic\RelativeSource\RelativeSource_FindAncestor.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="1. WPFMVVMBasic\2. Resources\RelativeSource_Self.xaml">
+    <Page Include="1. WPFMVVMBasic\RelativeSource\RelativeSource_Self.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -554,7 +589,7 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="1. WPFMVVMBasic\2. Resources\RelativeSource_TemplatedParent.xaml">
+    <Page Include="1. WPFMVVMBasic\RelativeSource\RelativeSource_TemplatedParent.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

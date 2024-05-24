@@ -25,6 +25,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOPSProgramMain", "ConsoleA
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpProgramMain", "CSharpConceptApp\CSharpProgramMain.csproj", "{4BBA9D89-9B49-45D9-8440-D06B95E499CD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiThreadingProgramMain", "MultiThreadingProgramMain\MultiThreadingProgramMain.csproj", "{4BF7C818-65AB-475D-891E-803CA595EB89}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatternProgramMain", "DesignPatternProgramMain\DesignPatternProgramMain.csproj", "{FAA472CD-FC52-4A52-AB0E-169AF8DCD808}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -59,6 +63,14 @@ Global
 		{4BBA9D89-9B49-45D9-8440-D06B95E499CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4BBA9D89-9B49-45D9-8440-D06B95E499CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4BBA9D89-9B49-45D9-8440-D06B95E499CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4BF7C818-65AB-475D-891E-803CA595EB89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BF7C818-65AB-475D-891E-803CA595EB89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BF7C818-65AB-475D-891E-803CA595EB89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BF7C818-65AB-475D-891E-803CA595EB89}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FAA472CD-FC52-4A52-AB0E-169AF8DCD808}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FAA472CD-FC52-4A52-AB0E-169AF8DCD808}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FAA472CD-FC52-4A52-AB0E-169AF8DCD808}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FAA472CD-FC52-4A52-AB0E-169AF8DCD808}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -71,6 +83,8 @@ Global
 		{3A992A1D-057C-4DF3-AB8E-6682A5AD7308} = {E68208D6-FC6E-4674-9767-D1A73D56D5F1}
 		{6847ED92-AC91-4EBF-9255-9E707413DA76} = {9D81372C-54BE-46F4-BC0B-5ED48EF72BD2}
 		{4BBA9D89-9B49-45D9-8440-D06B95E499CD} = {9D81372C-54BE-46F4-BC0B-5ED48EF72BD2}
+		{4BF7C818-65AB-475D-891E-803CA595EB89} = {9D81372C-54BE-46F4-BC0B-5ED48EF72BD2}
+		{FAA472CD-FC52-4A52-AB0E-169AF8DCD808} = {9D81372C-54BE-46F4-BC0B-5ED48EF72BD2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {BA133011-7383-4049-912A-A1E07F5A3975}

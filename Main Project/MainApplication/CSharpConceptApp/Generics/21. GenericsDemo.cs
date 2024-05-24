@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace CSharpConceptApp.Generics
 {
-    public class GenericClass<T>
+    public class GenericClass<T> // Generic  Class
     {
         public T msg;
-        public void genericMethod(T name, T location)
+        public void genericMethod(T name, T location)  // Generic  Method
         {
             Console.WriteLine("{0}", msg);
             Console.WriteLine("Name: {0}", name);
@@ -23,7 +23,7 @@ namespace CSharpConceptApp.Generics
         //{
         //    Console.WriteLine("****Generics Example****");
         //    //Instantiate Generic Class, string is the type argument
-        //    GenericClass<string> gclass = new GenericClass<string>();
+        //    GenericClass<string> gclass = new GenericClass<string>();  // Calling Generic Class
         //    gclass.msg = "Welcome to WPF World";
         //    gclass.genericMethod("Sanjay Gupta", "Faridabad");
 

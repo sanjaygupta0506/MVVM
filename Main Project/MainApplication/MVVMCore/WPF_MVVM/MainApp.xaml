@@ -41,14 +41,7 @@
                         <Separator />
                         <MenuItem Name="DynamicResources" Header="Dynamic" Click="DynamicResources_Click"/>
                         <Separator />
-                        <MenuItem Name="RelativeSource" Header="RelativeSource">
-                            <MenuItem Name="RelativeSource_Self" Header="Self" Click="RelativeSource_Self_Click"/>
-                            <Separator />
-                            <MenuItem Name="RelativeSource_FindAncestor" Header="FindAncestor" Click="RelativeSource_FindAncestor_Click"/>
-                            <Separator />
-                            <MenuItem Name="RelativeSource_TemplatedParent" Header="TemplatedParent" Click="RelativeSource_TemplatedParent_Click"/>
-                            <Separator />
-                        </MenuItem>
+                        
                     </MenuItem>
                     <Separator />
 
@@ -67,6 +60,7 @@
                         <MenuItem Name="Binding_OneTime" Header="OneTime" Click="Binding_OneTime_Click" />
                         <Separator />
                     </MenuItem>
+                    <Separator />
                     
                     <!--Triggers-->
                     <MenuItem Name="Triggers" Header="Triggers">
@@ -112,6 +106,29 @@
                     </MenuItem>
                     <Separator />
 
+                    <MenuItem Name="RelativeSource" Header="RelativeSource">
+                        <MenuItem Name="RelativeSource_Self" Header="Self" Click="RelativeSource_Self_Click"/>
+                        <Separator />
+                        <MenuItem Name="RelativeSource_FindAncestor" Header="FindAncestor" Click="RelativeSource_FindAncestor_Click"/>
+                        <Separator />
+                        <MenuItem Name="RelativeSource_TemplatedParent" Header="TemplatedParent" Click="RelativeSource_TemplatedParent_Click"/>
+                        <Separator />
+                        <MenuItem Name="RelativeSource_PeviousData" Header="PeviousData" Click="RelativeSource_PeviousData_Click"/>
+                        <Separator />
+                    </MenuItem>
+                    <Separator />
+
+                    <MenuItem Name="UpdateSourceTrigger" Header="UpdateSourceTrigger">
+                        <MenuItem Name="UpdateSourceTrigger_Default" Header="Default" Click="UpdateSourceTrigger_Default_Click"/>
+                        <Separator />
+                        <MenuItem Name="UpdateSourceTrigger_LostFocus" Header="LostFocus" Click="UpdateSourceTrigger_LostFocus_Click"/>
+                        <Separator />
+                        <MenuItem Name="UpdateSourceTrigger_PropertyChanged" Header="PropertyChanged" Click="UpdateSourceTrigger_PropertyChanged_Click"/>
+                        <Separator />
+                        <MenuItem Name="UpdateSourceTrigger_Explicit" Header="Explicit" Click="UpdateSourceTrigger_Explicit_Click"/>
+                        <Separator />
+                    </MenuItem>
+                    <Separator />
 
                     <!--Styles-->
                     <MenuItem Name="Styles" Header="Styles">

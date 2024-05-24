@@ -1,0 +1,6 @@
+F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\DesignPatternProgramMain\bin\Debug\DesignPatternProgramMain.exe.config
+F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\DesignPatternProgramMain\bin\Debug\DesignPatternProgramMain.exe
+F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\DesignPatternProgramMain\bin\Debug\DesignPatternProgramMain.pdb
+F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\DesignPatternProgramMain\obj\Debug\DesignPatternProgramMain.csproj.CoreCompileInputs.cache
+F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\DesignPatternProgramMain\obj\Debug\DesignPatternProgramMain.exe
+F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\DesignPatternProgramMain\obj\Debug\DesignPatternProgramMain.pdb

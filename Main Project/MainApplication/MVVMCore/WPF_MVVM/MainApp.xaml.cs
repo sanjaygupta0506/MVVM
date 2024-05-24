@@ -55,6 +55,8 @@ using MainApplication.WPF_MVVM._4._Design_Pattern.Deppendency_Injection.Method;
 using MainApplication.WPF_MVVM._4._Design_Pattern.Deppendency_Injection.Property;
 using MainApplication.WPF_MVVM._4._Design_Pattern.Deppendency_Injection.Constructor;
 using MainApplication.WPF_MVVM._2._WPFMVVMAdvance._2._AttachedPropertySample.Pattern1;
+using MainApplication.WPF_MVVM._1._WPFMVVMBasic.RelativeSource;
+using MainApplication.WPF_MVVM._1._WPFMVVMBasic.UpdateSourceTrigger;
 
 namespace MVVMCore
 {
@@ -529,24 +531,6 @@ namespace MVVMCore
             virtualizationExample.Show();
         }
 
-        private void DIConstructor_Click(object sender, RoutedEventArgs e)
-        {
-            DIContructor dIContructor = new DIContructor();
-            dIContructor.ShowInTaskbar = false;
-            dIContructor.Owner = Application.Current.MainWindow;
-            dIContructor.Show();
-        }
-
-        private void DIProperty_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
-
-        private void DIMethod_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
-
         private void x_SingleTonDType_Click(object sender, RoutedEventArgs e)
         {
             Singleton_Types singleton_Types = new Singleton_Types();
@@ -554,8 +538,6 @@ namespace MVVMCore
             singleton_Types.Owner = Application.Current.MainWindow;
             singleton_Types.Show();
         }
-
-        
 
         private void x_DIConstructor_Click(object sender, RoutedEventArgs e)
         {
@@ -579,6 +561,46 @@ namespace MVVMCore
             dIProperty.ShowInTaskbar = false;
             dIProperty.Owner = Application.Current.MainWindow;
             dIProperty.Show();
+        }
+
+        private void RelativeSource_PeviousData_Click(object sender, RoutedEventArgs e)
+        {
+            RelativeSource_PreviousData relativeSource_PreviousData = new RelativeSource_PreviousData();
+            relativeSource_PreviousData.ShowInTaskbar = false;
+            relativeSource_PreviousData.Owner = Application.Current.MainWindow;
+            relativeSource_PreviousData.Show();
+        }
+
+        private void UpdateSourceTrigger_Default_Click(object sender, RoutedEventArgs e)
+        {
+            UpdateSourceTrigger_Default updateSourceTrigger_Default = new UpdateSourceTrigger_Default();
+            updateSourceTrigger_Default.ShowInTaskbar = false;
+            updateSourceTrigger_Default.Owner = Application.Current.MainWindow;
+            updateSourceTrigger_Default.Show();
+        }
+
+        private void UpdateSourceTrigger_LostFocus_Click(object sender, RoutedEventArgs e)
+        {
+            UpdateSourceTrigger_LostFocus updateSourceTrigger_LostFocus = new UpdateSourceTrigger_LostFocus();
+            updateSourceTrigger_LostFocus.ShowInTaskbar = false;
+            updateSourceTrigger_LostFocus.Owner = Application.Current.MainWindow;
+            updateSourceTrigger_LostFocus.Show();
+        }
+
+        private void UpdateSourceTrigger_PropertyChanged_Click(object sender, RoutedEventArgs e)
+        {
+            UpdateSourceTrigger_PropetyChanged updateSourceTrigger_PropetyChanged = new UpdateSourceTrigger_PropetyChanged();
+            updateSourceTrigger_PropetyChanged.ShowInTaskbar = false;
+            updateSourceTrigger_PropetyChanged.Owner = Application.Current.MainWindow;
+            updateSourceTrigger_PropetyChanged.Show();
+        }
+
+        private void UpdateSourceTrigger_Explicit_Click(object sender, RoutedEventArgs e)
+        {
+            UpdateSourceTrigger_Explicit updateSourceTrigger_Explicit = new UpdateSourceTrigger_Explicit();
+            updateSourceTrigger_Explicit.ShowInTaskbar = false;
+            updateSourceTrigger_Explicit.Owner = Application.Current.MainWindow;
+            updateSourceTrigger_Explicit.Show();
         }
     }
 }

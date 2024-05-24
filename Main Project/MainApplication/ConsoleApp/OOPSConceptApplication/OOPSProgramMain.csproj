@@ -43,9 +43,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include=".6. Abstract Class.cs" />
-    <Compile Include=".7. Abstract Method.cs" />
-    <Compile Include=".1. Abstraction.cs" />
+    <Compile Include="Interview\Task1.cs" />
+    <Compile Include="Main_Concept\.6. Abstract Class.cs" />
+    <Compile Include="Main_Concept\.7. Abstract Method.cs" />
+    <Compile Include="Main_Concept\.1. Abstraction.cs" />
     <Compile Include="Accessibility modifiers\23. Internal_Modifiers.cs" />
     <Compile Include="Accessibility modifiers\21. Private_Modifiers.cs" />
     <Compile Include="Accessibility modifiers\22. Protected_Modifiers.cs" />
@@ -60,16 +61,16 @@
     <Compile Include="Constructor\13. Parameterized Constructor.cs" />
     <Compile Include="Constructor\16. Private Constructor.cs" />
     <Compile Include="Constructor\15. Static Constructor.cs" />
-    <Compile Include=".2. Encapsulation.cs" />
-    <Compile Include=".5. Inheritance.cs" />
-    <Compile Include=".8. Interface.cs" />
+    <Compile Include="Main_Concept\.2. Encapsulation.cs" />
+    <Compile Include="Main_Concept\.5. Inheritance.cs" />
+    <Compile Include="Main_Concept\.8. Interface.cs" />
     <Compile Include="Differences\MethodOverloadingVsMethodOverriding\MethodOverloadingVsMethodOverriding.cs" />
     <Compile Include="Polymorphism\3. Method Overloading.cs" />
     <Compile Include="Polymorphism\4. Method Overriding.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include=".9. Sealed class.cs" />
-    <Compile Include="10. Sealed Method.cs" />
-    <Compile Include="11. Static class.cs" />
+    <Compile Include="Main_Concept\.9. Sealed class.cs" />
+    <Compile Include="Main_Concept\10. Sealed Method.cs" />
+    <Compile Include="Main_Concept\11. Static class.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
