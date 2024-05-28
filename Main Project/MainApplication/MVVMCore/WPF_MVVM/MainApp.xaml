@@ -98,13 +98,7 @@
                     <MenuItem Name="INotifyPropertyChanged" Header="INotifyPropertyChanged" Click="INotifyPropertyChanged_Click"/>
                     <Separator />
 
-                    <!--Commands-->
-                    <MenuItem Name="Commands" Header="Command">
-                        <MenuItem Header="Command Only" Name="Command" Click="Command_Click"/>
-                        <Separator />
-                        <MenuItem Header="ICommand" Name="ICommand" Click="ICommand_Click"/>
-                    </MenuItem>
-                    <Separator />
+                   
 
                     <MenuItem Name="RelativeSource" Header="RelativeSource">
                         <MenuItem Name="RelativeSource_Self" Header="Self" Click="RelativeSource_Self_Click"/>
@@ -130,6 +124,11 @@
                     </MenuItem>
                     <Separator />
 
+                    <!--Commands-->
+                    <MenuItem Name="ObservableCollection" Header="ObservableCollection" Click="ObservableCollection_Click"/>
+                    <Separator />
+                   
+
                     <!--Styles-->
                     <MenuItem Name="Styles" Header="Styles">
                         <MenuItem Name="MainStyle" Header="Style Main" Click="MainStyle_Click"/>
@@ -154,16 +153,13 @@
                    
                   
                     
-                    <!--Routed Events-->
-                    <MenuItem Name="RoutedEvents" Header="Routed Events" Click="RoutedEvents_Click"/>
-                    <Separator />
+                    
 
                     <!--Data Context-->
                     <MenuItem Name="DataContext" Header="Data Context" Click="DataContext_Click" />
                     <Separator />
 
                 </MenuItem>
-
 
                 <!--MVVM Advance-->
                 <MenuItem Name="MVVMAdvance" Header="MVVM Advance">
@@ -172,7 +168,23 @@
                         <MenuItem Name="CustomDependencyProperty" Header="Custom Dependency Property" Click="CustomDependencyProperty_Click"></MenuItem>
                     </MenuItem>
                     <Separator />
-                    <MenuItem Name="x_AttachedProperty" Header="Attached Property" Click="x_AttachedProperty_Click" />
+                    <MenuItem Name="x_AttachedProperty" Header="Attached Property">
+                        <MenuItem Name="APPatern1" Header="Pattern 1" Click="APPatern1_Click" ></MenuItem>
+                        <MenuItem Name="APPatern2" Header="Pattern 2" Click="APPatern2_Click"></MenuItem>
+                    </MenuItem>
+
+                    <!--Commands-->
+                    <MenuItem Name="Commands" Header="Command">
+                        <MenuItem Header="Command Only" Name="Command" Click="Command_Click"/>
+                        <Separator />
+                        <MenuItem Header="ICommand" Name="ICommand" Click="ICommand_Click"/>
+                    </MenuItem>
+                    <Separator />
+
+                    <!--Routed Events-->
+                    <MenuItem Name="RoutedEvents" Header="Routed Events" Click="RoutedEvents_Click"/>
+                    <Separator />
+
                     <Separator />
                     <MenuItem Name="x_LogicalvsVisualTree" Header="Logical Vs Visual Tree" Click="x_LogicalvsVisualTree_Click" />
                     <Separator />
@@ -186,7 +198,6 @@
 
                 </MenuItem>
 
-
                 <!--MVVM Multi-Threading-->
                 <MenuItem Name="X_Thread" Header="Multi-Threading">
                     <MenuItem Name="x_Dispather" Header="Dispatcher" Click="x_Dispather_Click" />
@@ -197,7 +208,6 @@
                     <Separator />
                     
                 </MenuItem>
-
 
                 <!--MVVM Design Patterns-->
                 <MenuItem Name="x_DesignPattern" Header="Design Patterns">
@@ -211,7 +221,6 @@
                         <MenuItem Name="x_DIPropety" Header="Propety" Click="x_DIPropety_Click"/>
                     </MenuItem>
                 </MenuItem>
-
 
                 <!--MVVM SOLID Principles-->
                 <MenuItem Name="X_Solid" Header="SOLID Principles">

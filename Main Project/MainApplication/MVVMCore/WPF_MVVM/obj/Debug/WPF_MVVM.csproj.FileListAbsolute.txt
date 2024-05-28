@@ -704,3 +704,5 @@ F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_M
 F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\1. WPFMVVMBasic\UpdateSourceTrigger\UpdateSourceTrigger_Explicit.baml
 F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\1. WPFMVVMBasic\UpdateSourceTrigger\UpdateSourceTrigger_LostFocus.baml
 F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\1. WPFMVVMBasic\UpdateSourceTrigger\UpdateSourceTrigger_PropetyChanged.baml
+F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\1. WPFMVVMBasic\ObservableCollection\ObservableCollection_Main.g.cs
+F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\1. WPFMVVMBasic\ObservableCollection\ObservableCollection_Main.baml

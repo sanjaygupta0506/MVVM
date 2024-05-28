@@ -25,7 +25,7 @@
 
         <TextBox Name="TargetText" Width="160" Height="30"
 
-         Text="{Binding ElementName=SourceText, Path=Text, UpdateSourceTrigger=Explicit}"
+         Text="{Binding ElementName=SourceText, Path=Text, UpdateSourceTrigger=Explicit, Mode=OneWay}"
 
          Grid.Column="1" Margin="44,0,47,82" />
 

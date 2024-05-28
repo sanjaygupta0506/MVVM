@@ -20,7 +20,7 @@ namespace MainApplication.WPF_MVVM._2._WPFMVVMAdvance._2._AttachedPropertySample
     /// <summary>
     /// Interaction logic for API.xaml
     /// </summary>
-    public partial class API : UserControl
+    public partial class API
     {
         public API()
         {
@@ -37,9 +37,9 @@ namespace MainApplication.WPF_MVVM._2._WPFMVVMAdvance._2._AttachedPropertySample
         }
 
         public static readonly DependencyProperty AllowOnlyStringProperty =
-                    DependencyProperty.RegisterAttached("AllowOnlyString", typeof(bool), typeof(App), new PropertyMetadata(false, AllowOnlyString));
+                    DependencyProperty.RegisterAttached("AllowOnlyString", typeof(bool), typeof(API), new PropertyMetadata(false, AllowOnlyString));
 
-        public static void AllowOnlyString(DependencyObject d, DependencyPropertyChangedEventArgs e)
+        private static void AllowOnlyString(DependencyObject d, DependencyPropertyChangedEventArgs e)
         {
             if (d is TextBox)
             {

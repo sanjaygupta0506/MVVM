@@ -57,6 +57,7 @@ using MainApplication.WPF_MVVM._4._Design_Pattern.Deppendency_Injection.Construc
 using MainApplication.WPF_MVVM._2._WPFMVVMAdvance._2._AttachedPropertySample.Pattern1;
 using MainApplication.WPF_MVVM._1._WPFMVVMBasic.RelativeSource;
 using MainApplication.WPF_MVVM._1._WPFMVVMBasic.UpdateSourceTrigger;
+using MainApplication.WPF_MVVM._1._WPFMVVMBasic.ObservableCollection;
 
 namespace MVVMCore
 {
@@ -378,18 +379,6 @@ namespace MVVMCore
             customDependencyProperty.Owner = Application.Current.MainWindow;
             customDependencyProperty.Show();
         }
-        private void x_AttachedProperty_Click(object sender, RoutedEventArgs e)
-        {
-            AttachedPropertyExample attachedPropertyExample = new AttachedPropertyExample();
-            attachedPropertyExample.ShowInTaskbar = false;
-            attachedPropertyExample.Owner = Application.Current.MainWindow;
-            attachedPropertyExample.Show();
-
-            //APIDemo aPIDemo = new APIDemo();
-            //aPIDemo.ShowInTaskbar = false;
-            //aPIDemo.Owner = Application.Current.MainWindow;
-            //aPIDemo.Show();
-        }
         private void x_LogicalvsVisualTree_Click(object sender, RoutedEventArgs e)
         {
             LogicalVsVisualTree logicalVsVisualTree = new LogicalVsVisualTree();
@@ -601,6 +590,30 @@ namespace MVVMCore
             updateSourceTrigger_Explicit.ShowInTaskbar = false;
             updateSourceTrigger_Explicit.Owner = Application.Current.MainWindow;
             updateSourceTrigger_Explicit.Show();
+        }
+
+        private void ObservableCollection_Click(object sender, RoutedEventArgs e)
+        {
+            ObservableCollection_Main observableCollection_Main = new ObservableCollection_Main();
+            observableCollection_Main.ShowInTaskbar = false;
+            observableCollection_Main.Owner = Application.Current.MainWindow;
+            observableCollection_Main.Show();
+        }
+
+        private void APPatern1_Click(object sender, RoutedEventArgs e)
+        {
+            APIDemo aPIDemo = new APIDemo();
+            aPIDemo.ShowInTaskbar = false;
+            aPIDemo.Owner = Application.Current.MainWindow;
+            aPIDemo.Show();
+        }
+
+        private void APPatern2_Click(object sender, RoutedEventArgs e)
+        {
+            AttachedPropertyExample attachedPropertyExample = new AttachedPropertyExample();
+            attachedPropertyExample.ShowInTaskbar = false;
+            attachedPropertyExample.Owner = Application.Current.MainWindow;
+            attachedPropertyExample.Show();
         }
     }
 }
