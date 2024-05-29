@@ -177,6 +177,10 @@
     <Compile Include="2. WPFMVVMAdvance\A10. AttachedPropertySample\Pattern1\APIDemo.xaml.cs">
       <DependentUpon>APIDemo.xaml</DependentUpon>
     </Compile>
+    <Compile Include="2. WPFMVVMAdvance\Freezable Objects\FreezableObjects.xaml.cs">
+      <DependentUpon>FreezableObjects.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="2. WPFMVVMAdvance\MVVMCommads\MVVMCommand.cs" />
     <Compile Include="4. Design Pattern\Deppendency_Injection\Constructor\DIContructor.xaml.cs">
       <DependentUpon>DIContructor.xaml</DependentUpon>
     </Compile>
@@ -233,15 +237,15 @@
     <Compile Include="2. WPFMVVMAdvance\LogicalVsVisualTree\LogicalVsVisualTree.xaml.cs">
       <DependentUpon>LogicalVsVisualTree.xaml</DependentUpon>
     </Compile>
-    <Compile Include="2. WPFMVVMAdvance\Virtualization\VirtualizationExample.xaml.cs">
+    <Compile Include="2. WPFMVVMAdvance\A15. Virtualization\VirtualizationExample.xaml.cs">
       <DependentUpon>VirtualizationExample.xaml</DependentUpon>
     </Compile>
-    <Compile Include="1. WPFMVVMBasic\8. Commands\Model\PersonModel.cs" />
-    <Compile Include="1. WPFMVVMBasic\8. Commands\ViewModel\PersonViewModel.cs" />
-    <Compile Include="1. WPFMVVMBasic\8. Commands\Views\CommandsExample.xaml.cs">
+    <Compile Include="2. WPFMVVMAdvance\8. Commands\Model\PersonModel.cs" />
+    <Compile Include="2. WPFMVVMAdvance\8. Commands\ViewModel\PersonViewModel.cs" />
+    <Compile Include="2. WPFMVVMAdvance\8. Commands\Views\CommandsExample.xaml.cs">
       <DependentUpon>CommandsExample.xaml</DependentUpon>
     </Compile>
-    <Compile Include="1. WPFMVVMBasic\8. Commands\Views\PersonView.xaml.cs">
+    <Compile Include="2. WPFMVVMAdvance\8. Commands\Views\PersonView.xaml.cs">
       <DependentUpon>PersonView.xaml</DependentUpon>
     </Compile>
     <Compile Include="1. WPFMVVMBasic\3. DataBindings\Binding_Default.xaml.cs">
@@ -259,7 +263,7 @@
     <Compile Include="1. WPFMVVMBasic\3. DataBindings\Binding_TwoWay.xaml.cs">
       <DependentUpon>Binding_TwoWay.xaml</DependentUpon>
     </Compile>
-    <Compile Include="1. WPFMVVMBasic\DataContext\DataContextExample.xaml.cs">
+    <Compile Include="1. WPFMVVMBasic\A16. DataContext\DataContextExample.xaml.cs">
       <DependentUpon>DataContextExample.xaml</DependentUpon>
     </Compile>
     <Compile Include="DataGridSingleClickCheckbox\PersonModel.cs" />
@@ -285,7 +289,6 @@
       <DependentUpon>INotifyPropertyChangedExample.xaml</DependentUpon>
     </Compile>
     <Compile Include="1. WPFMVVMBasic\1. MVVM Main\Pattern2\UserInfoModel.cs" />
-    <Compile Include="2. WPFMVVMAdvance\MVVMCommads\MVVMCommand.cs" />
     <Compile Include="1. WPFMVVMBasic\Layouts\Layout_Canvas.xaml.cs">
       <DependentUpon>Layout_Canvas.xaml</DependentUpon>
     </Compile>
@@ -319,7 +322,6 @@
     <Compile Include="1. WPFMVVMBasic\2 . Resources\StaticResourceExample.xaml.cs">
       <DependentUpon>StaticResourceExample.xaml</DependentUpon>
     </Compile>
-    <Compile Include="2. WPFMVVMAdvance\A14. RoutedEvents\MyCustomControl.cs" />
     <Compile Include="2. WPFMVVMAdvance\A14. RoutedEvents\RoutedEventsExample.xaml.cs">
       <DependentUpon>RoutedEventsExample.xaml</DependentUpon>
     </Compile>
@@ -432,6 +434,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="2. WPFMVVMAdvance\Freezable Objects\FreezableObjects.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="4. Design Pattern\Deppendency_Injection\Constructor\DIContructor.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -492,15 +498,15 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="2. WPFMVVMAdvance\Virtualization\VirtualizationExample.xaml">
+    <Page Include="2. WPFMVVMAdvance\A15. Virtualization\VirtualizationExample.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="1. WPFMVVMBasic\8. Commands\Views\CommandsExample.xaml">
+    <Page Include="2. WPFMVVMAdvance\8. Commands\Views\CommandsExample.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="1. WPFMVVMBasic\8. Commands\Views\PersonView.xaml">
+    <Page Include="2. WPFMVVMAdvance\8. Commands\Views\PersonView.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -528,7 +534,7 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="1. WPFMVVMBasic\DataContext\DataContextExample.xaml">
+    <Page Include="1. WPFMVVMBasic\A16. DataContext\DataContextExample.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

@@ -58,6 +58,7 @@ using MainApplication.WPF_MVVM._2._WPFMVVMAdvance._2._AttachedPropertySample.Pat
 using MainApplication.WPF_MVVM._1._WPFMVVMBasic.RelativeSource;
 using MainApplication.WPF_MVVM._1._WPFMVVMBasic.UpdateSourceTrigger;
 using MainApplication.WPF_MVVM._1._WPFMVVMBasic.ObservableCollection;
+using MainApplication.WPF_MVVM._2._WPFMVVMAdvance.Freezable_Objects;
 
 namespace MVVMCore
 {
@@ -614,6 +615,14 @@ namespace MVVMCore
             attachedPropertyExample.ShowInTaskbar = false;
             attachedPropertyExample.Owner = Application.Current.MainWindow;
             attachedPropertyExample.Show();
+        }
+
+        private void x_FreezableObjects_Click(object sender, RoutedEventArgs e)
+        {
+            FreezableObjects freezableObjects = new FreezableObjects();
+            freezableObjects.ShowInTaskbar = false;
+            freezableObjects.Owner = Application.Current.MainWindow;
+            freezableObjects.Show();
         }
     }
 }

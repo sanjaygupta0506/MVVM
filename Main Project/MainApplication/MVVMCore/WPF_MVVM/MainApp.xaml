@@ -26,6 +26,7 @@
 
                 <!--MVVM Basic-->
                 <MenuItem Name="x_MVVMBasic" Header="MVVM Basic">
+                    
                     <!--MVVM-->
                     <MenuItem Name="MVVMAll" Header="MVVM">
                         <MenuItem Name="SampleMVVM" Header="Sample" Click="SampleMVVM_Click"/>
@@ -95,10 +96,9 @@
                     <Separator />
 
                     <!--INotifyPropertyChanged-->
-                    <MenuItem Name="INotifyPropertyChanged" Header="INotifyPropertyChanged" Click="INotifyPropertyChanged_Click"/>
+                    <MenuItem Name="INotifyPropertyChanged" Header="INotifyPropertyChanged" Click="INotifyPropertyChanged_Click">
+                    </MenuItem>
                     <Separator />
-
-                   
 
                     <MenuItem Name="RelativeSource" Header="RelativeSource">
                         <MenuItem Name="RelativeSource_Self" Header="Self" Click="RelativeSource_Self_Click"/>
@@ -125,7 +125,8 @@
                     <Separator />
 
                     <!--Commands-->
-                    <MenuItem Name="ObservableCollection" Header="ObservableCollection" Click="ObservableCollection_Click"/>
+                    <MenuItem Name="ObservableCollection" Header="ObservableCollection" Click="ObservableCollection_Click">
+                    </MenuItem>
                     <Separator />
                    
 
@@ -150,11 +151,6 @@
                     </MenuItem>
                     <Separator />
                     
-                   
-                  
-                    
-                    
-
                     <!--Data Context-->
                     <MenuItem Name="DataContext" Header="Data Context" Click="DataContext_Click" />
                     <Separator />
@@ -163,6 +159,7 @@
 
                 <!--MVVM Advance-->
                 <MenuItem Name="MVVMAdvance" Header="MVVM Advance">
+                    
                     <MenuItem Name="x_DependencyProperty" Header="Dependency Property">
                         <MenuItem Name="DependencyProperty" Header="Dependency Property" Click="DependencyProperty_Click" ></MenuItem>
                         <MenuItem Name="CustomDependencyProperty" Header="Custom Dependency Property" Click="CustomDependencyProperty_Click"></MenuItem>
@@ -182,19 +179,29 @@
                     <Separator />
 
                     <!--Routed Events-->
-                    <MenuItem Name="RoutedEvents" Header="Routed Events" Click="RoutedEvents_Click"/>
+                    <MenuItem Name="RoutedEvents" Header="Routed Events" Click="RoutedEvents_Click">
+                    </MenuItem>
                     <Separator />
 
+                    <!--Virtualization-->
+                    <MenuItem Name="x_Virtualization" Header="Virtualization" Click="x_Virtualization_Click">
+                    </MenuItem>
                     <Separator />
-                    <MenuItem Name="x_LogicalvsVisualTree" Header="Logical Vs Visual Tree" Click="x_LogicalvsVisualTree_Click" />
+
+                    <!--Virtualization-->
+                    <MenuItem Name="x_FreezableObjects" Header="Freezable Objects" Click="x_FreezableObjects_Click">
+                    </MenuItem>
                     <Separator />
+
+                    <MenuItem Name="x_LogicalvsVisualTree" Header="Logical Vs Visual Tree" Click="x_LogicalvsVisualTree_Click">
+                    </MenuItem>
+                    <Separator />
+                    
                     <MenuItem Name="x_Localization" Header="Localization - Langauge Change" Click="x_Localization_Click">
                         
                     </MenuItem>
 
-                    <MenuItem Name="x_Virtualization" Header="Virtualization" Click="x_Virtualization_Click">
-
-                    </MenuItem>
+                    
 
                 </MenuItem>
 

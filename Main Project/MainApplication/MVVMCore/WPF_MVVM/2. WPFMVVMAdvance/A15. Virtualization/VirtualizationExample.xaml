@@ -1,0 +1,18 @@
+﻿<ui:WslDialog  xmlns:ui="clr-namespace:Keysight.Ccl.Wsl.UI;assembly=Keysight.Ccl.Wsl" 
+               x:Class="MainApplication.WPF_MVVM.WPFMVVMAdvance.Virtualization.VirtualizationExample"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MainApplication.WPF_MVVM.WPFMVVMAdvance.Virtualization"
+        mc:Ignorable="d"
+        Title="VirtulizationExample" Height="450" Width="800" Left="8" Top="62">
+    <StackPanel>
+        <ListBox x:Name="listBox" HorizontalAlignment="Left" Height="320" Margin="20,20,0,0"    
+            VerticalAlignment="Top" Width="700"   
+            VirtualizingStackPanel.VirtualizationMode="Recycling"/>
+        <Button x:Name="LoadDataButton" Content="Load Data" HorizontalAlignment="Left"    
+            Margin="20,18.666,0,0" VerticalAlignment="Top" Width="140" Height="35"    
+            Click="LoadDataButton_Click"/>      
+    </StackPanel>
+</ui:WslDialog>

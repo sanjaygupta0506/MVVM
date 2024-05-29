@@ -522,16 +522,12 @@ F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_M
 F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\5. SOLID Princliple\Views\SRP.g.cs
 F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\2. WPFMVVMAdvance\Localization\LocalizationSample.g.cs
 F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\2. WPFMVVMAdvance\LogicalVsVisualTree\LogicalVsVisualTree.g.cs
-F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\2. WPFMVVMAdvance\Virtualization\VirtualizationExample.g.cs
-F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\1. WPFMVVMBasic\8. Commands\Views\CommandsExample.g.cs
-F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\1. WPFMVVMBasic\8. Commands\Views\PersonView.g.cs
 F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\1. WPFMVVMBasic\3. DataBindings\Binding_Default.g.cs
 F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\1. WPFMVVMBasic\3. DataBindings\Binding_OneTime.g.cs
 F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\1. WPFMVVMBasic\3. DataBindings\Binding_OneWay.g.cs
 F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\1. WPFMVVMBasic\3. DataBindings\Binding_OneWayToSource.g.cs
 F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\1. WPFMVVMBasic\3. DataBindings\Binding_TwoWay.g.cs
 F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\1. WPFMVVMBasic\3. DataBindings\Binding_Main.g.cs
-F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\1. WPFMVVMBasic\DataContext\DataContextExample.g.cs
 F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\DataGridSingleClickCheckbox\Views\MainWindow.g.cs
 F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\1. WPFMVVMBasic\7. INotifyPropertyChangedSample\INotifyPropertyChangedExample.g.cs
 F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\MainApp.g.cs
@@ -541,9 +537,6 @@ F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_M
 F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\1. WPFMVVMBasic\Layouts\Layout_StackPanel.g.cs
 F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\1. WPFMVVMBasic\Layouts\Layout_WrapPanel.g.cs
 F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\1. WPFMVVMBasic\1. MVVM Main\Pattern2\UserInfo.g.cs
-F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\1. WPFMVVMBasic\2. Resources\DynamicResourceExample.g.cs
-F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\1. WPFMVVMBasic\2. Resources\StaticResourceExample.g.cs
-F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\1. WPFMVVMBasic\RoutedEvents\RoutedEventsExample.g.cs
 F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\1. WPFMVVMBasic\Styles\StyleInheritanceExample.g.cs
 F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\1. WPFMVVMBasic\Styles\StylesExample.g.cs
 F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\1. WPFMVVMBasic\5.Templates\Template_HierarchialData.g.cs
@@ -620,16 +613,12 @@ F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_M
 F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\5. SOLID Princliple\Views\SRP.baml
 F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\2. WPFMVVMAdvance\Localization\LocalizationSample.baml
 F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\2. WPFMVVMAdvance\LogicalVsVisualTree\LogicalVsVisualTree.baml
-F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\2. WPFMVVMAdvance\Virtualization\VirtualizationExample.baml
-F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\1. WPFMVVMBasic\8. Commands\Views\CommandsExample.baml
-F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\1. WPFMVVMBasic\8. Commands\Views\PersonView.baml
 F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\1. WPFMVVMBasic\3. DataBindings\Binding_Default.baml
 F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\1. WPFMVVMBasic\3. DataBindings\Binding_OneTime.baml
 F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\1. WPFMVVMBasic\3. DataBindings\Binding_OneWay.baml
 F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\1. WPFMVVMBasic\3. DataBindings\Binding_OneWayToSource.baml
 F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\1. WPFMVVMBasic\3. DataBindings\Binding_TwoWay.baml
 F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\1. WPFMVVMBasic\3. DataBindings\Binding_Main.baml
-F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\1. WPFMVVMBasic\DataContext\DataContextExample.baml
 F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\DataGridSingleClickCheckbox\Views\MainWindow.baml
 F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\1. WPFMVVMBasic\7. INotifyPropertyChangedSample\INotifyPropertyChangedExample.baml
 F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\MainApp.baml
@@ -639,9 +628,6 @@ F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_M
 F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\1. WPFMVVMBasic\Layouts\Layout_StackPanel.baml
 F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\1. WPFMVVMBasic\Layouts\Layout_WrapPanel.baml
 F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\1. WPFMVVMBasic\1. MVVM Main\Pattern2\UserInfo.baml
-F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\1. WPFMVVMBasic\2. Resources\DynamicResourceExample.baml
-F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\1. WPFMVVMBasic\2. Resources\StaticResourceExample.baml
-F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\1. WPFMVVMBasic\RoutedEvents\RoutedEventsExample.baml
 F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\1. WPFMVVMBasic\Styles\StyleInheritanceExample.baml
 F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\1. WPFMVVMBasic\Styles\StylesExample.baml
 F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\1. WPFMVVMBasic\5.Templates\Template_HierarchialData.baml
@@ -678,31 +664,47 @@ F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_M
 F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\4. Design Pattern\Singletons\Pattern2\Singleton_Types.baml
 F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\1. WPFMVVMBasic\6. ValueConvertors\ValueConvertorsExample.g.cs
 F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\1. WPFMVVMBasic\6. ValueConvertors\ValueConvertorsExample.baml
-F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\2. WPFMVVMAdvance\2. AttachedPropertySample\Pattern1\API.g.cs
-F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\2. WPFMVVMAdvance\2. AttachedPropertySample\AttachedPropertyExample.g.cs
-F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\2. WPFMVVMAdvance\1. DependencyPropertySample\CustomDependencyProperty.g.cs
-F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\2. WPFMVVMAdvance\1. DependencyPropertySample\BasicDependencyProperty.g.cs
-F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\2. WPFMVVMAdvance\2. AttachedPropertySample\Pattern1\API.baml
-F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\2. WPFMVVMAdvance\2. AttachedPropertySample\AttachedPropertyExample.baml
-F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\2. WPFMVVMAdvance\1. DependencyPropertySample\CustomDependencyProperty.baml
-F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\2. WPFMVVMAdvance\1. DependencyPropertySample\BasicDependencyProperty.baml
-F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\2. WPFMVVMAdvance\2. AttachedPropertySample\Pattern1\APIDemo.g.cs
-F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\2. WPFMVVMAdvance\2. AttachedPropertySample\Pattern1\APIDemo.baml
-F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\1. WPFMVVMBasic\RelativeSource\RelativeSource_FindAncestor.g.cs
-F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\1. WPFMVVMBasic\RelativeSource\RelativeSource_Self.g.cs
-F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\1. WPFMVVMBasic\RelativeSource\RelativeSource_TemplatedParent.g.cs
-F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\1. WPFMVVMBasic\RelativeSource\RelativeSource_FindAncestor.baml
-F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\1. WPFMVVMBasic\RelativeSource\RelativeSource_Self.baml
-F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\1. WPFMVVMBasic\RelativeSource\RelativeSource_TemplatedParent.baml
-F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\1. WPFMVVMBasic\RelativeSource\RelativeSource_PreviousData.g.cs
-F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\1. WPFMVVMBasic\RelativeSource\RelativeSource_PreviousData.baml
-F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\1. WPFMVVMBasic\UpdateSourceTrigger\UpdateSourceTrigger_Default.g.cs
-F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\1. WPFMVVMBasic\UpdateSourceTrigger\UpdateSourceTrigger_Explicit.g.cs
-F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\1. WPFMVVMBasic\UpdateSourceTrigger\UpdateSourceTrigger_LostFocus.g.cs
-F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\1. WPFMVVMBasic\UpdateSourceTrigger\UpdateSourceTrigger_PropetyChanged.g.cs
-F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\1. WPFMVVMBasic\UpdateSourceTrigger\UpdateSourceTrigger_Default.baml
-F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\1. WPFMVVMBasic\UpdateSourceTrigger\UpdateSourceTrigger_Explicit.baml
-F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\1. WPFMVVMBasic\UpdateSourceTrigger\UpdateSourceTrigger_LostFocus.baml
-F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\1. WPFMVVMBasic\UpdateSourceTrigger\UpdateSourceTrigger_PropetyChanged.baml
-F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\1. WPFMVVMBasic\ObservableCollection\ObservableCollection_Main.g.cs
-F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\1. WPFMVVMBasic\ObservableCollection\ObservableCollection_Main.baml
+F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\1. WPFMVVMBasic\A13. ObservableCollection\ObservableCollection_Main.g.cs
+F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\1. WPFMVVMBasic\A11. RelativeSource\RelativeSource_PreviousData.g.cs
+F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\1. WPFMVVMBasic\A12. UpdateSourceTrigger\UpdateSourceTrigger_Default.g.cs
+F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\1. WPFMVVMBasic\A12. UpdateSourceTrigger\UpdateSourceTrigger_Explicit.g.cs
+F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\1. WPFMVVMBasic\A12. UpdateSourceTrigger\UpdateSourceTrigger_LostFocus.g.cs
+F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\1. WPFMVVMBasic\A12. UpdateSourceTrigger\UpdateSourceTrigger_PropetyChanged.g.cs
+F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\2. WPFMVVMAdvance\A10. AttachedPropertySample\Pattern1\API.g.cs
+F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\2. WPFMVVMAdvance\A10. AttachedPropertySample\Pattern1\APIDemo.g.cs
+F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\2. WPFMVVMAdvance\A10. AttachedPropertySample\AttachedPropertyExample.g.cs
+F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\2. WPFMVVMAdvance\9. DependencyPropertySample\CustomDependencyProperty.g.cs
+F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\2. WPFMVVMAdvance\9. DependencyPropertySample\BasicDependencyProperty.g.cs
+F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\1. WPFMVVMBasic\A11. RelativeSource\RelativeSource_FindAncestor.g.cs
+F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\1. WPFMVVMBasic\A11. RelativeSource\RelativeSource_Self.g.cs
+F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\1. WPFMVVMBasic\2 . Resources\DynamicResourceExample.g.cs
+F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\1. WPFMVVMBasic\A11. RelativeSource\RelativeSource_TemplatedParent.g.cs
+F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\1. WPFMVVMBasic\2 . Resources\StaticResourceExample.g.cs
+F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\2. WPFMVVMAdvance\A14. RoutedEvents\RoutedEventsExample.g.cs
+F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\1. WPFMVVMBasic\A13. ObservableCollection\ObservableCollection_Main.baml
+F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\1. WPFMVVMBasic\A11. RelativeSource\RelativeSource_PreviousData.baml
+F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\1. WPFMVVMBasic\A12. UpdateSourceTrigger\UpdateSourceTrigger_Default.baml
+F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\1. WPFMVVMBasic\A12. UpdateSourceTrigger\UpdateSourceTrigger_Explicit.baml
+F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\1. WPFMVVMBasic\A12. UpdateSourceTrigger\UpdateSourceTrigger_LostFocus.baml
+F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\1. WPFMVVMBasic\A12. UpdateSourceTrigger\UpdateSourceTrigger_PropetyChanged.baml
+F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\2. WPFMVVMAdvance\A10. AttachedPropertySample\Pattern1\API.baml
+F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\2. WPFMVVMAdvance\A10. AttachedPropertySample\Pattern1\APIDemo.baml
+F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\2. WPFMVVMAdvance\A10. AttachedPropertySample\AttachedPropertyExample.baml
+F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\2. WPFMVVMAdvance\9. DependencyPropertySample\CustomDependencyProperty.baml
+F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\2. WPFMVVMAdvance\9. DependencyPropertySample\BasicDependencyProperty.baml
+F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\1. WPFMVVMBasic\A11. RelativeSource\RelativeSource_FindAncestor.baml
+F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\1. WPFMVVMBasic\A11. RelativeSource\RelativeSource_Self.baml
+F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\1. WPFMVVMBasic\2 . Resources\DynamicResourceExample.baml
+F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\1. WPFMVVMBasic\A11. RelativeSource\RelativeSource_TemplatedParent.baml
+F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\1. WPFMVVMBasic\2 . Resources\StaticResourceExample.baml
+F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\2. WPFMVVMAdvance\A14. RoutedEvents\RoutedEventsExample.baml
+F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\2. WPFMVVMAdvance\Freezable Objects\FreezableObjects.g.cs
+F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\2. WPFMVVMAdvance\A15. Virtualization\VirtualizationExample.g.cs
+F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\1. WPFMVVMBasic\A16. DataContext\DataContextExample.g.cs
+F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\2. WPFMVVMAdvance\8. Commands\Views\CommandsExample.g.cs
+F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\2. WPFMVVMAdvance\8. Commands\Views\PersonView.g.cs
+F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\2. WPFMVVMAdvance\Freezable Objects\FreezableObjects.baml
+F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\2. WPFMVVMAdvance\A15. Virtualization\VirtualizationExample.baml
+F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\2. WPFMVVMAdvance\8. Commands\Views\CommandsExample.baml
+F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\2. WPFMVVMAdvance\8. Commands\Views\PersonView.baml
+F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\1. WPFMVVMBasic\A16. DataContext\DataContextExample.baml

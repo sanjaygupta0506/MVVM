@@ -25,7 +25,10 @@ namespace MainApplication.WPF_MVVM.WPFMVVMBasic.RoutedEvents
             InitializeComponent();
         }
 
-      
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            txt1.Text = "Button is Clicked";
+        }
 
         private void StackPanel_Click(object sender, MouseButtonEventArgs e)
         {
@@ -33,21 +36,9 @@ namespace MainApplication.WPF_MVVM.WPFMVVMBasic.RoutedEvents
             e.Handled = true;
         }
 
-       
-
         private void Window_Click(object sender, MouseButtonEventArgs e)
         {
             txt3.Text = "Only the Click event is bubbled to Window";
-        }
-
-        private void MyCustomControl_MouseWheel(object sender, RoutedEventArgs e)
-        {
-            txt1.Text = "Wheel rotated! It is the custom routed event of your custom control";
-        }
-
-        private void MyCustomControl_MouseClick(object sender, RoutedEventArgs e)
-        {
-            txt1.Text = "Clicked! It is the custom routed event of your custom control";
         }
 
         private void btnClickMe_Click(object sender, RoutedEventArgs e)
