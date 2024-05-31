@@ -59,6 +59,8 @@ using MainApplication.WPF_MVVM._1._WPFMVVMBasic.RelativeSource;
 using MainApplication.WPF_MVVM._1._WPFMVVMBasic.UpdateSourceTrigger;
 using MainApplication.WPF_MVVM._1._WPFMVVMBasic.ObservableCollection;
 using MainApplication.WPF_MVVM._2._WPFMVVMAdvance.Freezable_Objects;
+using MainApplication.WPF_MVVM._1._WPFMVVMBasic.Xaml;
+using MainApplication.WPF_MVVM.WPFMVVMBasic.UserControls;
 
 namespace MVVMCore
 {
@@ -623,6 +625,22 @@ namespace MVVMCore
             freezableObjects.ShowInTaskbar = false;
             freezableObjects.Owner = Application.Current.MainWindow;
             freezableObjects.Show();
+        }
+
+        private void XamlExample_Click(object sender, RoutedEventArgs e)
+        {
+            XamlExample xamlExample = new XamlExample();
+            xamlExample.ShowInTaskbar = false;
+            xamlExample.Owner = Application.Current.MainWindow;
+            xamlExample.Show();
+        }
+
+        private void UserControl_Click(object sender, RoutedEventArgs e)
+        {
+            UserControlsExample userControlsExample = new UserControlsExample();
+            userControlsExample.ShowInTaskbar = false;
+            userControlsExample.Owner = Application.Current.MainWindow;
+            userControlsExample.Show();
         }
     }
 }

@@ -26,24 +26,8 @@
 
                 <!--MVVM Basic-->
                 <MenuItem Name="x_MVVMBasic" Header="MVVM Basic">
-                    
-                    <!--MVVM-->
-                    <MenuItem Name="MVVMAll" Header="MVVM">
-                        <MenuItem Name="SampleMVVM" Header="Sample" Click="SampleMVVM_Click"/>
-                        <MenuItem Name="UserInfoMVVM" Header="User Info" Click="UserInfoMVVM_Click"/>
-                        <MenuItem Name="StudentInfoMVVM" Header="Student Info" Click="StudentInfoMVVM_Click"/>
-                        <Separator />
-                    </MenuItem>
-                    <Separator />
 
-                    <!--Resources-->
-                    <MenuItem Name="ResourcesAll" Header="Resources">
-                        <MenuItem Name="StaticResources" Header="Static" Click="StaticResources_Click"/>
-                        <Separator />
-                        <MenuItem Name="DynamicResources" Header="Dynamic" Click="DynamicResources_Click"/>
-                        <Separator />
-                        
-                    </MenuItem>
+                    <MenuItem Name="XamlExample" Header="Xaml" Click="XamlExample_Click"/>
                     <Separator />
 
                     <!--Data Binding-->
@@ -62,6 +46,25 @@
                         <Separator />
                     </MenuItem>
                     <Separator />
+
+                    <!--Resources-->
+                    <MenuItem Name="ResourcesAll" Header="Resources">
+                        <MenuItem Name="StaticResources" Header="Static" Click="StaticResources_Click"/>
+                        <Separator />
+                        <MenuItem Name="DynamicResources" Header="Dynamic" Click="DynamicResources_Click"/>
+                        <Separator />
+                        
+                    </MenuItem>
+                    <Separator />
+
+                    <!--Styles-->
+                    <MenuItem Name="Styles" Header="Styles">
+                        <MenuItem Name="MainStyle" Header="Style Main" Click="MainStyle_Click"/>
+                        <MenuItem Name="StyleInheritance" Header="Style Inheritances" Click="StyleInheritance_Click"/>
+                    </MenuItem>
+                    <Separator />
+
+                    
                     
                     <!--Triggers-->
                     <MenuItem Name="Triggers" Header="Triggers">
@@ -130,12 +133,7 @@
                     <Separator />
                    
 
-                    <!--Styles-->
-                    <MenuItem Name="Styles" Header="Styles">
-                        <MenuItem Name="MainStyle" Header="Style Main" Click="MainStyle_Click"/>
-                        <MenuItem Name="StyleInheritance" Header="Style Inheritances" Click="StyleInheritance_Click"/>
-                    </MenuItem>
-                    <Separator />
+                   
 
                     <!--Layout-->
                     <MenuItem Name="Layout" Header="Layout">
@@ -155,20 +153,19 @@
                     <MenuItem Name="DataContext" Header="Data Context" Click="DataContext_Click" />
                     <Separator />
 
+                    <!--MVVM-->
+                    <MenuItem Name="MVVMAll" Header="MVVM">
+                        <MenuItem Name="SampleMVVM" Header="Sample" Click="SampleMVVM_Click"/>
+                        <MenuItem Name="UserInfoMVVM" Header="User Info" Click="UserInfoMVVM_Click"/>
+                        <MenuItem Name="StudentInfoMVVM" Header="Student Info" Click="StudentInfoMVVM_Click"/>
+                        <Separator />
+                    </MenuItem>
+                    <Separator />
+
                 </MenuItem>
 
                 <!--MVVM Advance-->
                 <MenuItem Name="MVVMAdvance" Header="MVVM Advance">
-                    
-                    <MenuItem Name="x_DependencyProperty" Header="Dependency Property">
-                        <MenuItem Name="DependencyProperty" Header="Dependency Property" Click="DependencyProperty_Click" ></MenuItem>
-                        <MenuItem Name="CustomDependencyProperty" Header="Custom Dependency Property" Click="CustomDependencyProperty_Click"></MenuItem>
-                    </MenuItem>
-                    <Separator />
-                    <MenuItem Name="x_AttachedProperty" Header="Attached Property">
-                        <MenuItem Name="APPatern1" Header="Pattern 1" Click="APPatern1_Click" ></MenuItem>
-                        <MenuItem Name="APPatern2" Header="Pattern 2" Click="APPatern2_Click"></MenuItem>
-                    </MenuItem>
 
                     <!--Commands-->
                     <MenuItem Name="Commands" Header="Command">
@@ -178,10 +175,29 @@
                     </MenuItem>
                     <Separator />
 
+                    <!--Dependency Property-->
+                    <MenuItem Name="x_DependencyProperty" Header="Dependency Property">
+                        <MenuItem Name="DependencyProperty" Header="Dependency Property" Click="DependencyProperty_Click" ></MenuItem>
+                        <MenuItem Name="CustomDependencyProperty" Header="Custom Dependency Property" Click="CustomDependencyProperty_Click"></MenuItem>
+                    </MenuItem>
+                    <Separator />
+
+                    <!--Attached Property-->
+                    <MenuItem Name="x_AttachedProperty" Header="Attached Property">
+                        <MenuItem Name="APPatern1" Header="Pattern 1" Click="APPatern1_Click" ></MenuItem>
+                        <MenuItem Name="APPatern2" Header="Pattern 2" Click="APPatern2_Click"></MenuItem>
+                    </MenuItem>
+
                     <!--Routed Events-->
                     <MenuItem Name="RoutedEvents" Header="Routed Events" Click="RoutedEvents_Click">
                     </MenuItem>
                     <Separator />
+
+                    <!--Routed Events-->
+                    <MenuItem Name="UserControl" Header="User Control" Click="UserControl_Click">
+                    </MenuItem>
+                    <Separator />
+
 
                     <!--Virtualization-->
                     <MenuItem Name="x_Virtualization" Header="Virtualization" Click="x_Virtualization_Click">

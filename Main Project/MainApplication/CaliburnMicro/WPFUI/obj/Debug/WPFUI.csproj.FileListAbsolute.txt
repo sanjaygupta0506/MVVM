@@ -105,4 +105,3 @@ F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\CaliburnMicro\
 F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\CaliburnMicro\WPFUI\obj\Debug\WPFUI.csproj.CopyComplete
 F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\CaliburnMicro\WPFUI\obj\Debug\WPFUI.exe
 F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\CaliburnMicro\WPFUI\obj\Debug\WPFUI.pdb
-F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\CaliburnMicro\WPFUI\obj\Debug\WPFUI.csproj.AssemblyReference.cache
