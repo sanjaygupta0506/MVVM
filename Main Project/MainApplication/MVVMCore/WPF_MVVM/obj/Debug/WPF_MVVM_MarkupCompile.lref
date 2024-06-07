@@ -1,4 +1,4 @@
-﻿F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\GeneratedInternalTypeHelper.g.cs
+﻿
 FF:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\App.xaml;;
 FF:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\1. WPFMVVMBasic\A11. MVVM Main\Pattern3\StudentInfo.xaml;;
 FF:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\1. WPFMVVMBasic\A16. ObservableCollection\ObservableCollection_Main.xaml;;
@@ -11,7 +11,9 @@ FF:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_
 FF:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\2. WPFMVVMAdvance\A13. AttachedPropertySample\Pattern1\API.xaml;;
 FF:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\2. WPFMVVMAdvance\A13. AttachedPropertySample\Pattern1\APIDemo.xaml;;
 FF:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\2. WPFMVVMAdvance\A20. Freezable Objects\FreezableObjects.xaml;;
-FF:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\2. WPFMVVMAdvance\B2. UserControlsVsCustomControl\CustomControlExample.xaml;;
+FF:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\2. WPFMVVMAdvance\B2.UserControlsVsCustomControl\Common\ResidentialDetails.xaml;;
+FF:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\2. WPFMVVMAdvance\B2.UserControlsVsCustomControl\Common\UserControlsVsCustomControl.xaml;;
+FF:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\2. WPFMVVMAdvance\B2.UserControlsVsCustomControl\WPFCustomControls.xaml;;
 FF:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\4. Design Pattern\Deppendency_Injection\Constructor\DIContructor.xaml;;
 FF:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\4. Design Pattern\Deppendency_Injection\Method\DIMethod.xaml;;
 FF:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\4. Design Pattern\Deppendency_Injection\Property\DIProperty.xaml;;
@@ -64,9 +66,9 @@ FF:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_
 FF:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\1. WPFMVVMBasic\6 Triggers\Trigger_MultiTrigger.xaml;;
 FF:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\1. WPFMVVMBasic\6 Triggers\Trigger_Property.xaml;;
 FF:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\1. WPFMVVMBasic\6 Triggers\Trigger_Main.xaml;;
-FF:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\2. WPFMVVMAdvance\B2. UserControlsVsCustomControl\MyUserControl.xaml;;
-FF:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\2. WPFMVVMAdvance\B2. UserControlsVsCustomControl\UserControlsExample.xaml;;
+FF:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\2. WPFMVVMAdvance\B2.UserControlsVsCustomControl\MyUserControl.xaml;;
+FF:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\2. WPFMVVMAdvance\B2.UserControlsVsCustomControl\UserControlsExample.xaml;;
 FF:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\1. WPFMVVMBasic\8. ValueConvertors\ValueConvertorsExample.xaml;;
 FF:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\1. WPFMVVMBasic\A11. MVVM Main\Pattem1\Samples.xaml;;
-FF:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\2. WPFMVVMAdvance\Themes\Generic.xaml;;
+FF:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\Themes\Generic.xaml;;
 

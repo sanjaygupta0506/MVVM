@@ -61,6 +61,8 @@ using MainApplication.WPF_MVVM._1._WPFMVVMBasic.ObservableCollection;
 using MainApplication.WPF_MVVM._2._WPFMVVMAdvance.Freezable_Objects;
 using MainApplication.WPF_MVVM._1._WPFMVVMBasic.Xaml;
 using MainApplication.WPF_MVVM.WPFMVVMBasic.UserControls;
+using MainApplication.WPF_MVVM._2._WPFMVVMAdvance.B2.UserControlsVsCustomControl;
+using MainApplication.WPF_MVVM._2._WPFMVVMAdvance.B2.UserControlsVsCustomControl.Common;
 
 namespace MVVMCore
 {
@@ -641,6 +643,22 @@ namespace MVVMCore
             userControlsExample.ShowInTaskbar = false;
             userControlsExample.Owner = Application.Current.MainWindow;
             userControlsExample.Show();
+        }
+
+        private void CustomControl_Click(object sender, RoutedEventArgs e)
+        {
+            WPFCustomControls wPFCustomControls = new WPFCustomControls();
+            wPFCustomControls.ShowInTaskbar = false;
+            wPFCustomControls.Owner = Application.Current.MainWindow;
+            wPFCustomControls.Show();
+        }
+
+        private void UserVsCustomControl_Click(object sender, RoutedEventArgs e)
+        {
+            UserControlsVsCustomControl userControlsVsCustomControl = new UserControlsVsCustomControl();
+            userControlsVsCustomControl.ShowInTaskbar = false;
+            userControlsVsCustomControl.Owner = Application.Current.MainWindow;
+            userControlsVsCustomControl.Show();
         }
     }
 }

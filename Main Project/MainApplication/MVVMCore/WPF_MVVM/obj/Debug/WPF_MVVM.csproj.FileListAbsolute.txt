@@ -706,10 +706,14 @@ F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_M
 F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\1. WPFMVVMBasic\A11. MVVM Main\Pattem1\Samples.baml
 F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\2. WPFMVVMAdvance\B1. LogicalVsVisualTree\LogicalVsVisualTree.g.cs
 F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\2. WPFMVVMAdvance\B1. LogicalVsVisualTree\LogicalVsVisualTree.baml
-F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\2. WPFMVVMAdvance\Themes\Generic.baml
-F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\2. WPFMVVMAdvance\B2. UserControlsVsCustomControl\CustomControlExample.g.cs
-F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\2. WPFMVVMAdvance\B2. UserControlsVsCustomControl\MyUserControl.g.cs
-F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\2. WPFMVVMAdvance\B2. UserControlsVsCustomControl\UserControlsExample.g.cs
-F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\2. WPFMVVMAdvance\B2. UserControlsVsCustomControl\CustomControlExample.baml
-F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\2. WPFMVVMAdvance\B2. UserControlsVsCustomControl\MyUserControl.baml
-F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\2. WPFMVVMAdvance\B2. UserControlsVsCustomControl\UserControlsExample.baml
+F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\2. WPFMVVMAdvance\B2.UserControlsVsCustomControl\MyUserControl.g.cs
+F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\2. WPFMVVMAdvance\B2.UserControlsVsCustomControl\UserControlsExample.g.cs
+F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\2. WPFMVVMAdvance\B2.UserControlsVsCustomControl\MyUserControl.baml
+F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\2. WPFMVVMAdvance\B2.UserControlsVsCustomControl\UserControlsExample.baml
+F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\2. WPFMVVMAdvance\B2.UserControlsVsCustomControl\WPFCustomControls.g.cs
+F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\2. WPFMVVMAdvance\B2.UserControlsVsCustomControl\WPFCustomControls.baml
+F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\Themes\Generic.baml
+F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\2. WPFMVVMAdvance\B2.UserControlsVsCustomControl\Common\ResidentialDetails.g.cs
+F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\2. WPFMVVMAdvance\B2.UserControlsVsCustomControl\Common\ResidentialDetails.baml
+F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\2. WPFMVVMAdvance\B2.UserControlsVsCustomControl\Common\UserControlsVsCustomControl.g.cs
+F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\2. WPFMVVMAdvance\B2.UserControlsVsCustomControl\Common\UserControlsVsCustomControl.baml

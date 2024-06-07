@@ -64,8 +64,6 @@
                     </MenuItem>
                     <Separator />
 
-                    
-                    
                     <!--Triggers-->
                     <MenuItem Name="Triggers" Header="Triggers">
                         <MenuItem Name="MainTriggers" Header="Main Trigger" Click="MainTriggers_Click"/>
@@ -132,9 +130,6 @@
                     </MenuItem>
                     <Separator />
                    
-
-                   
-
                     <!--Layout-->
                     <MenuItem Name="Layout" Header="Layout">
                         <MenuItem Name="LayoutGrid" Header="Layout Grid" Click="LayoutGrid_Click" />
@@ -193,8 +188,17 @@
                     </MenuItem>
                     <Separator />
 
-                    <!--Routed Events-->
+                    <!--User Vs Custom  Control-->
+                    <MenuItem Name="UserVsCustomControl" Header="User Vs Custom  Control" Click="UserVsCustomControl_Click">
+                    </MenuItem>
                     <MenuItem Name="UserControl" Header="User Control" Click="UserControl_Click">
+                    </MenuItem>
+                    <MenuItem Name="CustomControl" Header="Custom Control" Click="CustomControl_Click">
+                    </MenuItem>
+                    <Separator />
+
+                    <!--Logical Vs Visual Tree-->
+                    <MenuItem Name="x_LogicalvsVisualTree" Header="Logical Vs Visual Tree" Click="x_LogicalvsVisualTree_Click">
                     </MenuItem>
                     <Separator />
 
@@ -209,9 +213,7 @@
                     </MenuItem>
                     <Separator />
 
-                    <MenuItem Name="x_LogicalvsVisualTree" Header="Logical Vs Visual Tree" Click="x_LogicalvsVisualTree_Click">
-                    </MenuItem>
-                    <Separator />
+                   
                     
                     <MenuItem Name="x_Localization" Header="Localization - Langauge Change" Click="x_Localization_Click">
                         

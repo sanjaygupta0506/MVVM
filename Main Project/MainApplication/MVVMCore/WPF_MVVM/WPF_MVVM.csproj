@@ -184,10 +184,17 @@
       <DependentUpon>FreezableObjects.xaml</DependentUpon>
     </Compile>
     <Compile Include="2. WPFMVVMAdvance\A10. Commands\MVVMCommads\MVVMCommand.cs" />
-    <Compile Include="2. WPFMVVMAdvance\B2. UserControlsVsCustomControl\CustomControlExample.xaml.cs">
-      <DependentUpon>CustomControlExample.xaml</DependentUpon>
+    <Compile Include="2. WPFMVVMAdvance\B2.UserControlsVsCustomControl\Common\CustomControlAddress.cs" />
+    <Compile Include="2. WPFMVVMAdvance\B2.UserControlsVsCustomControl\Common\ResidentialDetails.xaml.cs">
+      <DependentUpon>ResidentialDetails.xaml</DependentUpon>
     </Compile>
-    <Compile Include="2. WPFMVVMAdvance\B2. UserControlsVsCustomControl\MyCustomControl.cs" />
+    <Compile Include="2. WPFMVVMAdvance\B2.UserControlsVsCustomControl\Common\UserControlsVsCustomControl.xaml.cs">
+      <DependentUpon>UserControlsVsCustomControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="2. WPFMVVMAdvance\B2.UserControlsVsCustomControl\MyCustomControl.cs" />
+    <Compile Include="2. WPFMVVMAdvance\B2.UserControlsVsCustomControl\WPFCustomControls.xaml.cs">
+      <DependentUpon>WPFCustomControls.xaml</DependentUpon>
+    </Compile>
     <Compile Include="4. Design Pattern\Deppendency_Injection\Constructor\DIContructor.xaml.cs">
       <DependentUpon>DIContructor.xaml</DependentUpon>
     </Compile>
@@ -369,10 +376,10 @@
       <DependentUpon>Trigger_Main.xaml</DependentUpon>
     </Compile>
     <Compile Include="UserPreferences.cs" />
-    <Compile Include="2. WPFMVVMAdvance\B2. UserControlsVsCustomControl\MyUserControl.xaml.cs">
+    <Compile Include="2. WPFMVVMAdvance\B2.UserControlsVsCustomControl\MyUserControl.xaml.cs">
       <DependentUpon>MyUserControl.xaml</DependentUpon>
     </Compile>
-    <Compile Include="2. WPFMVVMAdvance\B2. UserControlsVsCustomControl\UserControlsExample.xaml.cs">
+    <Compile Include="2. WPFMVVMAdvance\B2.UserControlsVsCustomControl\UserControlsExample.xaml.cs">
       <DependentUpon>UserControlsExample.xaml</DependentUpon>
     </Compile>
     <Compile Include="1. WPFMVVMBasic\8. ValueConvertors\Comman\AddSuffixToIntValueConverter.cs" />
@@ -449,7 +456,15 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="2. WPFMVVMAdvance\B2. UserControlsVsCustomControl\CustomControlExample.xaml">
+    <Page Include="2. WPFMVVMAdvance\B2.UserControlsVsCustomControl\Common\ResidentialDetails.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="2. WPFMVVMAdvance\B2.UserControlsVsCustomControl\Common\UserControlsVsCustomControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="2. WPFMVVMAdvance\B2.UserControlsVsCustomControl\WPFCustomControls.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -676,11 +691,11 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="2. WPFMVVMAdvance\B2. UserControlsVsCustomControl\MyUserControl.xaml">
+    <Page Include="2. WPFMVVMAdvance\B2.UserControlsVsCustomControl\MyUserControl.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="2. WPFMVVMAdvance\B2. UserControlsVsCustomControl\UserControlsExample.xaml">
+    <Page Include="2. WPFMVVMAdvance\B2.UserControlsVsCustomControl\UserControlsExample.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -692,7 +707,7 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="2. WPFMVVMAdvance\Themes\Generic.xaml">
+    <Page Include="Themes\Generic.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
