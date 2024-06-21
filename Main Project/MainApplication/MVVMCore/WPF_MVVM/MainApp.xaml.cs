@@ -63,6 +63,8 @@ using MainApplication.WPF_MVVM._1._WPFMVVMBasic.Xaml;
 using MainApplication.WPF_MVVM.WPFMVVMBasic.UserControls;
 using MainApplication.WPF_MVVM._2._WPFMVVMAdvance.B2.UserControlsVsCustomControl;
 using MainApplication.WPF_MVVM._2._WPFMVVMAdvance.B2.UserControlsVsCustomControl.Common;
+using MainApplication.WPF_MVVM._4._Design_Pattern.Factory_Method;
+using MainApplication.WPF_MVVM._4._Design_Pattern.Abstract;
 
 namespace MVVMCore
 {
@@ -659,6 +661,22 @@ namespace MVVMCore
             userControlsVsCustomControl.ShowInTaskbar = false;
             userControlsVsCustomControl.Owner = Application.Current.MainWindow;
             userControlsVsCustomControl.Show();
+        }
+
+        private void x_FactoryMethod_Click(object sender, RoutedEventArgs e)
+        {
+            FactoryMethod factoryMethod = new FactoryMethod();
+            factoryMethod.ShowInTaskbar = false;
+            factoryMethod.Owner = Application.Current.MainWindow;
+            factoryMethod.Show();
+        }
+
+        private void x_AbstractFactory_Click(object sender, RoutedEventArgs e)
+        {
+            AbstractFactory abstractFactory = new AbstractFactory();
+            abstractFactory.ShowInTaskbar = false;
+            abstractFactory.Owner = Application.Current.MainWindow;
+            abstractFactory.Show();
         }
     }
 }

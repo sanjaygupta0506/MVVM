@@ -195,6 +195,13 @@
     <Compile Include="2. WPFMVVMAdvance\B2.UserControlsVsCustomControl\WPFCustomControls.xaml.cs">
       <DependentUpon>WPFCustomControls.xaml</DependentUpon>
     </Compile>
+    <Compile Include="4. Design Pattern\Abstract\AbstractFactory.xaml.cs">
+      <DependentUpon>AbstractFactory.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="4. Design Pattern\Abstract\Animal.cs" />
+    <Compile Include="4. Design Pattern\Abstract\AnimalFactory.cs" />
+    <Compile Include="4. Design Pattern\Abstract\Cat.cs" />
+    <Compile Include="4. Design Pattern\Abstract\MoneyBackFactory.cs" />
     <Compile Include="4. Design Pattern\Deppendency_Injection\Constructor\DIContructor.xaml.cs">
       <DependentUpon>DIContructor.xaml</DependentUpon>
     </Compile>
@@ -210,6 +217,13 @@
     </Compile>
     <Compile Include="4. Design Pattern\Deppendency_Injection\Property\EmployeeBAL.cs" />
     <Compile Include="4. Design Pattern\Deppendency_Injection\Property\EmployeeDAL.cs" />
+    <Compile Include="4. Design Pattern\Factory_Method\CreditCard.cs" />
+    <Compile Include="4. Design Pattern\Factory_Method\CreditCardFactory.cs" />
+    <Compile Include="4. Design Pattern\Factory_Method\FactoryMethod.xaml.cs">
+      <DependentUpon>FactoryMethod.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="4. Design Pattern\Factory_Method\MoneyBackFactory.cs" />
+    <Compile Include="4. Design Pattern\Factory_Method\Platinum.cs" />
     <Compile Include="4. Design Pattern\Singletons\Patten1\ApplicationState.cs" />
     <Compile Include="4. Design Pattern\Singletons\Patten1\SingletonDemo.xaml.cs">
       <DependentUpon>SingletonDemo.xaml</DependentUpon>
@@ -219,7 +233,7 @@
     </Compile>
     <Compile Include="EnumClass.cs" />
     <Compile Include="4. Design Pattern\Singletons\EnumHelper.cs" />
-    <Compile Include="3. MultiThreading\BackGroundWorkerExample.xaml.cs">
+    <Compile Include="4. Design Pattern\Deppendency_Injection\BackGroundWorkerExample.xaml.cs">
       <DependentUpon>BackGroundWorkerExample.xaml</DependentUpon>
     </Compile>
     <Compile Include="3. MultiThreading\DispatcherExample.xaml.cs">
@@ -468,6 +482,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="4. Design Pattern\Abstract\AbstractFactory.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="4. Design Pattern\Deppendency_Injection\Constructor\DIContructor.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -480,6 +498,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="4. Design Pattern\Factory_Method\FactoryMethod.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="4. Design Pattern\Singletons\Patten1\SingletonDemo.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -488,7 +510,7 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="3. MultiThreading\BackGroundWorkerExample.xaml">
+    <Page Include="4. Design Pattern\Deppendency_Injection\BackGroundWorkerExample.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

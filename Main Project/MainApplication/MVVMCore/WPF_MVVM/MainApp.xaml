@@ -47,6 +47,8 @@
                     </MenuItem>
                     <Separator />
 
+                    
+                    
                     <!--Resources-->
                     <MenuItem Name="ResourcesAll" Header="Resources">
                         <MenuItem Name="StaticResources" Header="Static" Click="StaticResources_Click"/>
@@ -57,6 +59,8 @@
                     </MenuItem>
                     <Separator />
 
+                    
+                    
                     <!--Styles-->
                     <MenuItem Name="Styles" Header="Styles">
                         <MenuItem Name="MainStyle" Header="Style Main" Click="MainStyle_Click"/>
@@ -64,6 +68,8 @@
                     </MenuItem>
                     <Separator />
 
+                    
+                    
                     <!--Triggers-->
                     <MenuItem Name="Triggers" Header="Triggers">
                         <MenuItem Name="MainTriggers" Header="Main Trigger" Click="MainTriggers_Click"/>
@@ -80,6 +86,8 @@
                     </MenuItem>
                     <Separator />
 
+                    
+                    
                     <!--Templates-->
                     <MenuItem Name="Templates" Header="Templates">
                         <MenuItem Name="ControlTemplate" Header="Control Template" Click="ControlTemplate_Click"/>
@@ -93,6 +101,7 @@
                     <Separator />
 
                     <!--Value Convertors-->
+
                     <MenuItem Name="ValueConvertors" Header="Value Convertors" Click="ValueConvertors_Click"/>
                     <Separator />
 
@@ -182,7 +191,8 @@
                         <MenuItem Name="APPatern1" Header="Pattern 1" Click="APPatern1_Click" ></MenuItem>
                         <MenuItem Name="APPatern2" Header="Pattern 2" Click="APPatern2_Click"></MenuItem>
                     </MenuItem>
-
+                    <Separator />
+                        
                     <!--Routed Events-->
                     <MenuItem Name="RoutedEvents" Header="Routed Events" Click="RoutedEvents_Click">
                     </MenuItem>
@@ -191,8 +201,10 @@
                     <!--User Vs Custom  Control-->
                     <MenuItem Name="UserVsCustomControl" Header="User Vs Custom  Control" Click="UserVsCustomControl_Click">
                     </MenuItem>
+                    <Separator />
                     <MenuItem Name="UserControl" Header="User Control" Click="UserControl_Click">
                     </MenuItem>
+                    <Separator />
                     <MenuItem Name="CustomControl" Header="Custom Control" Click="CustomControl_Click">
                     </MenuItem>
                     <Separator />
@@ -245,7 +257,12 @@
                         <MenuItem Name="x_DIMethod" Header="Method" Click="x_DIMethod_Click" />
                         <MenuItem Name="x_DIPropety" Header="Propety" Click="x_DIPropety_Click"/>
                     </MenuItem>
-                </MenuItem>
+                    <Separator />
+                    <MenuItem Name="x_FactoryMethod" Header="Factory Method" Click="x_FactoryMethod_Click"/>
+                    <Separator />
+                    <MenuItem Name="x_AbstractFactory" Header="Abstract  Factory" Click="x_AbstractFactory_Click"/>
+                    <Separator />
+                    </MenuItem>
 
                 <!--MVVM SOLID Principles-->
                 <MenuItem Name="X_Solid" Header="SOLID Principles">

@@ -10,16 +10,16 @@ namespace CSharpConceptApp.Main_Concept
 {
     public class Lazy_Loading
     {
-        static void Main(string[] args)
-        {
-            Company cmp = new Company();
-            Console.WriteLine(cmp.CompanyName);
-            foreach (var item in cmp.Employees.Value) //3. When we call cmp.Employees.Value then the Employee list will be populated here.  
-            {
-                Console.WriteLine(item.FirstName + " " + item.LastName);
-            }
-            Console.ReadLine();
-        }
+        //static void Main(string[] args)
+        //{
+        //    Company cmp = new Company();
+        //    Console.WriteLine(cmp.CompanyName);
+        //    foreach (var item in cmp.Employees.Value) //3. When we call cmp.Employees.Value then the Employee list will be populated here.  
+        //    {
+        //        Console.WriteLine(item.FirstName + " " + item.LastName);
+        //    }
+        //    Console.ReadLine();
+        //}
     }
     //Employee Class which contains FirstName and LastName properties  
     public class Employee
@@ -61,5 +61,4 @@ namespace CSharpConceptApp.Main_Concept
             return Employees;
         }
     }
-
 }
