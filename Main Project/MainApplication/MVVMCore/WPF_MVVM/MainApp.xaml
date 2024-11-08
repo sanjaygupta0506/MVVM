@@ -237,13 +237,21 @@
 
                 <!--MVVM Multi-Threading-->
                 <MenuItem Name="X_Thread" Header="Multi-Threading">
-                    <MenuItem Name="x_Dispather" Header="Dispatcher" Click="x_Dispather_Click" />
-                    <Separator />
-                    <MenuItem Name="x_bgThread" Header="Background Thread" Click="x_bgThread_Click" />
-                    <Separator />
+
                     <MenuItem Name="x_st" Header="Single Thread" Click="x_st_Click" />
                     <Separator />
+
+                    <MenuItem Name="x_bgThread" Header="Background Thread" Click="x_bgThread_Click" />
+                    <Separator />
+
+                    <MenuItem Name="x_Dispather" Header="Dispatcher" Click="x_Dispather_Click" />
+                    <Separator />
+
+                    <MenuItem Name="x_WPFDispather" Header="WPF Dispatcher" Click="x_WPFDispather_Click" />
+                    <Separator />
                     
+                 
+                
                 </MenuItem>
 
                 <!--MVVM Design Patterns-->
@@ -284,6 +292,16 @@
                     <Separator />
                     <MenuItem Name="x_form" Header="Form Security" Click="x_form_Click"></MenuItem>
                 </MenuItem>-->
+
+                <!--API-->
+                <MenuItem Name="x_API" Header="API">
+
+                    <MenuItem Name="x_WebService" Header="Web Service" Click="x_WebService_Click"/>
+                    <Separator />
+                    <MenuItem Name="x_WCF" Header="WCF" Click="x_WCF_Click"/>
+                    <Separator />
+
+                </MenuItem>
 
                 <!--MVVM Themes-->
                 <MenuItem Name="x_View" Header="Themes">

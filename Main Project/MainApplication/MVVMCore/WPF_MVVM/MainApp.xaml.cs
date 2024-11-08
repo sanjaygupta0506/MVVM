@@ -65,6 +65,7 @@ using MainApplication.WPF_MVVM._2._WPFMVVMAdvance.B2.UserControlsVsCustomControl
 using MainApplication.WPF_MVVM._2._WPFMVVMAdvance.B2.UserControlsVsCustomControl.Common;
 using MainApplication.WPF_MVVM._4._Design_Pattern.Factory_Method;
 using MainApplication.WPF_MVVM._4._Design_Pattern.Abstract;
+using MainApplication.WPF_MVVM._6._API.Web_Service;
 
 namespace MVVMCore
 {
@@ -677,6 +678,27 @@ namespace MVVMCore
             abstractFactory.ShowInTaskbar = false;
             abstractFactory.Owner = Application.Current.MainWindow;
             abstractFactory.Show();
+        }
+
+        private void x_WPFDispather_Click(object sender, RoutedEventArgs e)
+        {
+            //WPFDispatcherExample WPFDispatcherExample = new WPFDispatcherExample();
+            //abstractFactory.ShowInTaskbar = false;
+            //abstractFactory.Owner = Application.Current.MainWindow;
+            //abstractFactory.Show();
+        }
+
+        private void x_WebService_Click(object sender, RoutedEventArgs e)
+        {
+            Web_Service_Example web_Service_Example = new Web_Service_Example();
+            web_Service_Example.ShowInTaskbar = false;
+            web_Service_Example.Owner = Application.Current.MainWindow;
+            web_Service_Example.Show();
+        }
+
+        private void x_WCF_Click(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }

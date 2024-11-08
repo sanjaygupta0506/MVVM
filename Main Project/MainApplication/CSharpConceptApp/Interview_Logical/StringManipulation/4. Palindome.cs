@@ -13,28 +13,29 @@ namespace CShapLogicalProgram
 
     class Palindome
     {
-        static void Main(string[] args)
-        {
-            int i;
-            Console.WriteLine("enter text");
-            string str = Console.ReadLine();
-            string rev = string.Empty;
-            //reverse the string, start from back and store in a new variable
-            for (i = str.Length - 1; i >= 0; i--)
-            {
-                rev = rev + str[i];
-            }
+        //static void Main(string[] args)
+        //{
+        //    int i;
+        //    //Console.WriteLine("enter text");
+        //    //string str = Console.ReadLine();
+        //    string str = "Hello Sanjay";
+        //    string rev = string.Empty;
+        //    //reverse the string, start from back and store in a new variable
+        //    for (i = str.Length - 1; i >= 0; i--)
+        //    {
+        //        rev = rev + str[i];
+        //    }
 
-            //check if string entered equals the revrse string then its a palindrome
-            if (str.Equals(rev))
-            {
-                Console.WriteLine("Palindrome");
-            }
-            else
-            {
-                Console.WriteLine("Not Palindrome");
-            }
-            Console.ReadLine();
-        }
+        //    //check if string entered equals the revrse string then its a palindrome
+        //    if (str.Equals(rev))
+        //    {
+        //        Console.WriteLine("Palindrome");
+        //    }
+        //    else
+        //    {
+        //        Console.WriteLine("Not Palindrome");
+        //    }
+        //    Console.ReadLine();
+        //}
     }
 }

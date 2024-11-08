@@ -10,9 +10,10 @@ namespace CShapLogicalProgram.StringManipulation
     {
         //static void Main(string[] args)
         //{
-        //    Console.WriteLine("enter text");
-        //    string str = Console.ReadLine();
-        //    int[] arr = new int[] {};
+        //    //Console.WriteLine("enter text");
+        //    //string str = Console.ReadLine();
+        //    string str = "Hello World";
+        //    int[] arr = new int[] { };
 
         //    #region ReverseString - 1
 
@@ -20,7 +21,7 @@ namespace CShapLogicalProgram.StringManipulation
         //    input: hello, output: olleh
         //    input: hello world, output: dlrow olleh*/
 
-        //    //ReverseString(str);
+        //    ReverseString(str);
         //    #endregion
 
         //    #region chkPalindrome - 2
@@ -34,7 +35,7 @@ namespace CShapLogicalProgram.StringManipulation
 
         //    input: 1221, output: Palindrome*/
 
-        //    //chkPalindrome(str);
+        //    chkPalindrome(str);
         //    #endregion
 
         //    #region ReverseWordOrder - 3
@@ -42,7 +43,7 @@ namespace CShapLogicalProgram.StringManipulation
         //    /*The user will input a sentence and we need to reverse the sequence of words in the sentence.
         //    input: Welcome to Csharp corner, output: corner Csharp to Welcome*/
 
-        //    //ReverseWordOrder(str);
+        //    ReverseWordOrder(str);
         //    #endregion
 
         //    #region ReverseWords - 4
@@ -67,7 +68,7 @@ namespace CShapLogicalProgram.StringManipulation
         //    r – 1
         //    d – 1*/
 
-        //    //Countcharacter(str);
+        //    Countcharacter(str);
         //    #endregion
 
         //    #region removeduplicate - 6
@@ -75,7 +76,7 @@ namespace CShapLogicalProgram.StringManipulation
         //    /*Ans.: The user will input a string and the method should remove multiple occurrences of characters in the string
         //    input: csharpcorner, output: csharpone*/
 
-        //    //removeduplicate(str);
+        //    removeduplicate(str);
         //    #endregion
 
         //    #region findallsubstring - 7
