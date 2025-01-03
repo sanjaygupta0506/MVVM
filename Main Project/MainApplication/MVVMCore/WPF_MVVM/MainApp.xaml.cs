@@ -66,6 +66,7 @@ using MainApplication.WPF_MVVM._2._WPFMVVMAdvance.B2.UserControlsVsCustomControl
 using MainApplication.WPF_MVVM._4._Design_Pattern.Factory_Method;
 using MainApplication.WPF_MVVM._4._Design_Pattern.Abstract;
 using MainApplication.WPF_MVVM._6._API.Web_Service;
+using MainApplication.WPF_MVVM._1._WPFMVVMBasic._6_Triggers;
 
 namespace MVVMCore
 {
@@ -699,6 +700,14 @@ namespace MVVMCore
         private void x_WCF_Click(object sender, RoutedEventArgs e)
         {
 
+        }
+
+        private void PropertyTriggerNormal_Click(object sender, RoutedEventArgs e)
+        {
+            Trigger_Property_Normal trigger_Property_Normal = new Trigger_Property_Normal();
+            trigger_Property_Normal.ShowInTaskbar = false;
+            trigger_Property_Normal.Owner = Application.Current.MainWindow;
+            trigger_Property_Normal.Show();
         }
     }
 }

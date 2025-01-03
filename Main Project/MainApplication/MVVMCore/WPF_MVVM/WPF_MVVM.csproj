@@ -182,6 +182,9 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="1. WPFMVVMBasic\6 Triggers\Trigger_Property_Normal.xaml.cs">
+      <DependentUpon>Trigger_Property_Normal.xaml</DependentUpon>
+    </Compile>
     <Compile Include="1. WPFMVVMBasic\A11. MVVM Main\Pattern3\DatetimeToDateConverter.cs" />
     <Compile Include="1. WPFMVVMBasic\A11. MVVM Main\Pattern3\RelayCommand.cs" />
     <Compile Include="1. WPFMVVMBasic\A11. MVVM Main\Pattern3\Student.cs" />
@@ -272,6 +275,7 @@
     <Compile Include="4. Design Pattern\Singletons\Pattern2\Singleton_Types.xaml.cs">
       <DependentUpon>Singleton_Types.xaml</DependentUpon>
     </Compile>
+    <Compile Include="6. API\Web Service\Users.cs" />
     <Compile Include="6. API\Web Service\Web_Service_Example.xaml.cs">
       <DependentUpon>Web_Service_Example.xaml</DependentUpon>
     </Compile>
@@ -470,6 +474,10 @@
     <Compile Include="1. WPFMVVMBasic\A11. MVVM Main\Pattem1\Samples.xaml.cs">
       <DependentUpon>Samples.xaml</DependentUpon>
     </Compile>
+    <Page Include="1. WPFMVVMBasic\6 Triggers\Trigger_Property_Normal.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="1. WPFMVVMBasic\A11. MVVM Main\Pattern3\StudentInfo.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>

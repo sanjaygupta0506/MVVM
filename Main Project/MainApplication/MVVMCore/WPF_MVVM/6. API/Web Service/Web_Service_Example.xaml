@@ -5,8 +5,32 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:MainApplication.WPF_MVVM._6._API.Web_Service"
         mc:Ignorable="d"
-        Title="Web_Service_Example" Height="450" Width="800">
-    <Grid>
-        <DataGrid x:Name="UsersDataGrid" AutoGenerateColumns="True" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"/>
+        Title="Web_Service_Example" Height="600" Width="600">
+    <Grid Background="Bisque">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="360"/>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="*"/>
+            
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="150"/>
+            <ColumnDefinition Width="150"/>
+            <ColumnDefinition Width="150"/>
+            <ColumnDefinition Width="150"/>
+            <ColumnDefinition Width="150"/>
+        </Grid.ColumnDefinitions>
+        <DataGrid Grid.Row="0" Grid.Column="0" x:Name="UsersDataGrid" AutoGenerateColumns="True"  Grid.ColumnSpan="5"/>
+        <Label Grid.Row="1" Grid.Column="0" Name="ID" Width="100" Content="ID"/>
+        <Label Grid.Row="2" Grid.Column="0" Name="UserName" Content="UserName" Width="100" />
+        <Label Grid.Row="3" Grid.Column="0" Name="Mobile" Content="Mobile" Width="100"/>
+        <TextBox Grid.Row="1" Grid.Column="1" Name="x_ID" Width="100" Margin="2"/>
+        <TextBox Grid.Row="2" Grid.Column="1" Name="x_UName" Width="100" Margin="2"/>
+        <TextBox Grid.Row="3" Grid.Column="1" Name="x_Mobile" Width="100" Margin="2"/>
+        <Button Name="x_Select" Content="Select"/>
+        <Button Name="x_Insert" Content="Insert"/>
+   
     </Grid>
 </Window>

@@ -21,42 +21,16 @@ namespace MainApplication.WPF_MVVM._6._API.Web_Service
     /// </summary>
     public partial class Web_Service_Example : Window
     {
-        private const string ApiUrl = "https://api.com/api/users/1";
+       
         public Web_Service_Example()
         {
             InitializeComponent();
-            LoadData();
         }
 
-        private async void LoadData()
-        {
-            try
-            {
-                List<User> users = await FetchUsersFromApi();
-                UsersDataGrid.ItemsSource = users;
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show($"Error: {ex.Message}", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
-            }
-        }
+        
 
-        private async Task<List<User>> FetchUsersFromApi()
-        {
-            using (HttpClient client = new HttpClient())
-            {
-                HttpResponseMessage response = await client.GetAsync(ApiUrl);
-                response.EnsureSuccessStatusCode();
-                string responsebody = await response.Content.ReadAsStringAsync();
-                return JsonConvert.DeserializeObject<List<User>>(responsebody);
-            }
-        }
+        
     }
 
-    public class User
-    {
-        public int Id { get; set; }
-        public string Name { get; set; }
-        public string EMail { get; set; }
-    }
+    
 }

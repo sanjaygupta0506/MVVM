@@ -46,8 +46,6 @@
                         <Separator />
                     </MenuItem>
                     <Separator />
-
-                    
                     
                     <!--Resources-->
                     <MenuItem Name="ResourcesAll" Header="Resources">
@@ -59,8 +57,6 @@
                     </MenuItem>
                     <Separator />
 
-                    
-                    
                     <!--Styles-->
                     <MenuItem Name="Styles" Header="Styles">
                         <MenuItem Name="MainStyle" Header="Style Main" Click="MainStyle_Click"/>
@@ -75,6 +71,8 @@
                         <MenuItem Name="MainTriggers" Header="Main Trigger" Click="MainTriggers_Click"/>
                         <Separator />
                         <MenuItem Name="PropertyTrigger" Header="Property Trigger" Click="PropertyTrigger_Click"/>
+                        <Separator />
+                        <MenuItem Name="PropertyTriggerNormal" Header="Property Trigger Normal" Click="PropertyTriggerNormal_Click"/>
                         <Separator />
                         <MenuItem Name="DataTrigger" Header="DataTrigger" Click="DataTrigger_Click"/>
                         <Separator />
