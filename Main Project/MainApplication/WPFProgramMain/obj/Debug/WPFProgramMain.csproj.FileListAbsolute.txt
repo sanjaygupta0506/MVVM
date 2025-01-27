@@ -18,3 +18,4 @@ F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\WPFProgramMain
 F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\WPFProgramMain\obj\Debug\CustomControlExample\Theme\Generics.baml
 F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\WPFProgramMain\obj\Debug\CustomControlExample\CustomControlExample.g.cs
 F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\WPFProgramMain\obj\Debug\CustomControlExample\CustomControlExample.baml
+F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\WPFProgramMain\obj\Debug\WPFProgramMain.csproj.AssemblyReference.cache

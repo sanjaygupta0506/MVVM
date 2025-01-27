@@ -47,14 +47,12 @@
     <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Interview_Logical\ArrayManipulation\MaxValueIn Arrray.cs" />
     <Compile Include="Main_Concept\Collection\Array\2. ArrayFuntion.cs" />
     <Compile Include="Main_Concept\Collection\Array\3. ImplicitlyTypedArray.cs" />
     <Compile Include="Main_Concept\Collection\Array\1. OneDimensionArray.cs" />
     <Compile Include="Main_Concept\Collection\Array\6. JaggedDemo.cs" />
     <Compile Include="Main_Concept\Collection\Array\7. JaggedArraywithData.cs" />
     <Compile Include="Main_Concept\Collection\ArayList\8. ArrayListDemo.cs" />
-    <Compile Include="Interview_Logical\ArrayManipulation\RotationOfArray.cs" />
     <Compile Include="Main_Concept\34. ConstantExample.cs" />
     <Compile Include="Main_Concept\Delegates\19. GenericsDelegates2.cs" />
     <Compile Include="Main_Concept\Event\20. EventExample.cs" />
@@ -69,12 +67,6 @@
     <Compile Include="Main_Concept\Collection\HashTable\9. HashTableDemo.cs" />
     <Compile Include="Main_Concept\Collection\HashTable\10. HashTableDemo1.cs" />
     <Compile Include="Main_Concept\Collection\HashTable\11. HashTableDemo2.cs" />
-    <Compile Include="Interview_Logical\StringManipulation\1. Duplicate_Characters.cs" />
-    <Compile Include="Interview_Logical\StringManipulation\2. Unique _Characters.cs" />
-    <Compile Include="Interview_Logical\StringManipulation\3. ReverseString.cs" />
-    <Compile Include="Interview_Logical\StringManipulation\Reverse_each_word.cs" />
-    <Compile Include="Interview_Logical\StringManipulation\4. Palindome.cs" />
-    <Compile Include="Interview_Logical\StringManipulation\StringManipulation_All.cs" />
     <Compile Include="Main_Concept\27. Data_Tyoes.cs" />
     <Compile Include="Main_Concept\30. Extension_Method.cs" />
     <Compile Include="Main_Concept\22. IEnumerable.cs" />
@@ -90,7 +82,6 @@
     <Compile Include="Main_Concept\Collection\Array\5. TwoDimensionalAraywithData.cs" />
     <Compile Include="Main_Concept\Tuple\32. TupleExample1.cs" />
     <Compile Include="Main_Concept\Tuple\33. TupleExample2.cs" />
-    <Compile Include="ReadOnlyExample.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
