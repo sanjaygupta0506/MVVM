@@ -36,8 +36,8 @@ namespace CShapLogicalProgram.StringManipulation
         //    Console.WriteLine("enter text");
         //    string str = Console.ReadLine();
         //    Duplicate_characters _stringDT = new Duplicate_characters();
-        //    // Find the duplicate characters in the string
-        //    var duplicates = _stringDT.GetDuplicateCharacters(str);
+        //    Find the duplicate characters in the string
+        //   var duplicates = _stringDT.GetDuplicateCharacters(str);
         //    Console.WriteLine("Duplicate characters in {str} are: " + duplicates);
         //    Console.ReadKey();
         //}

@@ -67,6 +67,7 @@ using MainApplication.WPF_MVVM._4._Design_Pattern.Factory_Method;
 using MainApplication.WPF_MVVM._4._Design_Pattern.Abstract;
 using MainApplication.WPF_MVVM._6._API.Web_Service;
 using MainApplication.WPF_MVVM._1._WPFMVVMBasic._6_Triggers;
+using MainApplication.WPF_MVVM._6._API.Web_API;
 
 namespace MVVMCore
 {
@@ -708,6 +709,20 @@ namespace MVVMCore
             trigger_Property_Normal.ShowInTaskbar = false;
             trigger_Property_Normal.Owner = Application.Current.MainWindow;
             trigger_Property_Normal.Show();
+        }
+
+        private void x_WebaAPI_Click(object sender, RoutedEventArgs e)
+        {
+            WPFWithWebAPI wPFWithWebAPI = new WPFWithWebAPI();
+            wPFWithWebAPI.ShowInTaskbar = false;
+            wPFWithWebAPI.Owner = Application.Current.MainWindow;
+            wPFWithWebAPI.Show();
+            
+        }
+
+        private void x_RestAPI_Click(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }

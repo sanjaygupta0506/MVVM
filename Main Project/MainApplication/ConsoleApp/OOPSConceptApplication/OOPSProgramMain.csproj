@@ -43,7 +43,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Interview\Task1.cs" />
     <Compile Include="Main_Concept\.6. Abstract Class.cs" />
     <Compile Include="Main_Concept\.7. Abstract Method.cs" />
     <Compile Include="Main_Concept\.1. Abstraction.cs" />

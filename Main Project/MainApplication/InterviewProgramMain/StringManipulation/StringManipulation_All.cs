@@ -17,46 +17,42 @@ namespace CShapLogicalProgram.StringManipulation
             string str = "Hello World";
             int[] arr = new int[] { 1, 2, 3, 4, 5 };
 
-            #region ReverseString - 1
-            Console.WriteLine("\n1. ReverseString - 1");
-            /*The user will input a string and the method should return the reverse of that string
-            input: hello, output: olleh
-            input: hello world, output: dlrow olleh*/
+            //#region ReverseString - 1.1
+            //Console.WriteLine("\n1.1 ReverseString - 1");
+            //ReverseString1(str);
+            //#endregion 
 
-            ReverseString(str);
-            Console.WriteLine("\n1. ReverseString - 2");
-            ReverseString();
+            #region ReverseString - 1.2
+            Console.WriteLine("\n1.2 ReverseString - 2");
+            ReverseString2();
             #endregion
 
-            #region chkPalindrome - 2
-            Console.WriteLine("\n2. check Palindrome");
-            /*Ans.: The user will input a string and we need to print “Palindrome” or “Not Palindrome” based on whether the input string is a palindrome or not.
+            //#region ReverseString - 1.3
+            //Console.WriteLine("\n1.3 ReverseString - 3");
+            //ReverseString3();
+            //#endregion
 
-            input: madam, output: Palindrome
-            input: step on no pets, output: Palindrome
-            input: book, output: Not Palindrome
-            if we pass an integer as a string parameter then also this method will give the correct output
-
-            input: 1221, output: Palindrome*/
-
-            chkPalindrome(str);
-            #endregion
+            //#region chkPalindrome - 2
+            //Console.WriteLine("\n2. check Palindrome");
+            //chkPalindrome(str);
+            //#endregion
 
             #region Countcharacter - 3
             Console.WriteLine("\n3. Count character");
-            /*Ans.: The user will input a string and we need to find the count of each character of the string and display it on console. We won’t be counting space character.
-
-            input: hello world;
-            output: 
-            h – 1
-            e – 1
-            l – 3
-            o – 2
-            w – 1
-            r – 1
-            d – 1*/
-
+            /*Ans.: The user will input a string and we need to find the count of each character of the string and display it on console. We won’t be counting space character.*/
             Countcharacter(str);
+            #endregion
+
+            //#region Countcharacter  - 3.1
+            //Console.WriteLine("\n3.1 Count character");
+            ///*Ans.: The user will input a string and we need to find the count of each character of the string and display it on console. We won’t be counting space character.*/
+            //Countcharacter1(str);
+            //#endregion
+
+            #region Get Duplicate character into string
+
+            var duplicates = GetDuplicateCharacters(str);
+            Console.WriteLine("Duplicate characters in {str} are: " + duplicates);
             #endregion
 
             #region removeduplicate - 4
@@ -67,91 +63,150 @@ namespace CShapLogicalProgram.StringManipulation
             removeduplicate(str);
             #endregion
 
-            #region Count Vowels and Consonants in a String 5
-            Console.WriteLine("\n\n5. Count Vowels and Consonants in a String");
-            CountVowels_Consonants();
-            #endregion
+            //#region Count Vowels and Consonants in a String 5
+            //Console.WriteLine("\n\n5. Count Vowels and Consonants in a String");
+            //CountVowels_Consonants();
+            //#endregion
 
-            #region IsAnagram 6
-            Console.WriteLine("\n\n6. string is Anagram or not");
-            IsAnagram();
-            #endregion
+            //#region IsAnagram 6
+            //Console.WriteLine("\n\n6. string is Anagram or not");
+            //IsAnagram();
+            //#endregion
 
-            #region Replace Characters in a String 7
+            //#region Replace Characters in a String 7
 
-            Console.WriteLine("\n\n7. Replace Characters in a String");
-            stringreplacecharacter();
-            #endregion
+            //Console.WriteLine("\n\n7. Replace Characters in a String");
+            //stringreplacecharacter();
+            //#endregion
 
-            #region Find the Length of a String 8
-            Console.WriteLine("\n\n8. Find the Length of a String");
-            lengthofstring();
-            #endregion
+            //#region Find the Length of a String 8
+            //Console.WriteLine("\n\n8. Find the Length of a String");
+            //lengthofstring();
+            //#endregion
 
-            #region lower and upper case string 9
-            Console.WriteLine("\n\n9. lower and upper case string");
-            uppertolower();
-            #endregion
+            //#region lower and upper case string 9
+            //Console.WriteLine("\n\n9. lower and upper case string");
+            //uppertolower();
+            //#endregion
 
-            #region split a string 10
-            Console.WriteLine("\n\n10. split a string");
-            splitintowords();
-            #endregion
+            //#region split a string 10
+            //Console.WriteLine("\n\n10. split a string");
+            //splitintowords();
+            //#endregion
 
-            #region concanate two string
-            Console.WriteLine("\n\n11. concanate two string");
-            concatnatetwostring();
-            #endregion
+            //#region concanate two string 11
+            //Console.WriteLine("\n\n11. concanate two string");
+            //concatnatetwostring();
+            //#endregion
+
+            //#region Check Null Validation 12
+            //Console.WriteLine("\n\n12. Check Null Validation");
+            //CheckNullValidation();
+            //#endregion
+
+            //#region Check String Contains 13
+            //Console.WriteLine("\n\n13 Check String Contains");
+            //CheckStringContain();
+            //#endregion
+
+            //#region Compare two strings 14
+            //Console.WriteLine("\n\n14 Compare two strings");
+            //Comparetwostrings();
+            //#endregion
+
+            //#region Remove white space 15
+            //Console.WriteLine("\n\n15 Remove white space");
+            //removewhitespace();
+            //#endregion
+
+            //#region Replace substring 16
+            //Console.WriteLine("\n\n16 Replace substring");
+            //replacesubstring();
+            //#endregion
+
+            //#region Replace String To Number 17
+            //Console.WriteLine("\n\n17 Replace String To Number");
+            //replaceStringToNumber();
+            //#endregion
+
+            //#region Join array string To String 18
+            //Console.WriteLine("\n18 Join array string To String");
+            //joinarraystringToString();
+            //#endregion
+
+            //#region Extract a substring 19
+            //Console.WriteLine("\n19 Extract a substring");
+            //extractasubstring();
+            //#endregion
+
+            //#region validate Start End 20
+            //Console.WriteLine("\n20 validate Start End");
+            //validateStartEnd();
+            //#endregion
+
+            //#region escape special characters 21
+            //Console.WriteLine("\n21 escape special characters");
+            //Escapespecialcharacters();
+            //#endregion
+
+            //#region Format String 22
+            //Console.WriteLine("\n22 Format String");
+            //FormatString();
+            //#endregion
+
+            //FormatString();
+
+            //#region ReverseWordOrder - 15
+            //Console.WriteLine("\n15.1. Reverse Word Order 1");
+            ///*The user will input a sentence and we need to reverse the sequence of words in the sentence.
+            //input: Welcome to Csharp corner, output: corner Csharp to Welcome*/
+
+            //ReverseWordOrder(str);
+
+            //Console.WriteLine("\n3.2. Reverse Words Order 2");
+            //ReverseWords();
+            //#endregion
+
+            //#region ReverseWords - 4
+            //Console.WriteLine("\n\n4. Reverse Words");
+            ///*Ans.: The user will input a sentence and we need to reverse each word individually without changing its position in the sentence.
+            //input: Welcome to Csharp corner, output: emocleW ot prahsC renroc*/
+
+            //ReverseWords(str);
+
+
+            //#endregion
+
+            // #region findallsubstring - 7
+            // Console.WriteLine("\n7. find all substring");
+
+            // //]m,This is a very frequent interview question.Here we need to form all the possible substrings from input string, varying from length 1 to the input string length. The output will include the input string also.
+            // //input: abcd , output: a ab abc abcd b bc bcd c cd d*/
+
+            //findallsubstring(str);
+            // #endregion
+
+            //#region RotateLeft;
+            //Console.WriteLine("\n\n8. Rotate Left");
+            ///*Ans.: The user will input an integer array and the method should shift each element of input array to its Left by one position in circular fashion. The logic is to iterate loop from Length-1 to 0 and swap each element with last element.
+            //input: 1 2 3 4 5, output: 2 3 4 5 1*/
+
+            //RotateLeft(arr);
+            //#endregion
 
 
 
-            #region ReverseWordOrder - 15
-            Console.WriteLine("\n15.1. Reverse Word Order 1");
-            /*The user will input a sentence and we need to reverse the sequence of words in the sentence.
-            input: Welcome to Csharp corner, output: corner Csharp to Welcome*/
-
-            ReverseWordOrder(str);
-
-            Console.WriteLine("\n3.2. Reverse Words Order 2");
-            ReverseWords();
-            #endregion
-
-            #region ReverseWords - 4
-            Console.WriteLine("\n\n4. Reverse Words");
-            /*Ans.: The user will input a sentence and we need to reverse each word individually without changing its position in the sentence.
-            input: Welcome to Csharp corner, output: emocleW ot prahsC renroc*/
-
-            ReverseWords(str);
 
 
-            #endregion
 
-            #region findallsubstring - 7
-            Console.WriteLine("\n7. find all substring");
-            /*Ans.: This is a very frequent interview question. Here we need to form all the possible substrings from input string, varying from length 1 to the input string length. The output will include the input string also.
-            input: abcd , output : a ab abc abcd b bc bcd c cd d*/
-
-            findallsubstring(str);
-            #endregion
-
-            #region RotateLeft;
-            Console.WriteLine("\n\n8. Rotate Left");
-            /*Ans.: The user will input an integer array and the method should shift each element of input array to its Left by one position in circular fashion. The logic is to iterate loop from Length-1 to 0 and swap each element with last element.
-            input: 1 2 3 4 5, output: 2 3 4 5 1*/
-
-            RotateLeft(arr);
-            #endregion
-
-            
-
-           
-
-            
 
             Console.ReadLine();
         }
 
-        internal static void ReverseString(string str)
+
+        #region All String Program
+
+        internal static void ReverseString1(string str)
         {
 
             char[] charArray = str.ToCharArray();
@@ -161,10 +216,10 @@ namespace CShapLogicalProgram.StringManipulation
                 charArray[j] = str[i];
             }
             string reversedstring = new string(charArray);
-            Console.WriteLine(reversedstring);
+            Console.WriteLine("reverse string 1 : " + reversedstring);
         }
 
-        internal static void ReverseString()
+        internal static void ReverseString2()
         {
             #region Reverse a string
             //Reverse a string
@@ -175,8 +230,21 @@ namespace CShapLogicalProgram.StringManipulation
             {
                 rev = rev + input[i];
             }
-            Console.WriteLine("reverse string : " + rev);
+            Console.WriteLine("reverse string 2 : " + rev);
 
+            #endregion
+        }
+
+        internal static void ReverseString3()
+        {
+            #region Reverse a string
+            //Reverse a string
+            //Solution.Here, we have to reverse a string. For example, if we pass a string as "hello," then the output should be "olleh". For reversing the string, first, we will check the string should not be null or empty. After that, we will loop on the string from the secondlast index (length- 1)and the output will be added into another string object, "result".
+            string input = "Hello Sanjay";
+            char[] strArray = input.ToCharArray();
+            Array.Reverse(strArray);
+            string NewString = new string(strArray);
+            Console.WriteLine("reverse string 3 : " + NewString);
             #endregion
         }
 
@@ -201,7 +269,7 @@ namespace CShapLogicalProgram.StringManipulation
                 Console.WriteLine("Not Palindrome");
         }
 
-        internal static void ReverseWordOrder(string str)
+        internal static void ReverseWordOrder1(string str)
         {
             int i;
             StringBuilder reverseSentence = new StringBuilder();
@@ -232,7 +300,7 @@ namespace CShapLogicalProgram.StringManipulation
             Console.WriteLine(reverseSentence.ToString());
         }
 
-        internal static void ReverseWords(string str)
+        internal static void ReverseWordOrder2(string str)
         {
             StringBuilder output = new StringBuilder();
             List<char> charlist = new List<char>();
@@ -255,7 +323,7 @@ namespace CShapLogicalProgram.StringManipulation
             Console.WriteLine(output.ToString());
         }
 
-        internal static void ReverseWords()
+        internal static void ReverseWordOrder3()
         {
             #region Reverse Each Word
 
@@ -278,13 +346,13 @@ namespace CShapLogicalProgram.StringManipulation
             {
                 if (character != ' ')
                 {
-                    if (!characterCount.ContainsKey(character))
+                    if (characterCount.ContainsKey(character))
                     {
-                        characterCount.Add(character, 1);
+                        characterCount[character]++;
                     }
                     else
                     {
-                        characterCount[character]++;
+                        characterCount[character] = 1;
                     }
                 }
 
@@ -295,6 +363,31 @@ namespace CShapLogicalProgram.StringManipulation
             }
         }
 
+        internal static void Countcharacter1(string str)
+        {
+            string strcountcharacter = "banana";
+            int count = strcountcharacter.Count(c => c == 'a');
+            Console.WriteLine(count);
+        }
+
+        internal static StringBuilder GetDuplicateCharacters(string input)
+        {
+            StringBuilder result = new StringBuilder();
+            HashSet<char> seenChars = new HashSet<char>();
+
+            foreach (char item in input)
+            {
+                if (!seenChars.Contains(char.ToLower(item)))
+                {
+                    seenChars.Add(char.ToLower(item));
+                }
+                else if (result.ToString().IndexOf(char.ToLower(item)) == -1)
+                {
+                    result.Append(item);
+                }
+            }
+            return result;
+        }
         internal static void removeduplicate(string str)
         {
             string result = string.Empty;
@@ -344,10 +437,10 @@ namespace CShapLogicalProgram.StringManipulation
             #region Count Vowels and Consonants in a String
 
             string str1 = "Hello Sanjay";
-            int vowels = 0, consonants=0;
+            int vowels = 0, consonants = 0;
             foreach (char c in str1.ToLower())
             {
-                if("aeiou".Contains(c))
+                if ("aeiou".Contains(c))
                 {
                     vowels++;
                 }
@@ -407,18 +500,107 @@ namespace CShapLogicalProgram.StringManipulation
             string result = str1 + " " + str2;
             string result1 = string.Concat(str1, " ", str2);
             string result2 = $"{str1} {str2}";
-           
+
             Console.WriteLine(result);
             Console.WriteLine($"Result : {result}");
             Console.WriteLine($"Result1 : {result1}");
             Console.WriteLine($"Result2 : {result2}");
+        }
 
-            //string concate = string.Concat(str1 "" + str2)
+        internal static void CheckNullValidation()
+        {
+            string str1 = "";
+            if (string.IsNullOrEmpty(str1))
+            {
+                Console.WriteLine("string is null or empty");
+            }
+        }
+
+        internal static void CheckStringContain()
+        {
+            string str1 = "Hello Sanjay";
+            if (str1.Contains("Sanjay"))
+            {
+                Console.WriteLine("substring found !!");
+            }
+        }
+
+        internal static void Comparetwostrings()
+        {
+            string str1 = "Sanjay";
+            string str2 = "sanjay";
+            bool check = str1.Equals(str2, StringComparison.OrdinalIgnoreCase);
+            Console.WriteLine(check);
+        }
+
+        internal static void removewhitespace()
+        {
+            string str1 = " Hello Sanjay ";
+            string trimmed = str1.Trim();
+            Console.WriteLine(trimmed);
+        }
+
+        #endregion
+
+
+
+        internal static void replacesubstring()
+        {
+            string str1 = "Hello Sanjay ";
+            string replace = str1.Replace("Sanjay", "Kanchan");
+            Console.WriteLine(replace);
+        }
+
+        internal static void replaceStringToNumber()
+        {
+            string strnum = "123";
+            int num = int.Parse(strnum);
+            string invalid = "abc";
+            bool valid = int.TryParse(invalid, out int result);
+            Console.WriteLine(num);
+            Console.WriteLine(valid);
+        }
+
+        internal static void joinarraystringToString()
+        {
+            string[] strArr = { "Hello", "Sanjay", "!" };
+
+            string strJoin = string.Join(" ", strArr);
+            Console.WriteLine(strJoin);
+        }
+        internal static void extractasubstring()
+        {
+            string str = "Hello Sanjay How are you?";
+
+            string substr = str.Substring(6, 6);
+            Console.WriteLine(substr);
+        }
+
+        internal static void validateStartEnd()
+        {
+            string str = "Hello Sanjay";
+
+            bool startWith = str.StartsWith("Hello");
+            bool endWith = str.EndsWith("Sanjay");
+            Console.WriteLine(startWith);
+            Console.WriteLine(endWith);
+        }
+        internal static void Escapespecialcharacters()
+        {
+            string strEscapespecialcharacters = "He said, \"Hello!\"";
+            Console.WriteLine(strEscapespecialcharacters);
+           
+        }
+        internal static void FormatString()
+        {
+            string name = "Sanjay";
+            int age = 40;
+            Console.WriteLine("Name : {0}, Age : {1}", name, age);
+            Console.WriteLine($"Name : {name}, Age : {age}");
 
         }
 
-
-
+       
 
     }
 

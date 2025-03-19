@@ -293,7 +293,10 @@
 
                 <!--API-->
                 <MenuItem Name="x_API" Header="API">
-
+                    <MenuItem Name="x_WebaAPI" Header="Web API" Click="x_WebaAPI_Click"/>
+                    <Separator />
+                    <MenuItem Name="x_RestAPI" Header="Rest API" Click="x_RestAPI_Click"/>
+                    <Separator />
                     <MenuItem Name="x_WebService" Header="Web Service" Click="x_WebService_Click"/>
                     <Separator />
                     <MenuItem Name="x_WCF" Header="WCF" Click="x_WCF_Click"/>

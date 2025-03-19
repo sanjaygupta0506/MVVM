@@ -1,4 +1,5 @@
-﻿<Window x:Class="MainApplication.WPF_MVVM._6._API.Web_Service.Web_Service_Example"
+﻿<ui:WslDialog  xmlns:ui="clr-namespace:Keysight.Ccl.Wsl.UI;assembly=Keysight.Ccl.Wsl" 
+               x:Class="MainApplication.WPF_MVVM._6._API.Web_Service.Web_Service_Example"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
@@ -6,7 +7,7 @@
         xmlns:local="clr-namespace:MainApplication.WPF_MVVM._6._API.Web_Service"
         mc:Ignorable="d"
         Title="Web_Service_Example" Height="600" Width="600">
-    <Grid Background="Bisque">
+    <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="360"/>
             <RowDefinition Height="30"/>
@@ -33,4 +34,4 @@
         <Button Name="x_Insert" Content="Insert"/>
    
     </Grid>
-</Window>
+</ui:WslDialog>

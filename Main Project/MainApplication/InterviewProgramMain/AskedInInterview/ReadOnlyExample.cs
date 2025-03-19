@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CSharpConceptApp
 {
-   		class ReadOnlyTest
+   		public class ReadOnlyTest
 		{    
 	      //You have to initilize readonly varabiles while declaration or in constructor  
 	      readonly int RollNo = 1284;  
