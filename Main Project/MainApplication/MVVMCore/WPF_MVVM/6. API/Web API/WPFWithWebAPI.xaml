@@ -9,7 +9,7 @@
         Title="WPF_WebAPI" Height="450" Width="800" Left="8" Top="62" MinHeight="200" MinWidth="450">
     <Grid>
         <StackPanel Name="sp_Main" Margin="20">
-            <Button Name="btnFetchData" Content="Fetch Data" Width="100" Click="btnFetchData_Click"/>
+            <Button Name="btnFetchData" Content="Fetch Data" Width="100" Height="30" Click="btnFetchData_Click"/>
             <ListBox Name="DataListBox" Margin="0,10,0,0"/>
         </StackPanel>
     </Grid>

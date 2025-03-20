@@ -82,8 +82,8 @@
     <Reference Include="MahApps.Metro">
       <HintPath>..\..\..\Component\Keysight\MahApps.Metro.dll</HintPath>
     </Reference>
-    <Reference Include="Microsoft.Bcl.AsyncInterfaces, Version=7.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
-      <HintPath>..\..\packages\Microsoft.Bcl.AsyncInterfaces.7.0.0\lib\net462\Microsoft.Bcl.AsyncInterfaces.dll</HintPath>
+    <Reference Include="Microsoft.Bcl.AsyncInterfaces, Version=9.0.0.3, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Microsoft.Bcl.AsyncInterfaces.9.0.3\lib\net462\Microsoft.Bcl.AsyncInterfaces.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.VisualBasic" />
     <Reference Include="Microsoft.Xaml.Behaviors, Version=1.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
@@ -114,6 +114,9 @@
       <HintPath>..\..\packages\System.IO.4.3.0\lib\net462\System.IO.dll</HintPath>
       <Private>True</Private>
       <Private>True</Private>
+    </Reference>
+    <Reference Include="System.IO.Pipelines, Version=9.0.0.3, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\System.IO.Pipelines.9.0.3\lib\net462\System.IO.Pipelines.dll</HintPath>
     </Reference>
     <Reference Include="System.Memory, Version=4.0.1.2, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
       <HintPath>..\..\packages\System.Memory.4.5.5\lib\net461\System.Memory.dll</HintPath>
@@ -156,8 +159,17 @@
       <Private>True</Private>
       <Private>True</Private>
     </Reference>
+    <Reference Include="System.Text.Encodings.Web, Version=9.0.0.3, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\System.Text.Encodings.Web.9.0.3\lib\net462\System.Text.Encodings.Web.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.Json, Version=9.0.0.3, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\System.Text.Json.9.0.3\lib\net462\System.Text.Json.dll</HintPath>
+    </Reference>
     <Reference Include="System.Threading.Tasks.Extensions, Version=4.2.0.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
       <HintPath>..\..\packages\System.Threading.Tasks.Extensions.4.5.4\lib\net461\System.Threading.Tasks.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ValueTuple, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\System.ValueTuple.4.5.0\lib\net47\System.ValueTuple.dll</HintPath>
     </Reference>
     <Reference Include="System.Windows" />
     <Reference Include="System.Windows.Forms" />
@@ -275,12 +287,52 @@
     <Compile Include="4. Design Pattern\Singletons\Pattern2\Singleton_Types.xaml.cs">
       <DependentUpon>Singleton_Types.xaml</DependentUpon>
     </Compile>
+    <Compile Include="6. API\Rest API\WPFRestAPI.xaml.cs">
+      <DependentUpon>WPFRestAPI.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="6. API\Web API\WPFMVVMWebAPI.xaml.cs">
+      <DependentUpon>WPFMVVMWebAPI.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="6. API\Web API\WPFMVVMWebAPIModel.cs" />
+    <Compile Include="6. API\Web API\WPFMVVMWebAPIViewModel.cs" />
     <Compile Include="6. API\Web API\WPFWithWebAPI.xaml.cs">
       <DependentUpon>WPFWithWebAPI.xaml</DependentUpon>
     </Compile>
-    <Compile Include="6. API\Web Service\Users.cs" />
-    <Compile Include="6. API\Web Service\Web_Service_Example.xaml.cs">
-      <DependentUpon>Web_Service_Example.xaml</DependentUpon>
+    <Compile Include="7. Assignment\Challanges\SingleClickCheckboxOnGrid.xaml.cs">
+      <DependentUpon>SingleClickCheckboxOnGrid.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="7. Assignment\Challanges\CombowithEnum.xaml.cs">
+      <DependentUpon>CombowithEnum.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="7. Assignment\Challanges\Enabled_Disabled_Button_WRT_Property.xaml.cs">
+      <DependentUpon>Enabled_Disabled_Button_WRT_Property.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="7. Assignment\Challanges\ScrollBar.xaml.cs">
+      <DependentUpon>ScrollBar.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="7. Assignment\Challanges\TitleBar.xaml.cs">
+      <DependentUpon>TitleBar.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="7. Assignment\Common\BtnEnableOnTextChange.xaml.cs">
+      <DependentUpon>BtnEnableOnTextChange.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="7. Assignment\Common\ComboColorChangeFromRadio.xaml.cs">
+      <DependentUpon>ComboColorChangeFromRadio.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="7. Assignment\Common\FirstNameLastNameinCombo.xaml.cs">
+      <DependentUpon>FirstNameLastNameinCombo.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="7. Assignment\Common\ListToRadioButton.xaml.cs">
+      <DependentUpon>ListToRadioButton.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="7. Assignment\Common\TreeViewColorChangeOnRadio.xaml.cs">
+      <DependentUpon>TreeViewColorChangeOnRadio.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="7. Assignment\CompanyWise\Stryker.xaml.cs">
+      <DependentUpon>Stryker.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="7. Assignment\Security\Encryption_Descryption.xaml.cs">
+      <DependentUpon>Encryption_Descryption.xaml</DependentUpon>
     </Compile>
     <Compile Include="EnumClass.cs" />
     <Compile Include="4. Design Pattern\Singletons\EnumHelper.cs" />
@@ -345,7 +397,6 @@
     <Compile Include="1. WPFMVVMBasic\A19. DataContext\DataContextExample.xaml.cs">
       <DependentUpon>DataContextExample.xaml</DependentUpon>
     </Compile>
-    <Compile Include="DataGridSingleClickCheckbox\PersonModel.cs" />
     <Compile Include="Models\ArithmeticConverter.cs" />
     <Compile Include="Models\CommandModel.cs" />
     <Compile Include="Models\CommandsModel.cs" />
@@ -357,10 +408,6 @@
     <Compile Include="Models\VirtualPanel.cs" />
     <Compile Include="Models\ZoomableCanvas.cs" />
     <Compile Include="ViewModels\BindableBase.cs" />
-    <Compile Include="ViewModels\MainWindowViewModel.cs" />
-    <Compile Include="DataGridSingleClickCheckbox\Views\MainWindow.xaml.cs">
-      <DependentUpon>MainWindow.xaml</DependentUpon>
-    </Compile>
     <Compile Include="2. WPFMVVMAdvance\A12. DependencyPropertySample\BasicDependencyProperty.xaml.cs">
       <DependentUpon>BasicDependencyProperty.xaml</DependentUpon>
     </Compile>
@@ -589,13 +636,65 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="6. API\Web API\WPFWithWebAPI.xaml">
+    <Page Include="6. API\Rest API\WPFRestAPI.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="6. API\Web Service\Web_Service_Example.xaml">
+    <Page Include="6. API\Web API\WPFMVVMWebAPI.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="6. API\Web API\WPFWithWebAPI.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="7. Assignment\Challanges\SingleClickCheckboxOnGrid.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="7. Assignment\Challanges\CombowithEnum.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="7. Assignment\Challanges\Enabled_Disabled_Button_WRT_Property.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="7. Assignment\Challanges\ScrollBar.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="7. Assignment\Challanges\TitleBar.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="7. Assignment\Common\BtnEnableOnTextChange.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="7. Assignment\Common\ComboColorChangeFromRadio.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="7. Assignment\Common\FirstNameLastNameinCombo.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="7. Assignment\Common\ListToRadioButton.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="7. Assignment\Common\TreeViewColorChangeOnRadio.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="7. Assignment\CompanyWise\Stryker.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="7. Assignment\Security\Encryption_Descryption.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
     </Page>
     <Page Include="StyleSheet\Controls.xaml">
       <SubType>Designer</SubType>
@@ -654,10 +753,6 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="1. WPFMVVMBasic\A19. DataContext\DataContextExample.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="DataGridSingleClickCheckbox\Views\MainWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -828,7 +923,9 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Resource Include="7. Assignment\Challanges\Resources\ColumnResizeHeader.png" />
+  </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\CaliburnMicro\WPFUI\WPFUI.csproj">
       <Project>{A7F86755-0D79-42D8-AC81-6FE0B8C86C86}</Project>
@@ -994,6 +1091,51 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Images\Warning.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="7. Assignment\Challanges\Resources\CSV_Export.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="7. Assignment\Challanges\Resources\MarkerIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="7. Assignment\Challanges\Resources\PaneCompareIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="7. Assignment\Challanges\Resources\PaneDetailsIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="7. Assignment\Challanges\Resources\PaneHeaderIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="7. Assignment\Challanges\Resources\PaneImageViewIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="7. Assignment\Challanges\Resources\PaneLtssmOverviewIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="7. Assignment\Challanges\Resources\PanePayloadIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="7. Assignment\Challanges\Resources\PanePCIePerformanceOverviewIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="7. Assignment\Challanges\Resources\PaneTestAssertionIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="7. Assignment\Challanges\Resources\PaneTrafficOverviewIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="7. Assignment\Challanges\Resources\PaneTransactionDecodeIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="7. Assignment\Challanges\Resources\SetupIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="7. Assignment\Challanges\Resources\ToolTipsIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="7. Assignment\Challanges\Resources\TriggerIcon.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="..\..\packages\CommunityToolkit.Mvvm.8.2.2\build\netstandard2.0\CommunityToolkit.Mvvm.targets" Condition="Exists('..\..\packages\CommunityToolkit.Mvvm.8.2.2\build\netstandard2.0\CommunityToolkit.Mvvm.targets')" />

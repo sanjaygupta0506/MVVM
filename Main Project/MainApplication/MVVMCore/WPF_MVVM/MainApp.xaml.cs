@@ -26,7 +26,6 @@ using MVVMCore.Commands;
 using MVVMCore.Styles;
 using MVVMCore.Triggers;
 using MVVMCore.Templates.DataTemplates;
-using MVVMCore.DataGridSingleClickCheckbox.Views;
 using MainApplication;
 using Keysight.Ccl.Wsl.UI.Managers;
 using MainApplication.CommonUtils;
@@ -65,9 +64,13 @@ using MainApplication.WPF_MVVM._2._WPFMVVMAdvance.B2.UserControlsVsCustomControl
 using MainApplication.WPF_MVVM._2._WPFMVVMAdvance.B2.UserControlsVsCustomControl.Common;
 using MainApplication.WPF_MVVM._4._Design_Pattern.Factory_Method;
 using MainApplication.WPF_MVVM._4._Design_Pattern.Abstract;
-using MainApplication.WPF_MVVM._6._API.Web_Service;
 using MainApplication.WPF_MVVM._1._WPFMVVMBasic._6_Triggers;
 using MainApplication.WPF_MVVM._6._API.Web_API;
+using MainApplication.WPF_MVVM._6._API.Rest_API;
+using MVVMCore.Challanges;
+using MainApplication.WPF_Assignment.Common;
+using MainApplication.WPF_Assignment.CompanyWise;
+using WPFAssignment.Security;
 
 namespace MVVMCore
 {
@@ -690,13 +693,7 @@ namespace MVVMCore
             //abstractFactory.Show();
         }
 
-        private void x_WebService_Click(object sender, RoutedEventArgs e)
-        {
-            Web_Service_Example web_Service_Example = new Web_Service_Example();
-            web_Service_Example.ShowInTaskbar = false;
-            web_Service_Example.Owner = Application.Current.MainWindow;
-            web_Service_Example.Show();
-        }
+        
 
         private void x_WCF_Click(object sender, RoutedEventArgs e)
         {
@@ -722,7 +719,107 @@ namespace MVVMCore
 
         private void x_RestAPI_Click(object sender, RoutedEventArgs e)
         {
+            WPFRestAPI wPFRestAPI = new WPFRestAPI();
+            wPFRestAPI.ShowInTaskbar = false;
+            wPFRestAPI.Owner = Application.Current.MainWindow;
+            wPFRestAPI.Show();
+        }
 
+        private void x_WebaAPI_1_Click(object sender, RoutedEventArgs e)
+        {
+            WPFMVVMWebAPI wPFMVVMWebAPI = new WPFMVVMWebAPI();
+            wPFMVVMWebAPI.ShowInTaskbar = false;
+            wPFMVVMWebAPI.Owner = Application.Current.MainWindow;
+            wPFMVVMWebAPI.Show();
+        }
+
+        private void x_Challanges1_Click(object sender, RoutedEventArgs e)
+        {
+            SingleClickCheckboxOnGrid singleClickCheckboxOnGrid = new SingleClickCheckboxOnGrid();
+            singleClickCheckboxOnGrid.ShowInTaskbar = false;
+            singleClickCheckboxOnGrid.Owner = Application.Current.MainWindow;
+            singleClickCheckboxOnGrid.Show();
+        }
+
+        private void x_Challanges2_Click(object sender, RoutedEventArgs e)
+        {
+            Enabled_Disabled_Button_WRT_Property enabled_Disabled_Button_WRT_Property = new Enabled_Disabled_Button_WRT_Property();
+            enabled_Disabled_Button_WRT_Property.ShowInTaskbar = false;
+            enabled_Disabled_Button_WRT_Property.Owner = Application.Current.MainWindow;
+            enabled_Disabled_Button_WRT_Property.Show();
+            
+        }
+
+        private void x_Challanges3_Click(object sender, RoutedEventArgs e)
+        {
+            ScrollBar scrollBar = new ScrollBar();
+            scrollBar.ShowInTaskbar = false;
+            scrollBar.Owner = Application.Current.MainWindow;
+            scrollBar.Show();
+        }
+
+        private void x_Challanges4_Click(object sender, RoutedEventArgs e)
+        {
+            TitleBar titleBar = new TitleBar();
+            titleBar.ShowInTaskbar = false;
+            titleBar.Owner = Application.Current.MainWindow;
+            titleBar.Show();
+        }
+
+        private void x_Challanges5_Click(object sender, RoutedEventArgs e)
+        {
+            BtnEnableOnTextChange btnEnableOnTextChange = new BtnEnableOnTextChange();
+            btnEnableOnTextChange.ShowInTaskbar = false;
+            btnEnableOnTextChange.Owner = Application.Current.MainWindow;
+            btnEnableOnTextChange.Show();
+        }
+
+        private void x_Challanges6_Click(object sender, RoutedEventArgs e)
+        {
+            ComboColorChangeFromRadio comboColorChangeFromRadio = new ComboColorChangeFromRadio();
+            comboColorChangeFromRadio.ShowInTaskbar = false;
+            comboColorChangeFromRadio.Owner = Application.Current.MainWindow;
+            comboColorChangeFromRadio.Show();
+        }
+
+        private void x_Challanges7_Click(object sender, RoutedEventArgs e)
+        {
+            FirstNameLastNameinCombo firstNameLastNameinCombo = new FirstNameLastNameinCombo();
+            firstNameLastNameinCombo.ShowInTaskbar = false;
+            firstNameLastNameinCombo.Owner = Application.Current.MainWindow;
+            firstNameLastNameinCombo.Show();
+        }
+
+        private void x_Challanges8_Click(object sender, RoutedEventArgs e)
+        {
+            ListToRadioButton listToRadioButton = new ListToRadioButton();
+            listToRadioButton.ShowInTaskbar = false;
+            listToRadioButton.Owner = Application.Current.MainWindow;
+            listToRadioButton.Show();
+        }
+
+        private void x_Challanges9_Click(object sender, RoutedEventArgs e)
+        {
+            TreeViewColorChangeOnRadio treeViewColorChangeOnRadio = new TreeViewColorChangeOnRadio();
+            treeViewColorChangeOnRadio.ShowInTaskbar = false;
+            treeViewColorChangeOnRadio.Owner = Application.Current.MainWindow;
+            treeViewColorChangeOnRadio.Show();
+        }
+
+        private void x_Challanges10_Click(object sender, RoutedEventArgs e)
+        {
+            Stryker stryker = new Stryker();
+            stryker.ShowInTaskbar = false;
+            stryker.Owner = Application.Current.MainWindow;
+            stryker.Show();
+        }
+
+        private void x_Challanges11_Click(object sender, RoutedEventArgs e)
+        {
+            Encryption_Descryption encryption_Descryption = new Encryption_Descryption();
+            encryption_Descryption.ShowInTaskbar = false;
+            encryption_Descryption.Owner = Application.Current.MainWindow;
+            encryption_Descryption.Show();
         }
     }
 }

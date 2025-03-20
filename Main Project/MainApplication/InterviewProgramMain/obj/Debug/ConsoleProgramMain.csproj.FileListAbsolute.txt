@@ -1,7 +1,6 @@
 F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\InterviewProgramMain\bin\Debug\InterviewProgramMain.exe.config
 F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\InterviewProgramMain\bin\Debug\InterviewProgramMain.exe
 F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\InterviewProgramMain\bin\Debug\InterviewProgramMain.pdb
-F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\InterviewProgramMain\obj\Debug\ConsoleProgramMain.csproj.AssemblyReference.cache
 F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\InterviewProgramMain\obj\Debug\ConsoleProgramMain.csproj.CoreCompileInputs.cache
 F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\InterviewProgramMain\obj\Debug\InterviewProgramMain.exe
 F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\InterviewProgramMain\obj\Debug\InterviewProgramMain.pdb

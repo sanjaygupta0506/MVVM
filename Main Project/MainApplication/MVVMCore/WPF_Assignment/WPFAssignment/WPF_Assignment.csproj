@@ -99,72 +99,7 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Compile Include="Common\BtnEnableOnTextChange.xaml.cs">
-      <DependentUpon>BtnEnableOnTextChange.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Common\ComboColorChangeFromRadio.xaml.cs">
-      <DependentUpon>ComboColorChangeFromRadio.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Common\FirstNameLastNameinCombo.xaml.cs">
-      <DependentUpon>FirstNameLastNameinCombo.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Common\ListToRadioButton.xaml.cs">
-      <DependentUpon>ListToRadioButton.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Common\TreeViewColorChangeOnRadio.xaml.cs">
-      <DependentUpon>TreeViewColorChangeOnRadio.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="CompanyWise\Stryker.xaml.cs">
-      <DependentUpon>Stryker.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Security\Encryption_Descryption.xaml.cs">
-      <DependentUpon>Encryption_Descryption.xaml</DependentUpon>
-    </Compile>
     <Compile Include="UserPreferences.cs" />
-    <Page Include="Challanges\ataGridSingleClickCheckbox.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="Challanges\CombowithEnum.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="Challanges\Enabled_Disabled_Button_WRT_Property.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="Challanges\WPFScrollBar.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="Challanges\WPFTitleBarExample.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="Common\BtnEnableOnTextChange.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="Common\ComboColorChangeFromRadio.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="Common\FirstNameLastNameinCombo.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="Common\ListToRadioButton.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="Common\TreeViewColorChangeOnRadio.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="CompanyWise\Stryker.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -173,30 +108,10 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Challanges\ataGridSingleClickCheckbox.xaml.cs">
-      <DependentUpon>ataGridSingleClickCheckbox.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Challanges\CombowithEnum.xaml.cs">
-      <DependentUpon>CombowithEnum.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Challanges\Enabled_Disabled_Button_WRT_Property.xaml.cs">
-      <DependentUpon>Enabled_Disabled_Button_WRT_Property.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Challanges\EnumClass.cs" />
-    <Compile Include="Challanges\WPFScrollBar.xaml.cs">
-      <DependentUpon>WPFScrollBar.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Challanges\WPFTitleBarExample.xaml.cs">
-      <DependentUpon>WPFTitleBarExample.xaml</DependentUpon>
-    </Compile>
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Page Include="Security\Encryption_Descryption.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs">
@@ -223,57 +138,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Challanges\Resources\ColumnResizeHeader.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Challanges\Resources\CSV_Export.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Challanges\Resources\MarkerIcon.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Challanges\Resources\PaneCompareIcon.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Challanges\Resources\PaneDetailsIcon.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Challanges\Resources\PaneHeaderIcon.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Challanges\Resources\PaneImageViewIcon.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Challanges\Resources\PaneLtssmOverviewIcon.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Challanges\Resources\PanePayloadIcon.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Challanges\Resources\PanePCIePerformanceOverviewIcon.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Challanges\Resources\PaneTestAssertionIcon.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Challanges\Resources\PaneTrafficOverviewIcon.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Challanges\Resources\PaneTransactionDecodeIcon.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Challanges\Resources\SetupIcon.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Challanges\Resources\ToolTipsIcon.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Challanges\Resources\TriggerIcon.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Challanges\search_dark.png" />
   </ItemGroup>
   <ItemGroup>
     <WCFMetadata Include="Connected Services\" />
