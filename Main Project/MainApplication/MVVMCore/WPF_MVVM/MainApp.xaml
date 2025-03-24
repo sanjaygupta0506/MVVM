@@ -60,12 +60,11 @@
                     <!--Styles-->
                     <MenuItem Name="Styles" Header="Styles">
                         <MenuItem Name="MainStyle" Header="Style Main" Click="MainStyle_Click"/>
+                        <Separator />
                         <MenuItem Name="StyleInheritance" Header="Style Inheritances" Click="StyleInheritance_Click"/>
                     </MenuItem>
                     <Separator />
 
-                    
-                    
                     <!--Triggers-->
                     <MenuItem Name="Triggers" Header="Triggers">
                         <MenuItem Name="MainTriggers" Header="Main Trigger" Click="MainTriggers_Click"/>
@@ -84,8 +83,6 @@
                     </MenuItem>
                     <Separator />
 
-                    
-                    
                     <!--Templates-->
                     <MenuItem Name="Templates" Header="Templates">
                         <MenuItem Name="ControlTemplate" Header="Control Template" Click="ControlTemplate_Click"/>
@@ -158,7 +155,9 @@
                     <!--MVVM-->
                     <MenuItem Name="MVVMAll" Header="MVVM">
                         <MenuItem Name="SampleMVVM" Header="Sample" Click="SampleMVVM_Click"/>
+                        <Separator />
                         <MenuItem Name="UserInfoMVVM" Header="User Info" Click="UserInfoMVVM_Click"/>
+                        <Separator />
                         <MenuItem Name="StudentInfoMVVM" Header="Student Info" Click="StudentInfoMVVM_Click"/>
                         <Separator />
                     </MenuItem>
@@ -180,6 +179,7 @@
                     <!--Dependency Property-->
                     <MenuItem Name="x_DependencyProperty" Header="Dependency Property">
                         <MenuItem Name="DependencyProperty" Header="Dependency Property" Click="DependencyProperty_Click" ></MenuItem>
+                        <Separator />
                         <MenuItem Name="CustomDependencyProperty" Header="Custom Dependency Property" Click="CustomDependencyProperty_Click"></MenuItem>
                     </MenuItem>
                     <Separator />
@@ -187,6 +187,7 @@
                     <!--Attached Property-->
                     <MenuItem Name="x_AttachedProperty" Header="Attached Property">
                         <MenuItem Name="APPatern1" Header="Pattern 1" Click="APPatern1_Click" ></MenuItem>
+                        <Separator />
                         <MenuItem Name="APPatern2" Header="Pattern 2" Click="APPatern2_Click"></MenuItem>
                     </MenuItem>
                     <Separator />
@@ -253,8 +254,11 @@
                     <Separator />
                     <MenuItem Name="x_DependencyInjection" Header="Dependency Injection">
                         <MenuItem Name="x_DIConstructor" Header="Constructor" Click="x_DIConstructor_Click"/>
+                        <Separator />
                         <MenuItem Name="x_DIMethod" Header="Method" Click="x_DIMethod_Click" />
+                        <Separator />
                         <MenuItem Name="x_DIPropety" Header="Propety" Click="x_DIPropety_Click"/>
+                        <Separator />
                     </MenuItem>
                     <Separator />
                     <MenuItem Name="x_FactoryMethod" Header="Factory Method" Click="x_FactoryMethod_Click"/>
@@ -295,17 +299,24 @@
                 <MenuItem Name="x_Assignment" Header="Assignment">
                     <MenuItem Name="x_Challanges" Header="Challanges">
                         <MenuItem Name="x_Challanges1" Header="Grid Single Click Checkbox" Click="x_Challanges1_Click"/>
+                        <Separator />
                         <MenuItem Name="x_Challanges2" Header="Enabled Disabled Button WRT Property" Click="x_Challanges2_Click"/>
+                        <Separator />
                         <MenuItem Name="x_Challanges3" Header="ScrollBar" Click="x_Challanges3_Click"/>
+                        <Separator />
                         <MenuItem Name="x_Challanges4" Header="TitleBar" Click="x_Challanges4_Click"/>
                     </MenuItem>
                     <Separator />
 
                     <MenuItem Name="x_Comman" Header="Comman">
                         <MenuItem Name="x_Challanges5" Header="BtnEnableOnTextChange" Click="x_Challanges5_Click"/>
+                        <Separator />
                         <MenuItem Name="x_Challanges6" Header="ComboColorChangeFromRadio" Click="x_Challanges6_Click"/>
+                        <Separator />
                         <MenuItem Name="x_Challanges7" Header="FirstNameLastNameinCombo" Click="x_Challanges7_Click"/>
+                        <Separator />
                         <MenuItem Name="x_Challanges8" Header="ListToRadioButton" Click="x_Challanges8_Click"/>
+                        <Separator />
                         <MenuItem Name="x_Challanges9" Header="TreeViewColorChangeOnRadio" Click="x_Challanges9_Click"/>
                     </MenuItem>
                     <Separator />

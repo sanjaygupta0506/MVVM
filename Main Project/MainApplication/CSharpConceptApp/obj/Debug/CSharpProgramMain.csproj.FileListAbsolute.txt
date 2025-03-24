@@ -8,4 +8,3 @@ F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\CSharpConceptA
 F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\CSharpConceptApp\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
 F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\CSharpConceptApp\bin\Debug\Microsoft.VisualStudio.Threading.xml
 F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\CSharpConceptApp\obj\Debug\CSharpProgramMain.csproj.CopyComplete
-F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\CSharpConceptApp\obj\Debug\CSharpProgramMain.csproj.AssemblyReference.cache

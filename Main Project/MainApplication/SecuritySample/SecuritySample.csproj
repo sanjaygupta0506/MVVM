@@ -137,9 +137,9 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\MVVMCore\WPF_MVVM\WPF_MVVM.csproj">
+    <ProjectReference Include="..\MVVMCore\WPF_MVVM\WPF_MVVM_MAIN.csproj">
       <Project>{49FC4D22-DC70-449A-97D4-A7BD3A8CD672}</Project>
-      <Name>WPF_MVVM</Name>
+      <Name>WPF_MVVM_MAIN</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
