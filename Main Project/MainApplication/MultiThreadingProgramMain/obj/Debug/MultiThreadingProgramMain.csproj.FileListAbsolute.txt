@@ -4,3 +4,4 @@ F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MultiThreading
 F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MultiThreadingProgramMain\obj\Debug\MultiThreadingProgramMain.csproj.CoreCompileInputs.cache
 F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MultiThreadingProgramMain\obj\Debug\MultiThreadingProgramMain.exe
 F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MultiThreadingProgramMain\obj\Debug\MultiThreadingProgramMain.pdb
+F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MultiThreadingProgramMain\obj\Debug\MultiThreadingProgramMain.csproj.AssemblyReference.cache

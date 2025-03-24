@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Keysight.Ccl.Wsl.UI;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -17,7 +18,7 @@ namespace MainApplication.WPF_MVVM.WPFMVVMBasic.Commands.Views
     /// <summary>
     /// Interaction logic for PersonView.xaml
     /// </summary>
-    public partial class PersonView : Window
+    public partial class PersonView : WslDialog
     {
         public PersonView()
         {

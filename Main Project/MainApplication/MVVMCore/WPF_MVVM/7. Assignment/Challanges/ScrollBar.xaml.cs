@@ -16,7 +16,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 
-namespace MVVMCore.Challanges
+namespace MVVMCore.WPF_MVVM.Challanges
 {
     /// <summary>
     /// Interaction logic for WPFScrollBar.xaml

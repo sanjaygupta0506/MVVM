@@ -70,7 +70,10 @@ using MainApplication.WPF_MVVM._6._API.Rest_API;
 using MVVMCore.Challanges;
 using MainApplication.WPF_Assignment.Common;
 using MainApplication.WPF_Assignment.CompanyWise;
-using WPFAssignment.Security;
+using MVVMCore.WPF_MVVM;
+using MainApplication.WPF_MVVM;
+using MVVMCore.WPF_MVVM.Challanges;
+using WPF_MVVM.View;
 
 namespace MVVMCore
 {
@@ -820,6 +823,22 @@ namespace MVVMCore
             encryption_Descryption.ShowInTaskbar = false;
             encryption_Descryption.Owner = Application.Current.MainWindow;
             encryption_Descryption.Show();
+        }
+
+        private void x_CustomControl_Click(object sender, RoutedEventArgs e)
+        {
+            CustomControl customControl = new CustomControl();
+            customControl.ShowInTaskbar = false;
+            customControl.Owner = Application.Current.MainWindow;
+            customControl.Show();
+        }
+
+        private void x_TwoWayBinding_Click(object sender, RoutedEventArgs e)
+        {
+            TwoWayBinding twoWayBinding = new TwoWayBinding();
+            twoWayBinding.ShowInTaskbar = false;
+            twoWayBinding.Owner = Application.Current.MainWindow;
+            twoWayBinding.Show();
         }
     }
 }

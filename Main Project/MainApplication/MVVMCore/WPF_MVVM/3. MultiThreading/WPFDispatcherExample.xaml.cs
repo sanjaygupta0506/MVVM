@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Keysight.Ccl.Wsl.UI;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -18,7 +19,7 @@ namespace MainApplication.WPF_MVVM._3._MultiThreading
     /// <summary>
     /// Interaction logic for WPFDispatcherExample.xaml
     /// </summary>
-    public partial class WPFDispatcherExample : Window
+    public partial class WPFDispatcherExample : WslDialog
     {
         public WPFDispatcherExample()
         {

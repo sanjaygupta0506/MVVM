@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Keysight.Ccl.Wsl.UI;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -17,7 +18,7 @@ namespace MainApplication.WPF_MVVM.SOLID_Princliple.Views
     /// <summary>
     /// Interaction logic for OCP.xaml
     /// </summary>
-    public partial class OCP : Window
+    public partial class OCP : WslDialog
     {
         public OCP()
         {

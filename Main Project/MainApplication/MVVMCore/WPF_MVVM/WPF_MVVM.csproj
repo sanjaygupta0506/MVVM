@@ -334,6 +334,15 @@
     <Compile Include="7. Assignment\Security\Encryption_Descryption.xaml.cs">
       <DependentUpon>Encryption_Descryption.xaml</DependentUpon>
     </Compile>
+    <Compile Include="8. Interview\CustomControl\CustomControl.xaml.cs">
+      <DependentUpon>CustomControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="8. Interview\CustomControl\CustomLabelControl.cs" />
+    <Compile Include="8. Interview\TwoWay_Binding\Model\Person.cs" />
+    <Compile Include="8. Interview\TwoWay_Binding\ViewModel\PersonViewModel.cs" />
+    <Compile Include="8. Interview\TwoWay_Binding\View\TwoWayBinding.xaml.cs">
+      <DependentUpon>TwoWayBinding.xaml</DependentUpon>
+    </Compile>
     <Compile Include="EnumClass.cs" />
     <Compile Include="4. Design Pattern\Singletons\EnumHelper.cs" />
     <Compile Include="4. Design Pattern\Deppendency_Injection\BackGroundWorkerExample.xaml.cs">
@@ -397,17 +406,23 @@
     <Compile Include="1. WPFMVVMBasic\A19. DataContext\DataContextExample.xaml.cs">
       <DependentUpon>DataContextExample.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Models\ArithmeticConverter.cs" />
-    <Compile Include="Models\CommandModel.cs" />
-    <Compile Include="Models\CommandsModel.cs" />
-    <Compile Include="Models\CommandViewModel.cs" />
-    <Compile Include="Models\INotifyPropertyChangedExampleModel.cs" />
-    <Compile Include="Models\LinkedListExtensions.cs" />
-    <Compile Include="Models\MathExtensions.cs" />
-    <Compile Include="Models\RelativeSource_SelfModel.cs" />
-    <Compile Include="Models\VirtualPanel.cs" />
-    <Compile Include="Models\ZoomableCanvas.cs" />
-    <Compile Include="ViewModels\BindableBase.cs" />
+    <Compile Include="_CommonUtils\Comman\ApplicationContext.cs" />
+    <Compile Include="_CommonUtils\Models\ArithmeticConverter.cs" />
+    <Compile Include="_CommonUtils\Models\CommandModel.cs" />
+    <Compile Include="_CommonUtils\Models\CommandsModel.cs" />
+    <Compile Include="_CommonUtils\Models\CommandViewModel.cs" />
+    <Compile Include="_CommonUtils\Models\INotifyPropertyChangedExampleModel.cs" />
+    <Compile Include="_CommonUtils\Models\LinkedListExtensions.cs" />
+    <Compile Include="_CommonUtils\Models\MathExtensions.cs" />
+    <Compile Include="_CommonUtils\Models\RelativeSource_SelfModel.cs" />
+    <Compile Include="_CommonUtils\Models\VirtualPanel.cs" />
+    <Compile Include="_CommonUtils\Models\ZoomableCanvas.cs" />
+    <Compile Include="_CommonUtils\Comman\SearchTextBox.cs" />
+    <Compile Include="_CommonUtils\Comman\SettingsWindow.xaml.cs">
+      <DependentUpon>SettingsWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="_CommonUtils\Comman\ThemeManager.cs" />
+    <Compile Include="_CommonUtils\ViewModels\BindableBase.cs" />
     <Compile Include="2. WPFMVVMAdvance\A12. DependencyPropertySample\BasicDependencyProperty.xaml.cs">
       <DependentUpon>BasicDependencyProperty.xaml</DependentUpon>
     </Compile>
@@ -696,7 +711,39 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="StyleSheet\Controls.xaml">
+    <Page Include="8. Interview\CustomControl\CustomControl.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="8. Interview\CustomControl\Theme\Generics.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="8. Interview\TwoWay_Binding\View\TwoWayBinding.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="_CommonUtils\ResourceDictionaries\CommonComponentStyle.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="_CommonUtils\ResourceDictionaries\Generic.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="_CommonUtils\ResourceDictionaries\SolidColorBrushDark.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="_CommonUtils\ResourceDictionaries\SolidColorBrushLight.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="_CommonUtils\Comman\SettingsWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="_CommonUtils\StyleSheet\Controls.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -891,7 +938,7 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Themes\Generic.xaml">
+    <Page Include="_CommonUtils\Themes\Generic.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
@@ -930,10 +977,6 @@
     <ProjectReference Include="..\..\CaliburnMicro\WPFUI\WPFUI.csproj">
       <Project>{A7F86755-0D79-42D8-AC81-6FE0B8C86C86}</Project>
       <Name>WPFUI</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\CommonUtils\CommonUtils\CommonUtils.csproj">
-      <Project>{987479be-363c-4fa5-9282-8f0c35b9128b}</Project>
-      <Name>CommonUtils</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
@@ -1136,6 +1179,162 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="7. Assignment\Challanges\Resources\TriggerIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="_CommonUtils\Images\Cancel_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="_CommonUtils\Images\Delete.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="_CommonUtils\Images\Help.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="_CommonUtils\Images\icon_abort.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="_CommonUtils\Images\icon_power_dark.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="_CommonUtils\Images\icon_power_white.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="_CommonUtils\Images\New.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="_CommonUtils\Images\NewDocumentHS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="_CommonUtils\Images\openHS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="_CommonUtils\Images\power_on.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="_CommonUtils\Images\Save.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="_CommonUtils\Images\saveHS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="_CommonUtils\Images\search_dark.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="_CommonUtils\Images\search_light.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="_CommonUtils\Images\TreeImages\Analog.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="_CommonUtils\Images\TreeImages\AnalogLocked.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="_CommonUtils\Images\TreeImages\Blank.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="_CommonUtils\Images\TreeImages\ClearSearch.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="_CommonUtils\Images\TreeImages\DigitalBus.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="_CommonUtils\Images\TreeImages\DigitalBusLocked.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="_CommonUtils\Images\TreeImages\DigitalChannel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="_CommonUtils\Images\TreeImages\DigitalChannelLocked.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="_CommonUtils\Images\TreeImages\FolderClosed.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="_CommonUtils\Images\TreeImages\FolderOpened.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="_CommonUtils\Images\TreeImages\Integral.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="_CommonUtils\Images\TreeImages\IntegralLocked.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="_CommonUtils\Images\TreeImages\Lane.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="_CommonUtils\Images\TreeImages\LaneLocked.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="_CommonUtils\Images\TreeImages\LockedField.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="_CommonUtils\Images\TreeImages\Module.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="_CommonUtils\Images\TreeImages\Packet.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="_CommonUtils\Images\TreeImages\PacketField.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="_CommonUtils\Images\TreeImages\PacketLocked.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="_CommonUtils\Images\TreeImages\Probe.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="_CommonUtils\Images\TreeImages\Protocol.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="_CommonUtils\Images\TreeImages\ProtocolLocked.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="_CommonUtils\Images\TreeImages\SampleNumber.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="_CommonUtils\Images\TreeImages\SampleNumberLocked.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="_CommonUtils\Images\TreeImages\Search.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="_CommonUtils\Images\TreeImages\String.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="_CommonUtils\Images\TreeImages\StringLocked.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="_CommonUtils\Images\TreeImages\Time.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="_CommonUtils\Images\TreeImages\TimeLocked.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="_CommonUtils\Images\TreeImages\TimingZoom.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="_CommonUtils\Images\TreeImages\TimingZoomLocked.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="_CommonUtils\Images\TreeImages\Tool.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="_CommonUtils\Images\TreeImages\Transaction.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="_CommonUtils\Images\TreeImages\TransactionLocked.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="_CommonUtils\Images\TreeImages\TreeExpanderMinus.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="_CommonUtils\Images\TreeImages\TreeExpanderPlus.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="_CommonUtils\Images\TreeImages\Viewer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="_CommonUtils\Images\Warning.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="..\..\packages\CommunityToolkit.Mvvm.8.2.2\build\netstandard2.0\CommunityToolkit.Mvvm.targets" Condition="Exists('..\..\packages\CommunityToolkit.Mvvm.8.2.2\build\netstandard2.0\CommunityToolkit.Mvvm.targets')" />

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Keysight.Ccl.Wsl.UI;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -17,7 +18,7 @@ namespace MainApplication.WPF_MVVM._1._WPFMVVMBasic._6_Triggers
     /// <summary>
     /// Interaction logic for Trigger_Property_Normal.xaml
     /// </summary>
-    public partial class Trigger_Property_Normal : Window
+    public partial class Trigger_Property_Normal : WslDialog
     {
         public Trigger_Property_Normal()
         {

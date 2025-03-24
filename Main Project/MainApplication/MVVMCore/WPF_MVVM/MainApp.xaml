@@ -222,11 +222,7 @@
                     <MenuItem Name="x_FreezableObjects" Header="Freezable Objects" Click="x_FreezableObjects_Click">
                     </MenuItem>
                     <Separator />
-
-                   
-                    
                     <MenuItem Name="x_Localization" Header="Localization - Langauge Change" Click="x_Localization_Click">
-                        
                     </MenuItem>
 
                     
@@ -247,9 +243,6 @@
 
                     <MenuItem Name="x_WPFDispather" Header="WPF Dispatcher" Click="x_WPFDispather_Click" />
                     <Separator />
-                    
-                 
-                
                 </MenuItem>
 
                 <!--MVVM Design Patterns-->
@@ -283,14 +276,7 @@
                     <MenuItem Name="x_DI" Header="Dependency Inversion" ></MenuItem>
 
                 </MenuItem>
-
                 
-                <!--<MenuItem Name="x_security" Header="Application Security">
-                    <MenuItem Name="x_file" Header="File Security" Click="x_file_Click"></MenuItem>
-                    <Separator />
-                    <MenuItem Name="x_form" Header="Form Security" Click="x_form_Click"></MenuItem>
-                </MenuItem>-->
-
                 <!--API-->
                 <MenuItem Name="x_API" Header="API">
                     <MenuItem Name="x_WebaAPI" Header="Web API 1" Click="x_WebaAPI_Click"/>
@@ -305,6 +291,7 @@
 
                 </MenuItem>
 
+                <!--Assignment-->
                 <MenuItem Name="x_Assignment" Header="Assignment">
                     <MenuItem Name="x_Challanges" Header="Challanges">
                         <MenuItem Name="x_Challanges1" Header="Grid Single Click Checkbox" Click="x_Challanges1_Click"/>
@@ -332,11 +319,18 @@
                         <MenuItem Name="x_Challanges11" Header="Encryption_Descryption" Click="x_Challanges11_Click"/>
                         
                     </MenuItem>
-                    <Separator />
+                   
 
 
                 </MenuItem>
 
+                <!--Interview-->
+                <MenuItem Name="x_Interview" Header="Interview">
+                    <MenuItem Name="x_CustomControl" Header="Custom Control" Click="x_CustomControl_Click"/>
+                    <Separator />
+                    <MenuItem Name="x_TwoWayBinding" Header="TwoWay Binding" Click="x_TwoWayBinding_Click"/>
+                 </MenuItem>
+               
 
                 <!--MVVM Themes-->
                 <MenuItem Name="x_View" Header="Themes">

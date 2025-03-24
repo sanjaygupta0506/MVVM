@@ -1,0 +1,151 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:Microsoft_Windows_Themes="clr-namespace:Microsoft.Windows.Themes;assembly=PresentationFramework.Luna">
+
+  <!--#region Radio Button Color Brushes -->
+  <SolidColorBrush x:Key="RadioButtonNormalForegroundColor" Color="#000000" Opacity="0.72"/>
+  <SolidColorBrush x:Key="RadioButtonHoverForegroundColor" Color="#000000"/>
+  <SolidColorBrush x:Key="RadioButtonNormalBorderBrush" Color="#7E899E"/>
+  <SolidColorBrush x:Key="RadioButtonHoverBorderBrush" Color="#434A59"/>
+  <SolidColorBrush x:Key="RadioButtonActiveBorderBrush" Color="#7E899E"/>
+  <SolidColorBrush x:Key="RadioButtonCheckedColor" Color="#346EE3"/>
+  <SolidColorBrush x:Key="RadioButtonKeyboardFocusBorderBrush" Color="#346EE3"/>
+  <!--#endregion-->
+
+  <!--#region CheckBox Color Brushes-->
+
+  <SolidColorBrush x:Key="CheckBoxFillColor" Color="#346EE3"/>
+  <SolidColorBrush x:Key="CheckBoxBorderColor" Color="#7E899E"/>
+  <SolidColorBrush x:Key="CheckBoxIconColor" Color="#ffffff"/>
+  <SolidColorBrush x:Key="CheckBoxForeGroundColor" Color="#000000" Opacity="0.72"/>
+  <SolidColorBrush x:Key="CheckBoxMouseHoverColor" Color="#434A59"/>
+
+  <!--#endregion-->
+
+  <!--#region TextBlock Color Brushes-->
+
+  <SolidColorBrush x:Key="TextBlockForeGround" Color="#000000"/>
+
+  <!--#endregion-->
+
+  <!--#region TextBox Color Brushes-->
+
+  <SolidColorBrush  x:Key="TextBoxHover" Color="#000000" Opacity="0.72"/>
+  <SolidColorBrush x:Key="TextBoxFocus" Color="#346EE3"/>
+  <SolidColorBrush x:Key="TextBoxForeGround" Color="#000000"/>
+
+  <!--#endregion-->
+
+  <!--#region ComboBox Color Brushes-->
+
+  <SolidColorBrush x:Key="ComboBoxBorderVisualColor" Color="#ABC9FF"/>
+  <SolidColorBrush x:Key="ComboBoxDarkBackgroundColor" Color="#EBEFF7"/>
+  <SolidColorBrush x:Key="ComboBoxArrowWhiteColor" Color="#000000"/>
+  <SolidColorBrush x:Key="ComboBoxLightForegroundColor" Color="#EBF2FF"/>
+  <SolidColorBrush x:Key="ComboBoxLightBlueColor" Color="#4C8EFF"/>
+
+  <!--#endregion-->
+
+  <!--#region GroupBox Color Brushes-->
+
+  <SolidColorBrush x:Key="GroupBoxBorderBrush" Color="#8E9AAD"/>
+  <SolidColorBrush x:Key="GroupBoxBorderColor" Color="#FFFFFF"/>
+
+  <!--#endregion-->
+
+  <!--#region XamDataGrid Color Brushes-->
+  <SolidColorBrush x:Key="GridBackgroundColor" Color="#FFFFFF"/>
+  <SolidColorBrush x:Key="GridBorderBrush" Color="#8E9AAD"/>
+  <SolidColorBrush x:Key="CellNormalForegroundColor" Color="#000000" Opacity="0.72"/>
+  <SolidColorBrush x:Key="CellHoverForegroundColor" Color="#000000" Opacity="1"/>
+  <SolidColorBrush x:Key="CellHoverBackgroudColor" Color="#2C5FC7"/>
+  <SolidColorBrush x:Key="CellActiveBackgroundColor" Color="#4C8EFF"/>
+  <SolidColorBrush x:Key="CellOnBackgroundColor" Color="#ABC9FF"/>
+  <SolidColorBrush x:Key="ProtocolErrorForeground" Color="Red" />
+  <SolidColorBrush x:Key="HeaderBackgroundColor" Color="#D1D7E8"/>
+  <SolidColorBrush x:Key="AlternateRowBackgroundColor" Color="#F0F1F2"/>
+
+
+
+  <!--#endregion-->
+
+  <!--#region OnOffButton Color Brushes -->
+  <SolidColorBrush x:Key="OnOffButtonNormalBackgroundColor" Color="#E6EBF5"/>
+  <SolidColorBrush x:Key="OnOffButtonHoverBackgroundColor" Color="#CFE0FF"/>
+  <SolidColorBrush x:Key="OnOffButtonActiveBackgroundColor" Color="#4C8EFF"/>
+  <SolidColorBrush x:Key="OnOffButtonNormalBorderBrush" Color="#CAD0E3"/>
+  <SolidColorBrush x:Key="OnOffButtonHoverBorderBrush" Color="#ABC9FF"/>
+  <SolidColorBrush x:Key="OnOffButtonActiveBorderBrush" Color="#346EE3"/>
+
+  <!--#endregion-->
+
+  <!--#region Progressbar Color Brushes -->
+  <SolidColorBrush x:Key="ProgressBarColor" Color="#346EE3"/>
+
+  <!--#endregion-->
+
+  <!--#region Label Color Brushes-->
+
+  <SolidColorBrush x:Key="LabelForeGroundColour" Color="#000000" Opacity="0.72"/>
+
+  <!--#endregion-->
+
+  <!--#region SplitButton Color Brushes-->
+
+  <SolidColorBrush x:Key="SplitButtonNormalForegroundColor" Color="#000000"/>
+  <SolidColorBrush x:Key="SplitButtonNormalBorderBrush" Color="#CAD0E3"/>
+  <SolidColorBrush x:Key="SplitButtonHoverBorderBrush" Color="#ABC9FF"/>
+  <SolidColorBrush x:Key="SplitButtonActiveBorderBrush" Color="#346EE3"/>
+  <SolidColorBrush x:Key="SplitButtonBorderVisualColor" Color="#ABC9FF"/>
+  <SolidColorBrush x:Key="SplitButtonNormalBackgroundColor" Color="#F0F3FA"/>
+  <SolidColorBrush x:Key="SplitButtonExpanderForegroundColor" Color="#000000"/>
+  <SolidColorBrush x:Key="SplitButtonHoverBackgroundColor" Color="#CFE0FF"/>
+  <SolidColorBrush x:Key="SplitButtonActiveBackgroundColor" Color="#4C8EFF"/>
+
+  <!--#endregion-->
+
+  <!--#region SolidColorBrush Tabs -->
+  <SolidColorBrush x:Key="TabStripBackgroundColor" Color="#DDE3F0"/>
+  <SolidColorBrush x:Key="TabNormalBackgroundColor" Color="#EBEFF7"/>
+  <SolidColorBrush x:Key="TabHoverBackgroundColor" Color="#CFE0FF"/>
+  <SolidColorBrush x:Key="TabActiveBackgroundColor" Color="#FFFFFF"/>
+  <SolidColorBrush x:Key="TabBorderBrush" Color="#8E9AAD"/>
+  <SolidColorBrush x:Key="ContainerBackgroundColor" Color="#FFFFFF"/>
+  <SolidColorBrush x:Key="TabHeaderNormalForegroundColor" Color="#000000" Opacity="0.72"/>
+  <SolidColorBrush x:Key="TabHeaderActiveForegroundColor" Color="#000000"/>
+  <!--#endregion-->
+
+  <!--#region SolidColorBrushGridSplitter -->
+  <SolidColorBrush x:Key="GridSplitterBcakground" Color="#F0F3FA"/>
+  <SolidColorBrush x:Key="GridSplitterBorderBrush" Color="#4C131B40"/>
+    <!--#endregion-->
+
+  <SolidColorBrush x:Key="ThumbNormalBackgroundColor" Color="#7E899E"/>
+  <SolidColorBrush x:Key="ThumbHoverBackgroundColor" Color="#434A59"/>
+  <SolidColorBrush x:Key="WhiteColor" Color="#000000"/>
+  <SolidColorBrush x:Key="ShaftBackgroundColor" Color="#D7DDED"/>
+
+  <!--#region Icon Color Brushes -->
+    <SolidColorBrush x:Key="IconLightBackgroundColor" Color="#FFFFFF"/>
+    <SolidColorBrush x:Key="IconDarkBackgroundColor" Color="#000000"/>
+    <SolidColorBrush x:Key="IconButtonNormalBackgroundColor" Color="#E6EBF5"/>
+    <SolidColorBrush x:Key="IconButtonHoverBackgroundColor" Color="#E9EFF9"/>
+    <!--#endregion-->
+
+
+    <SolidColorBrush x:Key="CheckedComboBoxBorderBrush" Color="#ACACAC"/>
+    <SolidColorBrush x:Key="CheckedComboBoxArrowColor" Color="#606060"/>
+    <SolidColorBrush x:Key="CheckedComboBoxMouseHoverBorderBackgroundColor" Color="#DCECFC"/>
+    <SolidColorBrush x:Key="CheckedComboBoxMouseHoverBorderBrush" Color="#7EB4EA"/>
+    <SolidColorBrush x:Key="CheckedComboBoxDisabledColor" Color="#BFBFBF"/>
+    <SolidColorBrush x:Key="CheckedComboBoxPopupBorderBrush" Color="#646464"/>
+
+    <!--#region Repeat Button Color Brushes -->
+    <SolidColorBrush x:Key="ButtonBackgroundColor" Color="#EBEFF7"/>
+    <SolidColorBrush x:Key="ButtonForegroundColor" Color="#393941"/>
+
+    <SolidColorBrush x:Key="LabelBackgroundColor" Color="#EBEFF7"/>
+    <SolidColorBrush x:Key="LabelForegroundColor" Color="#393941"/>
+    <!--#endregion-->
+
+</ResourceDictionary>

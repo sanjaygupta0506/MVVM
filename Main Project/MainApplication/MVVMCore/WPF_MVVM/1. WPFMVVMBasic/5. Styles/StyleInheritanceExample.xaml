@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:MainApplication.WPF_MVVM.WPFMVVMBasic.Styles"
         mc:Ignorable="d"
-        Title="Style Inheritance" Height="450" Width="800">
+        Title="Style Inheritance" Height="450" Width="800" Left="8" Top="62" >
     <Window.Resources>
         <!--Parent Style-->
         <Style x:Key="x_Style" TargetType="Button">

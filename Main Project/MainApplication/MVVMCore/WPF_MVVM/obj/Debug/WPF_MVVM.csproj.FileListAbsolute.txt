@@ -514,7 +514,6 @@ F:\Final LFT Data\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\
 F:\Final LFT Data\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\Dependency_Injection\Constructor\DIContructor.baml
 F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\WPF_MVVM.csproj.AssemblyReference.cache
 F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\WPF_MVVM.exe.config
-F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\StyleSheet\Controls.baml
 F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\3. MultiThreading\DispatcherExample.g.cs
 F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\3. MultiThreading\SingleThread.g.cs
 F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\5. SOLID Princliple\Views\OCP.g.cs
@@ -528,7 +527,6 @@ F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_M
 F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\bin\Debug\WPF_MVVM.exe.config
 F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\bin\Debug\WPF_MVVM.exe
 F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\bin\Debug\WPF_MVVM.pdb
-F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\bin\Debug\CommonUtils.dll
 F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\bin\Debug\CommunityToolkit.Mvvm.dll
 F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\bin\Debug\Infralution.Controls.dll
 F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\bin\Debug\Keysight.Ccl.Wsl.dll
@@ -553,7 +551,6 @@ F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_M
 F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\bin\Debug\stdole.dll
 F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\bin\Debug\WPFUI.pdb
 F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\bin\Debug\WPFUI.exe.config
-F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\bin\Debug\CommonUtils.pdb
 F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\bin\Debug\CommunityToolkit.Mvvm.pdb
 F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\bin\Debug\CommunityToolkit.Mvvm.xml
 F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
@@ -708,7 +705,6 @@ F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_M
 F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\2. WPFMVVMAdvance\B2.UserControlsVsCustomControl\UserControlsExample.baml
 F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\2. WPFMVVMAdvance\B2.UserControlsVsCustomControl\WPFCustomControls.g.cs
 F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\2. WPFMVVMAdvance\B2.UserControlsVsCustomControl\WPFCustomControls.baml
-F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\Themes\Generic.baml
 F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\2. WPFMVVMAdvance\B2.UserControlsVsCustomControl\Common\ResidentialDetails.g.cs
 F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\2. WPFMVVMAdvance\B2.UserControlsVsCustomControl\Common\ResidentialDetails.baml
 F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\2. WPFMVVMAdvance\B2.UserControlsVsCustomControl\Common\UserControlsVsCustomControl.g.cs
@@ -763,3 +759,16 @@ F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_M
 F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\7. Assignment\Common\TreeViewColorChangeOnRadio.baml
 F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\7. Assignment\CompanyWise\Stryker.baml
 F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\7. Assignment\Security\Encryption_Descryption.baml
+F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\8. Interview\CustomControl\CustomControl.g.cs
+F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\8. Interview\TwoWay_Binding\View\TwoWayBinding.g.cs
+F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\8. Interview\CustomControl\CustomControl.baml
+F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\8. Interview\CustomControl\Theme\Generics.baml
+F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\8. Interview\TwoWay_Binding\View\TwoWayBinding.baml
+F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\_CommonUtils\ResourceDictionaries\SolidColorBrushDark.baml
+F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\_CommonUtils\ResourceDictionaries\SolidColorBrushLight.baml
+F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\_CommonUtils\Comman\SettingsWindow.baml
+F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\_CommonUtils\StyleSheet\Controls.baml
+F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\_CommonUtils\Comman\SettingsWindow.g.cs
+F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\_CommonUtils\ResourceDictionaries\CommonComponentStyle.baml
+F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\_CommonUtils\ResourceDictionaries\Generic.baml
+F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\_CommonUtils\Themes\Generic.baml

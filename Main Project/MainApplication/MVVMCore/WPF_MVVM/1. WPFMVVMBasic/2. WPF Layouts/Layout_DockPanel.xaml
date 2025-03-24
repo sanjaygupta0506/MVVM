@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:MainApplication.WPF_MVVM.WPFMVVMBasic.Layouts"
         mc:Ignorable="d"
-        Title="Layout DockPanel" Height="450" Width="800">
+        Title="Layout DockPanel" Height="450" Width="800" Left="8" Top="62">
     <DockPanel>
         <Border Height="25" Background="AliceBlue" DockPanel.Dock="top">
             <TextBlock Style="{DynamicResource TextBlockStyleDefault}">Menu</TextBlock>

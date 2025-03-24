@@ -6,7 +6,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:MainApplication.WPF_MVVM._2._WPFMVVMAdvance.Freezable_Objects"
         mc:Ignorable="d"
-        Title="FreezableObjects" Height="450" Width="800" Loaded="WslDialog_Loaded">
+        Title="FreezableObjects" Height="450" Width="800" Left="8" Top="62" Loaded="WslDialog_Loaded">
     <Grid>
         <Label Content="Hello"
             Name="MyText"

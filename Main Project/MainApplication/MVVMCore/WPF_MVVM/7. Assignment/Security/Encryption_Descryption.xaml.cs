@@ -13,7 +13,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 
-namespace WPFAssignment.Security
+namespace MainApplication.WPF_MVVM
 {
   /// <summary>
   /// Interaction logic for Encryption_Descryption.xaml

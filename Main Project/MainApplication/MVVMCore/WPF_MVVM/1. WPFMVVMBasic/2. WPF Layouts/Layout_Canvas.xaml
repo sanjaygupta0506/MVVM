@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:MainApplication.WPF_MVVM.WPFMVVMBasic.Layouts"
         mc:Ignorable="d"
-        Title="Layout Canvas" Height="450" Width="800">
+        Title="Layout Canvas" Height="450" Width="800" Left="8" Top="62">
     <Canvas>
         <Label Canvas.Top="30" Canvas.Left="20" Style="{DynamicResource LabelStyleDefault}">Enter Here</Label>
         <TextBox Canvas.Top="30" Canvas.Left="250" Width="150" Style="{DynamicResource TextboxStyleDefault}"></TextBox>

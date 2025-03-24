@@ -137,10 +137,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\MVVMCore\CommonUtils\CommonUtils\CommonUtils.csproj">
-      <Project>{987479be-363c-4fa5-9282-8f0c35b9128b}</Project>
-      <Name>CommonUtils</Name>
-    </ProjectReference>
     <ProjectReference Include="..\MVVMCore\WPF_MVVM\WPF_MVVM.csproj">
       <Project>{49FC4D22-DC70-449A-97D4-A7BD3A8CD672}</Project>
       <Name>WPF_MVVM</Name>

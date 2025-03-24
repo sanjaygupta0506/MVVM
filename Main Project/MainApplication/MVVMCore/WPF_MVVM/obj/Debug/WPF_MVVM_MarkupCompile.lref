@@ -43,6 +43,11 @@ FF:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_
 FF:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\7. Assignment\Common\TreeViewColorChangeOnRadio.xaml;;
 FF:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\7. Assignment\CompanyWise\Stryker.xaml;;
 FF:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\7. Assignment\Security\Encryption_Descryption.xaml;;
+FF:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\8. Interview\CustomControl\CustomControl.xaml;;
+FF:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\8. Interview\CustomControl\Theme\Generics.xaml;;
+FF:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\8. Interview\TwoWay_Binding\View\TwoWayBinding.xaml;;
+FF:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\_CommonUtils\ResourceDictionaries\CommonComponentStyle.xaml;;
+FF:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\_CommonUtils\ResourceDictionaries\Generic.xaml;;
 FF:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\2. WPFMVVMAdvance\A13. AttachedPropertySample\AttachedPropertyExample.xaml;;
 FF:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\2. WPFMVVMAdvance\A12. DependencyPropertySample\CustomDependencyProperty.xaml;;
 FF:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\2. WPFMVVMAdvance\Localization\LocalizationSample.xaml;;
@@ -88,5 +93,5 @@ FF:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_
 FF:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\2. WPFMVVMAdvance\B2.UserControlsVsCustomControl\UserControlsExample.xaml;;
 FF:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\1. WPFMVVMBasic\8. ValueConvertors\ValueConvertorsExample.xaml;;
 FF:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\1. WPFMVVMBasic\A11. MVVM Main\Pattem1\Samples.xaml;;
-FF:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\Themes\Generic.xaml;;
+FF:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\_CommonUtils\Themes\Generic.xaml;;
 
