@@ -343,6 +343,21 @@
     <Compile Include="8. Interview\TwoWay_Binding\View\TwoWayBinding.xaml.cs">
       <DependentUpon>TwoWayBinding.xaml</DependentUpon>
     </Compile>
+    <Compile Include="9. Security\AppSecuritySample.xaml.cs">
+      <DependentUpon>AppSecuritySample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="9. Security\Encrypt_Decrypt.xaml.cs">
+      <DependentUpon>Encrypt_Decrypt.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="9. Security\Models\HashingModel.cs" />
+    <Compile Include="9. Security\SecurityClasses\SecurityControl.cs" />
+    <Compile Include="9. Security\SecurityClasses\SecurityViewModelBase.cs" />
+    <Compile Include="9. Security\SecurityClasses\XAMLControlInfo.cs" />
+    <Compile Include="9. Security\UserControls\EmployeeControl.xaml.cs">
+      <DependentUpon>EmployeeControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="9. Security\ViewModels\EmployeeViewModel.cs" />
+    <Compile Include="9. Security\ViewModels\HashingViewModel.cs" />
     <Compile Include="EnumClass.cs" />
     <Compile Include="4. Design Pattern\Singletons\EnumHelper.cs" />
     <Compile Include="4. Design Pattern\Deppendency_Injection\BackGroundWorkerExample.xaml.cs">
@@ -720,6 +735,18 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Include="8. Interview\TwoWay_Binding\View\TwoWayBinding.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="9. Security\AppSecuritySample.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="9. Security\Encrypt_Decrypt.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="9. Security\UserControls\EmployeeControl.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>

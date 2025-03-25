@@ -74,6 +74,7 @@ using MVVMCore.WPF_MVVM;
 using MainApplication.WPF_MVVM;
 using MVVMCore.WPF_MVVM.Challanges;
 using WPF_MVVM.View;
+using MainApplication.SecuritySample;
 
 namespace MVVMCore
 {
@@ -839,6 +840,22 @@ namespace MVVMCore
             twoWayBinding.ShowInTaskbar = false;
             twoWayBinding.Owner = Application.Current.MainWindow;
             twoWayBinding.Show();
+        }
+
+        private void ApplicationSecurity_Click(object sender, RoutedEventArgs e)
+        {
+            AppSecuritySample appsec = new AppSecuritySample();
+            appsec.ShowInTaskbar = false;
+            appsec.Owner = Application.Current.MainWindow;
+            appsec.Show();
+        }
+
+        private void Encrypt_Decrypt_Click(object sender, RoutedEventArgs e)
+        {
+            Encrypt_Decrypt ed = new Encrypt_Decrypt();
+            ed.ShowInTaskbar = false;
+            ed.Owner = Application.Current.MainWindow;
+            ed.Show();
         }
     }
 }

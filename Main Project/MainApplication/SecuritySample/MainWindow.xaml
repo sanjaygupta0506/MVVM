@@ -18,12 +18,7 @@
         
         <Menu x:Name="x_MainMenu" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="2" BorderThickness="1" Height="25" VerticalAlignment="Top" Width="1200" HorizontalAlignment="Left" >
 
-            <MenuItem Name="x_AppSec" Header="Application Security">
-                <MenuItem Name="ApplicationSecurity" Header="Application Security" Click="ApplicationSecurity_Click"/>
-                <Separator />
-                <MenuItem Name="Encrypt_Decrypt" Header="Encrypt Decrypt" Click="Encrypt_Decrypt_Click"/>
-                <Separator />
-            </MenuItem>
+            
             <MenuItem Name="x_View" Header="View">
                 <MenuItem Name="x_Themes" Header="Themes">
                     <MenuItem Name="x_caranuDark" Header="Caranu Dark" Click="x_caranuDark_Click"/>
