@@ -39,12 +39,11 @@ namespace InterviewProgramMain.AskedInInterview
         }
         #endregion
 
-
-
+        #region 2. To Find No is Even or Odd
         public static void EvenOrOdd()
         {
             int num = 11;
-            if(num % 2 == 0)
+            if (num % 2 == 0)
             {
                 Console.WriteLine("Number is Even");
             }
@@ -56,7 +55,7 @@ namespace InterviewProgramMain.AskedInInterview
             //Console.ReadLine();
 
         }
-
+        #endregion
 
         #region 3. How do you check if a string is a palindrome?
 

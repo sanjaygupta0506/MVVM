@@ -10,198 +10,198 @@ namespace CShapLogicalProgram.StringManipulation
     {
         private static int i;
         private static int j;
-        //public static void Main(string[] args)
-        //{
-        //    //Console.WriteLine("enter text");
-        //    //string str = Console.ReadLine();
-        //    string str = "Hello World";
-        //    int[] arr = new int[] { 1, 2, 3, 4, 5 };
+        public static void Main(string[] args)
+        {
+            //Console.WriteLine("enter text");
+            //string str = Console.ReadLine();
+            string str = "Hello World";
+            int[] arr = new int[] { 1, 2, 3, 4, 5 };
 
-        //    //#region ReverseString - 1.1
-        //    //Console.WriteLine("\n1.1 ReverseString - 1");
-        //    //ReverseString1(str);
-        //    //#endregion 
+            #region ReverseString - 1.1
+            Console.WriteLine("\n1.1 ReverseString - 1");
+            ReverseString1(str);
+            #endregion 
 
-        //    #region ReverseString - 1.2
-        //    Console.WriteLine("\n1.2 ReverseString - 2");
-        //    ReverseString2();
-        //    #endregion
+            #region ReverseString - 1.2
+            Console.WriteLine("\n1.2 ReverseString - 2");
+            ReverseString2();
+            #endregion
 
-        //    //#region ReverseString - 1.3
-        //    //Console.WriteLine("\n1.3 ReverseString - 3");
-        //    //ReverseString3();
-        //    //#endregion
+            #region ReverseString - 1.3
+            Console.WriteLine("\n1.3 ReverseString - 3");
+            ReverseString3();
+            #endregion
 
-        //    //#region chkPalindrome - 2
-        //    //Console.WriteLine("\n2. check Palindrome");
-        //    //chkPalindrome(str);
-        //    //#endregion
+            #region chkPalindrome - 2
+            Console.WriteLine("\n2. check Palindrome");
+            chkPalindrome(str);
+            #endregion
 
-        //    #region Countcharacter - 3
-        //    Console.WriteLine("\n3. Count character");
-        //    /*Ans.: The user will input a string and we need to find the count of each character of the string and display it on console. We won’t be counting space character.*/
-        //    Countcharacter(str);
-        //    #endregion
+            #region Countcharacter - 3
+            Console.WriteLine("\n3. Count character");
+            /*Ans.: The user will input a string and we need to find the count of each character of the string and display it on console. We won’t be counting space character.*/
+            Countcharacter(str);
+            #endregion
 
-        //    //#region Countcharacter  - 3.1
-        //    //Console.WriteLine("\n3.1 Count character");
-        //    ///*Ans.: The user will input a string and we need to find the count of each character of the string and display it on console. We won’t be counting space character.*/
-        //    //Countcharacter1(str);
-        //    //#endregion
+            #region Countcharacter  - 3.1
+            Console.WriteLine("\n3.1 Count character");
+            /*Ans.: The user will input a string and we need to find the count of each character of the string and display it on console. We won’t be counting space character.*/
+            Countcharacter1(str);
+            #endregion
 
-        //    #region Get Duplicate character into string
+            #region Get Duplicate character into string
 
-        //    var duplicates = GetDuplicateCharacters(str);
-        //    Console.WriteLine("Duplicate characters in {str} are: " + duplicates);
-        //    #endregion
+            var duplicates = GetDuplicateCharacters(str);
+            Console.WriteLine("Duplicate characters in {str} are: " + duplicates);
+            #endregion
 
-        //    #region removeduplicate - 4
-        //    Console.WriteLine("\n4. remove duplicate");
-        //    /*Ans.: The user will input a string and the method should remove multiple occurrences of characters in the string
-        //    input: csharpcorner, output: csharpone*/
+            #region removeduplicate - 4
+            Console.WriteLine("\n4. remove duplicate");
+            /*Ans.: The user will input a string and the method should remove multiple occurrences of characters in the string
+            input: csharpcorner, output: csharpone*/
 
-        //    removeduplicate(str);
-        //    #endregion
+            removeduplicate(str);
+            #endregion
 
-        //    //#region Count Vowels and Consonants in a String 5
-        //    //Console.WriteLine("\n\n5. Count Vowels and Consonants in a String");
-        //    //CountVowels_Consonants();
-        //    //#endregion
+            //#region Count Vowels and Consonants in a String 5
+            //Console.WriteLine("\n\n5. Count Vowels and Consonants in a String");
+            //CountVowels_Consonants();
+            //#endregion
 
-        //    //#region IsAnagram 6
-        //    //Console.WriteLine("\n\n6. string is Anagram or not");
-        //    //IsAnagram();
-        //    //#endregion
+            //#region IsAnagram 6
+            //Console.WriteLine("\n\n6. string is Anagram or not");
+            //IsAnagram();
+            //#endregion
 
-        //    //#region Replace Characters in a String 7
+            //#region Replace Characters in a String 7
 
-        //    //Console.WriteLine("\n\n7. Replace Characters in a String");
-        //    //stringreplacecharacter();
-        //    //#endregion
+            //Console.WriteLine("\n\n7. Replace Characters in a String");
+            //stringreplacecharacter();
+            //#endregion
 
-        //    //#region Find the Length of a String 8
-        //    //Console.WriteLine("\n\n8. Find the Length of a String");
-        //    //lengthofstring();
-        //    //#endregion
+            //#region Find the Length of a String 8
+            //Console.WriteLine("\n\n8. Find the Length of a String");
+            //lengthofstring();
+            //#endregion
 
-        //    //#region lower and upper case string 9
-        //    //Console.WriteLine("\n\n9. lower and upper case string");
-        //    //uppertolower();
-        //    //#endregion
+            //#region lower and upper case string 9
+            //Console.WriteLine("\n\n9. lower and upper case string");
+            //uppertolower();
+            //#endregion
 
-        //    //#region split a string 10
-        //    //Console.WriteLine("\n\n10. split a string");
-        //    //splitintowords();
-        //    //#endregion
+            //#region split a string 10
+            //Console.WriteLine("\n\n10. split a string");
+            //splitintowords();
+            //#endregion
 
-        //    //#region concanate two string 11
-        //    //Console.WriteLine("\n\n11. concanate two string");
-        //    //concatnatetwostring();
-        //    //#endregion
+            //#region concanate two string 11
+            //Console.WriteLine("\n\n11. concanate two string");
+            //concatnatetwostring();
+            //#endregion
 
-        //    //#region Check Null Validation 12
-        //    //Console.WriteLine("\n\n12. Check Null Validation");
-        //    //CheckNullValidation();
-        //    //#endregion
+            //#region Check Null Validation 12
+            //Console.WriteLine("\n\n12. Check Null Validation");
+            //CheckNullValidation();
+            //#endregion
 
-        //    //#region Check String Contains 13
-        //    //Console.WriteLine("\n\n13 Check String Contains");
-        //    //CheckStringContain();
-        //    //#endregion
+            //#region Check String Contains 13
+            //Console.WriteLine("\n\n13 Check String Contains");
+            //CheckStringContain();
+            //#endregion
 
-        //    //#region Compare two strings 14
-        //    //Console.WriteLine("\n\n14 Compare two strings");
-        //    //Comparetwostrings();
-        //    //#endregion
+            //#region Compare two strings 14
+            //Console.WriteLine("\n\n14 Compare two strings");
+            //Comparetwostrings();
+            //#endregion
 
-        //    //#region Remove white space 15
-        //    //Console.WriteLine("\n\n15 Remove white space");
-        //    //removewhitespace();
-        //    //#endregion
+            //#region Remove white space 15
+            //Console.WriteLine("\n\n15 Remove white space");
+            //removewhitespace();
+            //#endregion
 
-        //    //#region Replace substring 16
-        //    //Console.WriteLine("\n\n16 Replace substring");
-        //    //replacesubstring();
-        //    //#endregion
+            //#region Replace substring 16
+            //Console.WriteLine("\n\n16 Replace substring");
+            //replacesubstring();
+            //#endregion
 
-        //    //#region Replace String To Number 17
-        //    //Console.WriteLine("\n\n17 Replace String To Number");
-        //    //replaceStringToNumber();
-        //    //#endregion
+            //#region Replace String To Number 17
+            //Console.WriteLine("\n\n17 Replace String To Number");
+            //replaceStringToNumber();
+            //#endregion
 
-        //    //#region Join array string To String 18
-        //    //Console.WriteLine("\n18 Join array string To String");
-        //    //joinarraystringToString();
-        //    //#endregion
+            //#region Join array string To String 18
+            //Console.WriteLine("\n18 Join array string To String");
+            //joinarraystringToString();
+            //#endregion
 
-        //    //#region Extract a substring 19
-        //    //Console.WriteLine("\n19 Extract a substring");
-        //    //extractasubstring();
-        //    //#endregion
+            //#region Extract a substring 19
+            //Console.WriteLine("\n19 Extract a substring");
+            //extractasubstring();
+            //#endregion
 
-        //    //#region validate Start End 20
-        //    //Console.WriteLine("\n20 validate Start End");
-        //    //validateStartEnd();
-        //    //#endregion
+            //#region validate Start End 20
+            //Console.WriteLine("\n20 validate Start End");
+            //validateStartEnd();
+            //#endregion
 
-        //    //#region escape special characters 21
-        //    //Console.WriteLine("\n21 escape special characters");
-        //    //Escapespecialcharacters();
-        //    //#endregion
+            //#region escape special characters 21
+            //Console.WriteLine("\n21 escape special characters");
+            //Escapespecialcharacters();
+            //#endregion
 
-        //    //#region Format String 22
-        //    //Console.WriteLine("\n22 Format String");
-        //    //FormatString();
-        //    //#endregion
+            //#region Format String 22
+            //Console.WriteLine("\n22 Format String");
+            //FormatString();
+            //#endregion
 
-        //    //FormatString();
+            //FormatString();
 
-        //    //#region ReverseWordOrder - 15
-        //    //Console.WriteLine("\n15.1. Reverse Word Order 1");
-        //    ///*The user will input a sentence and we need to reverse the sequence of words in the sentence.
-        //    //input: Welcome to Csharp corner, output: corner Csharp to Welcome*/
+            //#region ReverseWordOrder - 15
+            //Console.WriteLine("\n15.1. Reverse Word Order 1");
+            ///*The user will input a sentence and we need to reverse the sequence of words in the sentence.
+            //input: Welcome to Csharp corner, output: corner Csharp to Welcome*/
 
-        //    //ReverseWordOrder(str);
+            //ReverseWordOrder(str);
 
-        //    //Console.WriteLine("\n3.2. Reverse Words Order 2");
-        //    //ReverseWords();
-        //    //#endregion
+            //Console.WriteLine("\n3.2. Reverse Words Order 2");
+            //ReverseWords();
+            //#endregion
 
-        //    //#region ReverseWords - 4
-        //    //Console.WriteLine("\n\n4. Reverse Words");
-        //    ///*Ans.: The user will input a sentence and we need to reverse each word individually without changing its position in the sentence.
-        //    //input: Welcome to Csharp corner, output: emocleW ot prahsC renroc*/
+            //#region ReverseWords - 4
+            //Console.WriteLine("\n\n4. Reverse Words");
+            ///*Ans.: The user will input a sentence and we need to reverse each word individually without changing its position in the sentence.
+            //input: Welcome to Csharp corner, output: emocleW ot prahsC renroc*/
 
-        //    //ReverseWords(str);
-
-
-        //    //#endregion
-
-        //    // #region findallsubstring - 7
-        //    // Console.WriteLine("\n7. find all substring");
-
-        //    // //]m,This is a very frequent interview question.Here we need to form all the possible substrings from input string, varying from length 1 to the input string length. The output will include the input string also.
-        //    // //input: abcd , output: a ab abc abcd b bc bcd c cd d*/
-
-        //    //findallsubstring(str);
-        //    // #endregion
-
-        //    //#region RotateLeft;
-        //    //Console.WriteLine("\n\n8. Rotate Left");
-        //    ///*Ans.: The user will input an integer array and the method should shift each element of input array to its Left by one position in circular fashion. The logic is to iterate loop from Length-1 to 0 and swap each element with last element.
-        //    //input: 1 2 3 4 5, output: 2 3 4 5 1*/
-
-        //    //RotateLeft(arr);
-        //    //#endregion
+            //ReverseWords(str);
 
 
+            //#endregion
+
+            // #region findallsubstring - 7
+            // Console.WriteLine("\n7. find all substring");
+
+            // //]m,This is a very frequent interview question.Here we need to form all the possible substrings from input string, varying from length 1 to the input string length. The output will include the input string also.
+            // //input: abcd , output: a ab abc abcd b bc bcd c cd d*/
+
+            //findallsubstring(str);
+            // #endregion
+
+            //#region RotateLeft;
+            //Console.WriteLine("\n\n8. Rotate Left");
+            ///*Ans.: The user will input an integer array and the method should shift each element of input array to its Left by one position in circular fashion. The logic is to iterate loop from Length-1 to 0 and swap each element with last element.
+            //input: 1 2 3 4 5, output: 2 3 4 5 1*/
+
+            //RotateLeft(arr);
+            //#endregion
 
 
 
 
 
-        //    Console.ReadLine();
-        //}
+
+
+            Console.ReadLine();
+        }
 
 
         #region All String Program
