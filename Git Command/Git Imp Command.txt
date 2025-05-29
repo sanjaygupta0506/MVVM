@@ -171,8 +171,10 @@ git push --force origin exerciser
 git reset -- hard f65e50259bf
 git push --force origin feature/corvette/analyzer
 
+--------------------------------------------------------------------------------------------
+git push origin -d branch-name
+(delete remote branch)
 
-f65e50259bfbd1b50f2a01253211b5f631821857
 
 
 
