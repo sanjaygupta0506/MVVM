@@ -1,7 +1,0 @@
-F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\ConsoleApp\OOPSConceptApplication\obj\Debug\OOPSProgramMain.csproj.CoreCompileInputs.cache
-F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\ConsoleApp\OOPSConceptApplication\obj\Debug\OOPSConceptApplication.exe
-F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\ConsoleApp\OOPSConceptApplication\obj\Debug\OOPSConceptApplication.pdb
-F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\ConsoleApp\OOPSConceptApplication\bin\Debug\OOPSConceptApplication.exe.config
-F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\ConsoleApp\OOPSConceptApplication\bin\Debug\OOPSConceptApplication.exe
-F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\ConsoleApp\OOPSConceptApplication\bin\Debug\OOPSConceptApplication.pdb
-F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\ConsoleApp\OOPSConceptApplication\obj\Debug\OOPSProgramMain.csproj.AssemblyReference.cache
