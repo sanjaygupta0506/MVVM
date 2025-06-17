@@ -85,3 +85,4 @@
 --xml	Stores XML formatted data. Maximum 2GB
 --cursor	Stores a reference to a cursor used for database operations
 --table	Stores a result-set for later processing
+--====================================================================================================
