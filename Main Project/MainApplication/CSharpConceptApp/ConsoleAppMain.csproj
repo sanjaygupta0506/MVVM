@@ -85,7 +85,6 @@
     <Compile Include="InterviewProgramMain\FileManipulation\ReadingTextFile.cs" />
     <Compile Include="InterviewProgramMain\MultiThreadingProgram\Task1.cs" />
     <Compile Include="InterviewProgramMain\StringManipulation\1. Duplicate_Characters.cs" />
-    <Compile Include="InterviewProgramMain\StringManipulation\2. Unique _Characters.cs" />
     <Compile Include="InterviewProgramMain\StringManipulation\StringManipulation_All.cs" />
     <Compile Include="MultiThreadingProgramMain\Multi-threading\1. Simple blocking methods\10. Thread_Sleep.cs" />
     <Compile Include="MultiThreadingProgramMain\Multi-threading\1. Simple blocking methods\11. Thread_Join.cs" />
@@ -136,6 +135,7 @@
     <Compile Include="OOPSProgramMain\Main_Concept\.9. Sealed class.cs" />
     <Compile Include="OOPSProgramMain\Main_Concept\10. Sealed Method.cs" />
     <Compile Include="OOPSProgramMain\Main_Concept\11. Static class.cs" />
+    <Compile Include="OOPSProgramMain\Main_Concept\Multiple_Inheritance.cs" />
     <Compile Include="OOPSProgramMain\Polymorphism\3. Method Overloading.cs" />
     <Compile Include="OOPSProgramMain\Polymorphism\4. Method Overriding.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

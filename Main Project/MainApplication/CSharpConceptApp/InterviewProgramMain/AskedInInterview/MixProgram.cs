@@ -12,43 +12,43 @@ namespace InterviewProgramMain
         // Delegate definition
         public delegate int Operation(int x, int y);
 
-        public static void Main(string[] args)
-        {
+        //public static void Main(string[] args)
+        //{
             
 
             
            
 
-            //-----------------------------------------------------------------------------------------------------------------//
-            Console.WriteLine("Enter a string:");
-            string input = Console.ReadLine();
-            int vowelCount = CountVowels(input);
-            Console.WriteLine($"The number of vowels in the string is: {vowelCount}");
-            Console.ReadLine();
-            //-----------------------------------------------------------------------------------------------------------------//
+        //    //-----------------------------------------------------------------------------------------------------------------//
+        //    Console.WriteLine("Enter a string:");
+        //    string input = Console.ReadLine();
+        //    int vowelCount = CountVowels(input);
+        //    Console.WriteLine($"The number of vowels in the string is: {vowelCount}");
+        //    Console.ReadLine();
+        //    //-----------------------------------------------------------------------------------------------------------------//
 
-            // Create delegate instances for each operation
-            Operation add = Sum;
-            Operation subtract = Difference;
-            Operation multiply = Product;
+        //    // Create delegate instances for each operation
+        //    Operation add = Sum;
+        //    Operation subtract = Difference;
+        //    Operation multiply = Product;
 
-            // Get user input
-            Console.WriteLine("Enter the first number:");
-            int num1 = int.Parse(Console.ReadLine());
+        //    // Get user input
+        //    Console.WriteLine("Enter the first number:");
+        //    int num1 = int.Parse(Console.ReadLine());
 
-            Console.WriteLine("Enter the second number:");
-            int num2 = int.Parse(Console.ReadLine());
+        //    Console.WriteLine("Enter the second number:");
+        //    int num2 = int.Parse(Console.ReadLine());
 
-            // Perform operations using delegates
-            Console.WriteLine($"Sum: {add(num1, num2)}");
-            Console.WriteLine($"Difference: {subtract(num1, num2)}");
-            Console.WriteLine($"Product: {multiply(num1, num2)}");
-            Console.ReadLine();
+        //    // Perform operations using delegates
+        //    Console.WriteLine($"Sum: {add(num1, num2)}");
+        //    Console.WriteLine($"Difference: {subtract(num1, num2)}");
+        //    Console.WriteLine($"Product: {multiply(num1, num2)}");
+        //    Console.ReadLine();
 
-            //-----------------------------------------------------------------------------------------------------------------//
+        //    //-----------------------------------------------------------------------------------------------------------------//
 
 
-        }
+        //}
 
 
 

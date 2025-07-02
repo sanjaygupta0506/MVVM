@@ -106,3 +106,39 @@ F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\CaliburnMicro\
 F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\CaliburnMicro\WPFUI\obj\Debug\WPFUI.exe
 F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\CaliburnMicro\WPFUI\obj\Debug\WPFUI.pdb
 F:\ALL IMP INTERVIEW COLLECTION\MVVM\Main Project\MainApplication\CaliburnMicro\WPFUI\obj\Debug\WPFUI.csproj.AssemblyReference.cache
+E:\Development\WPF_MVVM\Main Project\MainApplication\CaliburnMicro\WPFUI\bin\Debug\WPFUI.exe.config
+E:\Development\WPF_MVVM\Main Project\MainApplication\CaliburnMicro\WPFUI\bin\Debug\WPFUI.exe
+E:\Development\WPF_MVVM\Main Project\MainApplication\CaliburnMicro\WPFUI\bin\Debug\WPFUI.pdb
+E:\Development\WPF_MVVM\Main Project\MainApplication\CaliburnMicro\WPFUI\bin\Debug\Caliburn.Micro.Core.dll
+E:\Development\WPF_MVVM\Main Project\MainApplication\CaliburnMicro\WPFUI\bin\Debug\Caliburn.Micro.Platform.Core.dll
+E:\Development\WPF_MVVM\Main Project\MainApplication\CaliburnMicro\WPFUI\bin\Debug\Caliburn.Micro.Platform.dll
+E:\Development\WPF_MVVM\Main Project\MainApplication\CaliburnMicro\WPFUI\bin\Debug\Microsoft.Xaml.Behaviors.dll
+E:\Development\WPF_MVVM\Main Project\MainApplication\CaliburnMicro\WPFUI\bin\Debug\Caliburn.Micro.Core.pdb
+E:\Development\WPF_MVVM\Main Project\MainApplication\CaliburnMicro\WPFUI\bin\Debug\Caliburn.Micro.Core.xml
+E:\Development\WPF_MVVM\Main Project\MainApplication\CaliburnMicro\WPFUI\bin\Debug\Caliburn.Micro.Platform.pdb
+E:\Development\WPF_MVVM\Main Project\MainApplication\CaliburnMicro\WPFUI\bin\Debug\Caliburn.Micro.Platform.xml
+E:\Development\WPF_MVVM\Main Project\MainApplication\CaliburnMicro\WPFUI\bin\Debug\Caliburn.Micro.Platform.Core.pdb
+E:\Development\WPF_MVVM\Main Project\MainApplication\CaliburnMicro\WPFUI\bin\Debug\Caliburn.Micro.Platform.Core.xml
+E:\Development\WPF_MVVM\Main Project\MainApplication\CaliburnMicro\WPFUI\bin\Debug\Microsoft.Xaml.Behaviors.pdb
+E:\Development\WPF_MVVM\Main Project\MainApplication\CaliburnMicro\WPFUI\bin\Debug\Microsoft.Xaml.Behaviors.xml
+E:\Development\WPF_MVVM\Main Project\MainApplication\CaliburnMicro\WPFUI\obj\Debug\WPFUI.csproj.AssemblyReference.cache
+E:\Development\WPF_MVVM\Main Project\MainApplication\CaliburnMicro\WPFUI\obj\Debug\MainWindow.g.cs
+E:\Development\WPF_MVVM\Main Project\MainApplication\CaliburnMicro\WPFUI\obj\Debug\Views\FirstChildView.g.cs
+E:\Development\WPF_MVVM\Main Project\MainApplication\CaliburnMicro\WPFUI\obj\Debug\Views\SecondChildView.g.cs
+E:\Development\WPF_MVVM\Main Project\MainApplication\CaliburnMicro\WPFUI\obj\Debug\Views\ShellView.g.cs
+E:\Development\WPF_MVVM\Main Project\MainApplication\CaliburnMicro\WPFUI\obj\Debug\App.g.cs
+E:\Development\WPF_MVVM\Main Project\MainApplication\CaliburnMicro\WPFUI\obj\Debug\GeneratedInternalTypeHelper.g.cs
+E:\Development\WPF_MVVM\Main Project\MainApplication\CaliburnMicro\WPFUI\obj\Debug\WPFUI_MarkupCompile.cache
+E:\Development\WPF_MVVM\Main Project\MainApplication\CaliburnMicro\WPFUI\obj\Debug\WPFUI_MarkupCompile.lref
+E:\Development\WPF_MVVM\Main Project\MainApplication\CaliburnMicro\WPFUI\obj\Debug\App.baml
+E:\Development\WPF_MVVM\Main Project\MainApplication\CaliburnMicro\WPFUI\obj\Debug\MainWindow.baml
+E:\Development\WPF_MVVM\Main Project\MainApplication\CaliburnMicro\WPFUI\obj\Debug\Views\FirstChildView.baml
+E:\Development\WPF_MVVM\Main Project\MainApplication\CaliburnMicro\WPFUI\obj\Debug\Views\SecondChildView.baml
+E:\Development\WPF_MVVM\Main Project\MainApplication\CaliburnMicro\WPFUI\obj\Debug\Views\ShellView.baml
+E:\Development\WPF_MVVM\Main Project\MainApplication\CaliburnMicro\WPFUI\obj\Debug\WPFUI.g.resources
+E:\Development\WPF_MVVM\Main Project\MainApplication\CaliburnMicro\WPFUI\obj\Debug\WPFUI.Properties.Resources.resources
+E:\Development\WPF_MVVM\Main Project\MainApplication\CaliburnMicro\WPFUI\obj\Debug\WPFUI.csproj.GenerateResource.cache
+E:\Development\WPF_MVVM\Main Project\MainApplication\CaliburnMicro\WPFUI\obj\Debug\WPFUI.csproj.CoreCompileInputs.cache
+E:\Development\WPF_MVVM\Main Project\MainApplication\CaliburnMicro\WPFUI\obj\Debug\WPFUI.csproj.CopyComplete
+E:\Development\WPF_MVVM\Main Project\MainApplication\CaliburnMicro\WPFUI\obj\Debug\WPFUI.exe
+E:\Development\WPF_MVVM\Main Project\MainApplication\CaliburnMicro\WPFUI\obj\Debug\WPFUI.pdb
