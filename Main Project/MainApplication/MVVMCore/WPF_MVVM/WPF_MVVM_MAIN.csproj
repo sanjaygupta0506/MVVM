@@ -343,6 +343,10 @@
     <Compile Include="8. Interview\TwoWay_Binding\View\TwoWayBinding.xaml.cs">
       <DependentUpon>TwoWayBinding.xaml</DependentUpon>
     </Compile>
+    <Compile Include="8. Interview\ValueConvertor\UpperCaseConverter.cs" />
+    <Compile Include="8. Interview\ValueConvertor\UpperCaseConverterUI.xaml.cs">
+      <DependentUpon>UpperCaseConverterUI.xaml</DependentUpon>
+    </Compile>
     <Compile Include="9. Security\AppSecuritySample.xaml.cs">
       <DependentUpon>AppSecuritySample.xaml</DependentUpon>
     </Compile>
@@ -737,6 +741,10 @@
     <Page Include="8. Interview\TwoWay_Binding\View\TwoWayBinding.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
+    </Page>
+    <Page Include="8. Interview\ValueConvertor\UpperCaseConverterUI.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="9. Security\AppSecuritySample.xaml">
       <Generator>MSBuild:Compile</Generator>

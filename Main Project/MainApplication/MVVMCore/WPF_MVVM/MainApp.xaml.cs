@@ -75,6 +75,7 @@ using MainApplication.WPF_MVVM;
 using MVVMCore.WPF_MVVM.Challanges;
 using WPF_MVVM.View;
 using MainApplication.SecuritySample;
+using MainApplication.WPF_MVVM._8._Interview.ValueConvertor;
 
 namespace MVVMCore
 {
@@ -856,6 +857,14 @@ namespace MVVMCore
             ed.ShowInTaskbar = false;
             ed.Owner = Application.Current.MainWindow;
             ed.Show();
+        }
+
+        private void x_UpperCaseConvertor_Click(object sender, RoutedEventArgs e)
+        {
+            UpperCaseConverterUI uccui = new UpperCaseConverterUI();
+            uccui.ShowInTaskbar = false;
+            uccui.Owner = Application.Current.MainWindow;
+            uccui.Show();
         }
     }
 }

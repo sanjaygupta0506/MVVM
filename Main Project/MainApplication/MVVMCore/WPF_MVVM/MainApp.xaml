@@ -340,6 +340,8 @@
                     <MenuItem Name="x_CustomControl" Header="Custom Control" Click="x_CustomControl_Click"/>
                     <Separator />
                     <MenuItem Name="x_TwoWayBinding" Header="TwoWay Binding" Click="x_TwoWayBinding_Click"/>
+                    <Separator />
+                    <MenuItem Name="x_UpperCaseConvertor" Header="Upper Case Convertor" Click="x_UpperCaseConvertor_Click"/>
                  </MenuItem>
 
                 <MenuItem Name="x_AppSec" Header="Application Security">

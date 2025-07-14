@@ -530,3 +530,5 @@ E:\Development\WPF_MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug
 E:\Development\WPF_MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\WPF_MVVM_MAIN.csproj.CopyComplete
 E:\Development\WPF_MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\WPF_MVVM.exe
 E:\Development\WPF_MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\WPF_MVVM.pdb
+E:\Development\WPF_MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\8. Interview\ValueConvertor\UpperCaseConverterUI.g.cs
+E:\Development\WPF_MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\8. Interview\ValueConvertor\UpperCaseConverterUI.baml
