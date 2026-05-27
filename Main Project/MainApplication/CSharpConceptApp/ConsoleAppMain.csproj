@@ -78,9 +78,9 @@
     <Compile Include="CSharpProgramMain\Main_Concept\25. Using_Statement.cs" />
     <Compile Include="CSharpProgramMain\Main_Concept\28. Value_Type.cs" />
     <Compile Include="DesignPatternProgramMain\Design Pattern\SingletonClass.cs" />
-    <Compile Include="InterviewMostlyAsked\AllArrayProgram.cs" />
+    <Compile Include="InterviewMostlyAsked\ArrayProgram.cs" />
     <Compile Include="InterviewMostlyAsked\MostlyAsked.cs" />
-    <Compile Include="InterviewMostlyAsked\StringManipulation_All.cs" />
+    <Compile Include="InterviewMostlyAsked\StringManipulation.cs" />
     <Compile Include="InterviewMostlyAsked\AskedInInterview\MixProgram.cs" />
     <Compile Include="InterviewMostlyAsked\AskedInInterview\ReadOnlyExample.cs" />
     <Compile Include="InterviewMostlyAsked\FileManipulation\ReadingTextFile.cs" />
@@ -142,11 +142,16 @@
     <Compile Include="CSharpProgramMain\Main_Concept\Collection\Array\5. TwoDimensionalAraywithData.cs" />
     <Compile Include="CSharpProgramMain\Main_Concept\Tuple\32. TupleExample1.cs" />
     <Compile Include="CSharpProgramMain\Main_Concept\Tuple\33. TupleExample2.cs" />
+    <Compile Include="Solid_Principles\1. SRP\OrderService.cs" />
+    <Compile Include="Solid_Principles\1. SRP\SRPOrderService.cs" />
+    <Compile Include="Solid_Principles\3. LSP\Rectangle.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Solid_Principles\2. OCP\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

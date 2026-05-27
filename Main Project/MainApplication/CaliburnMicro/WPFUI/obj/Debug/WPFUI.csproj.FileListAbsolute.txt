@@ -139,6 +139,6 @@ E:\Development\WPF_MVVM\Main Project\MainApplication\CaliburnMicro\WPFUI\obj\Deb
 E:\Development\WPF_MVVM\Main Project\MainApplication\CaliburnMicro\WPFUI\obj\Debug\WPFUI.Properties.Resources.resources
 E:\Development\WPF_MVVM\Main Project\MainApplication\CaliburnMicro\WPFUI\obj\Debug\WPFUI.csproj.GenerateResource.cache
 E:\Development\WPF_MVVM\Main Project\MainApplication\CaliburnMicro\WPFUI\obj\Debug\WPFUI.csproj.CoreCompileInputs.cache
-E:\Development\WPF_MVVM\Main Project\MainApplication\CaliburnMicro\WPFUI\obj\Debug\WPFUI.csproj.CopyComplete
+E:\Development\WPF_MVVM\Main Project\MainApplication\CaliburnMicro\WPFUI\obj\Debug\WPFUI.csproj.Up2Date
 E:\Development\WPF_MVVM\Main Project\MainApplication\CaliburnMicro\WPFUI\obj\Debug\WPFUI.exe
 E:\Development\WPF_MVVM\Main Project\MainApplication\CaliburnMicro\WPFUI\obj\Debug\WPFUI.pdb

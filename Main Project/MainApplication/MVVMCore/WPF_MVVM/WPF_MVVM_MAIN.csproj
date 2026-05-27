@@ -287,15 +287,24 @@
     <Compile Include="4. Design Pattern\Singletons\Pattern2\Singleton_Types.xaml.cs">
       <DependentUpon>Singleton_Types.xaml</DependentUpon>
     </Compile>
-    <Compile Include="6. API\Rest API\WPFRestAPI.xaml.cs">
+    <Compile Include="6. API\Rest API\Model\PostModel.cs" />
+    <Compile Include="6. API\Rest API\Model\UserModel.cs" />
+    <Compile Include="6. API\Rest API\Service\PostService.cs" />
+    <Compile Include="6. API\Rest API\Service\UserService.cs" />
+    <Compile Include="6. API\Rest API\ViewModel\PostViewModel.cs" />
+    <Compile Include="6. API\Rest API\ViewModel\UserViewModel.cs" />
+    <Compile Include="6. API\Rest API\View\UserMain.xaml.cs">
+      <DependentUpon>UserMain.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="6. API\Rest API\View\WPFRestAPI.xaml.cs">
       <DependentUpon>WPFRestAPI.xaml</DependentUpon>
     </Compile>
-    <Compile Include="6. API\Web API\WPFMVVMWebAPI.xaml.cs">
+    <Compile Include="6. API\Web API\View\WPFMVVMWebAPI.xaml.cs">
       <DependentUpon>WPFMVVMWebAPI.xaml</DependentUpon>
     </Compile>
-    <Compile Include="6. API\Web API\WPFMVVMWebAPIModel.cs" />
-    <Compile Include="6. API\Web API\WPFMVVMWebAPIViewModel.cs" />
-    <Compile Include="6. API\Web API\WPFWithWebAPI.xaml.cs">
+    <Compile Include="6. API\Web API\Model\WPFMVVMWebAPIModel.cs" />
+    <Compile Include="6. API\Web API\Model\WPFMVVMWebAPIViewModel.cs" />
+    <Compile Include="6. API\Web API\View\WPFWithWebAPI.xaml.cs">
       <DependentUpon>WPFWithWebAPI.xaml</DependentUpon>
     </Compile>
     <Compile Include="7. Assignment\Challanges\SingleClickCheckboxOnGrid.xaml.cs">
@@ -338,6 +347,12 @@
       <DependentUpon>CustomControl.xaml</DependentUpon>
     </Compile>
     <Compile Include="8. Interview\CustomControl\CustomLabelControl.cs" />
+    <Compile Include="8. Interview\MostlyAsked_Coding\DataTemplateExample.xaml.cs">
+      <DependentUpon>DataTemplateExample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="8. Interview\MostlyAsked_Coding\PropertyTriggerExample.xaml.cs">
+      <DependentUpon>PropertyTriggerExample.xaml</DependentUpon>
+    </Compile>
     <Compile Include="8. Interview\TwoWay_Binding\Model\Person.cs" />
     <Compile Include="8. Interview\TwoWay_Binding\ViewModel\PersonViewModel.cs" />
     <Compile Include="8. Interview\TwoWay_Binding\View\TwoWayBinding.xaml.cs">
@@ -347,21 +362,25 @@
     <Compile Include="8. Interview\ValueConvertor\UpperCaseConverterUI.xaml.cs">
       <DependentUpon>UpperCaseConverterUI.xaml</DependentUpon>
     </Compile>
-    <Compile Include="9. Security\AppSecuritySample.xaml.cs">
+    <Compile Include="9.  Security\AppSecuritySample.xaml.cs">
       <DependentUpon>AppSecuritySample.xaml</DependentUpon>
     </Compile>
-    <Compile Include="9. Security\Encrypt_Decrypt.xaml.cs">
+    <Compile Include="9.  Security\Encrypt_Decrypt.xaml.cs">
       <DependentUpon>Encrypt_Decrypt.xaml</DependentUpon>
     </Compile>
-    <Compile Include="9. Security\Models\HashingModel.cs" />
-    <Compile Include="9. Security\SecurityClasses\SecurityControl.cs" />
-    <Compile Include="9. Security\SecurityClasses\SecurityViewModelBase.cs" />
-    <Compile Include="9. Security\SecurityClasses\XAMLControlInfo.cs" />
-    <Compile Include="9. Security\UserControls\EmployeeControl.xaml.cs">
+    <Compile Include="9.  Security\Models\HashingModel.cs" />
+    <Compile Include="9.  Security\SecurityClasses\SecurityControl.cs" />
+    <Compile Include="9.  Security\SecurityClasses\SecurityViewModelBase.cs" />
+    <Compile Include="9.  Security\SecurityClasses\XAMLControlInfo.cs" />
+    <Compile Include="9.  Security\UserControls\EmployeeControl.xaml.cs">
       <DependentUpon>EmployeeControl.xaml</DependentUpon>
     </Compile>
-    <Compile Include="9. Security\ViewModels\EmployeeViewModel.cs" />
-    <Compile Include="9. Security\ViewModels\HashingViewModel.cs" />
+    <Compile Include="9.  Security\ViewModels\EmployeeViewModel.cs" />
+    <Compile Include="9.  Security\ViewModels\HashingViewModel.cs" />
+    <Compile Include="9. A MVVMHotTopics\ViewModels\MainMVVMViewModel.cs" />
+    <Compile Include="9. A MVVMHotTopics\Views\MVVMDemo.xaml.cs">
+      <DependentUpon>MVVMDemo.xaml</DependentUpon>
+    </Compile>
     <Compile Include="EnumClass.cs" />
     <Compile Include="4. Design Pattern\Singletons\EnumHelper.cs" />
     <Compile Include="4. Design Pattern\Deppendency_Injection\BackGroundWorkerExample.xaml.cs">
@@ -670,15 +689,19 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="6. API\Rest API\WPFRestAPI.xaml">
+    <Page Include="6. API\Rest API\View\UserMain.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="6. API\Web API\WPFMVVMWebAPI.xaml">
+    <Page Include="6. API\Rest API\View\WPFRestAPI.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="6. API\Web API\WPFWithWebAPI.xaml">
+    <Page Include="6. API\Web API\View\WPFMVVMWebAPI.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="6. API\Web API\View\WPFWithWebAPI.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
@@ -738,6 +761,14 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
+    <Page Include="8. Interview\MostlyAsked_Coding\DataTemplateExample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="8. Interview\MostlyAsked_Coding\PropertyTriggerExample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="8. Interview\TwoWay_Binding\View\TwoWayBinding.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -746,17 +777,21 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="9. Security\AppSecuritySample.xaml">
+    <Page Include="9.  Security\AppSecuritySample.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="9. Security\Encrypt_Decrypt.xaml">
+    <Page Include="9.  Security\Encrypt_Decrypt.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="9. Security\UserControls\EmployeeControl.xaml">
+    <Page Include="9.  Security\UserControls\EmployeeControl.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
+    </Page>
+    <Page Include="9. A MVVMHotTopics\Views\MVVMDemo.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="_CommonUtils\ResourceDictionaries\CommonComponentStyle.xaml">
       <Generator>MSBuild:Compile</Generator>
@@ -1371,6 +1406,7 @@
   <ItemGroup>
     <Resource Include="_CommonUtils\Images\Warning.png" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="..\..\packages\CommunityToolkit.Mvvm.8.2.2\build\netstandard2.0\CommunityToolkit.Mvvm.targets" Condition="Exists('..\..\packages\CommunityToolkit.Mvvm.8.2.2\build\netstandard2.0\CommunityToolkit.Mvvm.targets')" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

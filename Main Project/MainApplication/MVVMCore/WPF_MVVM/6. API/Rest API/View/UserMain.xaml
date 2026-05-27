@@ -1,0 +1,19 @@
+﻿<ui:WslDialog  xmlns:ui="clr-namespace:Keysight.Ccl.Wsl.UI;assembly=Keysight.Ccl.Wsl" 
+               x:Class="MainApplication.WPF_MVVM._6._API.Rest_API.View.UserMain"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MainApplication.WPF_MVVM._6._API.Rest_API.View"
+        mc:Ignorable="d"
+        Title="WPF With Rest API Example 2" Height="450" Width="600" Left="8" Top="62" MinHeight="200">
+    <Grid>
+        <DataGrid ItemsSource="{Binding Users}" AutoGenerateColumns="False" Margin="10">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="ID" Binding="{Binding Id}" Width="50"/>
+                <DataGridTextColumn Header="Name" Binding="{Binding Name}" Width="200"/>
+                <DataGridTextColumn Header="Email" Binding="{Binding Email}" Width="200"/>
+            </DataGrid.Columns>
+        </DataGrid>
+    </Grid>
+</ui:WslDialog>

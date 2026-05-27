@@ -76,6 +76,9 @@ using MVVMCore.WPF_MVVM.Challanges;
 using WPF_MVVM.View;
 using MainApplication.SecuritySample;
 using MainApplication.WPF_MVVM._8._Interview.ValueConvertor;
+using MainApplication.WPF_MVVM._6._API.Rest_API.View;
+using MainApplication.WPF_MVVM._9._A_MVVMHotTopics.Views;
+using MainApplication.WPF_MVVM._8._Interview.MostlyAsked_Coding;
 
 namespace MVVMCore
 {
@@ -865,6 +868,30 @@ namespace MVVMCore
             uccui.ShowInTaskbar = false;
             uccui.Owner = Application.Current.MainWindow;
             uccui.Show();
+        }
+
+        private void x_RestAPIE2_Click(object sender, RoutedEventArgs e)
+        {
+            UserMain userMain = new UserMain();
+            userMain.ShowInTaskbar = false;
+            userMain.Owner = Application.Current.MainWindow;
+            userMain.Show();
+        }
+
+        private void MVVM_Click(object sender, RoutedEventArgs e)
+        {
+            MVVMDemo mvvmDemo = new MVVMDemo();
+            mvvmDemo.ShowInTaskbar = false;
+            mvvmDemo.Owner = Application.Current.MainWindow;
+            mvvmDemo.Show();
+        }
+
+        private void x_ProprtyTrigger_Click(object sender, RoutedEventArgs e)
+        {
+            PropertyTriggerExample propertyTriggerExample = new PropertyTriggerExample();
+            propertyTriggerExample.ShowInTaskbar = false;
+            propertyTriggerExample.Owner = Application.Current.MainWindow;
+            propertyTriggerExample.Show();
         }
     }
 }

@@ -27,6 +27,10 @@
                 <!--MVVM Basic-->
                 <MenuItem Name="x_MVVMBasic" Header="MVVM Basic">
 
+                    <MenuItem Name="MVVMHT" Header="MVVMHotTopics">
+                        <MenuItem Name="MVVM" Header="MVVM" Click="MVVM_Click"/>
+                    </MenuItem>
+                    <Separator />
                     <MenuItem Name="XamlExample" Header="Xaml" Click="XamlExample_Click"/>
                     <Separator />
 
@@ -287,9 +291,12 @@
                     <Separator />
                     <MenuItem Name="x_WebaAPI_1" Header="WebaAPI 2" Click="x_WebaAPI_1_Click"/>
                     <Separator />
-                    <MenuItem Name="x_RestAPI" Header="Rest API" Click="x_RestAPI_Click"/>
+                    <MenuItem Name="x_RestAPI" Header="Rest API 1" Click="x_RestAPI_Click"/>
                     <Separator />
-                    
+
+                    <MenuItem Name="x_RestAPIE2" Header="Rest API 2" Click="x_RestAPIE2_Click"/>
+                    <Separator />
+
                     <MenuItem Name="x_WCF" Header="WCF" Click="x_WCF_Click"/>
                     <Separator />
 
@@ -337,6 +344,8 @@
 
                 <!--Interview-->
                 <MenuItem Name="x_Interview" Header="Interview">
+                    <MenuItem Name="x_ProprtyTrigger" Header="Proprty Trigger" Click="x_ProprtyTrigger_Click"/>
+                    <Separator />
                     <MenuItem Name="x_CustomControl" Header="Custom Control" Click="x_CustomControl_Click"/>
                     <Separator />
                     <MenuItem Name="x_TwoWayBinding" Header="TwoWay Binding" Click="x_TwoWayBinding_Click"/>

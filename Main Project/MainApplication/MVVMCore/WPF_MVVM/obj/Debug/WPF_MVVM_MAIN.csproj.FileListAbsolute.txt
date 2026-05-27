@@ -322,8 +322,9 @@ E:\Development\WPF_MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\bin\Debug
 E:\Development\WPF_MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\bin\Debug\Caliburn.Micro.Platform.Core.pdb
 E:\Development\WPF_MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\bin\Debug\Caliburn.Micro.Platform.Core.xml
 E:\Development\WPF_MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\WPF_MVVM_MAIN.csproj.AssemblyReference.cache
+E:\Development\WPF_MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\WPF_MVVM_MAIN.csproj.SuggestedBindingRedirects.cache
 E:\Development\WPF_MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\WPF_MVVM.exe.config
-E:\Development\WPF_MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\9. Security\UserControls\EmployeeControl.baml
+E:\Development\WPF_MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\9.  Security\UserControls\EmployeeControl.baml
 E:\Development\WPF_MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\_CommonUtils\ResourceDictionaries\SolidColorBrushDark.baml
 E:\Development\WPF_MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\_CommonUtils\ResourceDictionaries\SolidColorBrushLight.baml
 E:\Development\WPF_MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\_CommonUtils\Comman\SettingsWindow.baml
@@ -356,9 +357,10 @@ E:\Development\WPF_MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug
 E:\Development\WPF_MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\3. MultiThreading\SingleThread.g.cs
 E:\Development\WPF_MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\5. SOLID Princliple\Views\OCP.g.cs
 E:\Development\WPF_MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\5. SOLID Princliple\Views\SRP.g.cs
-E:\Development\WPF_MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\6. API\Rest API\WPFRestAPI.g.cs
-E:\Development\WPF_MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\6. API\Web API\WPFMVVMWebAPI.g.cs
-E:\Development\WPF_MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\6. API\Web API\WPFWithWebAPI.g.cs
+E:\Development\WPF_MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\6. API\Rest API\View\UserMain.g.cs
+E:\Development\WPF_MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\6. API\Rest API\View\WPFRestAPI.g.cs
+E:\Development\WPF_MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\6. API\Web API\View\WPFMVVMWebAPI.g.cs
+E:\Development\WPF_MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\6. API\Web API\View\WPFWithWebAPI.g.cs
 E:\Development\WPF_MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\7. Assignment\Challanges\SingleClickCheckboxOnGrid.g.cs
 E:\Development\WPF_MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\7. Assignment\Challanges\CombowithEnum.g.cs
 E:\Development\WPF_MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\7. Assignment\Challanges\Enabled_Disabled_Button_WRT_Property.g.cs
@@ -372,10 +374,14 @@ E:\Development\WPF_MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug
 E:\Development\WPF_MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\7. Assignment\CompanyWise\Stryker.g.cs
 E:\Development\WPF_MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\7. Assignment\Security\Encryption_Descryption.g.cs
 E:\Development\WPF_MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\8. Interview\CustomControl\CustomControl.g.cs
+E:\Development\WPF_MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\8. Interview\MostlyAsked_Coding\DataTemplateExample.g.cs
+E:\Development\WPF_MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\8. Interview\MostlyAsked_Coding\PropertyTriggerExample.g.cs
 E:\Development\WPF_MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\8. Interview\TwoWay_Binding\View\TwoWayBinding.g.cs
-E:\Development\WPF_MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\9. Security\AppSecuritySample.g.cs
-E:\Development\WPF_MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\9. Security\Encrypt_Decrypt.g.cs
-E:\Development\WPF_MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\9. Security\UserControls\EmployeeControl.g.cs
+E:\Development\WPF_MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\8. Interview\ValueConvertor\UpperCaseConverterUI.g.cs
+E:\Development\WPF_MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\9.  Security\AppSecuritySample.g.cs
+E:\Development\WPF_MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\9.  Security\Encrypt_Decrypt.g.cs
+E:\Development\WPF_MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\9.  Security\UserControls\EmployeeControl.g.cs
+E:\Development\WPF_MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\9. A MVVMHotTopics\Views\MVVMDemo.g.cs
 E:\Development\WPF_MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\_CommonUtils\Comman\SettingsWindow.g.cs
 E:\Development\WPF_MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\2. WPFMVVMAdvance\A13. AttachedPropertySample\AttachedPropertyExample.g.cs
 E:\Development\WPF_MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\2. WPFMVVMAdvance\A12. DependencyPropertySample\CustomDependencyProperty.g.cs
@@ -455,9 +461,10 @@ E:\Development\WPF_MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug
 E:\Development\WPF_MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\3. MultiThreading\SingleThread.baml
 E:\Development\WPF_MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\5. SOLID Princliple\Views\OCP.baml
 E:\Development\WPF_MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\5. SOLID Princliple\Views\SRP.baml
-E:\Development\WPF_MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\6. API\Rest API\WPFRestAPI.baml
-E:\Development\WPF_MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\6. API\Web API\WPFMVVMWebAPI.baml
-E:\Development\WPF_MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\6. API\Web API\WPFWithWebAPI.baml
+E:\Development\WPF_MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\6. API\Rest API\View\UserMain.baml
+E:\Development\WPF_MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\6. API\Rest API\View\WPFRestAPI.baml
+E:\Development\WPF_MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\6. API\Web API\View\WPFMVVMWebAPI.baml
+E:\Development\WPF_MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\6. API\Web API\View\WPFWithWebAPI.baml
 E:\Development\WPF_MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\7. Assignment\Challanges\SingleClickCheckboxOnGrid.baml
 E:\Development\WPF_MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\7. Assignment\Challanges\CombowithEnum.baml
 E:\Development\WPF_MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\7. Assignment\Challanges\Enabled_Disabled_Button_WRT_Property.baml
@@ -472,9 +479,13 @@ E:\Development\WPF_MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug
 E:\Development\WPF_MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\7. Assignment\Security\Encryption_Descryption.baml
 E:\Development\WPF_MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\8. Interview\CustomControl\CustomControl.baml
 E:\Development\WPF_MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\8. Interview\CustomControl\Theme\Generics.baml
+E:\Development\WPF_MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\8. Interview\MostlyAsked_Coding\DataTemplateExample.baml
+E:\Development\WPF_MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\8. Interview\MostlyAsked_Coding\PropertyTriggerExample.baml
 E:\Development\WPF_MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\8. Interview\TwoWay_Binding\View\TwoWayBinding.baml
-E:\Development\WPF_MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\9. Security\AppSecuritySample.baml
-E:\Development\WPF_MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\9. Security\Encrypt_Decrypt.baml
+E:\Development\WPF_MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\8. Interview\ValueConvertor\UpperCaseConverterUI.baml
+E:\Development\WPF_MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\9.  Security\AppSecuritySample.baml
+E:\Development\WPF_MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\9.  Security\Encrypt_Decrypt.baml
+E:\Development\WPF_MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\9. A MVVMHotTopics\Views\MVVMDemo.baml
 E:\Development\WPF_MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\_CommonUtils\ResourceDictionaries\CommonComponentStyle.baml
 E:\Development\WPF_MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\_CommonUtils\ResourceDictionaries\Generic.baml
 E:\Development\WPF_MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\2. WPFMVVMAdvance\A13. AttachedPropertySample\AttachedPropertyExample.baml
@@ -527,8 +538,6 @@ E:\Development\WPF_MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug
 E:\Development\WPF_MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\MainApplication.WPF_MVVM.Properties.Resources.resources
 E:\Development\WPF_MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\WPF_MVVM_MAIN.csproj.GenerateResource.cache
 E:\Development\WPF_MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\WPF_MVVM_MAIN.csproj.CoreCompileInputs.cache
-E:\Development\WPF_MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\WPF_MVVM_MAIN.csproj.CopyComplete
+E:\Development\WPF_MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\WPF_MVVM.736D82D2.Up2Date
 E:\Development\WPF_MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\WPF_MVVM.exe
 E:\Development\WPF_MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\WPF_MVVM.pdb
-E:\Development\WPF_MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\8. Interview\ValueConvertor\UpperCaseConverterUI.g.cs
-E:\Development\WPF_MVVM\Main Project\MainApplication\MVVMCore\WPF_MVVM\obj\Debug\8. Interview\ValueConvertor\UpperCaseConverterUI.baml
