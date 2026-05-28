@@ -1,0 +1,17 @@
+﻿<ui:WslDialog  xmlns:ui="clr-namespace:Keysight.Ccl.Wsl.UI;assembly=Keysight.Ccl.Wsl" x:Class="MainApplication.WPF_MVVM._8._Interview.ValueConvertor.UpperCaseConverterUI"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MainApplication.WPF_MVVM._8._Interview.ValueConvertor"
+        mc:Ignorable="d"
+        Title="UpperCaseConverterUI" Height="450" Width="800" Left="8" Top="62">
+    <Window.Resources>
+        <local:UpperCaseConverter x:Key="MyConverter"/>
+    </Window.Resources>
+    <Grid>
+        <!--<TextBlock Text="{Binding Name, Converter={StaticResource UpperCaseConvertor}}"></TextBlock>-->
+        <TextBlock Width="100" Text="{Binding Name, Converter={StaticResource MyConverter}}" />
+
+    </Grid>
+</ui:WslDialog>

@@ -248,120 +248,6 @@
     <Compile Include="2. WPFMVVMAdvance\B2.UserControlsVsCustomControl\WPFCustomControls.xaml.cs">
       <DependentUpon>WPFCustomControls.xaml</DependentUpon>
     </Compile>
-    <Compile Include="3. MultiThreading\WPFDispatcherExample.xaml.cs">
-      <DependentUpon>WPFDispatcherExample.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="4. Design Pattern\Abstract\AbstractFactory.xaml.cs">
-      <DependentUpon>AbstractFactory.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="4. Design Pattern\Abstract\Animal.cs" />
-    <Compile Include="4. Design Pattern\Abstract\AnimalFactory.cs" />
-    <Compile Include="4. Design Pattern\Abstract\Cat.cs" />
-    <Compile Include="4. Design Pattern\Abstract\MoneyBackFactory.cs" />
-    <Compile Include="4. Design Pattern\Deppendency_Injection\Constructor\DIContructor.xaml.cs">
-      <DependentUpon>DIContructor.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="4. Design Pattern\Deppendency_Injection\Constructor\EmployeeBAL.cs" />
-    <Compile Include="4. Design Pattern\Deppendency_Injection\Constructor\EmployeeDAL.cs" />
-    <Compile Include="4. Design Pattern\Deppendency_Injection\Method\DIMethod.xaml.cs">
-      <DependentUpon>DIMethod.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="4. Design Pattern\Deppendency_Injection\Method\EmployeeBAL.cs" />
-    <Compile Include="4. Design Pattern\Deppendency_Injection\Method\EmployeeDAL.cs" />
-    <Compile Include="4. Design Pattern\Deppendency_Injection\Property\DIProperty.xaml.cs">
-      <DependentUpon>DIProperty.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="4. Design Pattern\Deppendency_Injection\Property\EmployeeBAL.cs" />
-    <Compile Include="4. Design Pattern\Deppendency_Injection\Property\EmployeeDAL.cs" />
-    <Compile Include="4. Design Pattern\Factory_Method\CreditCard.cs" />
-    <Compile Include="4. Design Pattern\Factory_Method\CreditCardFactory.cs" />
-    <Compile Include="4. Design Pattern\Factory_Method\FactoryMethod.xaml.cs">
-      <DependentUpon>FactoryMethod.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="4. Design Pattern\Factory_Method\MoneyBackFactory.cs" />
-    <Compile Include="4. Design Pattern\Factory_Method\Platinum.cs" />
-    <Compile Include="4. Design Pattern\Singletons\Patten1\ApplicationState.cs" />
-    <Compile Include="4. Design Pattern\Singletons\Patten1\SingletonDemo.xaml.cs">
-      <DependentUpon>SingletonDemo.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="4. Design Pattern\Singletons\Pattern2\Singleton_Types.xaml.cs">
-      <DependentUpon>Singleton_Types.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="6. API\Rest API\Model\PostModel.cs" />
-    <Compile Include="6. API\Rest API\Model\UserModel.cs" />
-    <Compile Include="6. API\Rest API\Service\PostService.cs" />
-    <Compile Include="6. API\Rest API\Service\UserService.cs" />
-    <Compile Include="6. API\Rest API\ViewModel\PostViewModel.cs" />
-    <Compile Include="6. API\Rest API\ViewModel\UserViewModel.cs" />
-    <Compile Include="6. API\Rest API\View\UserMain.xaml.cs">
-      <DependentUpon>UserMain.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="6. API\Rest API\View\WPFRestAPI.xaml.cs">
-      <DependentUpon>WPFRestAPI.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="6. API\Web API\View\WPFMVVMWebAPI.xaml.cs">
-      <DependentUpon>WPFMVVMWebAPI.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="6. API\Web API\Model\WPFMVVMWebAPIModel.cs" />
-    <Compile Include="6. API\Web API\Model\WPFMVVMWebAPIViewModel.cs" />
-    <Compile Include="6. API\Web API\View\WPFWithWebAPI.xaml.cs">
-      <DependentUpon>WPFWithWebAPI.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="7. Assignment\Challanges\SingleClickCheckboxOnGrid.xaml.cs">
-      <DependentUpon>SingleClickCheckboxOnGrid.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="7. Assignment\Challanges\CombowithEnum.xaml.cs">
-      <DependentUpon>CombowithEnum.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="7. Assignment\Challanges\Enabled_Disabled_Button_WRT_Property.xaml.cs">
-      <DependentUpon>Enabled_Disabled_Button_WRT_Property.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="7. Assignment\Challanges\ScrollBar.xaml.cs">
-      <DependentUpon>ScrollBar.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="7. Assignment\Challanges\TitleBar.xaml.cs">
-      <DependentUpon>TitleBar.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="7. Assignment\Common\BtnEnableOnTextChange.xaml.cs">
-      <DependentUpon>BtnEnableOnTextChange.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="7. Assignment\Common\ComboColorChangeFromRadio.xaml.cs">
-      <DependentUpon>ComboColorChangeFromRadio.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="7. Assignment\Common\FirstNameLastNameinCombo.xaml.cs">
-      <DependentUpon>FirstNameLastNameinCombo.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="7. Assignment\Common\ListToRadioButton.xaml.cs">
-      <DependentUpon>ListToRadioButton.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="7. Assignment\Common\TreeViewColorChangeOnRadio.xaml.cs">
-      <DependentUpon>TreeViewColorChangeOnRadio.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="7. Assignment\CompanyWise\Stryker.xaml.cs">
-      <DependentUpon>Stryker.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="7. Assignment\Security\Encryption_Descryption.xaml.cs">
-      <DependentUpon>Encryption_Descryption.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="8. Interview\CustomControl\CustomControl.xaml.cs">
-      <DependentUpon>CustomControl.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="8. Interview\CustomControl\CustomLabelControl.cs" />
-    <Compile Include="8. Interview\MostlyAsked_Coding\DataTemplateExample.xaml.cs">
-      <DependentUpon>DataTemplateExample.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="8. Interview\MostlyAsked_Coding\PropertyTriggerExample.xaml.cs">
-      <DependentUpon>PropertyTriggerExample.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="8. Interview\TwoWay_Binding\Model\Person.cs" />
-    <Compile Include="8. Interview\TwoWay_Binding\ViewModel\PersonViewModel.cs" />
-    <Compile Include="8. Interview\TwoWay_Binding\View\TwoWayBinding.xaml.cs">
-      <DependentUpon>TwoWayBinding.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="8. Interview\ValueConvertor\UpperCaseConverter.cs" />
-    <Compile Include="8. Interview\ValueConvertor\UpperCaseConverterUI.xaml.cs">
-      <DependentUpon>UpperCaseConverterUI.xaml</DependentUpon>
-    </Compile>
     <Compile Include="9.  Security\AppSecuritySample.xaml.cs">
       <DependentUpon>AppSecuritySample.xaml</DependentUpon>
     </Compile>
@@ -381,28 +267,7 @@
     <Compile Include="9. A MVVMHotTopics\Views\MVVMDemo.xaml.cs">
       <DependentUpon>MVVMDemo.xaml</DependentUpon>
     </Compile>
-    <Compile Include="EnumClass.cs" />
-    <Compile Include="4. Design Pattern\Singletons\EnumHelper.cs" />
-    <Compile Include="4. Design Pattern\Deppendency_Injection\BackGroundWorkerExample.xaml.cs">
-      <DependentUpon>BackGroundWorkerExample.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="3. MultiThreading\DispatcherExample.xaml.cs">
-      <DependentUpon>DispatcherExample.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="3. MultiThreading\SingleThread.xaml.cs">
-      <DependentUpon>SingleThread.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="5. SOLID Princliple\Models\DIP_Logger.cs" />
-    <Compile Include="5. SOLID Princliple\Models\LSP_Account.cs" />
-    <Compile Include="5. SOLID Princliple\Models\ISP_TextDocument.cs" />
-    <Compile Include="5. SOLID Princliple\Models\SRP_Employee.cs" />
-    <Compile Include="5. SOLID Princliple\Models\OCP_Shape.cs" />
-    <Compile Include="5. SOLID Princliple\Views\OCP.xaml.cs">
-      <DependentUpon>OCP.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="5. SOLID Princliple\Views\SRP.xaml.cs">
-      <DependentUpon>SRP.xaml</DependentUpon>
-    </Compile>
+    <Compile Include="_CommonUtils\Comman\EnumClass.cs" />
     <Compile Include="2. WPFMVVMAdvance\A13. AttachedPropertySample\AttachedPropertyExample.xaml.cs">
       <DependentUpon>AttachedPropertyExample.xaml</DependentUpon>
     </Compile>
@@ -445,6 +310,7 @@
       <DependentUpon>DataContextExample.xaml</DependentUpon>
     </Compile>
     <Compile Include="_CommonUtils\Comman\ApplicationContext.cs" />
+    <Compile Include="_CommonUtils\Comman\EnumHelper.cs" />
     <Compile Include="_CommonUtils\Models\ArithmeticConverter.cs" />
     <Compile Include="_CommonUtils\Models\CommandModel.cs" />
     <Compile Include="_CommonUtils\Models\CommandsModel.cs" />
@@ -634,146 +500,6 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="2. WPFMVVMAdvance\B2.UserControlsVsCustomControl\WPFCustomControls.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="3. MultiThreading\WPFDispatcherExample.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="4. Design Pattern\Abstract\AbstractFactory.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="4. Design Pattern\Deppendency_Injection\Constructor\DIContructor.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="4. Design Pattern\Deppendency_Injection\Method\DIMethod.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="4. Design Pattern\Deppendency_Injection\Property\DIProperty.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="4. Design Pattern\Factory_Method\FactoryMethod.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="4. Design Pattern\Singletons\Patten1\SingletonDemo.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="4. Design Pattern\Singletons\Pattern2\Singleton_Types.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="4. Design Pattern\Deppendency_Injection\BackGroundWorkerExample.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="3. MultiThreading\DispatcherExample.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="3. MultiThreading\SingleThread.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="5. SOLID Princliple\Views\OCP.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="5. SOLID Princliple\Views\SRP.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="6. API\Rest API\View\UserMain.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="6. API\Rest API\View\WPFRestAPI.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="6. API\Web API\View\WPFMVVMWebAPI.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="6. API\Web API\View\WPFWithWebAPI.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="7. Assignment\Challanges\SingleClickCheckboxOnGrid.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="7. Assignment\Challanges\CombowithEnum.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="7. Assignment\Challanges\Enabled_Disabled_Button_WRT_Property.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="7. Assignment\Challanges\ScrollBar.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="7. Assignment\Challanges\TitleBar.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="7. Assignment\Common\BtnEnableOnTextChange.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="7. Assignment\Common\ComboColorChangeFromRadio.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="7. Assignment\Common\FirstNameLastNameinCombo.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="7. Assignment\Common\ListToRadioButton.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="7. Assignment\Common\TreeViewColorChangeOnRadio.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="7. Assignment\CompanyWise\Stryker.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="7. Assignment\Security\Encryption_Descryption.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="8. Interview\CustomControl\CustomControl.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="8. Interview\CustomControl\Theme\Generics.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="8. Interview\MostlyAsked_Coding\DataTemplateExample.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="8. Interview\MostlyAsked_Coding\PropertyTriggerExample.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="8. Interview\TwoWay_Binding\View\TwoWayBinding.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="8. Interview\ValueConvertor\UpperCaseConverterUI.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -1041,9 +767,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="7. Assignment\Challanges\Resources\ColumnResizeHeader.png" />
-  </ItemGroup>
-  <ItemGroup>
     <ProjectReference Include="..\..\CaliburnMicro\WPFUI\WPFUI.csproj">
       <Project>{A7F86755-0D79-42D8-AC81-6FE0B8C86C86}</Project>
       <Name>WPFUI</Name>
@@ -1204,51 +927,6 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Images\Warning.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="7. Assignment\Challanges\Resources\CSV_Export.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="7. Assignment\Challanges\Resources\MarkerIcon.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="7. Assignment\Challanges\Resources\PaneCompareIcon.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="7. Assignment\Challanges\Resources\PaneDetailsIcon.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="7. Assignment\Challanges\Resources\PaneHeaderIcon.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="7. Assignment\Challanges\Resources\PaneImageViewIcon.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="7. Assignment\Challanges\Resources\PaneLtssmOverviewIcon.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="7. Assignment\Challanges\Resources\PanePayloadIcon.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="7. Assignment\Challanges\Resources\PanePCIePerformanceOverviewIcon.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="7. Assignment\Challanges\Resources\PaneTestAssertionIcon.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="7. Assignment\Challanges\Resources\PaneTrafficOverviewIcon.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="7. Assignment\Challanges\Resources\PaneTransactionDecodeIcon.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="7. Assignment\Challanges\Resources\SetupIcon.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="7. Assignment\Challanges\Resources\ToolTipsIcon.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="7. Assignment\Challanges\Resources\TriggerIcon.png" />
   </ItemGroup>
   <ItemGroup>
     <Resource Include="_CommonUtils\Images\Cancel_16x16.png" />

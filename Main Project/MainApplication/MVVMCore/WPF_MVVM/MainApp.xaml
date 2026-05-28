@@ -234,131 +234,14 @@
 
                 </MenuItem>
 
-                <!--MVVM Multi-Threading-->
-                <MenuItem Name="X_Thread" Header="Multi-Threading">
-
-                    <MenuItem Name="x_st" Header="Single Thread" Click="x_st_Click" />
-                    <Separator />
-
-                    <MenuItem Name="x_bgThread" Header="Background Thread" Click="x_bgThread_Click" />
-                    <Separator />
-
-                    <MenuItem Name="x_Dispather" Header="Dispatcher" Click="x_Dispather_Click" />
-                    <Separator />
-
-                    <MenuItem Name="x_WPFDispather" Header="WPF Dispatcher" Click="x_WPFDispather_Click" />
-                    <Separator />
-                </MenuItem>
-
-                <!--MVVM Design Patterns-->
-                <MenuItem Name="x_DesignPattern" Header="Design Patterns">
-                    <MenuItem Name="x_SingleTonDP" Header="Singleton Design Pattern " Click="x_SingleTonDP_Click"></MenuItem>
-                    <Separator />
-                    <MenuItem Name="x_SingleTonDType" Header="Singleton Design Pattern Types" Click="x_SingleTonDType_Click"></MenuItem>
-                    <Separator />
-                    <MenuItem Name="x_DependencyInjection" Header="Dependency Injection">
-                        <MenuItem Name="x_DIConstructor" Header="Constructor" Click="x_DIConstructor_Click"/>
-                        <Separator />
-                        <MenuItem Name="x_DIMethod" Header="Method" Click="x_DIMethod_Click" />
-                        <Separator />
-                        <MenuItem Name="x_DIPropety" Header="Propety" Click="x_DIPropety_Click"/>
-                        <Separator />
-                    </MenuItem>
-                    <Separator />
-                    <MenuItem Name="x_FactoryMethod" Header="Factory Method" Click="x_FactoryMethod_Click"/>
-                    <Separator />
-                    <MenuItem Name="x_AbstractFactory" Header="Abstract  Factory" Click="x_AbstractFactory_Click"/>
-                    <Separator />
-                    </MenuItem>
-
-                <!--MVVM SOLID Principles-->
-                <MenuItem Name="X_Solid" Header="SOLID Principles">
-                    <MenuItem Name="x_SR" Header="Single Responsibility" Click="x_SR_Click" ></MenuItem>
-                    <Separator />
-                    <MenuItem Name="x_OC" Header="Open closed" ></MenuItem>
-                    <Separator />
-                    <MenuItem Name="x_LS" Header="Liskov substitution" ></MenuItem>
-                    <Separator />
-                    <MenuItem Name="x_IS" Header="Interface Segregation" ></MenuItem>
-                    <Separator />
-                    <MenuItem Name="x_DI" Header="Dependency Inversion" ></MenuItem>
-
-                </MenuItem>
                 
-                <!--API-->
-                <MenuItem Name="x_API" Header="API">
-                    <MenuItem Name="x_WebaAPI" Header="Web API 1" Click="x_WebaAPI_Click"/>
-                    <Separator />
-                    <MenuItem Name="x_WebaAPI_1" Header="WebaAPI 2" Click="x_WebaAPI_1_Click"/>
-                    <Separator />
-                    <MenuItem Name="x_RestAPI" Header="Rest API 1" Click="x_RestAPI_Click"/>
-                    <Separator />
-
-                    <MenuItem Name="x_RestAPIE2" Header="Rest API 2" Click="x_RestAPIE2_Click"/>
-                    <Separator />
-
-                    <MenuItem Name="x_WCF" Header="WCF" Click="x_WCF_Click"/>
-                    <Separator />
-
-                </MenuItem>
-
-                <!--Assignment-->
-                <MenuItem Name="x_Assignment" Header="Assignment">
-                    <MenuItem Name="x_Challanges" Header="Challanges">
-                        <MenuItem Name="x_Challanges1" Header="Grid Single Click Checkbox" Click="x_Challanges1_Click"/>
-                        <Separator />
-                        <MenuItem Name="x_Challanges2" Header="Enabled Disabled Button WRT Property" Click="x_Challanges2_Click"/>
-                        <Separator />
-                        <MenuItem Name="x_Challanges3" Header="ScrollBar" Click="x_Challanges3_Click"/>
-                        <Separator />
-                        <MenuItem Name="x_Challanges4" Header="TitleBar" Click="x_Challanges4_Click"/>
-                    </MenuItem>
-                    <Separator />
-
-                    <MenuItem Name="x_Comman" Header="Comman">
-                        <MenuItem Name="x_Challanges5" Header="BtnEnableOnTextChange" Click="x_Challanges5_Click"/>
-                        <Separator />
-                        <MenuItem Name="x_Challanges6" Header="ComboColorChangeFromRadio" Click="x_Challanges6_Click"/>
-                        <Separator />
-                        <MenuItem Name="x_Challanges7" Header="FirstNameLastNameinCombo" Click="x_Challanges7_Click"/>
-                        <Separator />
-                        <MenuItem Name="x_Challanges8" Header="ListToRadioButton" Click="x_Challanges8_Click"/>
-                        <Separator />
-                        <MenuItem Name="x_Challanges9" Header="TreeViewColorChangeOnRadio" Click="x_Challanges9_Click"/>
-                    </MenuItem>
-                    <Separator />
-
-                    <MenuItem Name="x_CompanyWise" Header="CompanyWise">
-                        <MenuItem Name="x_Challanges10" Header="Stryker" Click="x_Challanges10_Click"/>
-                    </MenuItem>
-                    <Separator />
-
-                    <MenuItem Name="x_Security" Header="Security">
-                        <MenuItem Name="x_Challanges11" Header="Encryption_Descryption" Click="x_Challanges11_Click"/>
-                        
-                    </MenuItem>
-                   
-
-
-                </MenuItem>
-
-                <!--Interview-->
-                <MenuItem Name="x_Interview" Header="Interview">
-                    <MenuItem Name="x_ProprtyTrigger" Header="Proprty Trigger" Click="x_ProprtyTrigger_Click"/>
-                    <Separator />
-                    <MenuItem Name="x_CustomControl" Header="Custom Control" Click="x_CustomControl_Click"/>
-                    <Separator />
-                    <MenuItem Name="x_TwoWayBinding" Header="TwoWay Binding" Click="x_TwoWayBinding_Click"/>
-                    <Separator />
-                    <MenuItem Name="x_UpperCaseConvertor" Header="Upper Case Convertor" Click="x_UpperCaseConvertor_Click"/>
-                 </MenuItem>
 
                 <MenuItem Name="x_AppSec" Header="Application Security">
                     <MenuItem Name="ApplicationSecurity" Header="Application Security" Click="ApplicationSecurity_Click"/>
                     <Separator />
                     <MenuItem Name="Encrypt_Decrypt" Header="Encrypt Decrypt" Click="Encrypt_Decrypt_Click"/>
                     <Separator />
-                </MenuItem>
+                </MenuItem>-->
 
 
                 <!--MVVM Themes-->

@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{EF0F52E3-BB49-4538-9CD8-EE41045BE355}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>MultiThreading_DesignPatterens_SolidPrinciples</RootNamespace>
+    <AssemblyName>MultiThreading_DesignPatterens_SolidPrinciples</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ActiproSoftware.Docking.Wpf">
+      <HintPath>..\..\Component\Actipro\ActiproSoftware.Docking.Wpf.dll</HintPath>
+    </Reference>
+    <Reference Include="ActiproSoftware.Editors.Interop.DataGrid.Wpf">
+      <HintPath>..\..\Component\Actipro\ActiproSoftware.Editors.Interop.DataGrid.Wpf.dll</HintPath>
+    </Reference>
+    <Reference Include="ActiproSoftware.Editors.Wpf">
+      <HintPath>..\..\Component\Actipro\ActiproSoftware.Editors.Wpf.dll</HintPath>
+    </Reference>
+    <Reference Include="ActiproSoftware.Navigation.Wpf">
+      <HintPath>..\..\Component\Actipro\ActiproSoftware.Navigation.Wpf.dll</HintPath>
+    </Reference>
+    <Reference Include="ActiproSoftware.Ribbon.Wpf">
+      <HintPath>..\..\Component\Actipro\ActiproSoftware.Ribbon.Wpf.dll</HintPath>
+    </Reference>
+    <Reference Include="ActiproSoftware.Shared.Wpf">
+      <HintPath>..\..\Component\Actipro\ActiproSoftware.Shared.Wpf.dll</HintPath>
+    </Reference>
+    <Reference Include="Keysight.Ccl.Wsl">
+      <HintPath>..\..\Component\Keysight\Keysight.Ccl.Wsl.dll</HintPath>
+    </Reference>
+    <Reference Include="MahApps.Metro">
+      <HintPath>..\..\Component\Keysight\MahApps.Metro.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="WpfAnimatedGif">
+      <HintPath>..\..\Component\Keysight\WpfAnimatedGif.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Page Include="3. MultiThreading\DispatcherExample.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="3. MultiThreading\SingleThread.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="3. MultiThreading\WPFDispatcherExample.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="4. Design Pattern\Abstract\AbstractFactory.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="4. Design Pattern\Deppendency_Injection\BackGroundWorkerExample.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="4. Design Pattern\Deppendency_Injection\Constructor\DIContructor.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="4. Design Pattern\Deppendency_Injection\Method\DIMethod.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="4. Design Pattern\Deppendency_Injection\Property\DIProperty.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="4. Design Pattern\Factory_Method\FactoryMethod.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="4. Design Pattern\Singletons\Patten1\SingletonDemo.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="4. Design Pattern\Singletons\Pattern2\Singleton_Types.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="5. SOLID Princliple\Views\OCP.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="5. SOLID Princliple\Views\SRP.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Comman\SettingsWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="MainApp.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Compile Include="3. MultiThreading\DispatcherExample.xaml.cs">
+      <DependentUpon>DispatcherExample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="3. MultiThreading\SingleThread.xaml.cs">
+      <DependentUpon>SingleThread.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="3. MultiThreading\WPFDispatcherExample.xaml.cs">
+      <DependentUpon>WPFDispatcherExample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="4. Design Pattern\Abstract\AbstractFactory.xaml.cs">
+      <DependentUpon>AbstractFactory.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="4. Design Pattern\Abstract\Animal.cs" />
+    <Compile Include="4. Design Pattern\Abstract\AnimalFactory.cs" />
+    <Compile Include="4. Design Pattern\Abstract\Cat.cs" />
+    <Compile Include="4. Design Pattern\Abstract\MoneyBackFactory.cs" />
+    <Compile Include="4. Design Pattern\Deppendency_Injection\BackGroundWorkerExample.xaml.cs">
+      <DependentUpon>BackGroundWorkerExample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="4. Design Pattern\Deppendency_Injection\Constructor\DIContructor.xaml.cs">
+      <DependentUpon>DIContructor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="4. Design Pattern\Deppendency_Injection\Constructor\EmployeeBAL.cs" />
+    <Compile Include="4. Design Pattern\Deppendency_Injection\Constructor\EmployeeDAL.cs" />
+    <Compile Include="4. Design Pattern\Deppendency_Injection\Method\DIMethod.xaml.cs">
+      <DependentUpon>DIMethod.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="4. Design Pattern\Deppendency_Injection\Method\EmployeeBAL.cs" />
+    <Compile Include="4. Design Pattern\Deppendency_Injection\Method\EmployeeDAL.cs" />
+    <Compile Include="4. Design Pattern\Deppendency_Injection\Property\DIProperty.xaml.cs">
+      <DependentUpon>DIProperty.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="4. Design Pattern\Deppendency_Injection\Property\EmployeeBAL.cs" />
+    <Compile Include="4. Design Pattern\Deppendency_Injection\Property\EmployeeDAL.cs" />
+    <Compile Include="4. Design Pattern\Factory_Method\CreditCard.cs" />
+    <Compile Include="4. Design Pattern\Factory_Method\CreditCardFactory.cs" />
+    <Compile Include="4. Design Pattern\Factory_Method\FactoryMethod.xaml.cs">
+      <DependentUpon>FactoryMethod.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="4. Design Pattern\Factory_Method\MoneyBackFactory.cs" />
+    <Compile Include="4. Design Pattern\Factory_Method\Platinum.cs" />
+    <Compile Include="4. Design Pattern\Singletons\EnumHelper.cs" />
+    <Compile Include="4. Design Pattern\Singletons\Patten1\ApplicationState.cs" />
+    <Compile Include="4. Design Pattern\Singletons\Patten1\SingletonDemo.xaml.cs">
+      <DependentUpon>SingletonDemo.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="4. Design Pattern\Singletons\Pattern2\Singleton_Types.xaml.cs">
+      <DependentUpon>Singleton_Types.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="5. SOLID Princliple\Models\DIP_Logger.cs" />
+    <Compile Include="5. SOLID Princliple\Models\ISP_TextDocument.cs" />
+    <Compile Include="5. SOLID Princliple\Models\LSP_Account.cs" />
+    <Compile Include="5. SOLID Princliple\Models\OCP_Shape.cs" />
+    <Compile Include="5. SOLID Princliple\Models\SRP_Employee.cs" />
+    <Compile Include="5. SOLID Princliple\Views\OCP.xaml.cs">
+      <DependentUpon>OCP.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="5. SOLID Princliple\Views\SRP.xaml.cs">
+      <DependentUpon>SRP.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Comman\ApplicationContext.cs" />
+    <Compile Include="Comman\SearchTextBox.cs" />
+    <Compile Include="Comman\SettingsWindow.xaml.cs">
+      <DependentUpon>SettingsWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Comman\ThemeManager.cs" />
+    <Compile Include="MainApp.xaml.cs">
+      <DependentUpon>MainApp.xaml</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

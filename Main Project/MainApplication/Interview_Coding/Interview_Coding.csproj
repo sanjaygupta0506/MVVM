@@ -1,0 +1,36 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Resource Include="7. Assignment\Challanges\Resources\ColumnResizeHeader.png" />
+    <Resource Include="7. Assignment\Challanges\Resources\CSV_Export.png" />
+    <Resource Include="7. Assignment\Challanges\Resources\MarkerIcon.png" />
+    <Resource Include="7. Assignment\Challanges\Resources\PaneCompareIcon.png" />
+    <Resource Include="7. Assignment\Challanges\Resources\PaneDetailsIcon.png" />
+    <Resource Include="7. Assignment\Challanges\Resources\PaneHeaderIcon.png" />
+    <Resource Include="7. Assignment\Challanges\Resources\PaneImageViewIcon.png" />
+    <Resource Include="7. Assignment\Challanges\Resources\PaneLtssmOverviewIcon.png" />
+    <Resource Include="7. Assignment\Challanges\Resources\PanePayloadIcon.png" />
+    <Resource Include="7. Assignment\Challanges\Resources\PanePCIePerformanceOverviewIcon.png" />
+    <Resource Include="7. Assignment\Challanges\Resources\PaneTestAssertionIcon.png" />
+    <Resource Include="7. Assignment\Challanges\Resources\PaneTrafficOverviewIcon.png" />
+    <Resource Include="7. Assignment\Challanges\Resources\PaneTransactionDecodeIcon.png" />
+    <Resource Include="7. Assignment\Challanges\Resources\SetupIcon.png" />
+    <Resource Include="7. Assignment\Challanges\Resources\ToolTipsIcon.png" />
+    <Resource Include="7. Assignment\Challanges\Resources\TriggerIcon.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="MainApp.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+
+</Project>

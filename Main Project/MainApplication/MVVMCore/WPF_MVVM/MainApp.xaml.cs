@@ -30,11 +30,8 @@ using MainApplication;
 using Keysight.Ccl.Wsl.UI.Managers;
 using MainApplication.CommonUtils;
 using MainApplication.WPF_MVVM.WPFMVVMBasic.Resources;
-using MainApplication.WPF_MVVM.SOLID_Princliple.SRP;
-using System.Windows.Threading;
-using MainApplication.WPF_MVVM.MultiThreading;
+
 using MainApplication.WPF_MVVM.WPFMVVMPattern;
-using MainApplication.WPF_MVVM.Design_Pattern.Singletons;
 using MainApplication.WPF_MVVM.WPFMVVMBasic.Triggers;
 using System.Data.Common;
 using MainApplication.WPF_MVVM.WPFMVVMAdvance.AttachedPropertySample;
@@ -50,9 +47,6 @@ using MainApplication.WPF_MVVM.WPFMVVMAdvance;
 using MainApplication.WPF_MVVM.WPFMVVMBasic.Commands.Views;
 using MainApplication.WPF_MVVM.WPFMVVMBasic.Commands.ViewModel;
 using MainApplication.WPF_MVVM._1._WPFMVVMBasic._1._MVVM_Main.Pattern3;
-using MainApplication.WPF_MVVM._4._Design_Pattern.Deppendency_Injection.Method;
-using MainApplication.WPF_MVVM._4._Design_Pattern.Deppendency_Injection.Property;
-using MainApplication.WPF_MVVM._4._Design_Pattern.Deppendency_Injection.Constructor;
 using MainApplication.WPF_MVVM._2._WPFMVVMAdvance._2._AttachedPropertySample.Pattern1;
 using MainApplication.WPF_MVVM._1._WPFMVVMBasic.RelativeSource;
 using MainApplication.WPF_MVVM._1._WPFMVVMBasic.UpdateSourceTrigger;
@@ -62,23 +56,11 @@ using MainApplication.WPF_MVVM._1._WPFMVVMBasic.Xaml;
 using MainApplication.WPF_MVVM.WPFMVVMBasic.UserControls;
 using MainApplication.WPF_MVVM._2._WPFMVVMAdvance.B2.UserControlsVsCustomControl;
 using MainApplication.WPF_MVVM._2._WPFMVVMAdvance.B2.UserControlsVsCustomControl.Common;
-using MainApplication.WPF_MVVM._4._Design_Pattern.Factory_Method;
-using MainApplication.WPF_MVVM._4._Design_Pattern.Abstract;
 using MainApplication.WPF_MVVM._1._WPFMVVMBasic._6_Triggers;
-using MainApplication.WPF_MVVM._6._API.Web_API;
-using MainApplication.WPF_MVVM._6._API.Rest_API;
-using MVVMCore.Challanges;
-using MainApplication.WPF_Assignment.Common;
-using MainApplication.WPF_Assignment.CompanyWise;
-using MVVMCore.WPF_MVVM;
 using MainApplication.WPF_MVVM;
-using MVVMCore.WPF_MVVM.Challanges;
-using WPF_MVVM.View;
 using MainApplication.SecuritySample;
-using MainApplication.WPF_MVVM._8._Interview.ValueConvertor;
-using MainApplication.WPF_MVVM._6._API.Rest_API.View;
 using MainApplication.WPF_MVVM._9._A_MVVMHotTopics.Views;
-using MainApplication.WPF_MVVM._8._Interview.MostlyAsked_Coding;
+
 
 namespace MVVMCore
 {
@@ -411,29 +393,7 @@ namespace MVVMCore
 
         #endregion
 
-        #region Multi-Threading
-        private void x_Dispather_Click(object sender, RoutedEventArgs e)
-        {
-            DispatcherExample dispatcherExample = new DispatcherExample();
-            dispatcherExample.ShowInTaskbar = false;
-            dispatcherExample.Owner = Application.Current.MainWindow;
-            dispatcherExample.Show();
-        }
-        private void x_bgThread_Click(object sender, RoutedEventArgs e)
-        {
-            BackGroundWorkerExample backGroundWorkerExample = new BackGroundWorkerExample();
-            backGroundWorkerExample.ShowInTaskbar = false;
-            backGroundWorkerExample.Owner = Application.Current.MainWindow;
-            backGroundWorkerExample.Show();
-        }
-        private void x_st_Click(object sender, RoutedEventArgs e)
-        {
-            SingleThread singleThread = new SingleThread();
-            singleThread.ShowInTaskbar = false;
-            singleThread.Owner = Application.Current.MainWindow;
-            singleThread.Show();
-        }
-        #endregion
+        
 
         #region Application Security
         private void x_file_Click(object sender, RoutedEventArgs e)
@@ -446,25 +406,7 @@ namespace MVVMCore
         }
         #endregion
 
-        #region SOLID Principles
-        private void x_SR_Click(object sender, RoutedEventArgs e)
-        {
-            SRP srp = new SRP();
-            srp.ShowInTaskbar = false;
-            srp.Owner = Application.Current.MainWindow;
-            srp.Show();
-        }
-        #endregion
-
-        #region Design Pattern
-        private void x_SingleTonDP_Click(object sender, RoutedEventArgs e)
-        {
-            SingletonDemo singletonDemo = new SingletonDemo();
-            singletonDemo.ShowInTaskbar = false;
-            singletonDemo.Owner = Application.Current.MainWindow;
-            singletonDemo.Show();
-        }
-        #endregion
+        
 
         #region View
         private void x_caranuDark_Click(object sender, RoutedEventArgs e)
@@ -477,9 +419,6 @@ namespace MVVMCore
             SkinManager.Instance.ColorSkinFragment = "Caranu Light";
             ApplyTheme();
         }
-
-
-
 
 
         #endregion
@@ -541,37 +480,9 @@ namespace MVVMCore
             virtualizationExample.Show();
         }
 
-        private void x_SingleTonDType_Click(object sender, RoutedEventArgs e)
-        {
-            Singleton_Types singleton_Types = new Singleton_Types();
-            singleton_Types.ShowInTaskbar = false;
-            singleton_Types.Owner = Application.Current.MainWindow;
-            singleton_Types.Show();
-        }
+        
 
-        private void x_DIConstructor_Click(object sender, RoutedEventArgs e)
-        {
-            DIContructor dIContructor = new DIContructor();
-            dIContructor.ShowInTaskbar = false;
-            dIContructor.Owner = Application.Current.MainWindow;
-            dIContructor.Show();
-        }
-
-        private void x_DIMethod_Click(object sender, RoutedEventArgs e)
-        {
-            DIMethod dIMethod = new DIMethod();
-            dIMethod.ShowInTaskbar = false;
-            dIMethod.Owner = Application.Current.MainWindow;
-            dIMethod.Show();
-        }
-
-        private void x_DIPropety_Click(object sender, RoutedEventArgs e)
-        {
-            DIProperty dIProperty = new DIProperty();
-            dIProperty.ShowInTaskbar = false;
-            dIProperty.Owner = Application.Current.MainWindow;
-            dIProperty.Show();
-        }
+        
 
         private void RelativeSource_PeviousData_Click(object sender, RoutedEventArgs e)
         {
@@ -677,36 +588,13 @@ namespace MVVMCore
             userControlsVsCustomControl.Show();
         }
 
-        private void x_FactoryMethod_Click(object sender, RoutedEventArgs e)
-        {
-            FactoryMethod factoryMethod = new FactoryMethod();
-            factoryMethod.ShowInTaskbar = false;
-            factoryMethod.Owner = Application.Current.MainWindow;
-            factoryMethod.Show();
-        }
+        
 
-        private void x_AbstractFactory_Click(object sender, RoutedEventArgs e)
-        {
-            AbstractFactory abstractFactory = new AbstractFactory();
-            abstractFactory.ShowInTaskbar = false;
-            abstractFactory.Owner = Application.Current.MainWindow;
-            abstractFactory.Show();
-        }
-
-        private void x_WPFDispather_Click(object sender, RoutedEventArgs e)
-        {
-            //WPFDispatcherExample WPFDispatcherExample = new WPFDispatcherExample();
-            //abstractFactory.ShowInTaskbar = false;
-            //abstractFactory.Owner = Application.Current.MainWindow;
-            //abstractFactory.Show();
-        }
+      
 
         
 
-        private void x_WCF_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
+      
 
         private void PropertyTriggerNormal_Click(object sender, RoutedEventArgs e)
         {
@@ -716,135 +604,9 @@ namespace MVVMCore
             trigger_Property_Normal.Show();
         }
 
-        private void x_WebaAPI_Click(object sender, RoutedEventArgs e)
-        {
-            WPFWithWebAPI wPFWithWebAPI = new WPFWithWebAPI();
-            wPFWithWebAPI.ShowInTaskbar = false;
-            wPFWithWebAPI.Owner = Application.Current.MainWindow;
-            wPFWithWebAPI.Show();
-            
-        }
+        
 
-        private void x_RestAPI_Click(object sender, RoutedEventArgs e)
-        {
-            WPFRestAPI wPFRestAPI = new WPFRestAPI();
-            wPFRestAPI.ShowInTaskbar = false;
-            wPFRestAPI.Owner = Application.Current.MainWindow;
-            wPFRestAPI.Show();
-        }
-
-        private void x_WebaAPI_1_Click(object sender, RoutedEventArgs e)
-        {
-            WPFMVVMWebAPI wPFMVVMWebAPI = new WPFMVVMWebAPI();
-            wPFMVVMWebAPI.ShowInTaskbar = false;
-            wPFMVVMWebAPI.Owner = Application.Current.MainWindow;
-            wPFMVVMWebAPI.Show();
-        }
-
-        private void x_Challanges1_Click(object sender, RoutedEventArgs e)
-        {
-            SingleClickCheckboxOnGrid singleClickCheckboxOnGrid = new SingleClickCheckboxOnGrid();
-            singleClickCheckboxOnGrid.ShowInTaskbar = false;
-            singleClickCheckboxOnGrid.Owner = Application.Current.MainWindow;
-            singleClickCheckboxOnGrid.Show();
-        }
-
-        private void x_Challanges2_Click(object sender, RoutedEventArgs e)
-        {
-            Enabled_Disabled_Button_WRT_Property enabled_Disabled_Button_WRT_Property = new Enabled_Disabled_Button_WRT_Property();
-            enabled_Disabled_Button_WRT_Property.ShowInTaskbar = false;
-            enabled_Disabled_Button_WRT_Property.Owner = Application.Current.MainWindow;
-            enabled_Disabled_Button_WRT_Property.Show();
-            
-        }
-
-        private void x_Challanges3_Click(object sender, RoutedEventArgs e)
-        {
-            ScrollBar scrollBar = new ScrollBar();
-            scrollBar.ShowInTaskbar = false;
-            scrollBar.Owner = Application.Current.MainWindow;
-            scrollBar.Show();
-        }
-
-        private void x_Challanges4_Click(object sender, RoutedEventArgs e)
-        {
-            TitleBar titleBar = new TitleBar();
-            titleBar.ShowInTaskbar = false;
-            titleBar.Owner = Application.Current.MainWindow;
-            titleBar.Show();
-        }
-
-        private void x_Challanges5_Click(object sender, RoutedEventArgs e)
-        {
-            BtnEnableOnTextChange btnEnableOnTextChange = new BtnEnableOnTextChange();
-            btnEnableOnTextChange.ShowInTaskbar = false;
-            btnEnableOnTextChange.Owner = Application.Current.MainWindow;
-            btnEnableOnTextChange.Show();
-        }
-
-        private void x_Challanges6_Click(object sender, RoutedEventArgs e)
-        {
-            ComboColorChangeFromRadio comboColorChangeFromRadio = new ComboColorChangeFromRadio();
-            comboColorChangeFromRadio.ShowInTaskbar = false;
-            comboColorChangeFromRadio.Owner = Application.Current.MainWindow;
-            comboColorChangeFromRadio.Show();
-        }
-
-        private void x_Challanges7_Click(object sender, RoutedEventArgs e)
-        {
-            FirstNameLastNameinCombo firstNameLastNameinCombo = new FirstNameLastNameinCombo();
-            firstNameLastNameinCombo.ShowInTaskbar = false;
-            firstNameLastNameinCombo.Owner = Application.Current.MainWindow;
-            firstNameLastNameinCombo.Show();
-        }
-
-        private void x_Challanges8_Click(object sender, RoutedEventArgs e)
-        {
-            ListToRadioButton listToRadioButton = new ListToRadioButton();
-            listToRadioButton.ShowInTaskbar = false;
-            listToRadioButton.Owner = Application.Current.MainWindow;
-            listToRadioButton.Show();
-        }
-
-        private void x_Challanges9_Click(object sender, RoutedEventArgs e)
-        {
-            TreeViewColorChangeOnRadio treeViewColorChangeOnRadio = new TreeViewColorChangeOnRadio();
-            treeViewColorChangeOnRadio.ShowInTaskbar = false;
-            treeViewColorChangeOnRadio.Owner = Application.Current.MainWindow;
-            treeViewColorChangeOnRadio.Show();
-        }
-
-        private void x_Challanges10_Click(object sender, RoutedEventArgs e)
-        {
-            Stryker stryker = new Stryker();
-            stryker.ShowInTaskbar = false;
-            stryker.Owner = Application.Current.MainWindow;
-            stryker.Show();
-        }
-
-        private void x_Challanges11_Click(object sender, RoutedEventArgs e)
-        {
-            Encryption_Descryption encryption_Descryption = new Encryption_Descryption();
-            encryption_Descryption.ShowInTaskbar = false;
-            encryption_Descryption.Owner = Application.Current.MainWindow;
-            encryption_Descryption.Show();
-        }
-
-        private void x_CustomControl_Click(object sender, RoutedEventArgs e)
-        {
-            CustomControl customControl = new CustomControl();
-            customControl.ShowInTaskbar = false;
-            customControl.Owner = Application.Current.MainWindow;
-            customControl.Show();
-        }
-
-        private void x_TwoWayBinding_Click(object sender, RoutedEventArgs e)
-        {
-            TwoWayBinding twoWayBinding = new TwoWayBinding();
-            twoWayBinding.ShowInTaskbar = false;
-            twoWayBinding.Owner = Application.Current.MainWindow;
-            twoWayBinding.Show();
-        }
+       
 
         private void ApplicationSecurity_Click(object sender, RoutedEventArgs e)
         {
@@ -862,21 +624,9 @@ namespace MVVMCore
             ed.Show();
         }
 
-        private void x_UpperCaseConvertor_Click(object sender, RoutedEventArgs e)
-        {
-            UpperCaseConverterUI uccui = new UpperCaseConverterUI();
-            uccui.ShowInTaskbar = false;
-            uccui.Owner = Application.Current.MainWindow;
-            uccui.Show();
-        }
+        
 
-        private void x_RestAPIE2_Click(object sender, RoutedEventArgs e)
-        {
-            UserMain userMain = new UserMain();
-            userMain.ShowInTaskbar = false;
-            userMain.Owner = Application.Current.MainWindow;
-            userMain.Show();
-        }
+        
 
         private void MVVM_Click(object sender, RoutedEventArgs e)
         {
@@ -886,12 +636,8 @@ namespace MVVMCore
             mvvmDemo.Show();
         }
 
-        private void x_ProprtyTrigger_Click(object sender, RoutedEventArgs e)
-        {
-            PropertyTriggerExample propertyTriggerExample = new PropertyTriggerExample();
-            propertyTriggerExample.ShowInTaskbar = false;
-            propertyTriggerExample.Owner = Application.Current.MainWindow;
-            propertyTriggerExample.Show();
-        }
+        
+
+       
     }
 }

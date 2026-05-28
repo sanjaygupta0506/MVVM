@@ -1,0 +1,102 @@
+﻿<ui:WslMainWindow  xmlns:ui="clr-namespace:Keysight.Ccl.Wsl.UI;assembly=Keysight.Ccl.Wsl" 
+                   x:Class="MVVMCore.MainApp"
+                   xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                   xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                   xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+                   xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+                   xmlns:local="clr-namespace:MVVMCore"
+                    mc:Ignorable="d"
+                    Title="Main Application" Height="450" Width="800" WindowState="Maximized">
+    <Window.Resources>
+        
+    </Window.Resources>
+    <DockPanel>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="20"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="20"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="20"/>
+        </Grid.ColumnDefinitions>
+            <Menu x:Name="x_MainMenu" Grid.Column="0" Grid.Row="0" BorderThickness="1" Grid.ColumnSpan="3">
+                <!--Assignment-->
+                <MenuItem Name="x_Assignment" Header="Assignment">
+                    <MenuItem Name="x_Challanges" Header="Challanges">
+                        <MenuItem Name="x_Challanges1" Header="Grid Single Click Checkbox" Click="x_Challanges1_Click"/>
+                        <Separator />
+                        <MenuItem Name="x_Challanges2" Header="Enabled Disabled Button WRT Property" Click="x_Challanges2_Click"/>
+                        <Separator />
+                        <MenuItem Name="x_Challanges3" Header="ScrollBar" Click="x_Challanges3_Click"/>
+                        <Separator />
+                        <MenuItem Name="x_Challanges4" Header="TitleBar" Click="x_Challanges4_Click"/>
+                    </MenuItem>
+                    <Separator />
+
+                    <MenuItem Name="x_Comman" Header="Comman">
+                        <MenuItem Name="x_Challanges5" Header="BtnEnableOnTextChange" Click="x_Challanges5_Click"/>
+                        <Separator />
+                        <MenuItem Name="x_Challanges6" Header="ComboColorChangeFromRadio" Click="x_Challanges6_Click"/>
+                        <Separator />
+                        <MenuItem Name="x_Challanges7" Header="FirstNameLastNameinCombo" Click="x_Challanges7_Click"/>
+                        <Separator />
+                        <MenuItem Name="x_Challanges8" Header="ListToRadioButton" Click="x_Challanges8_Click"/>
+                        <Separator />
+                        <MenuItem Name="x_Challanges9" Header="TreeViewColorChangeOnRadio" Click="x_Challanges9_Click"/>
+                    </MenuItem>
+                    <Separator />
+
+                    <MenuItem Name="x_CompanyWise" Header="CompanyWise">
+                        <MenuItem Name="x_Challanges10" Header="Stryker" Click="x_Challanges10_Click"/>
+                    </MenuItem>
+                    <Separator />
+
+                    <MenuItem Name="x_Security" Header="Security">
+                        <MenuItem Name="x_Challanges11" Header="Encryption_Descryption" Click="x_Challanges11_Click"/>
+                        
+                    </MenuItem>
+                   
+
+
+                </MenuItem>
+
+                <!--Interview-->
+                <MenuItem Name="x_Interview" Header="Interview">
+                    <MenuItem Name="x_DataBindingExample" Header="Data Binding Example" Click="x_DataBindingExample_Click"/>
+                    <Separator />
+                    <MenuItem Name="x_ICommandExample" Header="ICommand Example" Click="x_ICommandExample_Click"/>
+                    <Separator />
+                    <MenuItem Name="x_ObservableCollectionExample" Header="Observable Collection" Click="x_ObservableCollectionExample_Click"/>
+                    <Separator />
+                     <MenuItem Name="x_DependencyPropertyExample" Header="Dependency Property" Click="x_DependencyPropertyExample_Click"/>
+                     <Separator />
+                     <MenuItem Name="x_ProprtyTriggerExample" Header="Proprty Trigger Example" Click="x_ProprtyTriggerExample_Click"/>
+                    <Separator />
+                    <MenuItem Name="x_DataTrigger" Header="Data Trigger" Click="x_DataTrigger_Click"/>
+                    <Separator />
+                    <MenuItem Name="x_CustomControl" Header="Custom Control" Click="x_CustomControl_Click"/>
+                    <Separator />
+                    <MenuItem Name="x_TwoWayBinding" Header="TwoWay Binding" Click="x_TwoWayBinding_Click"/>
+                    <Separator />
+                    <MenuItem Name="x_UpperCaseConvertor" Header="Upper Case Convertor" Click="x_UpperCaseConvertor_Click"/>
+                 </MenuItem>
+
+                <!--MVVM Themes-->
+                <MenuItem Name="x_View" Header="Themes">
+                    
+                        <MenuItem Name="x_caranuDark" Header="Caranu Dark" Click="x_caranuDark_Click"/>
+                        <Separator />
+                        <MenuItem Name="x_caranuLight" Header="Caranu Light" Click="x_caranuLight_Click"/>
+                        <Separator />
+
+                </MenuItem>
+                
+                
+            </Menu>
+     </Grid>
+    </DockPanel>
+
+</ui:WslMainWindow>

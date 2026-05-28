@@ -1,0 +1,94 @@
+﻿<ui:WslMainWindow  xmlns:ui="clr-namespace:Keysight.Ccl.Wsl.UI;assembly=Keysight.Ccl.Wsl" 
+                   x:Class="MVVMCore.MainApp"
+                   xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                   xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                   xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+                   xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+                   xmlns:local="clr-namespace:MVVMCore"
+                    mc:Ignorable="d"
+                    Title="Main Application" Height="450" Width="800" WindowState="Maximized">
+    <Window.Resources>
+        
+    </Window.Resources>
+    <DockPanel>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="20"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="20"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="20"/>
+        </Grid.ColumnDefinitions>
+            <Menu x:Name="x_MainMenu" Grid.Column="0" Grid.Row="0" BorderThickness="1" Grid.ColumnSpan="3">
+
+                <!--MVVM Multi-Threading-->
+                <MenuItem Name="X_Thread" Header="Multi-Threading">
+
+                    <MenuItem Name="x_st" Header="Single Thread" Click="x_st_Click" />
+                    <Separator />
+
+                    <MenuItem Name="x_bgThread" Header="Background Thread" Click="x_bgThread_Click" />
+                    <Separator />
+
+                    <MenuItem Name="x_Dispather" Header="Dispatcher" Click="x_Dispather_Click" />
+                    <Separator />
+
+                    <MenuItem Name="x_WPFDispather" Header="WPF Dispatcher" Click="x_WPFDispather_Click" />
+                    <Separator />
+                </MenuItem>
+
+                <!--MVVM Design Patterns-->
+                <MenuItem Name="x_DesignPattern" Header="Design Patterns">
+                    <MenuItem Name="x_SingleTonDP" Header="Singleton Design Pattern " Click="x_SingleTonDP_Click"></MenuItem>
+                    <Separator />
+                    <MenuItem Name="x_SingleTonDType" Header="Singleton Design Pattern Types" Click="x_SingleTonDType_Click"></MenuItem>
+                    <Separator />
+                    <MenuItem Name="x_DependencyInjection" Header="Dependency Injection">
+                        <MenuItem Name="x_DIConstructor" Header="Constructor" Click="x_DIConstructor_Click"/>
+                        <Separator />
+                        <MenuItem Name="x_DIMethod" Header="Method" Click="x_DIMethod_Click" />
+                        <Separator />
+                        <MenuItem Name="x_DIPropety" Header="Propety" Click="x_DIPropety_Click"/>
+                        <Separator />
+                    </MenuItem>
+                    <Separator />
+                    <MenuItem Name="x_FactoryMethod" Header="Factory Method" Click="x_FactoryMethod_Click"/>
+                    <Separator />
+                    <MenuItem Name="x_AbstractFactory" Header="Abstract  Factory" Click="x_AbstractFactory_Click"/>
+                    <Separator />
+                    </MenuItem>
+
+                <!--MVVM SOLID Principles-->
+                <MenuItem Name="X_Solid" Header="SOLID Principles">
+                    <MenuItem Name="x_SR" Header="Single Responsibility" Click="x_SR_Click" ></MenuItem>
+                    <Separator />
+                    <MenuItem Name="x_OC" Header="Open closed" ></MenuItem>
+                    <Separator />
+                    <MenuItem Name="x_LS" Header="Liskov substitution" ></MenuItem>
+                    <Separator />
+                    <MenuItem Name="x_IS" Header="Interface Segregation" ></MenuItem>
+                    <Separator />
+                    <MenuItem Name="x_DI" Header="Dependency Inversion" ></MenuItem>
+
+                </MenuItem>
+                
+               
+                <!--MVVM Themes-->
+                <MenuItem Name="x_View" Header="Themes">
+                    
+                        <MenuItem Name="x_caranuDark" Header="Caranu Dark" Click="x_caranuDark_Click"/>
+                        <Separator />
+                        <MenuItem Name="x_caranuLight" Header="Caranu Light" Click="x_caranuLight_Click"/>
+                        <Separator />
+
+                </MenuItem>
+                
+                
+            </Menu>
+     </Grid>
+    </DockPanel>
+
+</ui:WslMainWindow>
