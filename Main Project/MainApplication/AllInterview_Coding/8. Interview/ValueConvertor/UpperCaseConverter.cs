@@ -6,7 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Data;
 
-namespace MainApplication.WPF_MVVM._8._Interview.ValueConvertor
+namespace MainApplication.AllInterview_Coding
 {
     public class UpperCaseConverter : IValueConverter
     {

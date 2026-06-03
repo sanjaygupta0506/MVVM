@@ -13,7 +13,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 
-namespace MVVMCore.WPF_MVVM
+namespace MainApplication.AllInterview_Coding
 {
     /// <summary>
     /// Interaction logic for CustomControlExample.xaml

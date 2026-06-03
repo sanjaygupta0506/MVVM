@@ -234,14 +234,14 @@
 
                 </MenuItem>
 
-                
+
 
                 <MenuItem Name="x_AppSec" Header="Application Security">
                     <MenuItem Name="ApplicationSecurity" Header="Application Security" Click="ApplicationSecurity_Click"/>
                     <Separator />
                     <MenuItem Name="Encrypt_Decrypt" Header="Encrypt Decrypt" Click="Encrypt_Decrypt_Click"/>
                     <Separator />
-                </MenuItem>-->
+                </MenuItem>
 
 
                 <!--MVVM Themes-->

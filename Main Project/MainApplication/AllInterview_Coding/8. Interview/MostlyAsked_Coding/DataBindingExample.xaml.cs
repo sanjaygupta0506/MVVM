@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Keysight.Ccl.Wsl.UI;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Linq;
@@ -13,16 +14,24 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 
-namespace MainApplication.WPF_MVVM._8._Interview.MostlyAsked_Coding
+namespace MainApplication.AllInterview_Coding
 {
     /// <summary>
     /// Interaction logic for DataBindingExample.xaml
     /// </summary>
-    public partial class DataBindingExample : Window, INotifyPropertyChanged
+    public partial class DataBindingExample : WslDialog, INotifyPropertyChanged
     {
         private string _username;
-
+        
         public event PropertyChangedEventHandler PropertyChanged;
+
+        public DataBindingExample()
+        {
+            _username = "Sanjay";
+            //InitializeComponent();
+            
+            DataContext = this;
+        }
 
         public string UserName
         {

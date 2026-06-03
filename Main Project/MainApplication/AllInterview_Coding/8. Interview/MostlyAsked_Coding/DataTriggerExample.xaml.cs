@@ -13,7 +13,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 
-namespace MainApplication.WPF_MVVM._8._Interview.MostlyAsked_Coding
+namespace MainApplication.AllInterview_Coding
 {
     /// <summary>
     /// Interaction logic for DataTriggerExample.xaml

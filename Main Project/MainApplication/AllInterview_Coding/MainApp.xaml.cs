@@ -13,17 +13,11 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-
-
 using Keysight.Ccl.Wsl.UI;
-
 using MainApplication;
 using Keysight.Ccl.Wsl.UI.Managers;
-
 using System.Windows.Threading;
-
 using System.Data.Common;
-
 using MVVMCore.Challanges;
 using MainApplication.WPF_Assignment.Common;
 using MainApplication.WPF_Assignment.CompanyWise;
@@ -31,10 +25,7 @@ using MVVMCore.WPF_MVVM;
 using MainApplication.WPF_MVVM;
 using MVVMCore.WPF_MVVM.Challanges;
 using WPF_MVVM.View;
-
-using MainApplication.WPF_MVVM._8._Interview.ValueConvertor;
-
-using MainApplication.WPF_MVVM._8._Interview.MostlyAsked_Coding;
+using MainApplication.AllInterview_Coding;
 using MainApplication.CommonUtils;
 
 namespace MVVMCore

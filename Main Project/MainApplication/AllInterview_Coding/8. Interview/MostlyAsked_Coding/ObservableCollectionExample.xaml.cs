@@ -1,5 +1,7 @@
-﻿using System;
+﻿using Keysight.Ccl.Wsl.UI;
+using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -12,16 +14,26 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 
-namespace MainApplication.WPF_MVVM._8._Interview.MostlyAsked_Coding
+namespace MainApplication.AllInterview_Coding
 {
     /// <summary>
     /// Interaction logic for ObservableCollectionExample.xaml
     /// </summary>
-    public partial class ObservableCollectionExample : Window
+    public partial class ObservableCollectionExample : WslDialog
     {
+        public ObservableCollection<string> Employees { get; set; }
         public ObservableCollectionExample()
         {
             InitializeComponent();
+
+            Employees = new ObservableCollection<string>
+            {
+                "Sanjay Gupta",
+                "Kanchan Gupta",
+                "Devansh Gupta",
+                "Divyanshi Gupta"
+            };
+            DataContext = this;
         }
     }
 }

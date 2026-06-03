@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
 
-namespace MVVMCore.WPF_MVVM
+namespace MainApplication.AllInterview_Coding
 {
     public class CustomLabelControl : Control
     {

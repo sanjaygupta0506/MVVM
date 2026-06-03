@@ -1,4 +1,7 @@
-﻿using System;
+﻿using AllInterview_Coding._8._Interview.MostlyAsked_Coding;
+using Keysight.Ccl.Wsl.UI;
+using MainApplication.AllInterview_Coding.Comman;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -12,16 +15,21 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 
-namespace MainApplication.WPF_MVVM._8._Interview.MostlyAsked_Coding
+namespace MainApplication.AllInterview_Coding
 {
     /// <summary>
     /// Interaction logic for ICommandExample.xaml
     /// </summary>
-    public partial class ICommandExample : Window
+    public partial class ICommandExample : WslDialog
     {
+       
+
         public ICommandExample()
         {
-            InitializeComponent();
+            //ICommandExampleViewModel icommand = new ICommandExampleViewModel();
+            //DataContext = icommand;
         }
+
+       
     }
 }

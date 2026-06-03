@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.37216.2 d17.14
+VisualStudioVersion = 17.14.37216.2
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CaliburnMicro", "CaliburnMicro", "{4AEC1ADE-C7C9-4EAA-8E6D-E252CB68B275}"
 EndProject
@@ -20,6 +20,10 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiThreading_DesignPatterens_SolidPrinciples", "MultiThreading_DesignPatterens_SolidPrinciples\MultiThreading_DesignPatterens_SolidPrinciples.csproj", "{EF0F52E3-BB49-4538-9CD8-EE41045BE355}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AllInterview_Coding", "AllInterview_Coding\AllInterview_Coding.csproj", "{1078FB94-E53B-49E0-9E7E-6FB1C314A5DE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AI_WPF", "AI_WPF", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiseasePredictionAPI", "DiseasePredictionAPI\DiseasePredictionAPI.csproj", "{77760FB1-4E1D-4F1F-BD30-CF4F50AA69DE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +55,10 @@ Global
 		{1078FB94-E53B-49E0-9E7E-6FB1C314A5DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1078FB94-E53B-49E0-9E7E-6FB1C314A5DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1078FB94-E53B-49E0-9E7E-6FB1C314A5DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77760FB1-4E1D-4F1F-BD30-CF4F50AA69DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77760FB1-4E1D-4F1F-BD30-CF4F50AA69DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77760FB1-4E1D-4F1F-BD30-CF4F50AA69DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77760FB1-4E1D-4F1F-BD30-CF4F50AA69DE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -62,6 +70,7 @@ Global
 		{1A16FB0D-0555-4F73-86DE-C8D950C12200} = {0888C22D-E3BC-48A6-88CE-ABDF2F15E208}
 		{EF0F52E3-BB49-4538-9CD8-EE41045BE355} = {0888C22D-E3BC-48A6-88CE-ABDF2F15E208}
 		{1078FB94-E53B-49E0-9E7E-6FB1C314A5DE} = {0888C22D-E3BC-48A6-88CE-ABDF2F15E208}
+		{77760FB1-4E1D-4F1F-BD30-CF4F50AA69DE} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {BA133011-7383-4049-912A-A1E07F5A3975}

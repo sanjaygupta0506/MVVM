@@ -219,6 +219,7 @@
       <DependentUpon>CustomControl.xaml</DependentUpon>
     </Compile>
     <Compile Include="8. Interview\CustomControl\CustomLabelControl.cs" />
+    <Compile Include="8. Interview\MostlyAsked_Coding\CustomControlforTitle.cs" />
     <Compile Include="8. Interview\MostlyAsked_Coding\DataBindingExample.xaml.cs">
       <DependentUpon>DataBindingExample.xaml</DependentUpon>
     </Compile>
@@ -231,6 +232,7 @@
     <Compile Include="8. Interview\MostlyAsked_Coding\ICommandExample.xaml.cs">
       <DependentUpon>ICommandExample.xaml</DependentUpon>
     </Compile>
+    <Compile Include="8. Interview\MostlyAsked_Coding\ICommandExampleViewModel.cs" />
     <Compile Include="8. Interview\MostlyAsked_Coding\ObservableCollectionExample.xaml.cs">
       <DependentUpon>ObservableCollectionExample.xaml</DependentUpon>
     </Compile>
@@ -251,6 +253,7 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Comman\ApplicationContext.cs" />
+    <Compile Include="Comman\RelayCommand.cs" />
     <Compile Include="Comman\SearchTextBox.cs" />
     <Compile Include="Comman\SettingsWindow.xaml.cs">
       <DependentUpon>SettingsWindow.xaml</DependentUpon>
