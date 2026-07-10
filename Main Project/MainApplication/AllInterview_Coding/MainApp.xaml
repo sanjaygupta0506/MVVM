@@ -24,7 +24,7 @@
         </Grid.ColumnDefinitions>
             <Menu x:Name="x_MainMenu" Grid.Column="0" Grid.Row="0" BorderThickness="1" Grid.ColumnSpan="3">
                 <!--Assignment-->
-                <MenuItem Name="x_Assignment" Header="Assignment">
+              
                     <MenuItem Name="x_Challanges" Header="Challanges">
                         <MenuItem Name="x_Challanges1" Header="Grid Single Click Checkbox" Click="x_Challanges1_Click"/>
                         <Separator />
@@ -33,10 +33,7 @@
                         <MenuItem Name="x_Challanges3" Header="ScrollBar" Click="x_Challanges3_Click"/>
                         <Separator />
                         <MenuItem Name="x_Challanges4" Header="TitleBar" Click="x_Challanges4_Click"/>
-                    </MenuItem>
-                    <Separator />
-
-                    <MenuItem Name="x_Comman" Header="Comman">
+                        <Separator />
                         <MenuItem Name="x_Challanges5" Header="BtnEnableOnTextChange" Click="x_Challanges5_Click"/>
                         <Separator />
                         <MenuItem Name="x_Challanges6" Header="ComboColorChangeFromRadio" Click="x_Challanges6_Click"/>
@@ -46,7 +43,8 @@
                         <MenuItem Name="x_Challanges8" Header="ListToRadioButton" Click="x_Challanges8_Click"/>
                         <Separator />
                         <MenuItem Name="x_Challanges9" Header="TreeViewColorChangeOnRadio" Click="x_Challanges9_Click"/>
-                    </MenuItem>
+                        <Separator />
+                </MenuItem>
                     <Separator />
 
                     <MenuItem Name="x_CompanyWise" Header="CompanyWise">
@@ -59,10 +57,6 @@
                         
                     </MenuItem>
                    
-
-
-                </MenuItem>
-
                 <!--Interview-->
                 <MenuItem Name="x_Interview" Header="Interview">
                     <MenuItem Name="x_DataBindingExample" Header="Data Binding Example" Click="x_DataBindingExample_Click"/>
@@ -82,7 +76,9 @@
                     <MenuItem Name="x_TwoWayBinding" Header="TwoWay Binding" Click="x_TwoWayBinding_Click"/>
                     <Separator />
                     <MenuItem Name="x_UpperCaseConvertor" Header="Upper Case Convertor" Click="x_UpperCaseConvertor_Click"/>
-                 </MenuItem>
+                    <Separator />
+                    <MenuItem Name="x_VirtualizationExample" Header="VirtualizationExample" Click="x_VirtualizationExample_Click"/>
+                </MenuItem>
 
                 <!--MVVM Themes-->
                 <MenuItem Name="x_View" Header="Themes">

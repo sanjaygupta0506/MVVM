@@ -85,6 +85,7 @@
     <Compile Include="InterviewMostlyAsked\AskedInInterview\ReadOnlyExample.cs" />
     <Compile Include="InterviewMostlyAsked\FileManipulation\ReadingTextFile.cs" />
     <Compile Include="InterviewMostlyAsked\MultiThreadingProgram\Task1.cs" />
+    <Compile Include="LINQMain\LinqQuery.cs" />
     <Compile Include="MultiThreadingProgramMain\Multi-threading\1. Simple blocking methods\10. Thread_Sleep.cs" />
     <Compile Include="MultiThreadingProgramMain\Multi-threading\1. Simple blocking methods\11. Thread_Join.cs" />
     <Compile Include="MultiThreadingProgramMain\Multi-threading\1. Simple blocking methods\12. Task_Wait.cs" />

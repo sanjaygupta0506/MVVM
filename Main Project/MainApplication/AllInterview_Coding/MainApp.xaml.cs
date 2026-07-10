@@ -27,6 +27,7 @@ using MVVMCore.WPF_MVVM.Challanges;
 using WPF_MVVM.View;
 using MainApplication.AllInterview_Coding;
 using MainApplication.CommonUtils;
+using AllInterview_Coding.AllInterview.MostlyAsked_Coding;
 
 namespace MVVMCore
 {
@@ -247,6 +248,14 @@ namespace MVVMCore
             propertyTriggerExample.ShowInTaskbar = false;
             propertyTriggerExample.Owner = Application.Current.MainWindow;
             propertyTriggerExample.Show();
+        }
+
+        private void x_VirtualizationExample_Click(object sender, RoutedEventArgs e)
+        {
+            VirtualizationExample virtualizationExample = new VirtualizationExample();
+            virtualizationExample.ShowInTaskbar = false;
+            virtualizationExample.Owner = Application.Current.MainWindow;
+            virtualizationExample.Show();
         }
     }
 }

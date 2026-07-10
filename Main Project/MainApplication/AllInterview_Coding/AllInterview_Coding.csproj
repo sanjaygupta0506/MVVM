@@ -83,91 +83,95 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Page Include="7. Assignment\Challanges\CombowithEnum.xaml">
+    <Page Include="AllInterview\Challanges\CombowithEnum.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="7. Assignment\Challanges\Enabled_Disabled_Button_WRT_Property.xaml">
+    <Page Include="AllInterview\Challanges\Enabled_Disabled_Button_WRT_Property.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="7. Assignment\Challanges\ScrollBar.xaml">
+    <Page Include="AllInterview\Challanges\ScrollBar.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="7. Assignment\Challanges\SingleClickCheckboxOnGrid.xaml">
+    <Page Include="AllInterview\Challanges\SingleClickCheckboxOnGrid.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="7. Assignment\Challanges\TitleBar.xaml">
+    <Page Include="AllInterview\Challanges\TitleBar.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="7. Assignment\Common\BtnEnableOnTextChange.xaml">
+    <Page Include="AllInterview\Challanges\BtnEnableOnTextChange.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="7. Assignment\Common\ComboColorChangeFromRadio.xaml">
+    <Page Include="AllInterview\Challanges\ComboColorChangeFromRadio.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="7. Assignment\Common\FirstNameLastNameinCombo.xaml">
+    <Page Include="AllInterview\Challanges\FirstNameLastNameinCombo.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="7. Assignment\Common\ListToRadioButton.xaml">
+    <Page Include="AllInterview\Challanges\ListToRadioButton.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="7. Assignment\Common\TreeViewColorChangeOnRadio.xaml">
+    <Page Include="AllInterview\Challanges\TreeViewColorChangeOnRadio.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="7. Assignment\CompanyWise\Stryker.xaml">
+    <Page Include="AllInterview\CompanyWise\Stryker.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="7. Assignment\Security\Encryption_Descryption.xaml">
+    <Page Include="AllInterview\MostlyAsked_Coding\VirtualizationExample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="AllInterview\Security\Encryption_Descryption.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="8. Interview\CustomControl\CustomControl.xaml">
+    <Page Include="AllInterview\MostlyAsked_Coding\CustomControl\CustomControl.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="8. Interview\CustomControl\Theme\Generics.xaml">
+    <Page Include="AllInterview\MostlyAsked_Coding\CustomControl\Theme\Generics.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="8. Interview\MostlyAsked_Coding\DataBindingExample.xaml">
+    <Page Include="AllInterview\MostlyAsked_Coding\DataBindingExample.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="8. Interview\MostlyAsked_Coding\DataTriggerExample.xaml">
+    <Page Include="AllInterview\MostlyAsked_Coding\DataTriggerExample.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="8. Interview\MostlyAsked_Coding\DependencyPropertyExample.xaml">
+    <Page Include="AllInterview\MostlyAsked_Coding\DependencyPropertyExample.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="8. Interview\MostlyAsked_Coding\ICommandExample.xaml">
+    <Page Include="AllInterview\MostlyAsked_Coding\ICommandExample.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="8. Interview\MostlyAsked_Coding\ObservableCollectionExample.xaml">
+    <Page Include="AllInterview\MostlyAsked_Coding\ObservableCollectionExample.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="8. Interview\MostlyAsked_Coding\PropertyTriggerExample.xaml">
+    <Page Include="AllInterview\MostlyAsked_Coding\PropertyTriggerExample.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="8. Interview\TwoWay_Binding\View\TwoWayBinding.xaml">
+    <Page Include="AllInterview\MostlyAsked_Coding\TwoWay_Binding\View\TwoWayBinding.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="8. Interview\ValueConvertor\UpperCaseConverterUI.xaml">
+    <Page Include="AllInterview\MostlyAsked_Coding\ValueConvertor\UpperCaseConverterUI.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
@@ -179,73 +183,76 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Compile Include="7. Assignment\Challanges\CombowithEnum.xaml.cs">
+    <Compile Include="AllInterview\Challanges\CombowithEnum.xaml.cs">
       <DependentUpon>CombowithEnum.xaml</DependentUpon>
     </Compile>
-    <Compile Include="7. Assignment\Challanges\Enabled_Disabled_Button_WRT_Property.xaml.cs">
+    <Compile Include="AllInterview\Challanges\Enabled_Disabled_Button_WRT_Property.xaml.cs">
       <DependentUpon>Enabled_Disabled_Button_WRT_Property.xaml</DependentUpon>
     </Compile>
-    <Compile Include="7. Assignment\Challanges\ScrollBar.xaml.cs">
+    <Compile Include="AllInterview\Challanges\ScrollBar.xaml.cs">
       <DependentUpon>ScrollBar.xaml</DependentUpon>
     </Compile>
-    <Compile Include="7. Assignment\Challanges\SingleClickCheckboxOnGrid.xaml.cs">
+    <Compile Include="AllInterview\Challanges\SingleClickCheckboxOnGrid.xaml.cs">
       <DependentUpon>SingleClickCheckboxOnGrid.xaml</DependentUpon>
     </Compile>
-    <Compile Include="7. Assignment\Challanges\TitleBar.xaml.cs">
+    <Compile Include="AllInterview\Challanges\TitleBar.xaml.cs">
       <DependentUpon>TitleBar.xaml</DependentUpon>
     </Compile>
-    <Compile Include="7. Assignment\Common\BtnEnableOnTextChange.xaml.cs">
+    <Compile Include="AllInterview\Challanges\BtnEnableOnTextChange.xaml.cs">
       <DependentUpon>BtnEnableOnTextChange.xaml</DependentUpon>
     </Compile>
-    <Compile Include="7. Assignment\Common\ComboColorChangeFromRadio.xaml.cs">
+    <Compile Include="AllInterview\Challanges\ComboColorChangeFromRadio.xaml.cs">
       <DependentUpon>ComboColorChangeFromRadio.xaml</DependentUpon>
     </Compile>
-    <Compile Include="7. Assignment\Common\FirstNameLastNameinCombo.xaml.cs">
+    <Compile Include="AllInterview\Challanges\FirstNameLastNameinCombo.xaml.cs">
       <DependentUpon>FirstNameLastNameinCombo.xaml</DependentUpon>
     </Compile>
-    <Compile Include="7. Assignment\Common\ListToRadioButton.xaml.cs">
+    <Compile Include="AllInterview\Challanges\ListToRadioButton.xaml.cs">
       <DependentUpon>ListToRadioButton.xaml</DependentUpon>
     </Compile>
-    <Compile Include="7. Assignment\Common\TreeViewColorChangeOnRadio.xaml.cs">
+    <Compile Include="AllInterview\Challanges\TreeViewColorChangeOnRadio.xaml.cs">
       <DependentUpon>TreeViewColorChangeOnRadio.xaml</DependentUpon>
     </Compile>
-    <Compile Include="7. Assignment\CompanyWise\Stryker.xaml.cs">
+    <Compile Include="AllInterview\CompanyWise\Stryker.xaml.cs">
       <DependentUpon>Stryker.xaml</DependentUpon>
     </Compile>
-    <Compile Include="7. Assignment\Security\Encryption_Descryption.xaml.cs">
+    <Compile Include="AllInterview\MostlyAsked_Coding\VirtualizationExample.xaml.cs">
+      <DependentUpon>VirtualizationExample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="AllInterview\Security\Encryption_Descryption.xaml.cs">
       <DependentUpon>Encryption_Descryption.xaml</DependentUpon>
     </Compile>
-    <Compile Include="8. Interview\CustomControl\CustomControl.xaml.cs">
+    <Compile Include="AllInterview\MostlyAsked_Coding\CustomControl\CustomControl.xaml.cs">
       <DependentUpon>CustomControl.xaml</DependentUpon>
     </Compile>
-    <Compile Include="8. Interview\CustomControl\CustomLabelControl.cs" />
-    <Compile Include="8. Interview\MostlyAsked_Coding\CustomControlforTitle.cs" />
-    <Compile Include="8. Interview\MostlyAsked_Coding\DataBindingExample.xaml.cs">
+    <Compile Include="AllInterview\MostlyAsked_Coding\CustomControl\CustomLabelControl.cs" />
+    <Compile Include="AllInterview\MostlyAsked_Coding\CustomControlforTitle.cs" />
+    <Compile Include="AllInterview\MostlyAsked_Coding\DataBindingExample.xaml.cs">
       <DependentUpon>DataBindingExample.xaml</DependentUpon>
     </Compile>
-    <Compile Include="8. Interview\MostlyAsked_Coding\DataTriggerExample.xaml.cs">
+    <Compile Include="AllInterview\MostlyAsked_Coding\DataTriggerExample.xaml.cs">
       <DependentUpon>DataTriggerExample.xaml</DependentUpon>
     </Compile>
-    <Compile Include="8. Interview\MostlyAsked_Coding\DependencyPropertyExample.xaml.cs">
+    <Compile Include="AllInterview\MostlyAsked_Coding\DependencyPropertyExample.xaml.cs">
       <DependentUpon>DependencyPropertyExample.xaml</DependentUpon>
     </Compile>
-    <Compile Include="8. Interview\MostlyAsked_Coding\ICommandExample.xaml.cs">
+    <Compile Include="AllInterview\MostlyAsked_Coding\ICommandExample.xaml.cs">
       <DependentUpon>ICommandExample.xaml</DependentUpon>
     </Compile>
-    <Compile Include="8. Interview\MostlyAsked_Coding\ICommandExampleViewModel.cs" />
-    <Compile Include="8. Interview\MostlyAsked_Coding\ObservableCollectionExample.xaml.cs">
+    <Compile Include="AllInterview\MostlyAsked_Coding\ICommandExampleViewModel.cs" />
+    <Compile Include="AllInterview\MostlyAsked_Coding\ObservableCollectionExample.xaml.cs">
       <DependentUpon>ObservableCollectionExample.xaml</DependentUpon>
     </Compile>
-    <Compile Include="8. Interview\MostlyAsked_Coding\PropertyTriggerExample.xaml.cs">
+    <Compile Include="AllInterview\MostlyAsked_Coding\PropertyTriggerExample.xaml.cs">
       <DependentUpon>PropertyTriggerExample.xaml</DependentUpon>
     </Compile>
-    <Compile Include="8. Interview\TwoWay_Binding\Model\Person.cs" />
-    <Compile Include="8. Interview\TwoWay_Binding\ViewModel\PersonViewModel.cs" />
-    <Compile Include="8. Interview\TwoWay_Binding\View\TwoWayBinding.xaml.cs">
+    <Compile Include="AllInterview\MostlyAsked_Coding\TwoWay_Binding\Model\Person.cs" />
+    <Compile Include="AllInterview\MostlyAsked_Coding\TwoWay_Binding\ViewModel\PersonViewModel.cs" />
+    <Compile Include="AllInterview\MostlyAsked_Coding\TwoWay_Binding\View\TwoWayBinding.xaml.cs">
       <DependentUpon>TwoWayBinding.xaml</DependentUpon>
     </Compile>
-    <Compile Include="8. Interview\ValueConvertor\UpperCaseConverter.cs" />
-    <Compile Include="8. Interview\ValueConvertor\UpperCaseConverterUI.xaml.cs">
+    <Compile Include="AllInterview\MostlyAsked_Coding\ValueConvertor\UpperCaseConverter.cs" />
+    <Compile Include="AllInterview\MostlyAsked_Coding\ValueConvertor\UpperCaseConverterUI.xaml.cs">
       <DependentUpon>UpperCaseConverterUI.xaml</DependentUpon>
     </Compile>
     <Compile Include="App.xaml.cs">
@@ -290,52 +297,52 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="7. Assignment\Challanges\Resources\ColumnResizeHeader.png" />
+    <Resource Include="AllInterview\Challanges\Resources\ColumnResizeHeader.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="7. Assignment\Challanges\Resources\CSV_Export.png" />
+    <Resource Include="AllInterview\Challanges\Resources\CSV_Export.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="7. Assignment\Challanges\Resources\MarkerIcon.png" />
+    <Resource Include="AllInterview\Challanges\Resources\MarkerIcon.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="7. Assignment\Challanges\Resources\PaneCompareIcon.png" />
+    <Resource Include="AllInterview\Challanges\Resources\PaneCompareIcon.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="7. Assignment\Challanges\Resources\PaneDetailsIcon.png" />
+    <Resource Include="AllInterview\Challanges\Resources\PaneDetailsIcon.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="7. Assignment\Challanges\Resources\PaneHeaderIcon.png" />
+    <Resource Include="AllInterview\Challanges\Resources\PaneHeaderIcon.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="7. Assignment\Challanges\Resources\PaneImageViewIcon.png" />
+    <Resource Include="AllInterview\Challanges\Resources\PaneImageViewIcon.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="7. Assignment\Challanges\Resources\PaneLtssmOverviewIcon.png" />
+    <Resource Include="AllInterview\Challanges\Resources\PaneLtssmOverviewIcon.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="7. Assignment\Challanges\Resources\PanePayloadIcon.png" />
+    <Resource Include="AllInterview\Challanges\Resources\PanePayloadIcon.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="7. Assignment\Challanges\Resources\PanePCIePerformanceOverviewIcon.png" />
+    <Resource Include="AllInterview\Challanges\Resources\PanePCIePerformanceOverviewIcon.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="7. Assignment\Challanges\Resources\PaneTestAssertionIcon.png" />
+    <Resource Include="AllInterview\Challanges\Resources\PaneTestAssertionIcon.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="7. Assignment\Challanges\Resources\PaneTrafficOverviewIcon.png" />
+    <Resource Include="AllInterview\Challanges\Resources\PaneTrafficOverviewIcon.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="7. Assignment\Challanges\Resources\PaneTransactionDecodeIcon.png" />
+    <Resource Include="AllInterview\Challanges\Resources\PaneTransactionDecodeIcon.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="7. Assignment\Challanges\Resources\SetupIcon.png" />
+    <Resource Include="AllInterview\Challanges\Resources\SetupIcon.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="7. Assignment\Challanges\Resources\ToolTipsIcon.png" />
+    <Resource Include="AllInterview\Challanges\Resources\ToolTipsIcon.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="7. Assignment\Challanges\Resources\TriggerIcon.png" />
+    <Resource Include="AllInterview\Challanges\Resources\TriggerIcon.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

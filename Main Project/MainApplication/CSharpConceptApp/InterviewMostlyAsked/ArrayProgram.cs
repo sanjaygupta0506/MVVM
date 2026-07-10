@@ -16,34 +16,34 @@ namespace CSharpConceptApp.Interview_Logical.ArrayManipulation
         static int[] array2 = { 4, 5, 6 };
         static int[] arr = { 1, 2, 4, 5 };
         static int n = 5;
-        public static void Main(string[] args)
-        {
-            SecondNumberfromArray();
-            ReverseArrayWithoutMethod1();
-            ReverseArrayWithoutMethod2();
-            Removeduplicates1();
-            Removeduplicates2();
-            CountOccurrences();
-            RotationofArray();
-            FindMissingNumber();
-            //ConcatenateArrays();
-            //CheckPalindrome();
-            //DeclareArray();
-            //FindLength();
-            //LoopThroughArray();
-            //ReverseArray();
-            //SortArray();
-            //LargestSmallestElements();
-            //ElementExists();
-            //Sum_Aaverage_Array();
-            //Indexofelement();
-            //ResizeArray();
-            //MultiDimensionalArray();
-            //JaggedAray();
-            //CalculateSumofEvenNumbers();
-            //GetEvenNumbers_Square_LINQ();
-            Console.ReadLine();
-        }
+        //public static void Main(string[] args)
+        //{
+        //    //SecondNumberfromArray();
+        //    //ReverseArrayWithoutMethod1();
+        //    //ReverseArrayWithoutMethod2();
+        //    //Removeduplicates1();
+        //    //Removeduplicates2();
+        //    //CountOccurrences();
+        //    //RotationofArray();
+        //    //FindMissingNumber();
+        //    //ConcatenateArrays();
+        //    //CheckPalindrome();
+        //    //DeclareArray();
+        //    //FindLength();
+        //    //LoopThroughArray();
+        //    //ReverseArray();
+        //    //SortArray();
+        //    //LargestSmallestElements();
+        //    //ElementExists();
+        //    //Sum_Aaverage_Array();
+        //    //Indexofelement();
+        //    //ResizeArray();
+        //    //MultiDimensionalArray();
+        //    //JaggedAray();
+        //    //CalculateSumofEvenNumbers();
+        //    //GetEvenNumbers_Square_LINQ();
+        //    Console.ReadLine();
+        //}
 
         public static void SecondNumberfromArray()
         {

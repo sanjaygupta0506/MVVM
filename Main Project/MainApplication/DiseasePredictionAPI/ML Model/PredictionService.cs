@@ -10,21 +10,17 @@ namespace DiseasePredictionAPI.ML_Model
 
         public PredictionService()
         {
-            var mlContext = new MLContext();
+            MLContext mlContext = new MLContext();
+            DataViewSchema schema;
+            
+            string modelPath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory,
+      "DiseasePredictionModel.zip");
 
-            string modelPath =
-    Path.Combine(
-        AppDomain.CurrentDomain.BaseDirectory,
-        "Models",
-        "DiseasePredictionModel.zip");
+            var model = mlContext.Model.Load(modelPath, out schema);
 
-            Directory.CreateDirectory(
-                Path.GetDirectoryName(modelPath)!);
-
-            //mlContext.Model.Save(
-            //    model,
-            //    data.Schema,
-            //    modelPath);
+            predictionEngine =
+                mlContext.Model.CreatePredictionEngine
+                <PatientData, PredictionResult>(model);
         }
 
         public PredictionResult Predict(PatientData patient)
