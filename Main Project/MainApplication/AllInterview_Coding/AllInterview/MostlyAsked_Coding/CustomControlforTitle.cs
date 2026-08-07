@@ -20,7 +20,34 @@ namespace MainApplication.AllInterview_Coding
 
         // Using a DependencyProperty as the backing store for Title.  This enables animation, styling, binding, etc...
         public static readonly DependencyProperty TitleProperty =
-            DependencyProperty.Register("Title", typeof(string), typeof(CustomControlforTitle), new PropertyMetadata("Default Title"));
+            DependencyProperty.Register(
+                nameof(Title), 
+                typeof(string), 
+                typeof(CustomControlforTitle), 
+                new PropertyMetadata("Default Title"));
+
+
+
+
+        public string EmployeeName
+        {
+            get { return (string)GetValue(EmployeeNameProperty); }
+            set { SetValue(EmployeeNameProperty, value); }
+        }
+
+        // Using a DependencyProperty as the backing store for EmployeeName.  This enables animation, styling, binding, etc...
+        public static readonly DependencyProperty EmployeeNameProperty =
+            DependencyProperty.Register(
+                nameof(EmployeeName), 
+                typeof(string), 
+                typeof(CustomControlforTitle), 
+                new PropertyMetadata("Default EmploeeName"));
+
+
+
+
+
+
 
 
     }

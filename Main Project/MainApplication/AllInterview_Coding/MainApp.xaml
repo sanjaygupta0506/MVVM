@@ -25,7 +25,7 @@
             <Menu x:Name="x_MainMenu" Grid.Column="0" Grid.Row="0" BorderThickness="1" Grid.ColumnSpan="3">
                 <!--Assignment-->
               
-                    <MenuItem Name="x_Challanges" Header="Challanges">
+                <MenuItem Name="x_Challanges" Header="Challanges">
                         <MenuItem Name="x_Challanges1" Header="Grid Single Click Checkbox" Click="x_Challanges1_Click"/>
                         <Separator />
                         <MenuItem Name="x_Challanges2" Header="Enabled Disabled Button WRT Property" Click="x_Challanges2_Click"/>
@@ -45,14 +45,14 @@
                         <MenuItem Name="x_Challanges9" Header="TreeViewColorChangeOnRadio" Click="x_Challanges9_Click"/>
                         <Separator />
                 </MenuItem>
-                    <Separator />
+                
 
-                    <MenuItem Name="x_CompanyWise" Header="CompanyWise">
+                <MenuItem Name="x_CompanyWise" Header="CompanyWise">
                         <MenuItem Name="x_Challanges10" Header="Stryker" Click="x_Challanges10_Click"/>
                     </MenuItem>
-                    <Separator />
+               
 
-                    <MenuItem Name="x_Security" Header="Security">
+                <MenuItem Name="x_Security" Header="Security">
                         <MenuItem Name="x_Challanges11" Header="Encryption_Descryption" Click="x_Challanges11_Click"/>
                         
                     </MenuItem>

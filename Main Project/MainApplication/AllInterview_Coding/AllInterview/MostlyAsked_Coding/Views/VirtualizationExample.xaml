@@ -1,0 +1,30 @@
+﻿<ui:WslDialog xmlns:ui="clr-namespace:Keysight.Ccl.Wsl.UI;assembly=Keysight.Ccl.Wsl"
+              x:Class="AllInterview_Coding.AllInterview.MostlyAsked_Coding.VirtualizationExample"
+              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+              xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+              xmlns:local="clr-namespace:AllInterview_Coding.AllInterview.MostlyAsked_Coding"
+              mc:Ignorable="d"
+              Title="VirtualizationExample" Height="450" Width="800" Left="8" Top="62">
+    <Grid>
+        <ListView Name="x_lvCustomers" Grid.Row="1" Grid.Column="1" ItemsSource="{Binding Customers}" 
+                  VirtualizingPanel.IsVirtualizing="True" 
+                  VirtualizingPanel.VirtualizationMode="Recycling" 
+                  ScrollViewer.CanContentScroll="True" >
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Header="Customer ID" DisplayMemberBinding="{Binding CustID}" Width="50"/>
+                    <GridViewColumn Header="Customer Name" DisplayMemberBinding="{Binding CustName}" Width="200"/>
+                    <GridViewColumn Header="Customer Age" DisplayMemberBinding="{Binding CustAge}" Width="200"/>
+                    <GridViewColumn Header="Customer Department" DisplayMemberBinding="{Binding CustDepartment}" Width="200"/>
+                </GridView>
+            </ListView.View>
+            <ListView.ItemsPanel>
+                <ItemsPanelTemplate>
+                    <VirtualizingStackPanel/>
+                </ItemsPanelTemplate>
+            </ListView.ItemsPanel>
+        </ListView>
+    </Grid>
+</ui:WslDialog>

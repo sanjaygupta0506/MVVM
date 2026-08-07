@@ -33,27 +33,28 @@ namespace CShapLogicalProgram.StringManipulation
         static HashSet<char> seenChars = new HashSet<char>();
         //public static void Main(string[] args)
         //{
-        //    //ReverseString1();
-        //    //ReverseString2();
-        //    //ReverseString3();
+            //    //ReverseString1();
+            //    //ReverseString2();
+            //    //ReverseString3();
 
-        //    //RemoveDuplicate1();
-        //    //RemoveDuplicate2();
-        //    //FindDuplicate1();
-        //    //FindDuplicate2();
-        //    //IsAnagram();
-        //    //CountOccurance();
-        //    //CountOccurancewithLINQ1();
-        //    //CountOccurancewithLINQ2();
-        //    //CountOccurancewithFilter();
-        //    SecondHighestCharacterCount();
-        //    //chkPalindrome1();
-        //    //chkPalindrome2();
-        //    //FirstNonRepeatingChar();
+            //    //RemoveDuplicate1();
+            //    //RemoveDuplicate2();
+            //    //FindDuplicate1();
+            //    //FindDuplicate2();
+                //IsAnagram();
+            //    //CountOccurance();
+            //    //CountOccurancewithLINQ1();
+            //    //CountOccurancewithLINQ2();
+            //    //CountOccurancewithFilter();
+            //    SecondHighestCharacterCount();
+            //    //chkPalindrome1();
+            //    //chkPalindrome2();
+        //    Console.WriteLine(FirstNonRepeatingChar("banana"));
+        //FirstNonRepeatingChar1();
 
         //    //StringCompress1();
         //    //StringCompress2();
-        //    //CountVowelsandConsonants();
+        //    //CountVowelsandConsonants(); 
         //    //ReplaceCharacters();
         //    //FindLength();
         //    //LowerandUpper();
@@ -285,9 +286,28 @@ namespace CShapLogicalProgram.StringManipulation
             #endregion
         }
 
-        public static void FirstNonRepeatingChar()
+        public static char FirstNonRepeatingChar(string input)
         {
             #region First Non Repeating Char - 6
+            Dictionary<char, int> charCount = new Dictionary<char, int>();
+            foreach (char c in input)
+            {
+                if (charCount.ContainsKey(c))
+                    charCount[c]++;
+                else
+                    charCount[c] = 1;
+            }
+            foreach (var c in input)
+            {
+                if (charCount[c] == 1)
+                    return c;
+            }
+            return '\0';
+            #endregion
+        }
+        public static void FirstNonRepeatingChar1()
+        {
+            #region First Non Repeating Char - 6.1
             Console.WriteLine("\n6 First Non Repeating Char");
             var output5 = strMain.GroupBy(c => c)
                         .Where(g => g.Count() == 1)
@@ -297,6 +317,7 @@ namespace CShapLogicalProgram.StringManipulation
             Console.WriteLine(string.Join(" ", output5));
             #endregion
         }
+
         public static void chkPalindrome1()
         {
             #region chkPalindrome - 7.1

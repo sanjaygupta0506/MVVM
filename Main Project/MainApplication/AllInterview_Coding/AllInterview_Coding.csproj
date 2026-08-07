@@ -127,7 +127,7 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="AllInterview\MostlyAsked_Coding\VirtualizationExample.xaml">
+    <Page Include="AllInterview\MostlyAsked_Coding\Views\VirtualizationExample.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -216,7 +216,9 @@
     <Compile Include="AllInterview\CompanyWise\Stryker.xaml.cs">
       <DependentUpon>Stryker.xaml</DependentUpon>
     </Compile>
-    <Compile Include="AllInterview\MostlyAsked_Coding\VirtualizationExample.xaml.cs">
+    <Compile Include="AllInterview\MostlyAsked_Coding\Models\Customer.cs" />
+    <Compile Include="AllInterview\MostlyAsked_Coding\ViewModels\VirtualizationViewModel.cs" />
+    <Compile Include="AllInterview\MostlyAsked_Coding\Views\VirtualizationExample.xaml.cs">
       <DependentUpon>VirtualizationExample.xaml</DependentUpon>
     </Compile>
     <Compile Include="AllInterview\Security\Encryption_Descryption.xaml.cs">

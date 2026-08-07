@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net.Http;
+using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -15,15 +17,16 @@ namespace InterviewProgramMain.AskedInInterview
         //public static void Main(string[] args)
         //{
 
-        //    DisplayPrimeNumber();
-        //    CheckPrimeNumber();
-        //    StringPattern1();
-        //    StringPattern2();
-        //    SwapTwoNumber();
-        //    EvenOrOdd();
-        //    FirstFactorial();
-        //    FizzBuzz();
-
+        //    //DisplayPrimeNumber();
+        //    //CheckPrimeNumber();
+        //    //StringPattern1();
+        //    //StringPattern2();
+        //    //SwapTwoNumber();
+        //    //EvenOrOdd();
+        //    //FirstFactorial();
+        //    //FizzBuzz();
+        //    //GetDataAsync();
+        //    Calculate();
         //    Console.ReadLine();
         //}
 
@@ -189,7 +192,39 @@ namespace InterviewProgramMain.AskedInInterview
 
         }
 
+        public static async Task GetDataAsync()
+        {
+            Console.WriteLine("Start");
+            await Task.Delay(2000); // Simulate an asynchronous operation
+            Console.WriteLine("Data retrieved asynchronously.");
+        }
 
+        public static void CalculateW()
+        {
+            
+                for (int i = 0; i < 1000000000; i++)
+                {
+                    Console.WriteLine($"Calculating {i}");
+                }
+                Console.WriteLine("Calculation completed.");
+           
+
+        }
+        public static void Calculate()
+        {
+            Task.Run(() =>
+            {
+                for (int i = 0; i < 10000000; i++)
+                {
+                    Console.WriteLine($"Calculating {i}");
+                }
+                Console.WriteLine("Calculation completed.");
+            });
+            Console.WriteLine("UI Still Responsive.");
+
+        }
+
+        
 
 
 

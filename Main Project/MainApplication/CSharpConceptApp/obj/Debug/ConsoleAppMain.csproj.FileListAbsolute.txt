@@ -16,3 +16,4 @@ E:\Development\WPF_MVVM\Main Project\MainApplication\CSharpConceptApp\obj\Debug\
 E:\Development\WPF_MVVM\Main Project\MainApplication\CSharpConceptApp\obj\Debug\ConsoleAppMain.csproj.CoreCompileInputs.cache
 E:\Development\WPF_MVVM\Main Project\MainApplication\CSharpConceptApp\obj\Debug\CSharpConceptApp.exe
 E:\Development\WPF_MVVM\Main Project\MainApplication\CSharpConceptApp\obj\Debug\CSharpConceptApp.pdb
+E:\Development\WPF_MVVM\Main Project\MainApplication\CSharpConceptApp\obj\Debug\CSharpConceptApp.exe.config

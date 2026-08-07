@@ -1,4 +1,6 @@
-﻿using System;
+﻿using AllInterview_Coding.AllInterview.MostlyAsked_Coding.Models;
+using Keysight.Ccl.Wsl.UI;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -17,11 +19,16 @@ namespace AllInterview_Coding.AllInterview.MostlyAsked_Coding
     /// <summary>
     /// Interaction logic for VirtualizationExample.xaml
     /// </summary>
-    public partial class VirtualizationExample : Window
+    public partial class VirtualizationExample : WslDialog
     {
         public VirtualizationExample()
         {
             InitializeComponent();
+            DataContext = new ViewModels.VirtualizationViewModel();
         }
+
+        
     }
+
+    
 }

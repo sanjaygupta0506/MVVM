@@ -1,4 +1,5 @@
-﻿using System;
+﻿using CSharpConceptApp.Multi_threading;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -18,30 +19,34 @@ namespace CSharpConceptApp.Interview_Logical.ArrayManipulation
         static int n = 5;
         //public static void Main(string[] args)
         //{
-        //    //SecondNumberfromArray();
-        //    //ReverseArrayWithoutMethod1();
-        //    //ReverseArrayWithoutMethod2();
-        //    //Removeduplicates1();
-        //    //Removeduplicates2();
-        //    //CountOccurrences();
-        //    //RotationofArray();
-        //    //FindMissingNumber();
-        //    //ConcatenateArrays();
-        //    //CheckPalindrome();
-        //    //DeclareArray();
-        //    //FindLength();
-        //    //LoopThroughArray();
-        //    //ReverseArray();
-        //    //SortArray();
-        //    //LargestSmallestElements();
-        //    //ElementExists();
-        //    //Sum_Aaverage_Array();
-        //    //Indexofelement();
-        //    //ResizeArray();
-        //    //MultiDimensionalArray();
-        //    //JaggedAray();
-        //    //CalculateSumofEvenNumbers();
-        //    //GetEvenNumbers_Square_LINQ();
+            //SecondNumberfromArray();
+            //ReverseArrayWithoutMethod1();
+            //ReverseArrayWithoutMethod2();
+            //FindDeplicate();
+            //FindDeplicateWithLINQ();
+            //Removeduplicates1();
+            //Removeduplicates2();
+            //Removeduplicates3();
+            //CountOccurrences();
+            //MostFrequentElement();
+            //RotationofArray();
+            //FindMissingNumber();
+            //ConcatenateArrays();
+            //CheckPalindrome();
+            //DeclareArray();
+            //FindLength();
+            //LoopThroughArray();
+            //ReverseArray();
+            //SortArray();
+            //LargestSmallestElements();
+            //ElementExists();
+            //Sum_Aaverage_Array();
+            //Indexofelement();
+            //ResizeArray();
+            //MultiDimensionalArray();
+            //JaggedAray();
+            //CalculateSumofEvenNumbers();
+            //GetEvenNumbers_Square_LINQ();
         //    Console.ReadLine();
         //}
 
@@ -106,10 +111,42 @@ namespace CSharpConceptApp.Interview_Logical.ArrayManipulation
 
             #endregion
         }
+
+        public static void FindDeplicate()
+        {
+            #region 3.1 find duplicates from an array
+            Console.WriteLine("\n*** 3.1 Find duplicates from an array - ***");
+            int[] duplicatearray = { 1, 2, 3, 4, 2, 4, 5, 6, 1, 9 };
+            HashSet<int> unique = new HashSet<int>();
+            HashSet<int> duplicate = new HashSet<int>(); 
+
+            foreach (var num in duplicatearray)
+            {
+                if (!unique.Add(num))
+                    duplicate.Add(num);
+            }
+
+            foreach (var item in duplicate)
+                Console.WriteLine(item);
+            #endregion
+        }
+
+        public static void FindDeplicateWithLINQ()
+        {
+            #region 3.2 find duplicates from an array
+            Console.WriteLine("\n*** 3.2 Find duplicates from an array - ***");
+            int[] duplicatearray = { 1, 2, 3, 4, 2, 4, 5, 6, 1, 9 };
+            var findduplicates = duplicatearray.GroupBy(x => x)
+                                           .Where(g => g.Count() > 1)
+                                           .Select(g => g.Key);
+            foreach (var item in findduplicates)
+                Console.WriteLine(item);
+            #endregion
+        }
         public static void Removeduplicates1()
         {
-            #region 3.1 remove duplicates from an array
-            Console.WriteLine("\n*** 3.1 remove duplicates from an array - ***");
+            #region 4.1 remove duplicates from an array
+            Console.WriteLine("\n*** 4.1 remove duplicates from an array - ***");
             int[] duplicatearray = { 1, 2, 3, 4, 2, 4, 5, 6, 1, 9 };
 
             int[] distinct = duplicatearray.Distinct().ToArray();
@@ -118,8 +155,8 @@ namespace CSharpConceptApp.Interview_Logical.ArrayManipulation
         }
         public static void Removeduplicates2()
         {
-            #region 3.2 remove duplicates from an array
-            Console.WriteLine("\n*** 3.2 remove duplicates from an array - ***");
+            #region 4.2 remove duplicates from an array
+            Console.WriteLine("\n*** 4.2 remove duplicates from an array - ***");
             int[] arr3 = { 1, 2, 2, 3, 4, 4, 5 };
             List<int> result = new List<int>();
 
@@ -130,6 +167,20 @@ namespace CSharpConceptApp.Interview_Logical.ArrayManipulation
             }
             Console.WriteLine(string.Join(",", result));
             #endregion
+        }
+
+        public static void Removeduplicates3()
+        {
+            Console.WriteLine("\n*** 4.3 remove duplicates from an array - ***");
+            int[] dupArray = { 1, 2, 2, 3, 4, 4, 5 };
+            List<int> result = new List<int>();
+            HashSet<int> uniqueSet = new HashSet<int>(dupArray);
+            foreach (int num in uniqueSet)
+            {
+                Console.WriteLine(string.Join(",", num));
+                result.Add(num);
+            }
+            
         }
         public static void CountOccurrences()
         {
@@ -147,6 +198,24 @@ namespace CSharpConceptApp.Interview_Logical.ArrayManipulation
             }
 
             Console.WriteLine(string.Join("," , freq));
+            #endregion
+        }
+
+        public static void MostFrequentElement()
+        {
+            #region 4.1 Most Frequent Element
+            Console.WriteLine("\n*** 4. Most Frequent Element ***");
+            int[] arr4 = { 1, 2, 2, 3, 3, 3, 3, 4 };
+            Dictionary<int, int> freq = new Dictionary<int, int>();
+            foreach (int occ in arr4)
+            {
+                if (freq.ContainsKey(occ))
+                    freq[occ]++;
+                else
+                    freq[occ] = 1;
+            }
+            int mostFrequentElement = freq.OrderByDescending(x => x.Value).First().Key;
+            Console.WriteLine("Most Frequent Element: " + mostFrequentElement);
             #endregion
         }
         public static void RotationofArray()
@@ -179,13 +248,15 @@ namespace CSharpConceptApp.Interview_Logical.ArrayManipulation
 
         public static void FindMissingNumber()
         {
-            
-            int total = n * (n + 1) / 2;
-            int sum = 0;
-            foreach (int num in arr) sum += num;
-            int totalmain = total - sum;
+            int expected = n * (n + 1) / 2;
+            int actual = 0;
+            foreach (int num in arr)
+                actual += num;
+
+            int result = expected - actual;
+
             Console.WriteLine("\n*** 5. Missing Number ***");
-            Console.WriteLine(totalmain);
+            Console.WriteLine(result);
         }
         public static void ConcatenateArrays()
         {

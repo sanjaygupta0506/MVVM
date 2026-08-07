@@ -7,6 +7,7 @@
         mc:Ignorable="d"
         Title="DependencyPropertyExample" Height="450" Width="800" Left="8" Top="62">
     <Grid>
-        <local:CustomControlforTitle Title="Hello Sanjay"/>
+        <local:CustomControlforTitle Title="Mr."/>
+        <local:CustomControlforTitle EmployeeName="Sanjay Gupta"/> 
     </Grid>
 </ui:WslDialog>
