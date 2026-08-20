@@ -4,39 +4,35 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace OOPSConceptApplication
+namespace OOPSConcept_Sealedclass
 {
     class Sealed_class
     {
         //static void Main(string[] args)
         //{
-        //    Users d = new Users();
-        //    d.GetInfo();
-        //    //d.GetInfo();
-        //    Console.WriteLine("\nPress Enter Key to Exit..");
+        //    Console.WriteLine("****Sealed Class Example****");
+        //    SealedClass sealedClass = new SealedClass();    
+        //    sealedClass.Display();
         //    Console.ReadLine();
         //}
     }
 
-    // Base Class
-    sealed class Users
+    sealed class SealedClass
     {
-        public string name = "Suresh Dasari";
-        public string location = "Hyderabad";
-        public void GetInfo()
+        public void Display()
         {
-            Console.WriteLine("Name: {0}", name);
-            Console.WriteLine("Location: {0}", location);
+            Console.WriteLine("This is a sealed class.");
         }
     }
-    ////Derived Class  - Sealed class cannot be inherit
-    //public class SC_Details : Users
-    //{
+    class DerivedClass //: SealedClass // This will cause a compile-time error
+    {
+        //public void Show()
+        //{
+        //    Console.WriteLine("This is a derived class.");
+        //}
+    }
 
-    //    public int age = 32;
-    //    public void GetAge()
-    //    {
-    //        Console.WriteLine("Age: {0}", age);
-    //    }
-    //}
+    
+
+
 }

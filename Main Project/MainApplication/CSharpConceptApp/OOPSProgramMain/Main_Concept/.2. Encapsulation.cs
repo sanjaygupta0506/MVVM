@@ -4,41 +4,30 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace OOPSConceptApplication
+namespace OOPSConcept_Encapsulation
 {
     public class Encapsulation
     {
         //static void Main(string[] args)
         //{
+        //    Console.WriteLine("****Encapsulation Example****");
         //    Encapsulation_User u = new Encapsulation_User();
         //    // set accessor will invoke
-        //    u.Name = "Suresh Dasari";
+        //    u.Name = "Sanjay Gupta";
         //    // set accessor will invoke
-        //    u.Location = "Hyderabad";
+        //    u.Location = "Faridabad";
         //    // get accessor will invoke
         //    Console.WriteLine("Name: " + u.Name);
         //    // get accessor will invoke
         //    Console.WriteLine("Location: " + u.Location);
-        //    Console.WriteLine("\nPress Enter Key to Exit..");
         //    Console.ReadLine();
         //}
     }
 
     public class Encapsulation_User
     {
-        private string location;
         private string name;
-        public string Location
-        {
-            get
-            {
-                return location;
-            }
-            set
-            {
-                location = value;
-            }
-        }
+        private string location;
         public string Name
         {
             get
@@ -48,6 +37,17 @@ namespace OOPSConceptApplication
             set
             {
                 name = value;
+            }
+        }
+        public string Location
+        {
+            get
+            {
+                return location;
+            }
+            set
+            {
+                location = value;
             }
         }
     }

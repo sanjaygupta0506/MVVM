@@ -4,35 +4,45 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace OOPSConceptApplication
+namespace OOPSConcept_StaticClass
 {
     class Static_class
     {
         //static void Main(string[] args)
         //{
-        //    SC_User.name = "Suresh Dasari";
-        //    SC_User.location = "Hyderabad";
-        //    SC_User.age = 32;
-        //    Console.WriteLine("Name: {0}", SC_User.name);
-        //    Console.WriteLine("Location: {0}", SC_User.location);
-        //    Console.WriteLine("Age: {0}", SC_User.age);
-        //    SC_User.Details();
-        //    Console.WriteLine("\nPress Enter Key to Exit..");
+        //    Console.WriteLine("****Static Class Example****");
+        //    int a = 10;
+        //    int b = 5;
+        //    Console.WriteLine($"Addition: {Calculator.Add(a, b)}");
+        //    Console.WriteLine($"Subtraction: {Calculator.Subtract(a, b)}");
+        //    Console.WriteLine($"Multiplication: {Calculator.Multiply(a, b)}");
+        //    Console.WriteLine($"Division: {Calculator.Divide(a, b)}"); 
+            
         //    Console.ReadLine();
         //}
     }
 
-    static class SC_User
+    static class Calculator
     {
-        // Static Variables
-        public static string name;
-        public static string location;
-        public static int age;
-        // Static Method
-        public static void Details()
+        public static int Add(int a, int b)
         {
-            Console.WriteLine("Static Method");
+            return a + b;
         }
-
+        public static int Subtract(int a, int b)
+        {
+            return a - b;
+        }
+        public static int Multiply(int a, int b)
+        {
+            return a * b;
+        }
+        public static double Divide(int a, int b)
+        {
+            if (b == 0)
+            {
+                throw new DivideByZeroException("Cannot divide by zero.");
+            }
+            return (double)a / b;
+        }
     }
 }

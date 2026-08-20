@@ -4,50 +4,36 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace OOPSConceptApplication
+namespace OOPSConcept_Inheritance
 {
     public class Inheritance
     {
         //static void Main(string[] args)
         //{
-        //    Details d = new Details();
-        //    d.Name = "Suresh Dasari";
-        //    // Compile Time Error
-        //    //d.Location = "Hyderabad";
-        //    d.Age = 32;
-        //    d.GetUserInfo("Hyderabad");
-        //    d.GetAge();
-        //    Console.WriteLine("\nPress Any Key to Exit..");
+        //    Console.WriteLine("****Inheritance Example****");
+        //    Dog myDog = new Dog();  // Create a Dog object
+        //    Console.WriteLine("****Call the inherited method****");
+        //    myDog.Eat();  // Call the inherited method
+        //    Console.WriteLine("****Call the method of the Dog class****");
+        //    myDog.Bark();  // Call the method of the Dog class
         //    Console.ReadLine();
         //}
+
+        class Animal
+        {
+            public void Eat()
+            {
+                Console.WriteLine("The animal eats food");
+            }
+        }
+        class Dog : Animal
+        {
+            public void Bark()
+            {
+                Console.WriteLine("The dog barks");
+            }
+        }
     }
 
-    public class I_User
-    {
-        public string Name;
-        private string Location;
-        public I_User()
-        {
-            Console.WriteLine("Base Class Constructor");
-        }
-        public void GetUserInfo(string loc)
-        {
-            Location = loc;
-            Console.WriteLine("Name: {0}", Name);
-            Console.WriteLine("Location: {0}", Location);
-        }
-    }
-
-    public class Details : I_User
-    {
-        public int Age;
-        public Details()
-        {
-            Console.WriteLine("Child Class Constructor");
-        }
-        public void GetAge()
-        {
-            Console.WriteLine("Age: {0}", Age);
-        }
-    }
+   
 }
